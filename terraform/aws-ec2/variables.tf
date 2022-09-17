@@ -14,5 +14,5 @@ variable "deploy_region" {
 variable "ami_template" {
   description = "Value of the AMI to provision the EC2 instance"
   type        = string
-  default     = "ami-0f36e12deb25112d9"
+  default     = "ami-018d291ca9ffc002f"
 }
