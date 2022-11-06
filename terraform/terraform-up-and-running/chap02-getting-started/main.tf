@@ -27,7 +27,7 @@ resource "aws_instance" "example" {
 
   user_data = <<-EOF
               #!/bin/bash
-              echo "Hello, World!" > index.html
+              echo "Hello, World" > index.html
               nohup busybox httpd -f -p ${var.server_port} &
               EOF
   tags = {
@@ -35,3 +35,7 @@ resource "aws_instance" "example" {
   }
 }
 
+output "public_ip" {
+  value = aws_instance.example.public_ip
+  description = "The public IP address of the web server"
+}
