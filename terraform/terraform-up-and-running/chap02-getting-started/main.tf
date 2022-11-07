@@ -8,6 +8,12 @@ variable "server_port" {
   default = 80
 }
 
+variable "ssh_port" {
+  description = "The SSH port to instance (might helpful for debugging purpose)"
+  type = number
+  default = 22
+}
+
 # Create security group
 resource "aws_security_group" "instance" {
   name = "terraform-example-instance"
@@ -36,8 +42,8 @@ resource "aws_security_group" "ssh_instance" {
 
   # Inbound rules
   ingress {
-    from_port = 22
-    to_port = 22
+    from_port = var.ssh_port
+    to_port = var.ssh_port
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
