@@ -1,0 +1,1 @@
+# Initialize Ansible learning place
