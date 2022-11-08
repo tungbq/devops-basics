@@ -13,7 +13,7 @@ data "aws_subnet_ids" "default" {
 
 # Launch configuration, being deprecated soon in Dec 31st 2022.
 resource "aws_launch_configuration" "example" {
-  image_id = "ami-0c55b159cbfafe1f0"
+  image_id = "ami-0149b2da6ceec4bb0"
   instance_type = "t2.micro"
   security_groups = [aws_security_group.instance.id]
   user_data = <<-EOF
