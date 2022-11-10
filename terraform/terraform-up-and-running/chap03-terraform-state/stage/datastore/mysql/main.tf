@@ -21,6 +21,7 @@ resource "aws_db_instance" "example" {
   db_name = "example_database"
   username = "admin"
   password = "admin0123456"
+  skip_final_snapshot = true
   # This is a better way, but we dont use for practice as it costs money
   # password = data.aws_secretsmanager_secret_version.db_password.secret_string
 }
