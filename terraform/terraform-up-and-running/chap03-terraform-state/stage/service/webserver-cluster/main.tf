@@ -36,9 +36,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "example_chap03" {
-  ami           = "ami-0c4e4b4eb2e11d1d4"
+  ami = "ami-0c4e4b4eb2e11d1d4"
   instance_type = "t2.micro"
-  security_groups = [aws_security_group.instance_chap03.id]
+  vpc_security_group_ids = [aws_security_group.instance_chap03.id]
   user_data = data.template_file.user_data.rendered
   # Required when using a launch configuration with an auto scaling group.
   # https://www.terraform.io/docs/providers/aws/r/launch_configuration.html
@@ -56,7 +56,6 @@ data "template_file" "user_data" {
     db_port = data.terraform_remote_state.db.outputs.port
   }
 }
-
 
 # Create security group
 resource "aws_security_group" "instance_chap03" {
