@@ -36,24 +36,21 @@ provider "aws" {
 }
 
 resource "aws_instance" "example_chap03" {
-  ami           = "ami-0c4e4b4eb2e11d1d4"
+  ami = "ami-0c4e4b4eb2e11d1d4"
   instance_type = "t2.micro"
-  security_groups = [aws_security_group.instance_chap03.id]
-  user_data = data.template_file.user_data.rendered
-  # Required when using a launch configuration with an auto scaling group.
-  # https://www.terraform.io/docs/providers/aws/r/launch_configuration.html
-  lifecycle {
-    create_before_destroy = true
-  }
-}
+  vpc_security_group_ids = [aws_security_group.instance_chap03.id]
 
-data "template_file" "user_data" {
-  template = file("user-data.sh")
-
-  vars = {
+  # Render the User Data script as a template
+  user_data = templatefile("user-data.sh", {
     server_port = var.server_port
-    db_address = data.terraform_remote_state.db.outputs.address
-    db_port = data.terraform_remote_state.db.outputs.port
+    db_address  = data.terraform_remote_state.db.outputs.address
+    db_port     = data.terraform_remote_state.db.outputs.port
+  })
+
+  user_data_replace_on_change = true
+
+  tags = {
+    Name = "terraform-example"
   }
 }
 
