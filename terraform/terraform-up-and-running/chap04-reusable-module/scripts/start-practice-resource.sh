@@ -9,9 +9,10 @@ cd $CHAP03_PATH
 ls -la
 
 # Tasks
-## Init DB
+# Init DB
 echo ">>>>>>> Init DB"
 cd $CHAP04_PATH/stage/datastore/mysql
+pwd
 ls -la
 terraform init
 terraform plan -lock=false
@@ -20,6 +21,7 @@ terraform apply -lock=false
 ## Init staging env
 echo ">>>>>>> Init staging environment (webserver-cluster)"
 cd $CHAP04_PATH/stage/services/webserver-cluster
+pwd
 ls -la
 terraform init
 terraform plan -lock=false
