@@ -7,19 +7,6 @@ terraform {
       version = "~> 4.0"
     }
   }
-
-  backend "s3" {
-
-    # This backend configuration is filled in automatically at test time by Terratest. If you wish to run this example
-    # manually, uncomment and fill in the config below.
-
-    bucket         = "tungleo-terraform-state-s3"
-    key            = "global/s3/terraform.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "terraform-up-and-running-locks"
-    encrypt        = true
-
-  }
 }
 
 data "terraform_remote_state" "db" {
