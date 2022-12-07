@@ -9,8 +9,8 @@ cd $CHAP03_PATH
 ls -la
 
 # Tasks
-## Init s3-dynamoDB for tf backend
-echo ">>>>>>> Init backend s3-dynamo"
+## Destroy s3-dynamoDB for tf backend
+echo ">>>>>>> Destroy backend s3-dynamo"
 cd $CHAP03_PATH/global/s3-dynamo
 terraform destroy
 
