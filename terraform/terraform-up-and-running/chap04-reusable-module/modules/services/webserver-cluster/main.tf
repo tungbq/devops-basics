@@ -24,7 +24,7 @@ resource "aws_instance" "example_chap03" {
   vpc_security_group_ids = [aws_security_group.instance_chap03.id]
 
   # Render the User Data script as a template
-  user_data = templatefile("user-data.sh", {
+  user_data = templatefile("${path.module}/user-data.sh", {
     server_port = var.server_port
     db_address  = data.terraform_remote_state.db.outputs.address
     db_port     = data.terraform_remote_state.db.outputs.port
