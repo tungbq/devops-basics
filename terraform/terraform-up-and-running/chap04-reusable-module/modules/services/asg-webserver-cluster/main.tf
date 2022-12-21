@@ -31,7 +31,7 @@ resource "aws_launch_configuration" "terramino" {
   name_prefix     = "learn-terraform-aws-asg-"
   image_id        = data.aws_ami.amazon-linux.id
   instance_type   = "t2.micro"
-  user_data       = file("asg-user-data.sh")
+  user_data = templatefile("${path.module}/asg-user-data.sh")
   security_groups = [aws_security_group.terramino_instance.id]
 
   lifecycle {
@@ -50,7 +50,7 @@ resource "aws_autoscaling_group" "terramino" {
 
 # ALB
 resource "aws_lb" "terramino" {
-  name               = "learn-asg-terramino-lb"
+  name               = var.alb_name
   internal           = false
   load_balancer_type = "application"
   security_groups    = [aws_security_group.terramino_lb.id]
