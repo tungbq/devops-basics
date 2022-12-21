@@ -13,6 +13,7 @@ data "aws_availability_zones" "available" {
   state = "available"
 }
 
+# Define ami
 data "aws_ami" "amazon-linux" {
   most_recent = true
   owners      = ["amazon"]
@@ -23,6 +24,7 @@ data "aws_ami" "amazon-linux" {
   }
 }
 
+# Create new VPC
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "2.77.0"
@@ -38,7 +40,7 @@ module "vpc" {
 
 # Launch configuration
 resource "aws_launch_configuration" "terramino" {
-  name_prefix     = "learn-terraform-aws-asg-"
+  name_prefix     = "learn-terraform-aws-asg--${var.environment}-"
   image_id        = data.aws_ami.amazon-linux.id
   instance_type   = "t2.micro"
   user_data = file("${path.module}/asg-user-data.sh")
@@ -81,7 +83,7 @@ resource "aws_lb_listener" "terramino" {
 
 # ALB target group
  resource "aws_lb_target_group" "terramino" {
-   name     = "learn-asg-terramino"
+   name     = "learn-asg-terramino--${var.environment}"
    port     = 80
    protocol = "HTTP"
    vpc_id   = module.vpc.vpc_id
@@ -94,7 +96,7 @@ resource "aws_autoscaling_attachment" "terramino" {
 
 # SG-01: EC2 instance
 resource "aws_security_group" "terramino_instance" {
-  name = "learn-asg-terramino-instance"
+  name = "learn-asg-terramino-instance-${var.environment}"
   ingress {
     from_port       = 80
     to_port         = 80
@@ -114,7 +116,7 @@ resource "aws_security_group" "terramino_instance" {
 
 # SG-02: Load balancer
 resource "aws_security_group" "terramino_lb" {
-  name = "learn-asg-terramino-lb"
+  name = "learn-asg-terramino-lb-${var.environment}"
   ingress {
     from_port   = 80
     to_port     = 80
