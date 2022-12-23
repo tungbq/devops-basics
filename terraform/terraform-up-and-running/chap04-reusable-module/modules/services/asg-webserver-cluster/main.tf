@@ -41,7 +41,8 @@ module "vpc" {
 # Launch configuration
 resource "aws_launch_configuration" "terramino" {
   name_prefix     = "learn-terraform-aws-asg--${var.environment}-"
-  image_id        = data.aws_ami.amazon-linux.id
+  # image_id        = data.aws_ami.amazon-linux.id
+  image_id = "ami-0c4e4b4eb2e11d1d4"
   instance_type   = "t2.micro"
   user_data = file("${path.module}/asg-user-data.sh")
   security_groups = [aws_security_group.terramino_instance.id]
@@ -58,6 +59,12 @@ resource "aws_autoscaling_group" "terramino" {
   desired_capacity     = var.asg_desired_capacity
   launch_configuration = aws_launch_configuration.terramino.name
   vpc_zone_identifier  = module.vpc.public_subnets
+
+  tag {
+    key                 = "Name"
+    value               = "HashiCorp Learn ASG - Terramino"
+    propagate_at_launch = true
+  }
 }
 
 # ALB
@@ -83,7 +90,7 @@ resource "aws_lb_listener" "terramino" {
 
 # ALB target group
  resource "aws_lb_target_group" "terramino" {
-   name     = "learn-asg-terramino--${var.environment}"
+   name     = "learn-asg-terramino-${var.environment}"
    port     = 80
    protocol = "HTTP"
    vpc_id   = module.vpc.vpc_id
@@ -104,25 +111,21 @@ resource "aws_security_group" "terramino_instance" {
     security_groups = [aws_security_group.terramino_lb.id]
   }
 
-  # DEBUG-HTTP Inbound rules
-  ingress {
-    from_port = 80
-    to_port = 80
-    protocol = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-  # DEBUG-SSH Inbound rules
-  ingress {
-    from_port = 22
-    to_port = 22
-    protocol = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
   egress {
     from_port       = 0
     to_port         = 0
     protocol        = "-1"
     security_groups = [aws_security_group.terramino_lb.id]
+  }
+
+
+  # Tmp workaround - Allow instance to reachout to the internet to start HTTP service
+  # TODO: Handle in VPC scope
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
   }
 
   vpc_id = module.vpc.vpc_id

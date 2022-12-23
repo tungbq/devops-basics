@@ -1,16 +1,14 @@
 #!/bin/bash
 yum update -y
-yum -y remove httpd
-yum -y remove httpd-tools
-yum install -y httpd24 php72 mysql57-server php72-mysqlnd
-service httpd start
-chkconfig httpd on
+yum install -y httpd
+systemctl enable httpd.service
+systemctl start httpd.service
+# Create the HTML file
+touch /var/www/html/index.html
 
-usermod -a -G apache ec2-user
-chown -R ec2-user:apache /var/www
-chmod 2775 /var/www
-find /var/www -type d -exec chmod 2775 {} \;
-find /var/www -type f -exec chmod 0664 {} \;
-cd /var/www/html
-curl http://169.254.169.254/latest/meta-data/instance-id -o index.html
-curl https://raw.githubusercontent.com/hashicorp/learn-terramino/master/index.php -O
+cat > /var/www/html/index.html <<EOF
+<h1>Hello, World! My name is Tung</h1>
+<p>DB address: TO-BE-ADDED</p>
+<p>Hostname: $(hostname -f)</p>
+<p>Date: $(date)</p>
+EOF
