@@ -11,6 +11,7 @@ ls -la
 # Tasks
 ## Destroy s3-dynamoDB for tf backend
 echo ">>>>>>> Destroy backend s3-dynamo"
-cd $CHAP03_PATH/global/s3-dynamo
-terraform destroy
+cd "$CHAP03_PATH/global/s3-dynamo"
 
+ls -la
+terraform destroy
