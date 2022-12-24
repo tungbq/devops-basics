@@ -37,7 +37,7 @@ module "compute" {
 module "database" {
   source               = "../modules/three-tier-deployment/database"
   db_storage           = 10
-  db_engine_version    = "5.7.22"
+  db_engine_version    = "8.0.28"
   db_instance_class    = "db.t2.micro"
   db_name              = var.db_name
   dbuser               = var.dbuser
