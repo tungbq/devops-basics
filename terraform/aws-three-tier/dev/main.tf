@@ -29,7 +29,7 @@ module "compute" {
   private_subnets         = module.networking.private_subnets
   bastion_instance_count  = 1
   instance_type           = local.instance_type
-  key_name                = "Three-Tier-Terraform"
+  key_name                = "MyTestEC2"
   lb_tg_name              = module.loadbalancing.lb_tg_name
   lb_tg                   = module.loadbalancing.lb_tg
 }
