@@ -10,6 +10,7 @@ jobs:
 
       - name: List folders
         run: |
-          for d in */; do
-            echo "$d"
-          done
+          cd tools
+          ls -la
+          chmod +x generate-main-readme.sh
+          ./generate-main-readme.sh
