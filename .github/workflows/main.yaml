@@ -1,4 +1,4 @@
-name: List Folders Workflow
+name: Generate Readme (WIP)
 on: push
 
 jobs:
@@ -8,7 +8,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: List folders
+      - name: Run generate-main-readme.sh (WIP)
         run: |
           cd tools
           ls -la
