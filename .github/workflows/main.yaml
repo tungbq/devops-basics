@@ -1,14 +1,14 @@
-name: My First GitHub Action
-on:
-  push:
-    branches: [ main ]
+name: List Folders Workflow
+on: push
 
 jobs:
-  build:
+  list_folders_job:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: List folders
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: List folders
         run: |
           for d in */; do
             echo "$d"
