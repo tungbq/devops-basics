@@ -1,0 +1,12 @@
+name: My First GitHub Action
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Hello world
+      run: echo "ls -la"
