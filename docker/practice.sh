@@ -5,7 +5,7 @@ echo $?
 
 # Build and run docker container
 echo "Build and run docker container"
-IMAGE_NAME="draw-cat-image"
+IMAGE_NAME="random-python"
 cd python-sample
 docker build -t $IMAGE_NAME .
 docker run --rm $IMAGE_NAME
