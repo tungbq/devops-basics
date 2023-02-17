@@ -8,5 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Hello world
-      run: echo "ls -la"
+    - name: List folders
+        run: |
+          for d in */; do
+            echo "$d"
+          done
