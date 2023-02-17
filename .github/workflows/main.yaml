@@ -1,5 +1,7 @@
 name: Generate Readme (WIP)
-on: push
+on:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   list_folders_job:
@@ -14,3 +16,4 @@ jobs:
           ls -la
           chmod +x generate-main-readme.sh
           ./generate-main-readme.sh
+
