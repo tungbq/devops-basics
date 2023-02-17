@@ -1,16 +1,10 @@
-import matplotlib.pyplot as plt
+import numpy as np
 
-# Create some data for the plot
-x = [1, 2, 3, 4, 5]
-y = [1, 4, 9, 16, 25]
+# Create an array of random numbers
+data = np.random.rand(10)
 
-# Plot the data
-plt.plot(x, y)
+# Sort the array in descending order
+data = np.sort(data)[::-1]
 
-# Add a title and axis labels
-plt.title("Simple Plot")
-plt.xlabel("X Axis")
-plt.ylabel("Y Axis")
-
-# Show the plot
-plt.show()
+# Print out the sorted array
+print(data)
