@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Print Hello World
 echo "Hello, my name is Tung"
 
@@ -18,6 +20,13 @@ else
 fi
 
 # For - Loop
+WORKING_DAY=( "Mon" "Tue" "Wed" "Thu" "Fri" )
+echo "You have to work on these days:"
+for day in "${WORKING_DAY[@]}"
+do
+  echo "$day"
+done
+echo "Done! It's time to take rest!"
 
 ## Switch - Case
 ## json parsing
