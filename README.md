@@ -8,3 +8,4 @@
 | helm | [helm](./helm/)|
 | jenkins | [jenkins](./jenkins/)|
 | terraform | [terraform](./terraform/)|
+| shell | [terraform](./shell/)|
