@@ -1,7 +1,8 @@
 # Print Hello World
 echo "Hello, my name is Tung"
 # Get current date time
-date
+TODAY_OUTPUT=$(date)
+echo "Today is: $TODAY_OUTPUT"
 # Grep command
 echo "This is my testing string" | grep "my testing"
 
@@ -20,7 +21,5 @@ fi
 # For - Loop
 
 ## Switch - Case
-
 ## json parsing
-
 ## Regex
