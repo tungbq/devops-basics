@@ -9,3 +9,8 @@
 | jenkins | [jenkins](./jenkins/)|
 | terraform | [terraform](./terraform/)|
 | shell | [shell](./shell/)|
+
+### Extra Content (From other repos):
+| Item | Link |
+|------|-----|
+| python | [python-examples](https://github.com/tungbq/python-examples)|
