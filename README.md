@@ -14,3 +14,4 @@
 | Item | Link |
 |------|-----|
 | python | [python-examples](https://github.com/tungbq/python-examples)|
+| aws-lab-with-terraform | [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)|
