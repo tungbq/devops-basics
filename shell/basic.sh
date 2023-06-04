@@ -35,13 +35,13 @@ read fruit
 # Check the entered fruit using a case statement
 case $fruit in
   "apple")
-    echo "You entered apple."
+    echo "You entered apple 🍎"
     ;;
   "banana")
-    echo "You entered banana."
+    echo "You entered banana 🍌"
     ;;
   "orange")
-    echo "You entered orange."
+    echo "You entered orange 🍊"
     ;;
   *)
     echo "You entered an unknown fruit."
@@ -53,21 +53,21 @@ esac
 
 # TODO: Add grep
     # grep_example.txt is an example file you can create your own file and give its name instead of grep_example.txt to search in that file.
-grep "grep" grep_example.txt  # change the keyword inside the bracket to search for differnt words it will print the whole line if the given keyword is in that lin.
+grep "grep" grep_example.txt  # change the keyword inside the bracket to search for different words it will print the whole line if the given keyword is in that line.
 grep --color "to" grep_example.txt    # it will print the line which have "to" keyword in them, and --color is used to highlite the text.
 grep -i "it" grep_example.txt     # -i will Ignore case sensitivity
-grep -c "the" grep_example.txt  # -c will count the number of occurences of the given strin in the text.
+grep -c "the" grep_example.txt  # -c will count the number of occurrences of the given string in the text.
 grep -v "the" grep_example.txt  # it will print all the lines which DO NOT have the given string.
 
-    # REGEX in grep 
-    # ^      Matches characters at the beginning of a line
-    # $      Matches characters at the end of a line
-    # "."    Matches any character
-    # [a-z]  Matches any characters between A and Z
-    # [^ ..] Matches anything apart from what is contained in the brackets
+# REGEX in grep 
+# ^      Matches characters at the beginning of a line
+# $      Matches characters at the end of a line
+# "."    Matches any character
+# [a-z]  Matches any characters between A and Z
+# [^ ..] Matches anything apart from what is contained in the brackets
 
-    grep ^T grep_example.txt # lines starting with T.
-    grep t$ grep_example.txt  # To display lines that end with the letter ‘t’ run
+grep ^T grep_example.txt # lines starting with T.
+grep t$ grep_example.txt  # To display lines that end with the letter ‘t’ run
 
 grep --help           # Getting help with more Grep options
 
