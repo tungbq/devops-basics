@@ -29,6 +29,26 @@ done
 echo "Done! It's time to take rest!"
 
 ## Switch - Case
+# Prompt the user to enter a fruit name
+echo "Enter a fruit name: "
+read fruit
+
+# Check the entered fruit using a case statement
+case $fruit in
+    "apple")
+        echo "You entered apple."
+        ;;
+    "banana")
+        echo "You entered banana."
+        ;;
+    "orange")
+        echo "You entered orange."
+        ;;
+    *)
+        echo "You entered an unknown fruit."
+        ;;
+esac
+
 ## json parsing
 ## Regex
 ## Sed command -> TODO
