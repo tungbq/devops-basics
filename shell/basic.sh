@@ -14,41 +14,40 @@ echo "This is my testing string" | grep "my testing"
 ADULT_AGE=18
 MY_AGE=28
 if [ $MY_AGE -gt $ADULT_AGE ]; then
-  echo "You are adult!"
+  echo "You are an adult!"
 else
   echo "You are under $ADULT_AGE!"
 fi
 
-# For - Loop
-WORKING_DAY=( "Mon" "Tue" "Wed" "Thu" "Fri" )
+# For Loop
+WORKING_DAYS=("Mon" "Tue" "Wed" "Thu" "Fri")
 echo "You have to work on these days:"
-for day in "${WORKING_DAY[@]}"
-do
+for day in "${WORKING_DAYS[@]}"; do
   echo "$day"
 done
 echo "Done! It's time to take rest!"
 
-## Switch - Case
+# Switch - Case
 # Prompt the user to enter a fruit name
 echo "Enter a fruit name: "
 read fruit
 
 # Check the entered fruit using a case statement
 case $fruit in
-    "apple")
-        echo "You entered apple."
-        ;;
-    "banana")
-        echo "You entered banana."
-        ;;
-    "orange")
-        echo "You entered orange."
-        ;;
-    *)
-        echo "You entered an unknown fruit."
-        ;;
+  "apple")
+    echo "You entered apple."
+    ;;
+  "banana")
+    echo "You entered banana."
+    ;;
+  "orange")
+    echo "You entered orange."
+    ;;
+  *)
+    echo "You entered an unknown fruit."
+    ;;
 esac
 
-## json parsing
-## Regex
-## Sed command -> TODO
+# TODO: Add json parsing
+# TODO: Add regex
+# TODO: Add sed command
