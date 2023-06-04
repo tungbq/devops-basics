@@ -1,4 +1,4 @@
-###  A place to practice basic DevOps toolchain.
+##  A place to practice basic DevOps toolchain.
 ### Content:
 | Item | Link |
 |------|-----|
@@ -20,3 +20,6 @@
 | Item | Link |
 |------|-----|
 | bookmarks | [bookmarks](https://github.com/tungbq/bookmarks)|
+
+## Contributing
+See: [CONTRIBUTING.md](./CONTRIBUTING.md)
