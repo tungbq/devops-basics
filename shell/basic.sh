@@ -35,13 +35,16 @@ read fruit
 # Check the entered fruit using a case statement
 case $fruit in
   "apple")
-    echo "You entered apple."
+    echo "You entered apple 🍎"
     ;;
   "banana")
-    echo "You entered banana."
+    echo "You entered banana 🍌"
     ;;
   "orange")
-    echo "You entered orange."
+    echo "You entered orange 🍊"
+    ;;
+    "mango")
+    echo "You entered mango 🥭"
     ;;
   *)
     echo "You entered an unknown fruit."
