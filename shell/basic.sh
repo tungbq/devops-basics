@@ -53,7 +53,7 @@ esac
 
 # TODO: Add grep
     # grep_example.txt is an example file you can create your own file and give its name instead of grep_example.txt to search in that file.
-grep "grep" grep_example.txt  # change the keyword inside the bracket to search for differnt words it will print the whole line if the given keyword is in that lin.
+grep "grep" grep_example.txt  # change the keyword inside the bracket to search for different words it will print the whole line if the given keyword is in that line.
 grep --color "to" grep_example.txt    # it will print the line which have "to" keyword in them, and --color is used to highlite the text.
 grep -i "it" grep_example.txt     # -i will Ignore case sensitivity
 grep -c "the" grep_example.txt  # -c will count the number of occurences of the given strin in the text.
