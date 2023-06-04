@@ -49,5 +49,7 @@ case $fruit in
 esac
 
 # TODO: Add json parsing
-# TODO: Add regex
+# TODO: Add grep
 # TODO: Add sed command
+# TODO: Add regex
+
