@@ -1,0 +1,13 @@
+This is an example file.
+It contains some text for demonstration.
+We will use grep to search for specific patterns.
+
+It will search for the pattern "grep" within the grep_example.txt file and display any lines that contain the pattern.
+
+Here the output will have line 3 and line 5 as both have the given keyword in them.
+
+////////////
+sample text it
+
+
+/////////////
