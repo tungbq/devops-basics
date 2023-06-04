@@ -56,7 +56,7 @@ esac
 grep "grep" grep_example.txt  # change the keyword inside the bracket to search for different words it will print the whole line if the given keyword is in that line.
 grep --color "to" grep_example.txt    # it will print the line which have "to" keyword in them, and --color is used to highlite the text.
 grep -i "it" grep_example.txt     # -i will Ignore case sensitivity
-grep -c "the" grep_example.txt  # -c will count the number of occurences of the given strin in the text.
+grep -c "the" grep_example.txt  # -c will count the number of occurrences of the given string in the text.
 grep -v "the" grep_example.txt  # it will print all the lines which DO NOT have the given string.
 
     # REGEX in grep 
