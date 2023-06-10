@@ -35,7 +35,7 @@ See: [CONTRIBUTING.md](./CONTRIBUTING.md)
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/tungbq"><img src="https://avatars.githubusercontent.com/u/85242618?v=4?s=100" width="100px;" alt="Tung Bui (Leo)"/><br /><sub><b>Tung Bui (Leo)</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=tungbq" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/tungbq"><img src="https://avatars.githubusercontent.com/u/85242618?v=4?s=100" width="100px;" alt="Tung Bui (Leo)"/><br /><sub><b>Tung Bui (Leo)</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=tungbq" title="Code">💻</a> <a href="#business-tungbq" title="Business development">💼</a></td>
     </tr>
   </tbody>
 </table>
