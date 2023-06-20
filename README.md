@@ -1,6 +1,6 @@
 ##  A place to practice basic DevOps toolchain.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ### Content:
 | Item | Link |
@@ -38,6 +38,7 @@ See: [CONTRIBUTING.md](./CONTRIBUTING.md)
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/tungbq"><img src="https://avatars.githubusercontent.com/u/85242618?v=4?s=100" width="100px;" alt="Tung Bui (Leo)"/><br /><sub><b>Tung Bui (Leo)</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=tungbq" title="Code">💻</a> <a href="#business-tungbq" title="Business development">💼</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Harshal662"><img src="https://avatars.githubusercontent.com/u/79760384?v=4?s=100" width="100px;" alt="Harshal Abak"/><br /><sub><b>Harshal Abak</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=Harshal662" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/thesilentline"><img src="https://avatars.githubusercontent.com/u/82605925?v=4?s=100" width="100px;" alt="Divyanshi Singh Bora"/><br /><sub><b>Divyanshi Singh Bora</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=thesilentline" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jean-BaptisteC"><img src="https://avatars.githubusercontent.com/u/87148630?v=4?s=100" width="100px;" alt="Jean-Baptiste"/><br /><sub><b>Jean-Baptiste</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=Jean-BaptisteC" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
