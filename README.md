@@ -12,6 +12,7 @@
 | jenkins | [jenkins](./jenkins/) - **TODO**|
 | terraform | [terraform](./terraform/)|
 | shell | [shell](./shell/)|
+| git | [git](./git/)|
 
 ### Extra Content (From other repos):
 | Item | Link |
