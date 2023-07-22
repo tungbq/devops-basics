@@ -52,6 +52,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jack-white9",
+      "name": "Jack White",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83393304?v=4",
+      "profile": "https://github.com/jack-white9",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
