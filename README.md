@@ -25,7 +25,8 @@
 | bookmarks | [bookmarks](https://github.com/tungbq/bookmarks)|
 
 ## Contributing
-See: [CONTRIBUTING.md](./CONTRIBUTING.md)
+- See: [CONTRIBUTING.md](./CONTRIBUTING.md)
+- If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐. Thanks! 💖
 
 ## Contributors
 
