@@ -4,3 +4,9 @@ helm repo add jenkinsci https://charts.jenkins.io
 helm repo update
 
 # Create Persistent Volume
+echo "Create the volume"
+kubectl apply -f jenkins-volume.yaml
+echo "Check the volume"
+kubectl get pv
+
+# Create a service account
