@@ -1,6 +1,6 @@
 ##  A place to practice basic DevOps toolchain.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ### Content:
 | Item | Link |
@@ -43,6 +43,7 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jean-BaptisteC"><img src="https://avatars.githubusercontent.com/u/87148630?v=4?s=100" width="100px;" alt="Jean-Baptiste"/><br /><sub><b>Jean-Baptiste</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=Jean-BaptisteC" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/akj2018"><img src="https://avatars.githubusercontent.com/u/43956935?v=4?s=100" width="100px;" alt="Akshay Jain"/><br /><sub><b>Akshay Jain</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=akj2018" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jack-white9"><img src="https://avatars.githubusercontent.com/u/83393304?v=4?s=100" width="100px;" alt="Jack White"/><br /><sub><b>Jack White</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=jack-white9" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/viktoriussuwandi"><img src="https://avatars.githubusercontent.com/u/68414300?v=4?s=100" width="100px;" alt="Viktorius Suwandi"/><br /><sub><b>Viktorius Suwandi</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=viktoriussuwandi" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
