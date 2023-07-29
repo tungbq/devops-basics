@@ -12,3 +12,11 @@ kubectl get pv
 # Create a service account
 kubectl apply -f jenkins-sa.yaml
 
+# Update the values manually: Done. TODO: Automate this step
+
+# Deploy
+echo "Start deploying..."
+chart="jenkinsci/jenkins"
+helm install jenkins -n jenkins -f jenkins-values.yaml $chart
+
+
