@@ -38,7 +38,8 @@ echo $(echo $secret | base64 --decode)
 # Portforward
 echo "Port forwarding..."
 kubectl port-forward service/jenkins 8090:8080 -n jenkins &
-
+echo "Waiting 15s for port forward process completed..."
+sleep 15
 # login URL
 login_url="http://localhost:8090/login"
 curl $login_url
