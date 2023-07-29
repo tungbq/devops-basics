@@ -7,7 +7,7 @@
 |------|-----|
 | docker | [docker](./docker/)|
 | ansible | [ansible](./ansible/)|
-| k8s | [k8s](./k8s/)|
+| k8s (Kubernetes) | [k8s](./k8s/)|
 | helm | [helm](./helm/)|
 | jenkins | [jenkins](./jenkins/) - **TODO**|
 | terraform | [terraform](./terraform/)|
