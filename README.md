@@ -5,6 +5,7 @@
 ### Content
 | Item | Link |
 |------|-----|
+| getting-started | [getting-started](./getting-started/)|
 | docker | [docker](./docker/)|
 | ansible | [ansible](./ansible/)|
 | k8s (Kubernetes) | [k8s](./k8s/)|
