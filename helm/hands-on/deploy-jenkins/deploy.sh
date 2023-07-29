@@ -17,7 +17,8 @@ kubectl apply -f jenkins-sa.yaml
 # Deploy
 echo "Start deploying..."
 chart="jenkinsci/jenkins"
-helm install jenkins -n jenkins -f jenkins-values.yaml $chart
+# helm install jenkins -n jenkins -f jenkins-values.yaml $chart
+helm upgrade --install jenkins -n jenkins -f jenkins-values.yaml $chart
 
 # Check deployment
 echo "Check deployment"

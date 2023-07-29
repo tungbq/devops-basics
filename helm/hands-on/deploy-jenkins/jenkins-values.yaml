@@ -105,7 +105,7 @@ controller:
   # being deprecated and replaced by `podSecurityContextOverride`.
   # Set runAsUser to 1000 to let Jenkins run as non-root user 'jenkins' which exists in 'jenkins/jenkins' docker image.
   # When setting runAsUser to a different value than 0 also set fsGroup to the same value:
-  runAsUser: 1000
+  runAsUser: 0
   fsGroup: 1000
   # If you have PodSecurityPolicies that require dropping of capabilities as suggested by CIS K8s benchmark, put them here
   securityContextCapabilities: {}
@@ -117,13 +117,13 @@ controller:
   # it might be desirable to use `supplementalGroups` instead of `fsGroup` in
   # the `securityContext` block: https://github.com/kubernetes/kubernetes/issues/67014#issuecomment-589915496
   # podSecurityContextOverride:
-  #   runAsUser: 1000
+  #   runAsUser: 0
   #   runAsNonRoot: true
   #   supplementalGroups: [1000]
   #   # capabilities: {}
   # Container securityContext
   containerSecurityContext:
-    runAsUser: 1000
+    runAsUser: 0
     runAsGroup: 1000
     readOnlyRootFilesystem: true
     allowPrivilegeEscalation: false
@@ -967,7 +967,7 @@ backup:
   # Enable backup pod security context (must be `true` if runAsUser or fsGroup are set)
   usePodSecurityContext: true
   # When setting runAsUser to a different value than 0 also set fsGroup to the same value:
-  runAsUser: 1000
+  runAsUser: 0
   fsGroup: 1000
   securityContextCapabilities: {}
   #  drop:
