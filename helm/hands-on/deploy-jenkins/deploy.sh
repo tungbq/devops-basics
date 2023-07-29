@@ -34,5 +34,6 @@ echo "Port forwarding..."
 kubectl port-forward service/jenkins 8090:8080 -n jenkins &
 
 # login URL
-echo "http://localhost:8090"
-
+login_url="http://localhost:8090/login"
+curl $login_url
+echo $login_url
