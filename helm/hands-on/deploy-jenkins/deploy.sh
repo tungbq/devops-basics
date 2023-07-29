@@ -19,4 +19,20 @@ echo "Start deploying..."
 chart="jenkinsci/jenkins"
 helm install jenkins -n jenkins -f jenkins-values.yaml $chart
 
+# Check deployment
+echo "Check deployment"
+kubectl get pods -n jenkins
+
+# Get metadata
+echo "Get 'admin' password"
+jsonpath="{.data.jenkins-admin-password}"
+secret=$(kubectl get secret -n jenkins jenkins -o jsonpath=$jsonpath)
+echo $(echo $secret | base64 --decode)
+
+# Portforward
+echo "Port forwarding..."
+kubectl port-forward service/jenkins 8090:8080 -n jenkins &
+
+# login URL
+echo "http://localhost:8090"
 
