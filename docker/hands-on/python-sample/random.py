@@ -1,10 +1,4 @@
-import numpy as np
-
-# Create an array of random numbers
-data = np.random.rand(10)
-
-# Sort the array in descending order
-data = np.sort(data)[::-1]
-
-# Print out the sorted array
-print(data)
+import datetime
+now = datetime.datetime.now()
+print ("Current date and time : ")
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
