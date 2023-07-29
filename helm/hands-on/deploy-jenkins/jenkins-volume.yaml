@@ -11,8 +11,7 @@ spec:
     storage: 20Gi
   persistentVolumeReclaimPolicy: Retain
   hostPath:
-    path: /mnt/wsl/data-wsl/jenkins-volume
-
+    path: /run/desktop/mnt/host/c/data/k8s/jenkins-volume
 ---
 apiVersion: storage.k8s.io/v1
 kind: StorageClass

@@ -125,7 +125,7 @@ controller:
   containerSecurityContext:
     runAsUser: 0
     runAsGroup: 1000
-    readOnlyRootFilesystem: true
+    readOnlyRootFilesystem: false
     allowPrivilegeEscalation: false
   servicePort: 8080
   targetPort: 8080
@@ -394,7 +394,7 @@ controller:
       # It's also possible to specify ALL to search in all namespaces:
       # searchNamespace:
       containerSecurityContext:
-        readOnlyRootFilesystem: true
+        readOnlyRootFilesystem: false
         allowPrivilegeEscalation: false
 
     # Allows you to inject additional/other sidecars
