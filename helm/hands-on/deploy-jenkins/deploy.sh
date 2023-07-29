@@ -45,7 +45,7 @@ log $(log $secret | base64 --decode)
 
 # Portforward
 log "Port forwarding..."
-kubectl port-forward service/jenkins 8090:8080 -n jenkins &
+nohup kubectl port-forward service/jenkins 8090:8080 -n jenkins &
 log "Waiting 15s for port forward process completed..."
 sleep 15
 # login URL
