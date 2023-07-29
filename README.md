@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-### Content:
+### Content
 | Item | Link |
 |------|-----|
 | docker | [docker](./docker/)|
@@ -14,13 +14,13 @@
 | shell | [shell](./shell/)|
 | git | [git](./git/)|
 
-### Extra Content (From other repos):
+### Extra Content (From other repos)
 | Item | Link |
 |------|-----|
 | python | [python-examples](https://github.com/tungbq/python-examples)|
 | aws-lab-with-terraform | [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)|
 
-### Bookmarks:
+### Bookmarks
 | Item | Link |
 |------|-----|
 | bookmarks | [bookmarks](https://github.com/tungbq/bookmarks)|
