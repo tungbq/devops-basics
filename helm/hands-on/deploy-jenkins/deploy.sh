@@ -44,6 +44,15 @@ secret=$(kubectl get secret -n jenkins jenkins -o jsonpath=$jsonpath)
 log $(log $secret | base64 --decode)
 
 # Portforward
+## kill prev
+log "kill prev port"
+### Run the ps -ef command and use grep to filter the output for 'port-forward'
+process_line=$(ps -ef | grep 'port-forward' | grep -v grep)
+### Extract the PID from the process_line using awk or cut
+PID=$(echo "$process_line" | awk '{print $2}')  # Using awk
+log "Killing $PID"
+kill -9 $PID
+
 log "Port forwarding..."
 nohup kubectl port-forward service/jenkins 8090:8080 -n jenkins &
 log "Waiting 15s for port forward process completed..."
