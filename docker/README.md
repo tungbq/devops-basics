@@ -6,3 +6,5 @@
 - https://docs.docker.com/engine/install/
 # Getting started with docker
 - https://docs.docker.com/get-started/
+# Hands on
+- [Docker Hands on example](./hands-on/)
