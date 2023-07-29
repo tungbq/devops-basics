@@ -1,5 +1,12 @@
 ---
 apiVersion: v1
+kind: Namespace
+metadata:
+  name: jenkins
+  labels:
+    name: jenkins
+---
+apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: jenkins

@@ -10,3 +10,5 @@ echo "Check the volume"
 kubectl get pv
 
 # Create a service account
+kubectl apply -f jenkins-sa.yaml
+
