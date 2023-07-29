@@ -1,4 +1,6 @@
-# How to install k8s
+# How to install Kubernetes
 - Todo
-# K8s cheatsheet
+# Learn Kubernetes Basics
+- https://kubernetes.io/docs/tutorials/kubernetes-basics/
+# Kubernetes cheatsheet
 - https://kubernetes.io/docs/reference/kubectl/cheatsheet/
