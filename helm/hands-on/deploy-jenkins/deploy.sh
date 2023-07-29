@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Init and configure Helm
 echo "Adding Jenkins repo and get latest updates"
 helm repo add jenkinsci https://charts.jenkins.io
@@ -23,6 +25,9 @@ helm upgrade --install jenkins -n jenkins -f jenkins-values.yaml $chart
 # Check deployment
 echo "Check deployment"
 kubectl get pods -n jenkins
+
+# Waiting for port up and running
+while [[ $(kubectl get pods -n jenkins jenkins-0 -o 'jsonpath={..status.conditions[?(@.type=="Ready")].status}') != "True" ]]; do echo "waiting for pod" && sleep 1; done
 
 # Get metadata
 echo "Get 'admin' password"
