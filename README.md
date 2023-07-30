@@ -14,6 +14,8 @@
 | terraform | [terraform](./terraform/)|
 | shell | [shell](./shell/)|
 | git | [git](./git/)|
+| elk | [elk](./elk/)|
+
 
 ### Extra Content (From other repos)
 | Item | Link |
