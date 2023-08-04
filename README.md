@@ -20,7 +20,7 @@
 | elk | [elk](./elk/)|
 
 
-### Extra Content (From other repos)
+### Extra content (from other repos)
 | Item | Link |
 |------|-----|
 | python | [python-examples](https://github.com/tungbq/python-examples)|
