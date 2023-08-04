@@ -4,8 +4,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ### Getting started: [getting-started](./getting-started/)
+### We cover many DevOps topics content under: [topic](./topic/)
 
-### Topic
+### Topic table
 | Item | Link |
 |------|-----|
 | ansible | [ansible](./topic/ansible/)|
