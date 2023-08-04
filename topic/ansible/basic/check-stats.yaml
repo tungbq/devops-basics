@@ -1,0 +1,17 @@
+---
+- name: Check CPU and RAM usage
+  hosts: localhost
+  gather_facts: yes
+  tasks:
+    - name: Get system stats
+      stat:
+        path: "/proc/{{ item }}/"
+      loop:
+        - "cpuinfo"
+        - "meminfo"
+
+    - name: Print system stats
+      debug:
+        var: item.stat.content
+      with_items: "{{ ansible_loop }}"
+      when: item.stat.exists

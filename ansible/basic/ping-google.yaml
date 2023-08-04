@@ -1,8 +1,0 @@
----
-- name: Ping google.com
-  hosts: localhost
-  gather_facts: no
-  tasks:
-    - name: Ping google.com
-      ping:
-        data: "google.com"
