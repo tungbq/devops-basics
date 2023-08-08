@@ -1,9 +1,0 @@
-
-apiVersion: v1
-kind: Pod
-metadata:
-  name: gitea-pod
-spec:
-  containers:
-  - name: gitea-container-tung
-    image: gitea/gitea:1.4
