@@ -11,7 +11,7 @@
 |------|-----|
 | ansible | [ansible](./topic/ansible/)|
 | docker | [docker](./topic/docker/)|
-| k8s (Kubernetes) | [k8s](./k8s/)|
+| k8s (Kubernetes) | [k8s](./topic/k8s/)|
 | helm | [helm](./helm/)|
 | jenkins | [jenkins](./jenkins/) - **TODO**|
 | terraform | [terraform](./terraform/)|
