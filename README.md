@@ -21,6 +21,7 @@
 | elk | [elk](./topic/elk/)|
 | argocd | [argocd](./topic/argocd/)|
 | github-action | [github-action](./topic/github-action/)|
+| groovy | [groovy](./topic/groovy/)|
 
 
 ### Extra content (from other repos)
