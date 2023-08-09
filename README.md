@@ -3,10 +3,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-### Getting started: [getting-started](./getting-started/)
-### We cover many DevOps topics content under: [topic](./topic/)
-
-### Topic table
+## Getting started - [getting-started](./getting-started/)
+## We cover many DevOps topics content under - [topic](./topic/)
 | Item | Link |
 |:---|:---|
 | ansible | [ansible](./topic/ansible/)|
@@ -24,15 +22,11 @@
 | groovy | [groovy](./topic/groovy/)|
 
 
-### Extra content (from other repos)
+## Extra content (from other repos)
 | Item | Link |
 |:---|:---|
 | python | [python-examples](https://github.com/tungbq/python-examples)|
 | aws-lab-with-terraform | [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)|
-
-### Bookmarks
-| Item | Link |
-|:---|:---|
 | bookmarks | [bookmarks](https://github.com/tungbq/bookmarks)|
 
 ## Contributing
