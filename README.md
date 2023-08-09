@@ -19,6 +19,7 @@
 | shell | [shell](./shell/)|
 | git | [git](./git/)|
 | elk | [elk](./elk/)|
+| argocd | [argocd](./topic/argocd/)|
 
 
 ### Extra content (from other repos)
