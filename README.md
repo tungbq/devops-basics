@@ -16,7 +16,7 @@
 | helm | [helm](./topic/helm/)|
 | jenkins | [jenkins](./topic/jenkins/) - **TODO**|
 | terraform | [terraform](./topic/terraform/)|
-| shell | [shell](./shell/)|
+| shell | [shell](./topic/shell/)|
 | git | [git](./topic/git/)|
 | elk | [elk](./topic/elk/)|
 | argocd | [argocd](./topic/argocd/)|
