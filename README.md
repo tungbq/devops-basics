@@ -18,7 +18,7 @@
 | terraform | [terraform](./terraform/)|
 | shell | [shell](./shell/)|
 | git | [git](./git/)|
-| elk | [elk](./elk/)|
+| elk | [elk](./topic/elk/)|
 | argocd | [argocd](./topic/argocd/)|
 
 
