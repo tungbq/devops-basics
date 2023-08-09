@@ -14,8 +14,8 @@
 | k8s (Kubernetes) | [k8s](./topic/k8s/)|
 | aws | [aws](./topic/aws/)|
 | helm | [helm](./topic/helm/)|
-| jenkins | [jenkins](./jenkins/) - **TODO**|
-| terraform | [terraform](./terraform/)|
+| jenkins | [jenkins](./topic/jenkins/) - **TODO**|
+| terraform | [terraform](./topic/terraform/)|
 | shell | [shell](./shell/)|
 | git | [git](./topic/git/)|
 | elk | [elk](./topic/elk/)|
