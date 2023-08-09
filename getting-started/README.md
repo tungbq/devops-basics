@@ -4,4 +4,5 @@
 # DevOps Roadmap
 - https://roadmap.sh/devops
 # More resource
-- https://github.com/MichaelCade/90DaysOfDevOps
+- **90DaysOfDevOps**: https://github.com/MichaelCade/90DaysOfDevOps
+- **devops-exercises**: https://github.com/bregman-arie/devops-exercises
