@@ -13,7 +13,7 @@
 | docker | [docker](./topic/docker/)|
 | k8s (Kubernetes) | [k8s](./topic/k8s/)|
 | aws | [aws](./topic/aws/)|
-| helm | [helm](./helm/)|
+| helm | [helm](./topic/helm/)|
 | jenkins | [jenkins](./jenkins/) - **TODO**|
 | terraform | [terraform](./terraform/)|
 | shell | [shell](./shell/)|
