@@ -6,3 +6,4 @@
 # More resource
 - **90DaysOfDevOps**: https://github.com/MichaelCade/90DaysOfDevOps
 - **devops-exercises**: https://github.com/bregman-arie/devops-exercises
+- **devops-resources**: https://github.com/bregman-arie/devops-resources
