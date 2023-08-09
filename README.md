@@ -17,7 +17,7 @@
 | jenkins | [jenkins](./jenkins/) - **TODO**|
 | terraform | [terraform](./terraform/)|
 | shell | [shell](./shell/)|
-| git | [git](./git/)|
+| git | [git](./topic/git/)|
 | elk | [elk](./topic/elk/)|
 | argocd | [argocd](./topic/argocd/)|
 
