@@ -12,3 +12,6 @@ kubectl rollout status deployment/nginx-deployment
 
 console_log "Check deployemnt"
 kubectl get deployments
+
+console_log "Check pod"
+kubectl get pods
