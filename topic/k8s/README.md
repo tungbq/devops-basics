@@ -1,5 +1,6 @@
 # How to install Kubernetes
-- Todo
+- Dev/Local environment: https://kubernetes.io/docs/tasks/tools/#kubectl
+- Production environment: https://kubernetes.io/docs/setup/production-environment
 # Learn Kubernetes Basics
 - https://kubernetes.io/docs/tutorials/kubernetes-basics/
 # Kubernetes cheatsheet
