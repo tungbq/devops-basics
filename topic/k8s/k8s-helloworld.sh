@@ -2,7 +2,12 @@ console_log() {
   echo ">>> [Kubernetes] $1"
 }
 
-./k8s-helloworld-cleanup.sh
+local_port="9080"
+service_port="8081"
+port_fwd="$local_port:$service_port"
+
+console_log "Cleanup previous run if any"
+./k8s-helloworld-cleanup.sh $port_fwd
 
 console_log "Welcome to Kubernetes!"
 
@@ -24,6 +29,9 @@ kubectl apply -f hello-world/nginx-service.yaml
 console_log "Check services"
 kubectl get services
 
-kubectl port-forward service/nginx-service 9080:8081 &
+kubectl port-forward service/nginx-service $port_fwd &
+console_log "Waiting for port forward completed"
 sleep 10
-curl localhost:9080
+
+nginx_welcome_title="Welcome to nginx!"
+curl "localhost:$local_port" | grep "$nginx_welcome_title"
