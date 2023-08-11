@@ -4,22 +4,22 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Getting started - [getting-started](./getting-started/)
-## We cover many DevOps topics content under - [topic](./topic/)
+## We cover many DevOps topics content under - [topic](./topics/)
 | Item | Link |
 |:---|:---|
-| ansible | [ansible](./topic/ansible/)|
-| docker | [docker](./topic/docker/)|
-| k8s (Kubernetes) | [k8s](./topic/k8s/)|
-| aws | [aws](./topic/aws/)|
-| helm | [helm](./topic/helm/)|
-| jenkins | [jenkins](./topic/jenkins/) - **TODO**|
-| terraform | [terraform](./topic/terraform/)|
-| shell | [shell](./topic/shell/)|
-| git | [git](./topic/git/)|
-| elk | [elk](./topic/elk/)|
-| argocd | [argocd](./topic/argocd/)|
-| github-action | [github-action](./topic/github-action/)|
-| groovy | [groovy](./topic/groovy/)|
+| ansible | [ansible](./topics/ansible/)|
+| docker | [docker](./topics/docker/)|
+| k8s (Kubernetes) | [k8s](./topics/k8s/)|
+| aws | [aws](./topics/aws/)|
+| helm | [helm](./topics/helm/)|
+| jenkins | [jenkins](./topics/jenkins/) - **TODO**|
+| terraform | [terraform](./topics/terraform/)|
+| shell | [shell](./topics/shell/)|
+| git | [git](./topics/git/)|
+| elk | [elk](./topics/elk/)|
+| argocd | [argocd](./topics/argocd/)|
+| github-action | [github-action](./topics/github-action/)|
+| groovy | [groovy](./topics/groovy/)|
 
 
 ## Extra content (from other repos)
