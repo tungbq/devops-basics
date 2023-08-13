@@ -1,8 +1,6 @@
 ---
 - name: Check up time
   hosts: my-localhost
-  gather_facts: true  # We don't need to gather facts for this example
-
   tasks:
     - name: Execute uptime command
       command: uptime
