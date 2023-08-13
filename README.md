@@ -3,8 +3,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Getting started - [getting-started](./getting-started/)
-## We cover many DevOps topics content under - [topic](./topics/)
+## Getting started - [getting-started](./getting-started/) ⬆️
+## We cover many DevOps topics content under - [topic](./topics/) 🔥
 | Item | Content | Hands-on script |
 |:---|:---|:---|
 | Ansible | ✔️ [ansible](./topics/ansible/)| ✔️ [ansible-helloworld.sh](./topics/ansible/hello-world/ansible-helloworld.sh)|
