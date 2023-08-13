@@ -5,21 +5,21 @@
 
 ## Getting started - [getting-started](./getting-started/) ⬆️
 ## We cover many DevOps topics content under - [topic](./topics/) 🔥
-| Item | Content | Hands-on script |
-|:---|:---|:---|
-| Ansible | ✔️ [ansible](./topics/ansible/)| ✔️ [ansible-helloworld.sh](./topics/ansible/hello-world/ansible-helloworld.sh)|
-| Docker | ✔️ [docker](./topics/docker/)|✔️ [docker-helloworld.sh](./topics/docker/docker-helloworld.sh)|
-| Kubernetes (k8s) | ✔️ [k8s](./topics/k8s/)|✔️ [k8s-helloworld.sh](./topics/k8s/k8s-helloworld.sh)|
-| Aws | ✔️ [aws](./topics/aws/)|🚶‍♂️ TO-DO |
-| Helm | ✔️ [helm](./topics/helm/)|🚶‍♂️ TO-DO|
-| Jenkins | 🚶‍♂️ [jenkins](./topics/jenkins/) - **TODO**|🚶‍♂️ TO-DO|
-| Terraform | ✔️ [terraform](./topics/terraform/)|🚶‍♂️ TO-DO|
-| Shell | ✔️ [shell](./topics/shell/)| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
-| Git | ✔️ [git](./topics/git/)|🚶‍♂️ TO-DO|
-| Elk | ✔️ [elk](./topics/elk/)|🚶‍♂️ TO-DO|
-| ArgoCD | ✔️ [argocd](./topics/argocd/)|🚶‍♂️ TO-DO|
-| Github-Action | ✔️ [github-action](./topics/github-action/)|🚶‍♂️ TO-DO|
-| Groovy | 🚶‍♂️ [groovy](./topics/groovy/)|🚶‍♂️ TO-DO|
+| Item | Content | Official Docs | Hands-on script |
+|:---|:---|:---|:---|
+| Ansible | ✔️ [ansible](./topics/ansible/)| [docs.ansible.com](https://docs.ansible.com/)|✔️ [ansible-helloworld.sh](./topics/ansible/hello-world/ansible-helloworld.sh)|
+| Docker | ✔️ [docker](./topics/docker/)||✔️ [docker-helloworld.sh](./topics/docker/docker-helloworld.sh)|
+| Kubernetes (k8s) | ✔️ [k8s](./topics/k8s/)||✔️ [k8s-helloworld.sh](./topics/k8s/k8s-helloworld.sh)|
+| Aws | ✔️ [aws](./topics/aws/)||🚶‍♂️ TO-DO |
+| Helm | ✔️ [helm](./topics/helm/)||🚶‍♂️ TO-DO|
+| Jenkins | 🚶‍♂️ [jenkins](./topics/jenkins/) - **TODO**||🚶‍♂️ TO-DO|
+| Terraform | ✔️ [terraform](./topics/terraform/)||🚶‍♂️ TO-DO|
+| Shell | ✔️ [shell](./topics/shell/)|| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
+| Git | ✔️ [git](./topics/git/)||🚶‍♂️ TO-DO|
+| Elk | ✔️ [elk](./topics/elk/)||🚶‍♂️ TO-DO|
+| ArgoCD | ✔️ [argocd](./topics/argocd/)||🚶‍♂️ TO-DO|
+| Github-Action | ✔️ [github-action](./topics/github-action/)||🚶‍♂️ TO-DO|
+| Groovy | 🚶‍♂️ [groovy](./topics/groovy/)||🚶‍♂️ TO-DO|
 
 
 ## Extra content (from other repos)
