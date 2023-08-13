@@ -88,6 +88,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Ostyantic",
+      "name": "Anthony Lopez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114023194?v=4",
+      "profile": "https://github.com/Ostyantic",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
