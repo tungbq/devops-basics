@@ -31,7 +31,8 @@
 
 ## Contributing
 - See: [CONTRIBUTING.md](./CONTRIBUTING.md)
-- If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐. Thanks! 💖
+- Looking for the issue to work on? Check the list of our open issues [good first issue](https://github.com/tungbq/devops-basic/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐ Thanks! 💖
 
 ## Contributors
 
