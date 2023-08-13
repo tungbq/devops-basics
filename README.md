@@ -5,21 +5,21 @@
 
 ## Getting started - [getting-started](./getting-started/)
 ## We cover many DevOps topics content under - [topic](./topics/)
-| Item | Link |
-|:---|:---|
-| ansible | [ansible](./topics/ansible/)|
-| docker | [docker](./topics/docker/)|
-| k8s (Kubernetes) | [k8s](./topics/k8s/)|
-| aws | [aws](./topics/aws/)|
-| helm | [helm](./topics/helm/)|
-| jenkins | [jenkins](./topics/jenkins/) - **TODO**|
-| terraform | [terraform](./topics/terraform/)|
-| shell | [shell](./topics/shell/)|
-| git | [git](./topics/git/)|
-| elk | [elk](./topics/elk/)|
-| argocd | [argocd](./topics/argocd/)|
-| github-action | [github-action](./topics/github-action/)|
-| groovy | [groovy](./topics/groovy/)|
+| Item | Content | Hands-on script |
+|:---|:---|:---|
+| Ansible | ✔️ [ansible](./topics/ansible/)| ✔️ [ansible-helloworld.sh](./topics/ansible/hello-world/ansible-helloworld.sh)|
+| Docker | ✔️ [docker](./topics/docker/)|✔️ [docker-helloworld.sh](./topics/docker/docker-helloworld.sh)|
+| Kubernetes (k8s) | ✔️ [k8s](./topics/k8s/)|✔️ [k8s-helloworld.sh](./topics/k8s/k8s-helloworld.sh)|
+| Aws | ✔️ [aws](./topics/aws/)|🏃 TO-DO |
+| Helm | ✔️ [helm](./topics/helm/)|🏃 TO-DO|
+| Jenkins | 🏃 [jenkins](./topics/jenkins/) - **TODO**|🏃 TO-DO|
+| Terraform | ✔️ [terraform](./topics/terraform/)|🏃 TO-DO|
+| Shell | ✔️ [shell](./topics/shell/)|🏃 TO-DO|
+| Git | ✔️ [git](./topics/git/)|🏃 TO-DO|
+| Elk | ✔️ [elk](./topics/elk/)|🏃 TO-DO|
+| ArgoCD | ✔️ [argocd](./topics/argocd/)|🏃 TO-DO|
+| Github-Action | ✔️ [github-action](./topics/github-action/)|🏃 TO-DO|
+| Groovy | 🏃 [groovy](./topics/groovy/)|🏃 TO-DO|
 
 
 ## Extra content (from other repos)
