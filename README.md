@@ -17,7 +17,7 @@
 | Shell | ✔️ [shell](./topics/shell/)|[devdocs.io/bash](https://devdocs.io/bash/)| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
 | Git | ✔️ [git](./topics/git/)|[git-scm.com/doc](https://git-scm.com/doc)|🚶‍♂️ TO-DO|
 | Elk | ✔️ [elk](./topics/elk/)|[www.elastic.co/guide](https://www.elastic.co/guide/index.html)|🚶‍♂️ TO-DO|
-| ArgoCD | ✔️ [argocd](./topics/argocd/)||🚶‍♂️ TO-DO|
+| ArgoCD | ✔️ [argocd](./topics/argocd/)|[argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|🚶‍♂️ TO-DO|
 | Github-Action | ✔️ [github-action](./topics/github-action/)||🚶‍♂️ TO-DO|
 | Groovy | 🚶‍♂️ [groovy](./topics/groovy/)||🚶‍♂️ TO-DO|
 
