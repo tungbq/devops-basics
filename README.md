@@ -25,9 +25,13 @@
 ## Extra content (from other repos)
 | Item | Link |
 |:---|:---|
-| python | [python-examples](https://github.com/tungbq/python-examples)|
-| aws-lab-with-terraform | [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)|
-| bookmarks | [bookmarks](https://github.com/tungbq/bookmarks)|
+| python | 🐍 [python-examples](https://github.com/tungbq/python-examples)|
+| aws-lab-with-terraform | ☁️ [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)|
+| bookmarks | 🔖 [bookmarks](https://github.com/tungbq/bookmarks)|
+| 90DaysOfDevOps | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)|
+| devops-exercises | 📚 [devops-exercises](https://github.com/bregman-arie/devops-exercises)|
+| devops-resources | 🔗 [devops-resources](https://github.com/bregman-arie/devops-resources)|
+
 
 ## Contributing
 - See: [CONTRIBUTING.md](./CONTRIBUTING.md)
