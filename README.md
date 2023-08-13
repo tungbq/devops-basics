@@ -14,7 +14,7 @@
 | Helm | ✔️ [helm](./topics/helm/)|[helm.sh/docs](https://helm.sh/docs/)|🚶‍♂️ TO-DO|
 | Jenkins | 🚶‍♂️ [jenkins](./topics/jenkins/) - **TODO**|[www.jenkins.io/doc](https://www.jenkins.io/doc/)|🚶‍♂️ TO-DO|
 | Terraform | ✔️ [terraform](./topics/terraform/)|[terraform/docs](https://developer.hashicorp.com/terraform/docs)|🚶‍♂️ TO-DO|
-| Shell | ✔️ [shell](./topics/shell/)|| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
+| Shell | ✔️ [shell](./topics/shell/)|[devdocs.io/bash](https://devdocs.io/bash/)| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
 | Git | ✔️ [git](./topics/git/)||🚶‍♂️ TO-DO|
 | Elk | ✔️ [elk](./topics/elk/)||🚶‍♂️ TO-DO|
 | ArgoCD | ✔️ [argocd](./topics/argocd/)||🚶‍♂️ TO-DO|
