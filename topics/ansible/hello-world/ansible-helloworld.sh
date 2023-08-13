@@ -17,3 +17,8 @@ check_tool_exist
 console_log "Checking Ansible version"
 ansible --version
 
+console_log "Checking inventory host"
+ansible all --list-hosts -i inventory.init
+
+console_log "Send ping command to the host"
+ansible all -m ping -i inventory.init
