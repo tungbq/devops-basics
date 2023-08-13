@@ -11,7 +11,7 @@
 | Docker | ✔️ [docker](./topics/docker/)| [docs.docker.com](https://docs.docker.com/)|✔️ [docker-helloworld.sh](./topics/docker/docker-helloworld.sh)|
 | Kubernetes (k8s) | ✔️ [k8s](./topics/k8s/)| [kubernetes.io/docs](https://kubernetes.io/docs/home/) |✔️ [k8s-helloworld.sh](./topics/k8s/k8s-helloworld.sh)|
 | Aws | ✔️ [aws](./topics/aws/)|[docs.aws.amazon.com](https://docs.aws.amazon.com/)|🚶‍♂️ TO-DO |
-| Helm | ✔️ [helm](./topics/helm/)||🚶‍♂️ TO-DO|
+| Helm | ✔️ [helm](./topics/helm/)|[helm.sh/docs](https://helm.sh/docs/)|🚶‍♂️ TO-DO|
 | Jenkins | 🚶‍♂️ [jenkins](./topics/jenkins/) - **TODO**||🚶‍♂️ TO-DO|
 | Terraform | ✔️ [terraform](./topics/terraform/)||🚶‍♂️ TO-DO|
 | Shell | ✔️ [shell](./topics/shell/)|| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
