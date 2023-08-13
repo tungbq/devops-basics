@@ -19,7 +19,7 @@
 | Elk | ✔️ [elk](./topics/elk/)|[www.elastic.co/guide](https://www.elastic.co/guide/index.html)|🚶‍♂️ TO-DO|
 | ArgoCD | ✔️ [argocd](./topics/argocd/)|[argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|🚶‍♂️ TO-DO|
 | Github-Action | ✔️ [github-action](./topics/github-action/)|[docs.github.com/actions](https://docs.github.com/actions)|🚶‍♂️ TO-DO|
-| Groovy | 🚶‍♂️ [groovy](./topics/groovy/)||🚶‍♂️ TO-DO|
+| Groovy | 🚶‍♂️ [groovy](./topics/groovy/)|[groovy-lang.org](https://groovy-lang.org/documentation.html)|🚶‍♂️ TO-DO|
 
 
 ## Extra content (from other repos)
