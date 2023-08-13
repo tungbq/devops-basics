@@ -5,21 +5,21 @@
 
 ## Getting started - [getting-started](./getting-started/) ⬆️
 ## We cover many DevOps topics content under - [topic](./topics/) 🔥
-| Item | Content | Hands-on script |
-|:---|:---|:---|
-| Ansible | ✔️ [ansible](./topics/ansible/)| ✔️ [ansible-helloworld.sh](./topics/ansible/hello-world/ansible-helloworld.sh)|
-| Docker | ✔️ [docker](./topics/docker/)|✔️ [docker-helloworld.sh](./topics/docker/docker-helloworld.sh)|
-| Kubernetes (k8s) | ✔️ [k8s](./topics/k8s/)|✔️ [k8s-helloworld.sh](./topics/k8s/k8s-helloworld.sh)|
-| Aws | ✔️ [aws](./topics/aws/)|🚶‍♂️ TO-DO |
-| Helm | ✔️ [helm](./topics/helm/)|🚶‍♂️ TO-DO|
-| Jenkins | 🚶‍♂️ [jenkins](./topics/jenkins/) - **TODO**|🚶‍♂️ TO-DO|
-| Terraform | ✔️ [terraform](./topics/terraform/)|🚶‍♂️ TO-DO|
-| Shell | ✔️ [shell](./topics/shell/)| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
-| Git | ✔️ [git](./topics/git/)|🚶‍♂️ TO-DO|
-| Elk | ✔️ [elk](./topics/elk/)|🚶‍♂️ TO-DO|
-| ArgoCD | ✔️ [argocd](./topics/argocd/)|🚶‍♂️ TO-DO|
-| Github-Action | ✔️ [github-action](./topics/github-action/)|🚶‍♂️ TO-DO|
-| Groovy | 🚶‍♂️ [groovy](./topics/groovy/)|🚶‍♂️ TO-DO|
+| Item | Content | Official Docs | Hands-on script |
+|:---|:---|:---|:---|
+| Ansible | ✔️ [ansible](./topics/ansible/)| 📖 [docs.ansible.com](https://docs.ansible.com/)|✔️ [ansible-helloworld.sh](./topics/ansible/hello-world/ansible-helloworld.sh)|
+| Docker | ✔️ [docker](./topics/docker/)| 📖 [docs.docker.com](https://docs.docker.com/)|✔️ [docker-helloworld.sh](./topics/docker/docker-helloworld.sh)|
+| Kubernetes (k8s) | ✔️ [k8s](./topics/k8s/)| 📖 [kubernetes.io/docs](https://kubernetes.io/docs/home/) |✔️ [k8s-helloworld.sh](./topics/k8s/k8s-helloworld.sh)|
+| Aws | ✔️ [aws](./topics/aws/)| 📖 [docs.aws.amazon.com](https://docs.aws.amazon.com/)|🚶‍♂️ TO-DO |
+| Helm | ✔️ [helm](./topics/helm/)| 📖 [helm.sh/docs](https://helm.sh/docs/)|🚶‍♂️ TO-DO|
+| Jenkins | 🚶‍♂️ [jenkins](./topics/jenkins/) - **TODO**| 📖 [www.jenkins.io/doc](https://www.jenkins.io/doc/)|🚶‍♂️ TO-DO|
+| Terraform | ✔️ [terraform](./topics/terraform/)| 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)|🚶‍♂️ TO-DO|
+| Shell | ✔️ [shell](./topics/shell/)| 📖 [devdocs.io/bash](https://devdocs.io/bash/)| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
+| Git | ✔️ [git](./topics/git/)| 📖 [git-scm.com/doc](https://git-scm.com/doc)|🚶‍♂️ TO-DO|
+| Elk | ✔️ [elk](./topics/elk/)| 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)|🚶‍♂️ TO-DO|
+| ArgoCD | ✔️ [argocd](./topics/argocd/)| 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|🚶‍♂️ TO-DO|
+| Github-Action | ✔️ [github-action](./topics/github-action/)| 📖 [docs.github.com/actions](https://docs.github.com/actions)|🚶‍♂️ TO-DO|
+| Groovy | 🚶‍♂️ [groovy](./topics/groovy/)| 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)|🚶‍♂️ TO-DO|
 
 
 ## Extra content (from other repos)
