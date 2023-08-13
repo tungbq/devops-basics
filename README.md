@@ -10,7 +10,7 @@
 | Ansible | ✔️ [ansible](./topics/ansible/)| [docs.ansible.com](https://docs.ansible.com/)|✔️ [ansible-helloworld.sh](./topics/ansible/hello-world/ansible-helloworld.sh)|
 | Docker | ✔️ [docker](./topics/docker/)| [docs.docker.com](https://docs.docker.com/)|✔️ [docker-helloworld.sh](./topics/docker/docker-helloworld.sh)|
 | Kubernetes (k8s) | ✔️ [k8s](./topics/k8s/)| [kubernetes.io/docs](https://kubernetes.io/docs/home/) |✔️ [k8s-helloworld.sh](./topics/k8s/k8s-helloworld.sh)|
-| Aws | ✔️ [aws](./topics/aws/)||🚶‍♂️ TO-DO |
+| Aws | ✔️ [aws](./topics/aws/)|[docs.aws.amazon.com](https://docs.aws.amazon.com/)|🚶‍♂️ TO-DO |
 | Helm | ✔️ [helm](./topics/helm/)||🚶‍♂️ TO-DO|
 | Jenkins | 🚶‍♂️ [jenkins](./topics/jenkins/) - **TODO**||🚶‍♂️ TO-DO|
 | Terraform | ✔️ [terraform](./topics/terraform/)||🚶‍♂️ TO-DO|
