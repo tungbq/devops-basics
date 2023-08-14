@@ -13,6 +13,10 @@ rm -rf docker-elk
 git clone git@github.com:deviantony/docker-elk.git
 cd docker-elk
 
+console_log "Setup"
+docker-compose up setup
+
 console_log "Starting the ELK stack"
 docker-compose up -d
 
+# Next: How to monitor the k8s cluster
