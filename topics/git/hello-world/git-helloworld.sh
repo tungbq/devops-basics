@@ -1,5 +1,5 @@
 console_log() {
-  echo ">>> [Git] $1"
+  echo "\e[32m>>> [Git] $1\e[0m"
 }
 
 WORKSPACE="/tmp/devops-basic/git/demo"
@@ -52,3 +52,9 @@ git commit -m "dev: this is my first commit"
 console_log "Push the change (dry-run)"
 git push origin my-dev-branch --dry-run
 console_log "Just for demo! In real world, we will not use the --dry-run option"
+
+console_log "Check git log"
+git --no-pager log -n 3
+
+console_log "Check git status - again"
+git status
