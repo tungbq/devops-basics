@@ -53,7 +53,7 @@ console_log "Push the change (dry-run)"
 git push origin my-dev-branch --dry-run
 console_log "Just for demo! In real world, we will not use the --dry-run option"
 
-console_log "Check git log"
+console_log "Check git log (last 3 commits)"
 git --no-pager log -n 3
 
 console_log "Check git status - again"
