@@ -11,7 +11,7 @@ on:
 jobs:
   greeting:
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'all-contributors[bot]' && github.actor != 'tungbq' }}
+    if: ${{ github.actor != 'all-contributors[bot]' && github.event.pull_request.user.login != 'tungbq' }}
     permissions:
       issues: write
       pull-requests: write
