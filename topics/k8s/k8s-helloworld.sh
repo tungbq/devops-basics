@@ -1,3 +1,5 @@
+#!/bin/bash
+
 console_log() {
   echo ">>> [Kubernetes] $1"
 }
