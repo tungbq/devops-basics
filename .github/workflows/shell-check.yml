@@ -16,4 +16,4 @@ jobs:
               topics/shell
           pattern: "*.sh" # Optional.
           exclude: "./.git/*" # Optional.
-          check_all_files_with_shebangs: "false" # Optional.
+          check_all_files_with_shebangs: "true" # Optional.
