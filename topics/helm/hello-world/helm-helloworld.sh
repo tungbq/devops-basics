@@ -4,8 +4,8 @@ console_log() {
   echo ">>> [Helm] $1"
 }
 
+CLEANUP=$1
 HELM_SQL_NAME="my-nginx-demo"
-CLEANUP="false"
 
 command -v helm
 
