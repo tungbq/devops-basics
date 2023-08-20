@@ -18,7 +18,7 @@
 | Aws | ✔️ [aws](./topics/aws/)| 📖 [docs.aws.amazon.com](https://docs.aws.amazon.com/)| ✔️ [EC2_GetStarted](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) 📖|
 | Helm | ✔️ [helm](./topics/helm/)| 📖 [helm.sh/docs](https://helm.sh/docs/)|✔️ [helm-helloworld.sh](./topics/helm/hello-world/helm-helloworld.sh)|
 | Jenkins | 🚶‍♂️ [jenkins](./topics/jenkins/) - **TODO**| 📖 [www.jenkins.io/doc](https://www.jenkins.io/doc/)|🚶‍♂️ TO-DO|
-| Terraform | ✔️ [terraform](./topics/terraform/)| 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)|🚶‍♂️ TO-DO|
+| Terraform | ✔️ [terraform](./topics/terraform/)| 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)|✔️ [terraform-helloworld.sh](./topics/terraform/hello-world/terraform-helloworld.sh)|
 | Shell | ✔️ [shell](./topics/shell/)| 📖 [devdocs.io/bash](https://devdocs.io/bash/)| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
 | Git | ✔️ [git](./topics/git/)| 📖 [git-scm.com/doc](https://git-scm.com/doc)|✔️ [git-helloworld.sh](./topics/git/hello-world/git-helloworld.sh)|
 | Elk | ✔️ [elk](./topics/elk/)| 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)|🚶‍♂️ TO-DO|
