@@ -28,5 +28,6 @@ terraform apply --auto-approve
 console_log "Navigate to your AWS account to verify the created EC2 instance"
 console_log "Keep exploring from AWS..."
 
+console_log "IMPORTANT! Please terminate the resource after the hands on to avoid unexpected AWS cost!"
 console_log "Once verification completed! Run terraform destroy, and type 'yes' to confirm"
 terraform destroy
