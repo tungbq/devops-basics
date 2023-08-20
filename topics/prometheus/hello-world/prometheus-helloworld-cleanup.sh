@@ -14,5 +14,11 @@ kill_port() {
   kill -9 $PID
 }
 
+uninstall_chart() {
+  local char_name=$1
+  helm uninstall $char_name
+}
+
 console_log "Cleanup Prometheus Demo!"
 kill_port $1
+uninstall_chart $2

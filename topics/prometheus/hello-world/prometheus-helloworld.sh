@@ -13,7 +13,7 @@ PROMETHEUS_NAME="my-prometheus-stable"
 console_log "Welcome to the Prometheus demo..."
 
 console_log "Cleanup the previous Prometheus demo..."
-./prometheus-helloworld-cleanup.sh "$port_fwd"
+./prometheus-helloworld-cleanup.sh "$port_fwd" "$PROMETHEUS_NAME"
 
 console_log "Deploy our own Prometheus server"
 console_log "Deploying Prometheus to Kubernetes - with Helm..."
@@ -26,6 +26,9 @@ helm repo list
 
 console_log "Deploy Prometheus stable - default chart"
 helm install $PROMETHEUS_NAME prometheus-community/prometheus
+
+console_log "Waiting 20s for Helm deployment completed"
+sleep 20
 
 console_log "Check the installation"
 helm list
@@ -41,4 +44,18 @@ console_log "Check the prometheus web UI"
 curl "localhost:$local_port"
 
 console_log "Congrats! You've just deployed your own Prometheus using Helm 🎉🎉🎉"
-console_log "Your own Prometheus URL is: http://localhost:$local_port"
+console_log "Your own Prometheus server URL is: http://localhost:$local_port"
+
+console_log "Now visit your own Prometheus server URL"
+console_log "[Search] Under the Search Expression, inpout 'container_cpu_load_average_10s'"
+console_log "[Execute] Then hit the 'Execute' button on the right hand side"
+console_log "[Result] You would see the result like:"
+sample_result_output="""
+  container_cpu_usage_seconds_total{beta_kubernetes_io_arch="amd64", 
+  beta_kubernetes_io_os="linux", cpu="total", id="/", instance="docker-desktop", 
+  job="kubernetes-nodes-cadvisor", kubernetes_io_arch="amd64",
+  kubernetes_io_hostname="docker-desktop", kubernetes_io_os="linux"}
+  2334.7130145"""
+console_log "[Result] $sample_result_output"
+
+console_log "Congrats! You did the first hands-on with Prometheus 🎉"
