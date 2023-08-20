@@ -31,3 +31,5 @@ console_log "Keep exploring from AWS..."
 console_log "IMPORTANT! Please terminate the resource after the hands on to avoid unexpected AWS cost!"
 console_log "Once verification completed! Run terraform destroy, and type 'yes' to confirm"
 terraform destroy
+
+console_log "Done! Congratulations, you've just created the EC2 instance on AWS using Terraform!"
