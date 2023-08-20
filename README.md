@@ -5,7 +5,7 @@
 
 ## Getting started - [getting-started](./getting-started/) ⬆️
 #### DevOps Diagram ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" width="500">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" width="500">
 
 #### DevOps Roadmap ➡️ [roadmap.sh/devops](https://roadmap.sh/devops)
 
