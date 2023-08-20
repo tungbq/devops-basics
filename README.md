@@ -25,7 +25,7 @@
 | ArgoCD | ✔️ [argocd](./topics/argocd/)| 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|🚶‍♂️ TO-DO|
 | Github-Action | ✔️ [github-action](./topics/github-action/)| 📖 [docs.github.com/actions](https://docs.github.com/actions)|✔️ [Create First Workflow](https://docs.github.com/en/actions/quickstart#creating-your-first-workflow)|
 | Groovy | 🚶‍♂️ [groovy](./topics/groovy/)| 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)|🚶‍♂️ TO-DO|
-| Prometheus | ✔️ [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|🚶‍♂️ TO-DO|
+| Prometheus | ✔️ [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/hello-world/prometheus-helloworld.sh)|
 
 
 ## Extra content (from other repos)
