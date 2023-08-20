@@ -11,7 +11,7 @@
 - https://prometheus.io/docs/prometheus/latest/installation/
 
 # Prometheus Helloworld Hands-on
-- Required knowledge in [helm](./topics/helm/) | [k8s](./topics/k8s/) first for better understanding. Because we will deploy our own Prometheus to K8s using Helm
+- Required knowledge in [helm](../../topics/helm/) | [k8s](../../topics/k8s/) first for better understanding. Because we will deploy our own Prometheus to K8s using Helm
 - Run the demo scipt: `cd hello-world; ./prometheus-helloworld.sh`
 - (Optional) Run the demo scipt and cleanup right after the demo: `cd hello-world; ./prometheus-helloworld.sh true`
 
