@@ -4,6 +4,10 @@ console_log() {
   echo ">>> [Prometheus] $1"
 }
 
+# If you wanna run the script and cleanup right after the demo, run this script with 'true' input
+# e.g: prometheus-helloworld.sh true
+CLEANUP_AFTER_DEMO=$1
+
 local_port="9080"
 prometheus_service_port="80"
 port_fwd="$local_port:$prometheus_service_port"
@@ -59,3 +63,12 @@ sample_result_output="""
 console_log "[Result] $sample_result_output"
 
 console_log "Congrats! You did the first hands-on with Prometheus 🎉"
+
+if [[ "$CLEANUP_AFTER_DEMO" == "true" ]]; then
+  console_log "Do cleanup after the demo!"
+  ./prometheus-helloworld-cleanup.sh "$port_fwd" "$PROMETHEUS_NAME"
+  console_log "Cleanup completed!"
+else
+  console_log "Option cleanup after the demo is not set. You can cleanup the resource in this hands-on by running:"
+  console_log "./prometheus-helloworld-cleanup.sh "$port_fwd" "$PROMETHEUS_NAME""
+fi
