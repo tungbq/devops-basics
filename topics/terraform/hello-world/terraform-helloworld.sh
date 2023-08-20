@@ -9,6 +9,9 @@ console_log "Demo creating an EC2 instance on AWS using Terraform"
 console_log "Navigating to aws ec2 example"
 cd aws-ec2
 
+console_log "Checking the AWS EC2 example structure"
+ls -la
+
 console_log "Checking the variables content"
 cat variables.tf
 
