@@ -1,3 +1,5 @@
+#!/bin/bash
+
 console_log() {
   echo "\e[32m>>> [Git] $1\e[0m"
 }
