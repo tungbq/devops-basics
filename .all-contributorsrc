@@ -115,6 +115,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "BreakingPitt",
+      "name": "Pedro Garcia Rodriguez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10740572?v=4",
+      "profile": "https://www.breakingpitt.es",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
