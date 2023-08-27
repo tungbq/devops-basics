@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: ls
-      - run: node Graph.j
+      - run: bash topics/shell/basic.sh
