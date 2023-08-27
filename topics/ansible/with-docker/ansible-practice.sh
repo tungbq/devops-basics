@@ -1,3 +1,4 @@
+#!/bin/bash
 echo ">>> Building ansible runner..."
 docker build -t ansible-runner -f AnsibleEnv.dockerfile .
 echo ">>> Execute ansible playbook (ping google)..."
