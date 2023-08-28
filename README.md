@@ -1,6 +1,6 @@
 ##  A place to practice basic DevOps toolchain.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Getting started - [getting-started](./getting-started/) ⬆️
@@ -68,6 +68,9 @@
       <td align="center" valign="top" width="14.28%"><a href="https://allcontributors.org"><img src="https://avatars.githubusercontent.com/u/46410174?v=4?s=100" width="100px;" alt="All Contributors"/><br /><sub><b>All Contributors</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=all-contributors" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.breakingpitt.es"><img src="https://avatars.githubusercontent.com/u/10740572?v=4?s=100" width="100px;" alt="Pedro Garcia Rodriguez"/><br /><sub><b>Pedro Garcia Rodriguez</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=BreakingPitt" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/gaus07"><img src="https://avatars.githubusercontent.com/u/93215648?v=4?s=100" width="100px;" alt="Mohammed Gaus"/><br /><sub><b>Mohammed Gaus</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=gaus07" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/khanumar03"><img src="https://avatars.githubusercontent.com/u/125285100?v=4?s=100" width="100px;" alt="Khan Umar"/><br /><sub><b>Khan Umar</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=khanumar03" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
