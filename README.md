@@ -36,9 +36,7 @@
 | 90DaysOfDevOps | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)|
 | devops-exercises | 📚 [devops-exercises](https://github.com/bregman-arie/devops-exercises)|
 | devops-resources | 🔗 [devops-resources](https://github.com/bregman-arie/devops-resources)|
-
-## Once you are familiar with the basic concepts, you can further explore - [devops-project](https://github.com/tungbq/devops-project) 🏗️
-
+| devops-project | 🏗️ [devops-project](https://github.com/tungbq/devops-project)|
 
 ## Contributing
 - See: [CONTRIBUTING.md](./CONTRIBUTING.md)
