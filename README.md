@@ -27,7 +27,6 @@
 | Groovy | 🚶‍♂️ [groovy](./topics/groovy/)| 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)|🚶‍♂️ TO-DO|
 | Prometheus | ✔️ [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/hello-world/prometheus-helloworld.sh)|
 
-
 ## Extra content (from other repos)
 | Item | Link |
 |:---|:---|
@@ -37,6 +36,8 @@
 | 90DaysOfDevOps | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)|
 | devops-exercises | 📚 [devops-exercises](https://github.com/bregman-arie/devops-exercises)|
 | devops-resources | 🔗 [devops-resources](https://github.com/bregman-arie/devops-resources)|
+
+## Once you are familiar with the basic concepts, you can further explore - [devops-project](https://github.com/tungbq/devops-project) 🏗️
 
 
 ## Contributing
