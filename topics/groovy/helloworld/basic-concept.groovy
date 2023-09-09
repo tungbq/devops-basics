@@ -1,5 +1,10 @@
+// Function to print log messages in green color
+def consoleLog(message) {
+    println "\u001B[32m[INFO] $message\u001B[0m"
+}
+
 // Greetings!
-println "Welcome to Groovy!"
+consoleLog("Welcome to Groovy!")
 
 //------------------------
 // Working with variables
@@ -13,6 +18,8 @@ println "${myName} is ${myAge} years old!"
 // Working with if-else
 //-------------------
 
+consoleLog("Working with if-else")
+
 def number = 10
 
 if (number > 5) {
@@ -24,6 +31,8 @@ if (number > 5) {
 //-----------------------
 // Working with switch-case
 //-----------------------
+
+consoleLog("Working with switch-case")
 
 def myFruit = "Banana"
 
@@ -45,6 +54,8 @@ switch (myFruit) {
 // Working with for loop
 //--------------------
 
+consoleLog("Working with for loop")
+
 def fruits = ["Apple", "Banana", "Cherry", "Watermelon", "Elderberry"]
 
 for (fruit in fruits) {
@@ -54,6 +65,8 @@ for (fruit in fruits) {
 //----------------------
 // Working with functions
 //----------------------
+
+consoleLog("Working with functions")
 
 def factorial(n) {
     if (n == 0) {
@@ -72,6 +85,8 @@ println("Factorial of 5 is: $result")
 //-----------------------
 // Working with Map in Groovy
 //-----------------------
+
+consoleLog("Working with Map in Groovy")
 
 // Create a map with key-value pairs
 def person = [
@@ -99,6 +114,8 @@ person.each { key, value ->
 //--------------------
 // Working with try-catch
 //--------------------
+
+consoleLog("Working with try-catch")
 
 def divideNumbers(int dividend, int divisor) {
     try {
