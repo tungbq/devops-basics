@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Hit the Star! ⭐⭐⭐
+## Hit the Star! ⭐
 - If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐ Thanks! 💖
 
 ## Getting started - [getting-started](./getting-started/) ⬆️
