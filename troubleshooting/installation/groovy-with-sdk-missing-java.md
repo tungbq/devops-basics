@@ -1,5 +1,6 @@
 # Groovy
 - Error `groovy: JAVA_HOME not set and cannot find javac to deduce location, please set JAVA_HOME.`:
+- Try to install the java by running `sdk install java`
 ```
 ➜  ~ curl -s "https://get.sdkman.io" | bash
 ➜  ~ source "$HOME/.sdkman/bin/sdkman-init.sh"
