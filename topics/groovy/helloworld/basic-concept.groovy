@@ -71,3 +71,23 @@ person["email"] = "john.doe@example.com"
 person.each { key, value ->
     println("$key: $value")
 }
+
+// Working with try catch
+def divideNumbers(int dividend, int divisor) {
+    try {
+        def result = dividend / divisor
+        return result
+    } catch (ArithmeticException e) {
+        println("An arithmetic exception occurred: ${e.message}")
+    } finally {
+        println("Finally block executed.")
+    }
+}
+
+// Example usage:
+try {
+    def devideResult = divideNumbers(10, 2)
+    println("Result: $devideResult")
+} catch (Exception e) {
+    println("An exception occurred: ${e.message}")
+}
