@@ -3,6 +3,9 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+## Hit the Star! ⭐⭐⭐
+- If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐ Thanks! 💖
+
 ## Getting started - [getting-started](./getting-started/) ⬆️
 #### DevOps Diagram ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" width="500">
@@ -40,8 +43,7 @@
 
 ## Contributing
 - See: [CONTRIBUTING.md](./CONTRIBUTING.md)
-- Looking for the issue to work on? Check the list of our open issues [good first issue](https://github.com/tungbq/devops-basic/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-- If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐ Thanks! 💖
+- Looking for the issue to work on? Check the list of our open issues [**good first issue**](https://github.com/tungbq/devops-basic/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 ## Contributors
 
