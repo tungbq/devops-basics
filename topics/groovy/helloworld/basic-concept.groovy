@@ -52,3 +52,22 @@ def result = factorial(5)
 //-- Print the result
 println("Factorial of 5 is: $result")
 
+// Working with Map in groovy
+// Create a map with key-value pairs
+def person = [
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 30,
+    "city": "New York"
+]
+// Access values in the map
+def firstName = person["firstName"]
+def age = person["age"]
+// Modify values in the map
+person["city"] = "Los Angeles"
+// Add a new key-value pair to the map
+person["email"] = "john.doe@example.com"
+// Iterate over the map
+person.each { key, value ->
+    println("$key: $value")
+}
