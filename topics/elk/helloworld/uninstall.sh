@@ -4,9 +4,17 @@ console_log() {
   echo ">>> [Elk] $1"
 }
 
+console_log "Delete related kibana"
+kubectl delete configmap kibana-kibana-helm-scripts
+kubectl delete serviceaccount pre-install-kibana-kibana
+kubectl delete roles pre-install-kibana-kibana
+kubectl delete rolebindings pre-install-kibana-kibana
+kubectl delete job pre-install-kibana-kibana
+
 console_log "Uninstall"
-helm delete elasticsearch
-helm delete kibana
+helm uninstall elasticsearch
+helm uninstall metricbeat
+helm uninstall kibana
 
 console_log "Elastic - Kill prev port"
 ### Run the ps -ef command and use grep to filter the output for 'port-forward'
