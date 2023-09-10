@@ -43,6 +43,7 @@ fi
 
 # Deploy
 echo "Deploying..."
+docker-compose up setup
 docker-compose up -d
 
 # Verify
