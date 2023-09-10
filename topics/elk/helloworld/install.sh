@@ -28,13 +28,13 @@ sleep 15
 # login URL
 elk_url="http://localhost:9200"
 curl $elk_url
-log $elk_url
+console_log $elk_url
 
 
 console_log "install metricbeat"
 # helm install filebeat elastic/filebeat
-Helm install metricbeat elastic/metricbeat
-curl "$elk_url/_cat/indices"
+helm install metricbeat elastic/metricbeat
+
 
 console_log "install kibana"
 helm install kibana elastic/kibana
@@ -47,4 +47,3 @@ sleep 15
 kibana_url="http://localhost:5061"
 curl $kibana_url
 console_log $kibana_url
-
