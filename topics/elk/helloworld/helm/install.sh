@@ -17,13 +17,13 @@ console_log "Cleanup prev run!!!"
 ./uninstall.sh
 
 console_log "install elasticsearch"
-helm install elasticsearch elastic/elasticsearch
+helm upgrade --install elasticsearch elastic/elasticsearch -f values.yml
 
 console_log "waiting for service up and running..."
 sleep 30
 
 console_log "Port forwarding..."
-kubectl port-forward svc/elasticsearch-master 9200:9200 &
+kubectl port-forward svc/elasticsearch-master 9200 &
 console_log "Waiting 15s for port forward process completed..."
 sleep 15
 # login URL
@@ -33,12 +33,12 @@ console_log $elk_url
 
 
 console_log "install metricbeat"
-# helm install filebeat elastic/filebeat
-helm install metricbeat elastic/metricbeat
+# helm upgrade --install filebeat elastic/filebeat
+helm upgrade --install metricbeat elastic/metricbeat
 
 
 console_log "install kibana"
-helm install kibana elastic/kibana
+helm upgrade --install kibana elastic/kibana
 sleep 30
 
 console_log "Port forwarding..."
