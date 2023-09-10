@@ -48,14 +48,15 @@ docker-compose up -d
 
 # Verify
 echo "Verifying..."
+echo "Verifying elasticsearch..."
 docker ps | grep elk-elasticsearch
+echo "Verifying logstash..."
 docker ps | grep elk-logstash
+echo "Verifying kibana..."
 docker ps | grep elk-kibana
 
 echo "View Elastic at:"
-echo
 echo "http://localhost:9200"
-
-echo "View Kibana at:"
 echo
-echo "http://localhost:5061"
+echo "View Kibana at:"
+echo "http://localhost:5601"
