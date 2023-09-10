@@ -22,7 +22,7 @@ cd docker-elk
 ls -la
 
 # Uninstall
-$CUR_DIR/uninstall.sh
+sh "$CUR_DIR/uninstall.sh"
 
 echo "Overwride local config env"
 cp "$CUR_DIR/.custom-env" .env
@@ -32,3 +32,6 @@ echo "Deploying..."
 docker-compose up setup
 docker-compose up -d
 
+# Verify
+echo "Verifying..."
+docker ps | grep elk

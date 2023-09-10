@@ -1,4 +1,3 @@
-
 # Deploy
-echo "Deploying..."
+echo "Un-deploying..."
 docker-compose down -v
