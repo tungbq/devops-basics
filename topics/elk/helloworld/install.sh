@@ -1,9 +1,10 @@
 #!/bin/bash
-
+GREEN='\033[0;32m'
+# ANSI escape code to reset text color to default
+RESET='\033[0m'
 console_log() {
-  echo ">>> [Elk] $1"
+  echo -e "${GREEN}>>> [Elk] $1${RESET}"
 }
-
 
 command -v kubectl
 

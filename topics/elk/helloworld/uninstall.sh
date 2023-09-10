@@ -1,12 +1,15 @@
 #!/bin/bash
-
+GREEN='\033[0;32m'
+# ANSI escape code to reset text color to default
+RESET='\033[0m'
 console_log() {
-  echo ">>> [Elk] $1"
+  echo "${GREEN}>>> [Elk] $1${GREEN}"
 }
 
 console_log "Delete related kibana"
 kubectl delete configmap kibana-kibana-helm-scripts
 kubectl delete serviceaccount pre-install-kibana-kibana
+kubectl delete serviceaccount post-delete-kibana-kibana
 kubectl delete roles pre-install-kibana-kibana
 kubectl delete rolebindings pre-install-kibana-kibana
 kubectl delete job pre-install-kibana-kibana
