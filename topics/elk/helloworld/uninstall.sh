@@ -1,9 +1,9 @@
 #!/bin/bash
-GREEN='\033[0;32m'
+ORANGE='\033[0;33m'
 # ANSI escape code to reset text color to default
 RESET='\033[0m'
 console_log() {
-  echo "${GREEN}>>> [Elk] $1${GREEN}"
+  echo -e "${ORANGE}>>> [CLEANUP] [Elk] $1${RESET}"
 }
 
 console_log "Delete related kibana"
@@ -15,9 +15,9 @@ kubectl delete rolebindings pre-install-kibana-kibana
 kubectl delete job pre-install-kibana-kibana
 
 console_log "Uninstall"
-helm uninstall elasticsearch
-helm uninstall metricbeat
-helm uninstall kibana
+helm delete elasticsearch
+helm delete metricbeat
+helm delete kibana
 
 console_log "Elastic - Kill prev port"
 ### Run the ps -ef command and use grep to filter the output for 'port-forward'

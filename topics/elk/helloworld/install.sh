@@ -13,7 +13,7 @@ helm repo add elastic https://helm.elastic.co
 helm repo update
 helm search hub elasticsearch
 
-console_log "Cleanup prev run"
+console_log "Cleanup prev run!!!"
 ./uninstall.sh
 
 console_log "install elasticsearch"
@@ -40,6 +40,7 @@ helm install metricbeat elastic/metricbeat
 console_log "install kibana"
 helm install kibana elastic/kibana
 sleep 30
+
 console_log "Port forwarding..."
 kubectl port-forward svc/elasticsearch-master 5061:5061 &
 console_log "Waiting 15s for port forward process completed..."
