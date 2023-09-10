@@ -31,7 +31,20 @@ curl $elk_url
 log $elk_url
 
 
-console_log "install filebeat"
-helm install filebeat elastic/filebeat
-
+console_log "install metricbeat"
+# helm install filebeat elastic/filebeat
+Helm install metricbeat elastic/metricbeat
 curl "$elk_url/_cat/indices"
+
+console_log "install kibana"
+helm install kibana elastic/kibana
+sleep 30
+console_log "Port forwarding..."
+kubectl port-forward svc/elasticsearch-master 5061:5061 &
+console_log "Waiting 15s for port forward process completed..."
+sleep 15
+# login URL
+kibana_url="http://localhost:5061"
+curl $kibana_url
+console_log $kibana_url
+
