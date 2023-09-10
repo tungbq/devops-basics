@@ -47,8 +47,14 @@ docker-compose up -d
 
 # Verify
 echo "Verifying..."
-if docker ps | grep -q "elk"; then
-  echo "ELK stack is running."
-else
-  echo "ELK stack is not running."
-fi
+docker ps | grep elk-elasticsearch
+docker ps | grep elk-logstash
+docker ps | grep elk-kibana
+
+echo "View Elastic at:"
+echo
+echo "http://localhost:9200"
+
+echo "View Kibana at:"
+echo
+echo "http://localhost:5061"
