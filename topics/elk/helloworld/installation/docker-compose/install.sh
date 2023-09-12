@@ -33,13 +33,13 @@ if [ -f "$CUR_DIR/uninstall.sh" ]; then
   sh "$CUR_DIR/uninstall.sh"
 fi
 
-# Override local config env
-if [ -f "$CUR_DIR/.custom-env" ]; then
-  echo "Overwriting local config env..."
-  cp "$CUR_DIR/.custom-env" .env
-else
-  echo "Warning: .custom-env file not found."
-fi
+# # Override local config env
+# if [ -f "$CUR_DIR/.custom-env" ]; then
+#   echo "Overwriting local config env..."
+#   cp "$CUR_DIR/.custom-env" .env
+# else
+#   echo "Warning: .custom-env file not found."
+# fi
 
 # Deploy
 echo "Deploying..."
