@@ -1,0 +1,12 @@
+---
+- name: Main Playbook
+  hosts: your_target_hosts
+  become: yes
+  tasks:
+    - name: Include Role 1
+      import_role:
+        name: role1
+    
+    - name: Include Role 2
+      import_role:
+        name: role2
