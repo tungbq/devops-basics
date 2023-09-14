@@ -1,12 +1,8 @@
 ---
 - name: Main Playbook
-  hosts: your_target_hosts
+  hosts: my-localhost
   become: yes
   tasks:
-    - name: Include Role 1
+    - name: Include ping-google
       import_role:
-        name: role1
-    
-    - name: Include Role 2
-      import_role:
-        name: role2
+        name: ping-google
