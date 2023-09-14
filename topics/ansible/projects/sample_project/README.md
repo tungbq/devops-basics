@@ -10,7 +10,13 @@ my_ansible_project/
 │   │   ├── templates/
 │   │   ├── defaults/
 │   │   └── meta/
-│   ├── role2/...(same as role1/)
+│   └── role2/
+│       ├── tasks/
+│       ├── handlers/
+│       ├── templates/
+│       ├── defaults/
+│       └── meta/
+├── main.yml (your main playbook file)
 ```
 
 # How to run
