@@ -1,0 +1,2 @@
+# What is Handlers?
+- In Ansible, handlers are a way to define a list of tasks that should be executed only if certain conditions are met, typically triggered by a notify directive in other tasks. Handlers are often used for actions that need to be taken only when specific changes occur during the playbook run, such as restarting services after configuration changes.
