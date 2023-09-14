@@ -5,3 +5,6 @@
     - name: Include ping-google
       import_role:
         name: ping-google
+    - name: Include check_up_time
+      import_role:
+        name: check_up_time
