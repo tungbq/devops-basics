@@ -1,12 +1,4 @@
 ---
-- name: Check up time
-  hosts: my-localhost
-  tasks:
-    - name: Execute uptime command
-      command: uptime
-# - name: Ping google.com
-#   gather_facts: no
-#   tasks:
-#     - name: Ping google.com
-#       ping:
-#         data: "google.com"
+- name: Ping google.com
+  ping:
+    data: "google.com"
