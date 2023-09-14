@@ -2,9 +2,12 @@
 - name: Main Playbook
   hosts: my-localhost
   tasks:
-    - name: Include ping-google
+    - name: Include sample_role
       import_role:
-        name: ping-google
+        name: sample_role
+    - name: Include ping_google
+      import_role:
+        name: ping_google
     - name: Include check_up_time
       import_role:
         name: check_up_time

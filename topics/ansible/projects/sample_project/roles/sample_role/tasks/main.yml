@@ -1,0 +1,3 @@
+---
+- name: Greetings!
+  ansible.builtin.command: echo "Hello from sample_role"
