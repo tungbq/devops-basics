@@ -1,7 +1,6 @@
 ---
 - name: Main Playbook
   hosts: my-localhost
-  become: yes
   tasks:
     - name: Include ping-google
       import_role:
