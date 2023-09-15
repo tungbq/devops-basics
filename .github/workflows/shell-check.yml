@@ -1,7 +1,7 @@
 name: ShellCheck
 
 on: 
-  woworkflow_dispatch:
+  workflow_dispatch:
   ## Temporary disable run on main (avoid spamming notifications), only run on user trigger, to fix all existing issues first before adding to CI
   # pull_request:
   #   branches: ["main"]
