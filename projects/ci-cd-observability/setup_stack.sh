@@ -1,7 +1,8 @@
 #!/bin/bash
 CUR_DIR=$(pwd)
-echo "start Jenkins..."
 
+
+echo "Start Jenkins..."
 cd "$CUR_DIR/../../topics/helm/hands-on/deploy-jenkins/"
 ls -la
 ./deploy.sh
