@@ -6,3 +6,6 @@
 
 # Get started
 - See [helloworld](./helloworld/)
+
+# How to ingest data?
+- Metric: [metric-beat](./metric-beat/)
