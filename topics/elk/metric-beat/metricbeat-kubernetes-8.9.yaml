@@ -13,51 +13,51 @@ metadata:
   labels:
     k8s-app: metricbeat
 rules:
-- apiGroups: [""]
-  resources:
-  - nodes
-  - namespaces
-  - events
-  - pods
-  - services
-  - persistentvolumes
-  - persistentvolumeclaims
-  verbs: ["get", "list", "watch"]
-# Enable this rule only if planing to use Kubernetes keystore
-#- apiGroups: [""]
-#  resources:
-#  - secrets
-#  verbs: ["get"]
-- apiGroups: ["extensions"]
-  resources:
-  - replicasets
-  verbs: ["get", "list", "watch"]
-- apiGroups: ["apps"]
-  resources:
-  - statefulsets
-  - deployments
-  - replicasets
-  - daemonsets
-  verbs: ["get", "list", "watch"]
-- apiGroups: ["batch"]
-  resources:
-  - jobs
-  - cronjobs
-  verbs: ["get", "list", "watch"]
-- apiGroups: ["storage.k8s.io"]
-  resources:
-    - storageclasses
-  verbs: ["get", "list", "watch"]
-- apiGroups:
-  - ""
-  resources:
-  - nodes/stats
-  verbs:
-  - get
-- nonResourceURLs:
-  - "/metrics"
-  verbs:
-  - get
+  - apiGroups: [""]
+    resources:
+      - nodes
+      - namespaces
+      - events
+      - pods
+      - services
+      - persistentvolumes
+      - persistentvolumeclaims
+    verbs: ["get", "list", "watch"]
+  # Enable this rule only if planing to use Kubernetes keystore
+  #- apiGroups: [""]
+  #  resources:
+  #  - secrets
+  #  verbs: ["get"]
+  - apiGroups: ["extensions"]
+    resources:
+      - replicasets
+    verbs: ["get", "list", "watch"]
+  - apiGroups: ["apps"]
+    resources:
+      - statefulsets
+      - deployments
+      - replicasets
+      - daemonsets
+    verbs: ["get", "list", "watch"]
+  - apiGroups: ["batch"]
+    resources:
+      - jobs
+      - cronjobs
+    verbs: ["get", "list", "watch"]
+  - apiGroups: ["storage.k8s.io"]
+    resources:
+      - storageclasses
+    verbs: ["get", "list", "watch"]
+  - apiGroups:
+      - ""
+    resources:
+      - nodes/stats
+    verbs:
+      - get
+  - nonResourceURLs:
+      - "/metrics"
+    verbs:
+      - get
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
@@ -94,9 +94,9 @@ kind: ClusterRoleBinding
 metadata:
   name: metricbeat
 subjects:
-- kind: ServiceAccount
-  name: metricbeat
-  namespace: kube-system
+  - kind: ServiceAccount
+    name: metricbeat
+    namespace: kube-system
 roleRef:
   kind: ClusterRole
   name: metricbeat
@@ -203,9 +203,9 @@ data:
     cloud.auth: ${ELASTIC_CLOUD_AUTH}
 
     output.elasticsearch:
-      hosts: ['${ELASTICSEARCH_HOST:elasticsearch}:${ELASTICSEARCH_PORT:9200}']
-      username: ${ELASTICSEARCH_USERNAME}
-      password: ${ELASTICSEARCH_PASSWORD}
+      hosts: ['localhost:9200']
+      username: elastic
+      password: changeme
 ---
 apiVersion: v1
 kind: ConfigMap
@@ -289,72 +289,69 @@ spec:
       hostNetwork: true
       dnsPolicy: ClusterFirstWithHostNet
       containers:
-      - name: metricbeat
-        image: docker.elastic.co/beats/metricbeat:8.9.2
-        args: [
-          "-c", "/etc/metricbeat.yml",
-          "-e",
-          "-system.hostfs=/hostfs",
-        ]
-        env:
-        - name: ELASTICSEARCH_HOST
-          value: elasticsearch
-        - name: ELASTICSEARCH_PORT
-          value: "9200"
-        - name: ELASTICSEARCH_USERNAME
-          value: elastic
-        - name: ELASTICSEARCH_PASSWORD
-          value: changeme
-        - name: ELASTIC_CLOUD_ID
-          value:
-        - name: ELASTIC_CLOUD_AUTH
-          value:
-        - name: NODE_NAME
-          valueFrom:
-            fieldRef:
-              fieldPath: spec.nodeName
-        securityContext:
-          runAsUser: 0
-        resources:
-          limits:
-            memory: 200Mi
-          requests:
-            cpu: 100m
-            memory: 100Mi
-        volumeMounts:
-        - name: config
-          mountPath: /etc/metricbeat.yml
-          readOnly: true
-          subPath: metricbeat.yml
-        - name: data
-          mountPath: /usr/share/metricbeat/data
-        - name: modules
-          mountPath: /usr/share/metricbeat/modules.d
-          readOnly: true
-        - name: proc
-          mountPath: /hostfs/proc
-          readOnly: true
-        - name: cgroup
-          mountPath: /hostfs/sys/fs/cgroup
-          readOnly: true
+        - name: metricbeat
+          image: docker.elastic.co/beats/metricbeat:8.9.2
+          args: ["-c", "/etc/metricbeat.yml", "-e", "-system.hostfs=/hostfs"]
+          env:
+            - name: ELASTICSEARCH_HOST
+              value: localhost
+            - name: ELASTICSEARCH_PORT
+              value: "9200"
+            - name: ELASTICSEARCH_USERNAME
+              value: elastic
+            - name: ELASTICSEARCH_PASSWORD
+              value: changeme
+            - name: ELASTIC_CLOUD_ID
+              value:
+            - name: ELASTIC_CLOUD_AUTH
+              value:
+            - name: NODE_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+          securityContext:
+            runAsUser: 0
+          resources:
+            limits:
+              memory: 200Mi
+            requests:
+              cpu: 100m
+              memory: 100Mi
+          volumeMounts:
+            - name: config
+              mountPath: /etc/metricbeat.yml
+              readOnly: true
+              subPath: metricbeat.yml
+            - name: data
+              mountPath: /usr/share/metricbeat/data
+            - name: modules
+              mountPath: /usr/share/metricbeat/modules.d
+              readOnly: true
+            - name: proc
+              mountPath: /hostfs/proc
+              readOnly: true
+            - name: cgroup
+              mountPath: /hostfs/sys/fs/cgroup
+              readOnly: true
       volumes:
-      - name: proc
-        hostPath:
-          path: /proc
-      - name: cgroup
-        hostPath:
-          path: /sys/fs/cgroup
-      - name: config
-        configMap:
-          defaultMode: 0640
-          name: metricbeat-daemonset-config
-      - name: modules
-        configMap:
-          defaultMode: 0640
-          name: metricbeat-daemonset-modules
-      - name: data
-        hostPath:
-          # When metricbeat runs as non-root user, this directory needs to be writable by group (g+w)
-          path: /var/lib/metricbeat-data
-          type: DirectoryOrCreate
+        - name: proc
+          hostPath:
+            path: /proc
+        - name: cgroup
+          hostPath:
+            path: /sys/fs/cgroup
+        - name: config
+          configMap:
+            defaultMode: 0640
+            name: metricbeat-daemonset-config
+        - name: modules
+          configMap:
+            defaultMode: 0640
+            name: metricbeat-daemonset-modules
+        - name: data
+          hostPath:
+            # When metricbeat runs as non-root user, this directory needs to be writable by group (g+w)
+            path: /var/lib/metricbeat-data
+            type: DirectoryOrCreate
 ---
+
