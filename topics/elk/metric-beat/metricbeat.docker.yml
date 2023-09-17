@@ -23,7 +23,7 @@ metricbeat.modules:
       - "memory"
       - "network"
     hosts: ["unix:///var/run/docker.sock"]
-    period: 10s
+    period: 3s
     enabled: true
 
 processors:
