@@ -5,11 +5,10 @@ services:
     user: root
     image: docker.elastic.co/beats/metricbeat:8.9.2
     restart: always
+    network_mode: 'host' # Use the host network
     command: >
       metricbeat -e
-      -E output.elasticsearch.hosts=["localhost:9200"]
-      -E output.elasticsearch.username="elastic"
-      -E output.elasticsearch.password="changeme"
+      -E output.elasticsearch.hosts=["http://localhost:9200"]
       --strict.perms=false
     volumes:
       - ./metricbeat.docker.yml:/usr/share/metricbeat/metricbeat.yml:ro
