@@ -9,6 +9,8 @@ services:
     command: >
       metricbeat -e
       -E output.elasticsearch.hosts=["http://localhost:9200"]
+      -E output.elasticsearch.username="elastic"
+      -E output.elasticsearch.password="changeme"
       --strict.perms=false
     volumes:
       - ./metricbeat.docker.yml:/usr/share/metricbeat/metricbeat.yml:ro
