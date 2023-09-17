@@ -4,6 +4,7 @@ services:
     container_name: metricbeat
     user: root
     image: docker.elastic.co/beats/metricbeat:8.9.2
+    restart: always
     command: >
       metricbeat -e
       -E output.elasticsearch.hosts=["localhost:9200"]
