@@ -15,20 +15,20 @@
 ## We cover many DevOps topics content under - [topic](./topics/) 🔥
 | Item | Content | Official Docs | Hands-on |
 |:---|:---|:---|:---|
-| Ansible | ✔️ [ansible](./topics/ansible/)| 📖 [docs.ansible.com](https://docs.ansible.com/)|✔️ [ansible-helloworld.sh](./topics/ansible/hello-world/ansible-helloworld.sh)|
-| Docker | ✔️ [docker](./topics/docker/)| 📖 [docs.docker.com](https://docs.docker.com/)|✔️ [docker-helloworld.sh](./topics/docker/docker-helloworld.sh)|
+| Ansible |  [ansible](./topics/ansible/)| 📖 [docs.ansible.com](https://docs.ansible.com/)|✔️ [ansible-helloworld.sh](./topics/ansible/hello-world/ansible-helloworld.sh)|
+| Docker |  [docker](./topics/docker/)| 📖 [docs.docker.com](https://docs.docker.com/)|✔️ [docker-helloworld.sh](./topics/docker/docker-helloworld.sh)|
 | Kubernetes (k8s) | ✔️ [k8s](./topics/k8s/)| 📖 [kubernetes.io/docs](https://kubernetes.io/docs/home/) |✔️ [k8s-helloworld.sh](./topics/k8s/k8s-helloworld.sh)|
-| Aws | ✔️ [aws](./topics/aws/)| 📖 [docs.aws.amazon.com](https://docs.aws.amazon.com/)| ✔️ [EC2_GetStarted](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) 📖|
-| Helm | ✔️ [helm](./topics/helm/)| 📖 [helm.sh/docs](https://helm.sh/docs/)|✔️ [helm-helloworld.sh](./topics/helm/hello-world/helm-helloworld.sh)|
-| Jenkins | ✔️ [jenkins](./topics/jenkins/) | 📖 [www.jenkins.io/doc](https://www.jenkins.io/doc/)|✔️ [Jenkins-Hello-World.md](./topics/jenkins/helloworld/Jenkins-Hello-World.md)|
-| Terraform | ✔️ [terraform](./topics/terraform/)| 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)|✔️ [terraform-helloworld.sh](./topics/terraform/hello-world/terraform-helloworld.sh)|
-| Shell | ✔️ [shell](./topics/shell/)| 📖 [devdocs.io/bash](https://devdocs.io/bash/)| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
-| Git | ✔️ [git](./topics/git/)| 📖 [git-scm.com/doc](https://git-scm.com/doc)|✔️ [git-helloworld.sh](./topics/git/hello-world/git-helloworld.sh)|
-| Elk | ✔️ [elk](./topics/elk/)| 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)|✔️ [elk/helloworld](./topics/elk/helloworld/)|
-| ArgoCD | ✔️ [argocd](./topics/argocd/)| 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|🚶‍♂️ TO-DO|
-| Github-Action | ✔️ [github-action](./topics/github-action/)| 📖 [docs.github.com/actions](https://docs.github.com/actions)|✔️ [Create First Workflow](https://docs.github.com/en/actions/quickstart#creating-your-first-workflow)|
-| Groovy | ✔️ [groovy](./topics/groovy/)| 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)|✔️ [groovy/helloworld](./topics/groovy/helloworld/)
-| Prometheus | ✔️ [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/hello-world/prometheus-helloworld.sh)|
+| Aws | [aws](./topics/aws/)| 📖 [docs.aws.amazon.com](https://docs.aws.amazon.com/)| ✔️ [EC2_GetStarted](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) 📖|
+| Helm |  [helm](./topics/helm/)| 📖 [helm.sh/docs](https://helm.sh/docs/)|✔️ [helm-helloworld.sh](./topics/helm/hello-world/helm-helloworld.sh)|
+| Jenkins |  [jenkins](./topics/jenkins/) | 📖 [www.jenkins.io/doc](https://www.jenkins.io/doc/)|✔️ [Jenkins-Hello-World.md](./topics/jenkins/helloworld/Jenkins-Hello-World.md)|
+| Terraform |  [terraform](./topics/terraform/)| 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)|✔️ [terraform-helloworld.sh](./topics/terraform/hello-world/terraform-helloworld.sh)|
+| Shell |  [shell](./topics/shell/)| 📖 [devdocs.io/bash](https://devdocs.io/bash/)| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
+| Git |  [git](./topics/git/)| 📖 [git-scm.com/doc](https://git-scm.com/doc)|✔️ [git-helloworld.sh](./topics/git/hello-world/git-helloworld.sh)|
+| Elk |  [elk](./topics/elk/)| 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)|✔️ [elk/helloworld](./topics/elk/helloworld/)|
+| ArgoCD |  [argocd](./topics/argocd/)| 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|🚶‍♂️ TO-DO|
+| Github-Action |  [github-action](./topics/github-action/)| 📖 [docs.github.com/actions](https://docs.github.com/actions)|✔️ [Create First Workflow](https://docs.github.com/en/actions/quickstart#creating-your-first-workflow)|
+| Groovy |  [groovy](./topics/groovy/)| 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)|✔️ [groovy/helloworld](./topics/groovy/helloworld/)
+| Prometheus |  [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/hello-world/prometheus-helloworld.sh)|
 
 ## Extra content (from other repos)
 | Item | Link |
