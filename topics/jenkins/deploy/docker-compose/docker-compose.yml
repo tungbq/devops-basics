@@ -1,4 +1,5 @@
 version: '3.7'
+name: jenkins
 services:
   jenkins:
     image: jenkins/jenkins:lts
