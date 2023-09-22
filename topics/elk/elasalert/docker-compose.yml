@@ -1,0 +1,13 @@
+version: '3'
+services:
+  elastalert:
+    image: bitsensor/elastalert:latest
+    container_name: elastalert
+    ports:
+      - "3030:3030"
+    volumes:
+      - ./config/elastalert.yaml:/opt/elastalert/config.yaml
+      - ./config/config.json:/opt/elastalert-server/config/config.json
+      - ./rules:/opt/elastalert/rules
+      - ./rule_templates:/opt/elastalert/rule_templates
+    network_mode: host
