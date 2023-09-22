@@ -1,6 +1,3 @@
 
-mkdir -p workspace
-cd workspace
-git clone https://github.com/bitsensor/elastalert.git; cd elastalert
-
+echo "up docker stack..."
 docker-compose up -d
