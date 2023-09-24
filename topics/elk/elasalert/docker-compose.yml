@@ -4,13 +4,8 @@ services:
     image: ghcr.io/jertel/elastalert2/elastalert2
     container_name: elastalert
     restart: always
-    networks:
-      - es_default
+    network_mode: host
     volumes:
-      - ./elastalert.yaml:/opt/elastalert/config.yaml
+      - ./config/elastalert.yaml:/opt/elastalert/config.yaml
       - ./rules:/opt/elastalert/rules
     command: ['--verbose']
-
-networks:
-  es_default:
-    external: true
