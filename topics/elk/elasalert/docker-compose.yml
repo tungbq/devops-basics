@@ -1,14 +1,16 @@
 version: '3'
 services:
   elastalert:
-    image: bitsensor/elastalert:latest
+    image: ghcr.io/jertel/elastalert2/elastalert2
     container_name: elastalert
     restart: always
-    ports:
-      - "3030:3030"
+    networks:
+      - es_default
     volumes:
-      - ./config/elastalert.yaml:/opt/elastalert/config.yaml
-      - ./config/config.json:/opt/elastalert-server/config/config.json
+      - ./elastalert.yaml:/opt/elastalert/config.yaml
       - ./rules:/opt/elastalert/rules
-      - ./rule_templates:/opt/elastalert/rule_templates
-    network_mode: host
+    command: ['--verbose']
+
+networks:
+  es_default:
+    external: true
