@@ -6,6 +6,6 @@ services:
     restart: always
     network_mode: host
     volumes:
-      - ./config/elastalert.yaml:/opt/elastalert/config.yaml
+      - ./config.yaml:/opt/elastalert/config.yaml
       - ./rules:/opt/elastalert/rules
     command: ['--verbose']
