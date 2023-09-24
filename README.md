@@ -35,6 +35,7 @@
 |:---|:---|
 | python | 🐍 [python-examples](https://github.com/tungbq/python-examples)|
 | aws-lab-with-terraform | ☁️ [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)|
+| AWS-LearningResource |  🧰 [AWS-LearningResource](https://github.com/tungbq/AWS-LearningResource)|
 | bookmarks | 🔖 [bookmarks](https://github.com/tungbq/bookmarks)|
 | 90DaysOfDevOps | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)|
 | devops-exercises | 📚 [devops-exercises](https://github.com/bregman-arie/devops-exercises)|
