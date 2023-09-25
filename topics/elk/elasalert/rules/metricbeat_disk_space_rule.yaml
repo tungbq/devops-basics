@@ -20,11 +20,16 @@ metric_agg_query_key: "system.filesystem.device_name.keyword"
 
 max_threshold: 0.8
 
+alert_text_type: alert
+alert_text: "Disk space usage is above 80% on {{ _source.system.filesystem.device_name }}. Current usage: {{ _source.system.filesystem.used.pct }}%"
+
 alert:
-  - "debug"
+  - "email"
 
 email:
   - "youremail@example.com"
 
-alert_text: "Disk space usage is above 80% on {{ _source.system.filesystem.device_name }}. Current usage: {{ _source.system.filesystem.used.pct }}%"
-alert_text_type: alert
+
+
+
+
