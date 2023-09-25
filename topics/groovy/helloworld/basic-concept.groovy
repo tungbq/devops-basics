@@ -135,3 +135,15 @@ try {
 } catch (Exception e) {
     println("An exception occurred: ${e.message}")
 }
+
+//--------------------
+// Working with while loop
+//--------------------
+
+consoleLog("Working with while loop")
+
+def counter = 0
+while (counter < 10) {
+  println("The counter is $counter")
+  counter++
+}
