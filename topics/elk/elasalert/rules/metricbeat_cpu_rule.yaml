@@ -19,7 +19,7 @@ metric_agg_bucket_path: "system.cpu.total.norm.pct" # Update bucket path for CPU
 metric_agg_query_key: "system.cpu.total.norm.pct" # Update query key for CPU usage
 
 bucket_interval:
-  minutes: 1
+  seconds: 10
 
 max_threshold: 0.8 # You can adjust this threshold as needed
 
