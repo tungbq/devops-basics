@@ -1,0 +1,28 @@
+name: Metricbeat CPU Spike Rule
+type: metric_aggregation
+
+index: metricbeat-*
+
+buffer_time:
+  hours: 1
+
+metric_agg_key: host.cpu.usage
+metric_agg_type: avg
+query_key: host.name
+
+bucket_interval:
+  minutes: 5
+  
+sync_bucket_interval: true
+
+min_threshold: 0.1  # Change this threshold to 0.1 (10%)
+max_threshold: 1.0  # Set the max threshold to 1.0 to always trigger the alert
+
+filter:
+- term:
+    metricset.name: cpu
+
+# (Required)
+# The alert is used when a match is found
+alert:
+- "debug"

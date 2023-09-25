@@ -1,0 +1,55 @@
+---
+- name: Install and configure Metricbeat
+  hosts: localhost
+  become: yes
+  become_method: sudo
+
+  tasks:
+    - name: Import Elasticsearch GPG key
+      shell: wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+      changed_when: false
+
+    - name: Install apt-transport-https
+      apt:
+        name: apt-transport-https
+        state: present
+
+    - name: Add Elastic APT repository
+      lineinfile:
+        dest: /etc/apt/sources.list.d/elastic-8.x.list
+        line: "deb https://artifacts.elastic.co/packages/8.x/apt stable main"
+      notify: Update apt cache
+
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install Metricbeat
+      apt:
+        name: metricbeat
+        state: present
+
+    - name: Copy Metricbeat configuration file
+      copy:
+        src: metricbeat.yml
+        dest: /etc/metricbeat/metricbeat.yml
+      notify: Start Metricbeat service
+
+    - name: Enable Metricbeat service
+      systemd:
+        name: metricbeat
+        enabled: yes
+
+    - name: Start Metricbeat service
+      systemd:
+        name: metricbeat
+        state: started
+
+    - name: Check Metricbeat service status
+      systemd:
+        name: metricbeat
+      register: metricbeat_status
+
+    - name: Display Metricbeat service status
+      debug:
+        var: metricbeat_status.stdout
