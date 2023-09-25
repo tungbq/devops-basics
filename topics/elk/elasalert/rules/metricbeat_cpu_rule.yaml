@@ -25,16 +25,16 @@ max_threshold: 0.8 # You can adjust this threshold as needed
 
 # (Required)
 # The alert is used when a match is found
-# alert:
-#   - "debug"  # You can replace "debug" with the desired action for the alert
 alert:
-  - name: "log_alert"
-    webhook:
-      method: POST
-      host: localhost
-      port: 9200
-      path: /_ingest/pipeline/default
-      scheme: http
-      body: '{"message": "High CPU Usage Alert: {{ctx.metadata.name}} - {{ctx.metadata.description}}"}'
-    headers:
-      Content-Type: application/json
+  - "debug"  # You can replace "debug" with the desired action for the alert
+# alert:
+#   - name: "log_alert"
+#     webhook:
+#       method: POST
+#       host: localhost
+#       port: 9200
+#       path: /_ingest/pipeline/default
+#       scheme: http
+#       body: '{"message": "High CPU Usage Alert: {{ctx.metadata.name}} - {{ctx.metadata.description}}"}'
+#     headers:
+#       Content-Type: application/json
