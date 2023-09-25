@@ -18,9 +18,13 @@ metric_agg_type: max
 metric_agg_bucket_path: "system.filesystem.used.pct"
 metric_agg_query_key: "system.filesystem.device_name.keyword"
 
+
+bucket_interval:
+  minutes: 1
+
 max_threshold: 0.8
 
 # (Required)
 # The alert is used when a match is found
 alert:
-- "debug"
+  - "debug"
