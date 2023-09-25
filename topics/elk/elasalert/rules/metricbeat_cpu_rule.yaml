@@ -21,7 +21,7 @@ metric_agg_query_key: "system.cpu.total.norm.pct" # Update query key for CPU usa
 bucket_interval:
   seconds: 10
 
-max_threshold: 0.3 # You can adjust this threshold as needed
+max_threshold: 0.1 # You can adjust this threshold as needed
 
 # (Required)
 # The alert is used when a match is found
