@@ -18,14 +18,13 @@ metric_agg_type: max
 metric_agg_bucket_path: "system.filesystem.used.pct"
 metric_agg_query_key: "system.filesystem.device_name.keyword"
 
-compare_key: threshold
-compare_value: 0.8
+max_threshold: 0.8
 
 alert:
   - "debug"
 
-# email:
-#   - "youremail@example.com"
+email:
+  - "youremail@example.com"
 
-# alert_text: "Disk space usage is above 80% on {{ _source.system.filesystem.device_name }}. Current usage: {{ _source.system.filesystem.used.pct }}%"
-# alert_text_type: alert
+alert_text: "Disk space usage is above 80% on {{ _source.system.filesystem.device_name }}. Current usage: {{ _source.system.filesystem.used.pct }}%"
+alert_text_type: alert
