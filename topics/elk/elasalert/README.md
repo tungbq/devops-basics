@@ -12,3 +12,7 @@
 
 - Find current working rule at [rules](./rules/)
 - `wip_rules` is the folder to store the rules that are not completed
+
+## Run rules test
+
+- `cd tests; ./test_rules.sh`
