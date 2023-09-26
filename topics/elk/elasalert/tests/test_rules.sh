@@ -4,5 +4,8 @@ echo "Running rules check..."
 docker exec -it elastalert elastalert-test-rule "/opt/elastalert/rules/metricbeat_cpu_rule.yaml"
 
 echo "Running rules check with local data..."
+echo "--Copy test data file"
 docker cp data/json_debug.json elastalert:/tmp/json_debug.json
+echo "--Execute test"
 docker exec -it elastalert elastalert-test-rule --data /tmp/json_debug.json "/opt/elastalert/rules/metricbeat_cpu_rule.yaml"
+
