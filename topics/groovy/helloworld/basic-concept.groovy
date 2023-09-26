@@ -147,3 +147,13 @@ while (counter < 10) {
   println("The counter is $counter")
   counter++
 }
+
+//--------------------
+// Working with sleep
+//--------------------
+
+consoleLog("Working with sleep")
+
+println("Sleeping for 30 seconds...")
+sleep(30000) // Sleep for 30 seconds
+println("Woke up after 30 seconds!")
