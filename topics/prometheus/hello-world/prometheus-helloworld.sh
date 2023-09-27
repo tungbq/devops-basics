@@ -54,12 +54,7 @@ console_log "Now visit your own Prometheus server URL"
 console_log "[Search] Under the Search Expression, inpout 'container_cpu_load_average_10s'"
 console_log "[Execute] Then hit the 'Execute' button on the right hand side"
 console_log "[Result] You would see the result like:"
-sample_result_output="""
-  container_cpu_usage_seconds_total{beta_kubernetes_io_arch="amd64", 
-  beta_kubernetes_io_os="linux", cpu="total", id="/", instance="docker-desktop", 
-  job="kubernetes-nodes-cadvisor", kubernetes_io_arch="amd64",
-  kubernetes_io_hostname="docker-desktop", kubernetes_io_os="linux"}
-  2334.7130145"""
+sample_result_output=$'container_cpu_usage_seconds_total{beta_kubernetes_io_arch="amd64", \n  beta_kubernetes_io_os="linux", cpu="total", id="/", instance="docker-desktop", \n  job="kubernetes-nodes-cadvisor", kubernetes_io_arch="amd64",\n  kubernetes_io_hostname="docker-desktop", kubernetes_io_os="linux"}\n  2334.7130145'
 console_log "[Result] $sample_result_output"
 
 console_log "Congrats! You did the first hands-on with Prometheus 🎉"
@@ -70,5 +65,5 @@ if [[ "$CLEANUP_AFTER_DEMO" == "true" ]]; then
   console_log "Cleanup completed!"
 else
   console_log "Option cleanup after the demo is not set. You can cleanup the resource in this hands-on by running:"
-  console_log "./prometheus-helloworld-cleanup.sh "$port_fwd" "$PROMETHEUS_NAME""
+  console_log "./prometheus-helloworld-cleanup.sh \"$port_fwd\" \"$PROMETHEUS_NAME\""
 fi
