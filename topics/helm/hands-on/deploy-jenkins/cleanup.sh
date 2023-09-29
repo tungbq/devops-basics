@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Delete
 helm delete jenkins -n jenkins
 

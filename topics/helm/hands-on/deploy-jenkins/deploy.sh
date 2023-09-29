@@ -40,24 +40,26 @@ while [[ $(kubectl get pods -n jenkins $pod_name_from_helm -o 'jsonpath={..statu
 # Get metadata
 log "Get 'admin' password"
 jsonpath="{.data.jenkins-admin-password}"
-secret=$(kubectl get secret -n jenkins jenkins -o jsonpath=$jsonpath)
+secret=$(kubectl get secret -n jenkins jenkins -o jsonpath="$jsonpath" | xargs -0)
 log $(echo $secret | base64 --decode)
 
 # Portforward
 ## kill prev
 log "Kill prev port"
-### Run the ps -ef command and use grep to filter the output for 'port-forward'
-process_line=$(ps -ef | grep 'port-forward' | grep "8090:8080" | grep -v grep)
-### Extract the PID from the process_line using awk or cut
-PID=$(echo "$process_line" | awk '{print $2}')  # Using awk
-log "Killing $PID"
-kill -9 $PID
+### Run the pgrep command to search for the process running on the port 8090
+PID=$(pgrep -f "port-forward 8090:8080")
+if [[ "$PID" != "" ]]; then
+  log "Killing $PID"
+  kill -9 $PID
+fi
 
 log "Port forwarding..."
 nohup kubectl port-forward service/jenkins 8090:8080 -n jenkins &
 log "Waiting 15s for port forward process completed..."
 sleep 15
+
 # login URL
 login_url="http://localhost:8090/login"
-curl $login_url
 log $login_url
+
+curl $login_url
