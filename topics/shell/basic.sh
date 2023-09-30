@@ -52,6 +52,13 @@ case $fruit in
 esac
 
 # TODO: Add json parsing
+json_file=$(cat data/example.json)
+
+# Get the user's age from the JSON file
+user_age=$(jq '.age' <<< "$json_file")
+
+# Print the user's age
+echo "The user's age is $user_age"
 
 # TODO: Add grep
   # grep_example.txt is an example file you can create your own file and give its name instead of grep_example.txt to search in that file.
