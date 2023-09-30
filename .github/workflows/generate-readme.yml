@@ -1,0 +1,31 @@
+name: Generate README
+
+on:
+  # Run on a nightly basis
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate README.md
+        run: |
+          # Get a list of all folders in the repository
+          folders=$(ls -d */)
+
+          # Create a new README.md file
+          echo '# My Repository' > README.md
+
+          # Loop through the folders and add a link to each one in the README.md file
+          for folder in ${folders[@]}; do
+            echo "* [$folder](./$folder)" >> README.md
+          done
+
+      - name: Commit and push the README.md file
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git commit -am "Generated README.md file"
+          git push
