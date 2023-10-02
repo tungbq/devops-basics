@@ -1,0 +1,24 @@
+name: Groovy Check
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  groovy-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Groovy
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+
+      - name: Check Groovy code
+        run: |
+          gradle groovy
+
+      - name: Fail if there are any errors
+        if: ${{ steps.groovy-check.outputs.exitCode != 0 }}
+        run: echo "Groovy check failed!"
+        exit: 1
