@@ -3,6 +3,7 @@
 - Production environment: https://kubernetes.io/docs/setup/production-environment
 # Learn Kubernetes Basics
 - https://kubernetes.io/docs/tutorials/kubernetes-basics/
+- https://spacelift.io/blog/kubernetes-tutorial
 # Kubernetes cheatsheet
 - https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 # Learn more at the official Kubernetes homepage
