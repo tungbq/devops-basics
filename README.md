@@ -1,6 +1,6 @@
 ##  A place to practice basic DevOps toolchain.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Hit the Star! ⭐
@@ -75,6 +75,7 @@
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/khanumar03"><img src="https://avatars.githubusercontent.com/u/125285100?v=4?s=100" width="100px;" alt="Khan Umar"/><br /><sub><b>Khan Umar</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=khanumar03" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dcompanykrish"><img src="https://avatars.githubusercontent.com/u/99336923?v=4?s=100" width="100px;" alt="vivekvr"/><br /><sub><b>vivekvr</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=dcompanykrish" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mariuszmichalowski"><img src="https://avatars.githubusercontent.com/u/92091891?v=4?s=100" width="100px;" alt="Mariusz Michalowski"/><br /><sub><b>Mariusz Michalowski</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=mariuszmichalowski" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
