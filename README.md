@@ -41,6 +41,7 @@
 | devops-exercises | 📚 [devops-exercises](https://github.com/bregman-arie/devops-exercises)|
 | devops-resources | 🔗 [devops-resources](https://github.com/bregman-arie/devops-resources)|
 | devops-project | 🏗️ [devops-project](https://github.com/tungbq/devops-project)|
+| howtheydevops | ❔ [howtheydevops](https://github.com/bregman-arie/howtheydevops)|
 
 ## Contributing
 - See: [CONTRIBUTING.md](./CONTRIBUTING.md)
