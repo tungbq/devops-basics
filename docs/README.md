@@ -4,3 +4,6 @@ Collection of DevOps related docs.
 
 # Tech guide
 - Linode: https://www.linode.com/docs/guides/
+
+# AWS DevOps Blog
+- https://aws.amazon.com/blogs/devops/
