@@ -7,5 +7,5 @@
 # Install Jenkins with Helm
 - See [deploy-jenkins/README.md](../helm/hands-on/deploy-jenkins/README.md)
 
-# Jenkins Helloword Hands on
+# Jenkins Helloworld Hands on
 - See: [Jenkins Hello world](./helloworld/Jenkins-Hello-World.md)
