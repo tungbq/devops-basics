@@ -11,3 +11,5 @@
 - https://developer.hashicorp.com/terraform/tutorials/aws-get-started
 # To get more hands on example
 - Visit [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)
+# Looking for a Terraform sample project with best practice?
+- Check out: https://github.com/tungbq/terraform-sample-project
