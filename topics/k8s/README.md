@@ -14,3 +14,5 @@
 # K8s Helloword:
 - Run [k8s-helloworld.sh](./k8s-helloworld.sh)
 - Cleanup [k8s-helloworld-cleanup.sh](./k8s-helloworld-cleanup.sh) after demo comple
+# K8s Learning Path
+- https://github.com/techiescamp/kubernetes-learning-path
