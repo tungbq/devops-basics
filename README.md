@@ -27,7 +27,7 @@
 | Elk |  [elk](./topics/elk/)| 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)|✔️ [elk/helloworld](./topics/elk/helloworld/)|
 | ArgoCD |  [argocd](./topics/argocd/)| 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|🚶‍♂️ TO-DO|
 | Github-Action |  [github-action](./topics/github-action/)| 📖 [docs.github.com/actions](https://docs.github.com/actions)|✔️ [Create First Workflow](https://docs.github.com/en/actions/quickstart#creating-your-first-workflow)|
-| Gitlab CI |  [gitlab-ci](./topics/gitlabci/)| 📖 [docs.gitlab.com/ee/ci](https://docs.gitlab.com/ee/ci/)|✔️ [Create and Run First Pipeline](https://docs.gitlab.com/ee/ci/quick_start/)|
+| Gitlab CI |  [gitlab-ci](./topics/gitlabci/)| 📖 [docs.gitlab.com/ee/ci](https://docs.gitlab.com/ee/ci/)|✔️ [Create First Pipeline](https://docs.gitlab.com/ee/ci/quick_start/)|
 | Groovy |  [groovy](./topics/groovy/)| 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)|✔️ [groovy/helloworld](./topics/groovy/helloworld/)
 | Prometheus |  [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/hello-world/prometheus-helloworld.sh)|
 
