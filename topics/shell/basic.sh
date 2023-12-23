@@ -81,5 +81,27 @@ grep t$ data/grep_example.txt  # To display lines that end with the letter â€˜tâ
 grep --help           # Getting help with more Grep options
 
 # TODO: Add sed command
+
+<<comment
+ you have a file called data/grep_example.txt  with the following content needs to be replaced and shown:
+ 
+           ==>  grep_example.txt
+comment
+sed 's/grep_example.txt/filename/' data/grep_example.txt  
+
+<<comment
+When you use sed without the -i option, it performs the specified operations (like search and replace) on the input stream (or file) 
+and prints the modified content to the standard output. 
+It does not modify the original file.
+comment
+
+sed -i 's/grep_example.txt/filename/' data/grep_example.txt  
+<<comment
+
+When you use sed -i, it modifies the file in-place. It directly updates the content of the file with the changes specified in the sed command.
+
+In summary, using sed alone won't modify the original file; it will only display the modified content on the terminal. On the other hand, 
+sed -i will apply the changes directly to the file, making the modifications persistent.
+comment
 # TODO: Add regex
 
