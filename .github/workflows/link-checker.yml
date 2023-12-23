@@ -15,6 +15,14 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v1.8.0
 
+      - name: Check for Errors
+        run: |
+          if [ ${{ steps.lychee.outputs.exit_code }} -ne 0 ]; then
+            echo "Link Checker encountered errors."
+            cat ./lychee/out.md  # Print the detailed error report
+            # Add additional error details if needed
+          fi
+
       - name: Create Issue From File
         if: env.lychee_exit_code != 0
         uses: peter-evans/create-issue-from-file@v4
