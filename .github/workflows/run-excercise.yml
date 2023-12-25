@@ -1,7 +1,8 @@
 name: Check Excercise Answers
 
 on:
-  push:
+  pull_request:
+    branches: ['main']
     paths:
       - 'topics/shell/excercise/answers/*.sh'
 
