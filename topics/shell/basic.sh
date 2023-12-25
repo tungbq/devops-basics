@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Function to display a separator
 print_separator() {
   echo "-----------------------------------------"
