@@ -6,6 +6,10 @@
 
 - https://docs.gitlab.com/ee/ci/quick_start/
 
-# Gitlab
+# Gitlab public
 
 - https://gitlab.com/
+
+# Gitlab self deployment
+
+- https://docs.gitlab.com/ee/install/install_methods.html
