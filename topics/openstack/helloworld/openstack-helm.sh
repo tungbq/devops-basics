@@ -11,6 +11,26 @@ console_log() {
   echo -e "${GREEN}>>> [Openstack] [Setup] $1${RESET}"
 }
 
+check_and_delete() {
+  namespace_name=$1
+  # Check if the namespace exists
+  if kubectl get namespace "$namespace_name" &>/dev/null; then
+    echo "Namespace '$namespace_name' exists. Deleting resources..."
+    kubectl delete --all --namespace "$namespace_name" || true
+  else
+    echo "Namespace '$namespace_name' does not exist."
+    # Add any handling or exit commands here if needed
+  fi
+}
+
+cleanup_namespaces() {
+  kubectl get namespaces
+  check_and_delete ceph
+  check_and_delete openstack
+  check_and_delete osh-infra
+  check_and_delete rook-ceph
+}
+
 format_and_execute() {
   echo "Working on $1"
   script_path=$1
@@ -46,10 +66,13 @@ format_all_files() {
 }
 
 DEPLOYMENT_DIR="/tmp/osh"
-console_log "Before deployment"
+console_log "[Init] Before deployment"
 mkdir -p $DEPLOYMENT_DIR
 
-console_log "Cleanup environment"
+console_log "[Init] Cleanup previous k8s resources"
+cleanup_namespaces
+
+console_log "[Init] Cleanup environment"
 rm -rf "$DEPLOYMENT_DIR/openstack-helm/"
 rm -rf "$DEPLOYMENT_DIR/openstack-helm-infra/"
 cd $DEPLOYMENT_DIR
@@ -58,12 +81,12 @@ git clone https://opendev.org/openstack/openstack-helm-infra.git
 pwd
 ls -la
 
-console_log "Configure environment"
+console_log "[Init] Configure environment"
 export OPENSTACK_RELEASE=2023.2
 export CONTAINER_DISTRO_NAME=ubuntu
 export CONTAINER_DISTRO_VERSION=jammy
 
-console_log "dos2unix formatting"
+console_log "[Init] dos2unix formatting"
 format_all_files "$DEPLOYMENT_DIR/openstack-helm"
 format_all_files "$DEPLOYMENT_DIR/openstack-helm-infra"
 
