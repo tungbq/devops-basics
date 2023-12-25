@@ -11,7 +11,7 @@ print_separator() {
 echo "Hello, my name is Tung"
 
 # Display current date and time
-echo "Today is: $(date)"
+echo1 "Today is: $(date)"
 
 # Grep command example
 echo "This is my testing string" | grep "my testing"
