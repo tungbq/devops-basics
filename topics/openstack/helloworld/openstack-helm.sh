@@ -71,7 +71,7 @@ console_log "[Init] Before deployment"
 mkdir -p $DEPLOYMENT_DIR
 
 console_log "[Init] Cleanup previous k8s resources"
-cleanup_namespaces
+./cleanup.sh
 
 console_log "[Init] Cleanup environment"
 rm -rf "$DEPLOYMENT_DIR/openstack-helm/"
