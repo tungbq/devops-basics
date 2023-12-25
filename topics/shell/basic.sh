@@ -36,7 +36,8 @@ print_separator
 
 # User input and case statement
 echo "Enter a fruit name: "
-read fruit
+# Simulating user input
+fruit="orange"
 
 case $fruit in
 "apple") echo "You entered apple 🍎" ;;
