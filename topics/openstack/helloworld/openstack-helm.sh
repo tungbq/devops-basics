@@ -17,6 +17,7 @@ check_and_delete() {
   if kubectl get namespace "$namespace_name" &>/dev/null; then
     echo "Namespace '$namespace_name' exists. Deleting resources..."
     kubectl delete --all --namespace "$namespace_name" || true
+    kubectl delete namespace "$namespace_name" || true
   else
     echo "Namespace '$namespace_name' does not exist."
     # Add any handling or exit commands here if needed
