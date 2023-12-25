@@ -1,0 +1,26 @@
+name: Check Excercise Answers
+
+on:
+  pull_request:
+    branches: ['main']
+    paths:
+      - 'topics/shell/excercise/answers/*.sh'
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Find and run shell scripts
+        run: |
+          for file in topics/shell/excercise/answers/*.sh; do
+            if [ -f "$file" ]; then
+              echo "Running $file..."
+              chmod +x "$file"
+              bash "$file"
+              echo "Completed $file."
+            fi
+          done
