@@ -16,8 +16,9 @@ jobs:
       - name: Find and run shell scripts
         run: |
           for file in topics/shell/excercise/answers/*.sh; do
-            if [ -f "$file" ] && [ -x "$file" ]; then
+            if [ -f "$file" ]; then
               echo "Running $file..."
+              chmod +x "$file"
               bash "$file"
               echo "Completed $file."
             fi
