@@ -2,6 +2,9 @@
 
 # All in one scipt following this document: 'https://docs.openstack.org/openstack-helm/latest/install/index.html'
 
+set -e
+
+# Custom console log
 GREEN='\033[0;32m'
 # ANSI escape code to reset text color to default
 RESET='\033[0m'
@@ -51,3 +54,44 @@ format_and_execute ./tools/deployment/ceph/ceph-adapter-rook.sh
 console_log "Setup OpenStack client"
 cd "$DEPLOYMENT_DIR/openstack-helm"
 format_and_execute ./tools/deployment/common/setup-client.sh
+
+# Traffic Routing to Ceph Rados Gateway Service
+console_log "Traffic Routing to Ceph Rados Gateway Service"
+cd "$DEPLOYMENT_DIR/openstack-helm"
+format_and_execute ./tools/deployment/component/common/ingress.sh
+
+# Deploy OpenStack backend
+console_log "Deploy OpenStack backend"
+cd "$DEPLOYMENT_DIR/openstack-helm"
+format_and_execute ./tools/deployment/component/common/rabbitmq.sh
+format_and_execute ./tools/deployment/component/common/mariadb.sh
+format_and_execute ./tools/deployment/component/common/memcached.sh
+
+# Deploy OpenStack
+# Keystone
+console_log "Keystone"
+cd "$DEPLOYMENT_DIR/openstack-helm"
+format_and_execute ./tools/deployment/component/keystone/keystone.sh
+
+# Heat
+console_log "Heat"
+cd "$DEPLOYMENT_DIR/openstack-helm"
+format_and_execute ./tools/deployment/component/heat/heat.sh
+
+# Glance
+cd "$DEPLOYMENT_DIR/openstack-helm"
+format_and_execute ./tools/deployment/component/glance/glance.sh
+
+# Placement, Nova, Neutron
+console_log "Placement, Nova, Neutron"
+cd "$DEPLOYMENT_DIR/openstack-helm"
+format_and_execute ./tools/deployment/component/compute-kit/openvswitch.sh
+format_and_execute ./tools/deployment/component/compute-kit/libvirt.sh
+format_and_execute ./tools/deployment/component/compute-kit/compute-kit.sh
+
+# Cinder
+console_log "Cinder"
+cd "$DEPLOYMENT_DIR/openstack-helm"
+format_and_execute ./tools/deployment/component/cinder/cinder.sh
+
+console_log "Congrats!"
