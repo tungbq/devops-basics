@@ -18,6 +18,33 @@ format_and_execute() {
   "${script_path}"
 }
 
+check_dos2unix() {
+  # Check if dos2unix is installed
+  if ! command -v dos2unix &>/dev/null; then
+    echo "dos2unix is not installed. Attempting to install..."
+
+    # Check the package manager and install dos2unix
+    if command -v apt-get &>/dev/null; then
+      sudo apt-get update
+      sudo apt-get install dos2unix -y
+    elif command -v yum &>/dev/null; then
+      sudo yum install dos2unix -y
+    elif command -v brew &>/dev/null; then
+      brew install dos2unix
+    else
+      echo "Unable to install dos2unix. Please install it manually."
+      exit 1
+    fi
+  fi
+}
+
+format_all_files() {
+  folder=$1
+  check_dos2unix
+  cd $folder
+  find ./tools/deployment -type f -exec dos2unix {} \;
+}
+
 DEPLOYMENT_DIR="/tmp/osh"
 console_log "Before deployment"
 mkdir -p $DEPLOYMENT_DIR
@@ -35,6 +62,10 @@ console_log "Configure environment"
 export OPENSTACK_RELEASE=2023.2
 export CONTAINER_DISTRO_NAME=ubuntu
 export CONTAINER_DISTRO_VERSION=jammy
+
+console_log "dos2unix formatting"
+format_all_files "$DEPLOYMENT_DIR/openstack-helm"
+format_all_files "$DEPLOYMENT_DIR/openstack-helm-infra"
 
 # Prepare Kubernetes
 console_log "Prepare Kubernetes"
