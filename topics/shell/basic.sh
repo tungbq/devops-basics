@@ -1,16 +1,22 @@
 #!/bin/bash
 
-# Print Hello World
+set -e
+
+# Function to display a separator
+print_separator() {
+  echo "-----------------------------------------"
+}
+
+# Welcome message
 echo "Hello, my name is Tung"
 
-# Get current date time
-TODAY_OUTPUT=$(date)
-echo "Today is: $TODAY_OUTPUT"
+# Display current date and time
+echo "Today is: $(date)"
 
-# Grep command
+# Grep command example
 echo "This is my testing string" | grep "my testing"
 
-# If - Else
+# Conditional statement
 ADULT_AGE=18
 MY_AGE=28
 if [ $MY_AGE -gt $ADULT_AGE ]; then
@@ -19,67 +25,46 @@ else
   echo "You are under $ADULT_AGE!"
 fi
 
-# For Loop
+# Loop through working days
 WORKING_DAYS=("Mon" "Tue" "Wed" "Thu" "Fri")
 echo "You have to work on these days:"
 for day in "${WORKING_DAYS[@]}"; do
   echo "$day"
 done
 echo "Done! It's time to take rest!"
+print_separator
 
-# Switch - Case
-# Prompt the user to enter a fruit name
+# User input and case statement
 echo "Enter a fruit name: "
-read fruit
+# Simulating user input
+fruit="orange"
 
-# Check the entered fruit using a case statement
 case $fruit in
-  "apple")
-    echo "You entered apple 🍎"
-    ;;
-  "banana")
-    echo "You entered banana 🍌"
-    ;;
-  "orange")
-    echo "You entered orange 🍊"
-    ;;
-    "mango")
-    echo "You entered mango 🥭"
-    ;;
-  *)
-    echo "You entered an unknown fruit."
-    ;;
+"apple") echo "You entered apple 🍎" ;;
+"banana") echo "You entered banana 🍌" ;;
+"orange") echo "You entered orange 🍊" ;;
+"mango") echo "You entered mango 🥭" ;;
+*) echo "You entered an unknown fruit." ;;
 esac
 
-# TODO: Add json parsing
+# JSON parsing
 json_file=$(cat data/example.json)
-
-# Get the user's age from the JSON file
-user_age=$(jq '.age' <<< "$json_file")
-
-# Print the user's age
+user_age=$(jq '.age' <<<"$json_file")
 echo "The user's age is $user_age"
+print_separator
 
-# TODO: Add grep
-  # grep_example.txt is an example file you can create your own file and give its name instead of grep_example.txt to search in that file.
-grep "grep" data/grep_example.txt  # change the keyword inside the bracket to search for different words it will print the whole line if the given keyword is in that line.
-grep --color "to" data/grep_example.txt    # it will print the line which have "to" keyword in them, and --color is used to highlite the text.
-grep -i "it" data/grep_example.txt     # -i will Ignore case sensitivity
-grep -c "the" data/grep_example.txt  # -c will count the number of occurrences of the given string in the text.
-grep -v "the" data/grep_example.txt  # it will print all the lines which DO NOT have the given string.
+# Grep examples
+grep "grep" data/grep_example.txt
+grep --color "to" data/grep_example.txt
+grep -i "it" data/grep_example.txt
+grep -c "the" data/grep_example.txt
+grep -v "the" data/grep_example.txt
 
-# REGEX in grep 
-# ^      Matches characters at the beginning of a line
-# $      Matches characters at the end of a line
-# "."    Matches any character
-# [a-z]  Matches any characters between A and Z
-# [^ ..] Matches anything apart from what is contained in the brackets
-
-grep ^T data/grep_example.txt # lines starting with T.
-grep t$ data/grep_example.txt  # To display lines that end with the letter ‘t’ run
-
-grep --help           # Getting help with more Grep options
+# Regular expressions in grep
+grep ^T data/grep_example.txt # Lines starting with T
+grep t$ data/grep_example.txt # Lines that end with the letter 't'
+grep --help                   # Get help with more grep options
+print_separator
 
 # TODO: Add sed command
 # TODO: Add regex
-

@@ -1,9 +1,8 @@
-
 name: shell-script
 
 on:
   pull_request:
-    branches: ["main"]
+    branches: ['main']
 
 jobs:
   build:
@@ -12,4 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: ls
-      - run: bash topics/shell/basic.sh
+      - run: echo "Running basic.sh script"
+      - run: cd topics/shell; bash ./basic.sh
