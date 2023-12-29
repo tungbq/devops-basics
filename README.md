@@ -1,6 +1,6 @@
 ##  A place to practice basic DevOps toolchain.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Hit the Star! ⭐
@@ -81,6 +81,7 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sunit30"><img src="https://avatars.githubusercontent.com/u/56727564?v=4?s=100" width="100px;" alt="Sunit"/><br /><sub><b>Sunit</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=sunit30" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://praveenshinde.pages.dev/"><img src="https://avatars.githubusercontent.com/u/107350270?v=4?s=100" width="100px;" alt="Praveen Shinde"/><br /><sub><b>Praveen Shinde</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=PraveenShinde3" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ShrirangB"><img src="https://avatars.githubusercontent.com/u/68811459?v=4?s=100" width="100px;" alt="Shrirang Borde"/><br /><sub><b>Shrirang Borde</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=ShrirangB" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zitaker"><img src="https://avatars.githubusercontent.com/u/92075508?v=4?s=100" width="100px;" alt="Georgii Dryndin"/><br /><sub><b>Georgii Dryndin</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=zitaker" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
