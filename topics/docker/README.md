@@ -1,7 +1,7 @@
 # What is docker?
 - https://docs.docker.com/get-started/overview/
 # Docker architecture
-![architecture](https://docs.docker.com/assets/images/architecture.svg)
+- https://docs.docker.com/get-started/overview/#docker-architecture
 # How to install docker?
 - https://docs.docker.com/engine/install/
 # Getting started with docker
