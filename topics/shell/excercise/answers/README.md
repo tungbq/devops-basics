@@ -14,4 +14,4 @@ Here's an example:
 ./generate_password.sh 12
 ```
 
-This will execute the script (**generate_password.sh**) with a password length of **12**, and the script will generate and print a random password of that length. Adjust the length as needed based on your requirements.
+This will execute the script (**generate_password.sh**) with a password length of **12** , and the script will generate and print a random password of that length. Adjust the length as needed based on your requirements.
