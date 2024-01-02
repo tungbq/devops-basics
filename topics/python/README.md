@@ -17,3 +17,7 @@
 ## Python Hello World Example
 
 - Explore the [helloworld.py](./helloworld/helloworld.py) file in the helloworld directory to get a basic introduction to running a Python script.
+
+## Python script example
+
+- See [examples](./examples/)
