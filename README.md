@@ -35,14 +35,14 @@
 ## Extra content (from other repos)
 | Item | Link |
 |:---|:---|
+| devops-project | 🏗️ [devops-project](https://github.com/tungbq/devops-project)|
+| 90DaysOfDevOps | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)|
 | python | 🐍 [python-examples](https://github.com/tungbq/python-examples)|
 | aws-lab-with-terraform | ☁️ [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)|
 | AWS-LearningResource |  🧰 [AWS-LearningResource](https://github.com/tungbq/AWS-LearningResource)|
 | bookmarks | 🔖 [bookmarks](https://github.com/tungbq/bookmarks)|
-| 90DaysOfDevOps | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)|
 | devops-exercises | 📚 [devops-exercises](https://github.com/bregman-arie/devops-exercises)|
 | devops-resources | 🔗 [devops-resources](https://github.com/bregman-arie/devops-resources)|
-| devops-project | 🏗️ [devops-project](https://github.com/tungbq/devops-project)|
 | howtheydevops | ❔ [howtheydevops](https://github.com/bregman-arie/howtheydevops)|
 
 ## Contributing
