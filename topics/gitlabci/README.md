@@ -12,4 +12,8 @@
 
 # Gitlab self deployment
 
-- https://docs.gitlab.com/ee/install/install_methods.html
+- https://docs.gitlab.com/ee/install/install_methods.html  
+
+# GitLab CI/CD examples  
+
+- https://docs.gitlab.com/ee/ci/examples/ 
