@@ -196,6 +196,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "fdlpm",
+      "name": "Fabian De La Peña Montero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9667945?v=4",
+      "profile": "https://www.fdlpm.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
