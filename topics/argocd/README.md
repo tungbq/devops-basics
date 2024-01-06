@@ -14,6 +14,10 @@
 
 - https://argo-cd.readthedocs.io/en/stable/getting_started/
 
+# Argo CD Example Apps
+
+- https://github.com/argoproj/argocd-example-apps
+
 # Hands on
 
 - Check out [helloworld](./helloworld/)
