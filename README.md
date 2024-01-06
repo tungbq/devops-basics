@@ -1,6 +1,6 @@
 ##  A place to practice basic DevOps toolchain.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Hit the Star! ⭐
@@ -86,6 +86,7 @@
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://www.fdlpm.com"><img src="https://avatars.githubusercontent.com/u/9667945?v=4?s=100" width="100px;" alt="Fabian De La Peña Montero"/><br /><sub><b>Fabian De La Peña Montero</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=fdlpm" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/killer-man-soul"><img src="https://avatars.githubusercontent.com/u/98640518?v=4?s=100" width="100px;" alt="Koushik Juluri"/><br /><sub><b>Koushik Juluri</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=killer-man-soul" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
