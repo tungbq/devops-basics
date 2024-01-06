@@ -51,7 +51,7 @@
 - Feel free to open a new issue if you want to request more content about DevOps
 
 ## Contributors
-
+Thank you all! 💖
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
