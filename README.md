@@ -1,6 +1,6 @@
 ##  A place to practice basic DevOps toolchain.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Hit the Star! ⭐
@@ -89,6 +89,7 @@ Thank you all! 💖
       <td align="center" valign="top" width="14.28%"><a href="https://www.fdlpm.com"><img src="https://avatars.githubusercontent.com/u/9667945?v=4?s=100" width="100px;" alt="Fabian De La Peña Montero"/><br /><sub><b>Fabian De La Peña Montero</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=fdlpm" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/killer-man-soul"><img src="https://avatars.githubusercontent.com/u/98640518?v=4?s=100" width="100px;" alt="Koushik Juluri"/><br /><sub><b>Koushik Juluri</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=killer-man-soul" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/GDGouravDey"><img src="https://avatars.githubusercontent.com/u/117531461?v=4?s=100" width="100px;" alt="Gourav Dey"/><br /><sub><b>Gourav Dey</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=GDGouravDey" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jayanth-Parthsarathy"><img src="https://avatars.githubusercontent.com/u/86654557?v=4?s=100" width="100px;" alt="Jayanth Parthsarathy"/><br /><sub><b>Jayanth Parthsarathy</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=Jayanth-Parthsarathy" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
