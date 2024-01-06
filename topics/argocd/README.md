@@ -2,6 +2,10 @@
 
 - https://argo-cd.readthedocs.io/en/stable/#what-is-argo-cd
 
+# Argo CD Official GitHub repo
+
+- https://github.com/argoproj/argo-cd
+
 # Why Argo CD?
 
 - https://argo-cd.readthedocs.io/en/stable/#why-argo-cd
