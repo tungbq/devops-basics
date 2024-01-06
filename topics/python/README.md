@@ -21,4 +21,4 @@
 
 ## Python script example
 
-- See [examples](./examples/)
+- Find more examples at [examples](./examples/)
