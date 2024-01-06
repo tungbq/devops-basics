@@ -29,6 +29,8 @@
 
 - Visit http://localhost:8082
 - Or via cmd: `curl localhost:8082`
+- Once the app is deployed successfully and service up and running with port-forwarding, we should see something like
+  ![guestbook-ui-demo](../../../assets/images/argocd/guestbook-ui-demo.png)
 
 ## Working with the ArgoCD CLI
 
