@@ -1,5 +1,5 @@
-# Templates for various content category
+# Templates for Various Content Categories
 
-## Topic
+## Topic Template
 
-- See: [TOPIC_TEMPLATE.md](./TOPIC_TEMPLATE.md)
+- View: [TOPIC_TEMPLATE.md](./TOPIC_TEMPLATE.md)
