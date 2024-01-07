@@ -1,5 +1,3 @@
-<!-- Given that we're focusing on a topic named 'Docker' -->
-
 # What is Docker?
 
 - Docker is a platform designed to make it easier to create, deploy, and run applications using containers. It allows for packaging applications and their dependencies into containers.
