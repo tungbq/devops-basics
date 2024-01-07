@@ -1,46 +1,44 @@
-<!-- GIven that we build a topic named 'YOUR_TOPIC' -->
+<!-- Given that we're focusing on a topic named 'YOUR_TOPIC' -->
 
 # What is YOUR_TOPIC?
 
-- Describle about YOUR_TOPIC
+- Describe YOUR_TOPIC.
 
 # Why YOUR_TOPIC?
 
-- Describle why we need this topic?
+- Explain the significance or relevance of YOUR_TOPIC.
 
 # How does YOUR_TOPIC work?
 
-- Explain or give diagram for the essential of YOUR_TOPIC
+- Provide an explanation or diagram illustrating the essentials of YOUR_TOPIC.
 
 # YOUR_TOPIC Architecture (Nice to have)
 
-- It would be better if we could provide the architecture or diagram about the topic
+- It would enhance understanding to include an architecture diagram or overview.
 
-# Prerequisite? (Optional)
+# Prerequisites (Optional)
 
-- If there has any prerequisite item to learn this topic, metion here.
-- For example: In Kubernetes topic, we might need to understand the docker topic first to know about the containerization technology, ...
+- If any prerequisites are necessary to understand this topic, mention them here.
+- For instance, in the context of Kubernetes, familiarity with Docker might be required to grasp containerization technology.
 
 # Installation
 
 ## How to install YOUR_TOPIC?
 
-- Document link or step to install YOUR_TOPIC
+- Share installation steps or a link to documentation for installing YOUR_TOPIC.
 
-# Getting started
+# Getting Started
 
-# Getting started with YOUR_TOPIC
+## Getting started with YOUR_TOPIC
 
-- Link to official getting started document
-- Or your own helloworld example
+- Direct users to official getting started documentation or provide a simple 'hello world' example.
 
 # Cheatsheet (Nice to have)
 
-- We can put an official cheetsheet link or link to your own cheetsheet so we could have summary about the feature and easily to look up later
+- Offer an official cheatsheet link or create one for quick reference to features and functionalities.
 
-# Beyond the basic
+# Beyond the Basics
 
-## To get more hands on example
+## Exploring Advanced Examples
 
-- Link to official advanced example document
-- Or your own advance example
+- Link to official advanced examples or provide your own advanced examples for a deeper dive.
