@@ -12,6 +12,10 @@
 
 - Explain or give diagram for the essential of YOUR_TOPIC
 
+# YOUR_TOPIC Architecture (Nice to have)
+
+- It would be better if we could provide the architecture or diagram about the topic
+
 # Prerequisite? (Optional)
 
 - If there has any prerequisite item to learn this topic, metion here.
