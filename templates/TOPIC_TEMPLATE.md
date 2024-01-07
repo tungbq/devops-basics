@@ -34,6 +34,10 @@
 - Link to official getting started document
 - Or your own helloworld example
 
+# Cheatsheet (Nice to have)
+
+- We can put an official cheetsheet link or link to your own cheetsheet so we could have summary about the feature and easily to look up later
+
 # Beyond the basic
 
 ## To get more hands on example
