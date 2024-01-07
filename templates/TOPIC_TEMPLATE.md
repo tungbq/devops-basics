@@ -1,12 +1,12 @@
-<!-- Focus: YOUR_TOPIC -->
+<!-- Given that we're focusing on a topic named 'YOUR_TOPIC' -->
 
 # What is YOUR_TOPIC?
 
-- YOUR_TOPIC refers to [brief description].
+- Describe YOUR_TOPIC.
 
 # Why YOUR_TOPIC?
 
-- Explore the significance or relevance of YOUR_TOPIC within its domain or industry.
+- Explain the significance or relevance of YOUR_TOPIC.
 
 # How does YOUR_TOPIC work?
 
@@ -20,7 +20,7 @@
 
 # Why YOUR_TOPIC in DevOps?
 
-- Discuss the specific role or purpose of YOUR_TOPIC within the DevOps framework.
+- Describe the specific role or purpose of YOUR_TOPIC within the DevOps.
 
 # Prerequisites (Optional)
 
