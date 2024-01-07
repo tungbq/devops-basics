@@ -38,25 +38,21 @@
 
 - Refer to the [official Docker getting started documentation](https://docs.docker.com/get-started/) for a comprehensive introduction.
 
-## Hands-On Example
-
-- Explore a practical hands-on example in the [hands-on directory](./hands-on/) to quickly start using Docker.
-
 ## Docker Hello World
 
 - Run the [docker-helloworld.sh](./docker-helloworld.sh) script to execute a simple Docker "Hello World" demonstration.
 
 # Beyond the Basics
 
-## Exploring Advanced Examples
+## Hands-On Example
 
-- Discover advanced use cases and examples either in the official Docker documentation or by exploring real-world scenarios that demonstrate Docker's versatility.
+- Explore a practical hands-on example in the [hands-on directory](./hands-on/) to quickly start using Docker.
 
 # More
 
 ## Official Website Documentation of Docker
 
-- Access the complete [official Docker documentation](https://docs.docker.com/get-started/) for detailed information and references.
+- Access the complete [official Docker documentation](https://docs.docker.com) for detailed information and references.
 
 ## Docker Cheatsheet
 
@@ -64,4 +60,4 @@
 
 ## Recommended Books
 
-- Explore recommended books to delve deeper into Docker and containerization concepts for further learning and understanding.
+- None
