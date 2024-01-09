@@ -32,6 +32,7 @@
 | Prometheus |  [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/hello-world/prometheus-helloworld.sh)|
 | Python |  [python](./topics/python/)| 📖 [www.python.org/doc](https://www.python.org/doc/)|✔️ [python/helloworld](./topics/python/helloworld/)|
 | Packer |  coming-soon| 📖 [www.packer.io](https://www.packer.io/)|coming-soon|
+| Microservices| [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/) | coming-soon|
 
 ## Extra content (from other repos)
 | Item | Link |
