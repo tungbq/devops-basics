@@ -18,5 +18,5 @@
 # Ansible playbook cheatsheet
 - https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html#ansible-playbook
 
-# Ansible Helloword ⭐⭐⭐
+# Ansible Helloworld ⭐⭐⭐
 - Run [ansible-helloworld.sh](./hello-world/ansible-helloworld.sh)
