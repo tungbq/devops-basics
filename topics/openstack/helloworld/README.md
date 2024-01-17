@@ -1,6 +1,7 @@
 # Getting started with Openstack
 
-Deploy openstack on Kubernetes
+Deploy openstack on Kubernetes.
+Documentation: https://docs.openstack.org/openstack-helm/latest/install/index.html
 
 ## Cleanup
 
