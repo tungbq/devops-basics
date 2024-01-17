@@ -33,6 +33,8 @@
 | Python |  [python](./topics/python/)| 📖 [www.python.org/doc](https://www.python.org/doc/)|✔️ [python/helloworld](./topics/python/helloworld/)|
 | Packer |  coming-soon| 📖 [www.packer.io](https://www.packer.io/)|coming-soon|
 | Microservices| [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/) | coming-soon|
+| HashiCorp Vault |  coming-soon| 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)|coming-soon|
+
 
 ## Extra content (from other repos)
 | Item | Link |
