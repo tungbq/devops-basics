@@ -18,3 +18,5 @@ chmod +x cleanup.sh
 chmod +x openstack-helm.sh
 ./openstack-helm.sh
 ```
+
+# TODO: Improve the document following the template
