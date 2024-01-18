@@ -46,7 +46,7 @@
 
 - Link to official advanced examples (if any)
 
-# Reference
+# More
 
 ## Cheatsheet (Nice to have)
 
