@@ -43,19 +43,8 @@ For a deeper understanding, refer to the [Openstack Architecture documentation](
 
 ### Openstack Cheatsheet
 
-- Use the [Openstack cheatsheet](https://docs.Openstack.com/get-started/Openstack_cheatsheet.pdf) as a quick reference guide for Openstack commands and functionalities.
+- Use the [Openstack cheatsheet](https://ubuntu.com/openstack/openstack-cheat-sheet) as a quick reference guide for Openstack commands and functionalities.
 
 ### Recommended Books
 
 - None
-
-==========
-
-# Openstack
-
-- Homepage: https://www.openstack.org/
-- The Most Widely Deployed Open Source Cloud Software in the World
-
-# Build your own local Openstack development enviroment
-
-# TODO: Improve the document following the template
