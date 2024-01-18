@@ -32,13 +32,19 @@
 
 ### Getting started with YOUR_TOPIC
 
-- Direct users to official getting started documentation or offer a simple 'hello world' example.
+- To get started visit [YOUR_TOPIC/basic](./YOUR_TOPIC/basic)
+  (Checkout the [TOPIC_STRUCTURE.md](./TOPIC_STRUCTURE.md) to create the topic directory structure)
+
+<!-- Direct users to official getting started documentation or offer a simple 'basic' example. -->
 
 ## Beyond the Basics
 
 ### Exploring Advanced Examples
 
-- Link to official advanced examples or provide your own advanced use cases for a comprehensive exploration.
+- To get more advanced examples/hands on visit [YOUR_TOPIC/advanced](./YOUR_TOPIC/advanced)
+  (Checkout the [TOPIC_STRUCTURE.md](./TOPIC_STRUCTURE.md) to create the topic directory structure)
+
+- Link to official advanced examples (if any)
 
 # Reference
 
