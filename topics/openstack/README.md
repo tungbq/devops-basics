@@ -19,9 +19,8 @@ For a deeper understanding, refer to the [Openstack Architecture documentation](
 ## Installation
 
 ### How to install Openstack?
-####
-- Follow the steps outlined in the [Openstack installation documentation](https://docs.openstack.org/2023.2/install/) for both local development and production environments.
 
+- Follow the steps outlined in the [Openstack installation documentation](https://docs.openstack.org/2023.2/install/) for both local development and production environments.
 
 # Basics of Openstack
 
