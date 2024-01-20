@@ -1,6 +1,6 @@
 ##  A place to practice basic DevOps toolchain.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Hit the Star! ⭐
@@ -96,6 +96,7 @@ Thank you all! 💖
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jayanth-Parthsarathy"><img src="https://avatars.githubusercontent.com/u/86654557?v=4?s=100" width="100px;" alt="Jayanth Parthsarathy"/><br /><sub><b>Jayanth Parthsarathy</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=Jayanth-Parthsarathy" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mukulbindal"><img src="https://avatars.githubusercontent.com/u/48384048?v=4?s=100" width="100px;" alt="Mukul Bindal"/><br /><sub><b>Mukul Bindal</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=mukulbindal" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/KatieChilds"><img src="https://avatars.githubusercontent.com/u/116670424?v=4?s=100" width="100px;" alt="KatieChilds"/><br /><sub><b>KatieChilds</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=KatieChilds" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/isaiahthedev"><img src="https://avatars.githubusercontent.com/u/154280901?v=4?s=100" width="100px;" alt="Isaiah"/><br /><sub><b>Isaiah</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=isaiahthedev" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
