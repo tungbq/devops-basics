@@ -1,7 +1,12 @@
-##  A place to practice basic DevOps toolchain.
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<h1 align="center">DevOps Basic</h1>
+
+<p align="center">A place to practice basic DevOps toolchain. 💝</p>
+<p align="center">
+	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+	<a href="#contributors-" target="_blank"><img alt="👪 All Contributors: 28" src="https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square" /></a>
+  <!-- ALL-CONTRIBUTORS-BADGE:END -->
+  <a href="https://img.shields.io/github/last-commit/tungbq/devops-basic/main"><img alt="last commit" src="https://img.shields.io/github/last-commit/tungbq/devops-basic/main" /></a>
+</p>
 
 ## Hit the Star! ⭐
 - If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐ Thanks! 💖
