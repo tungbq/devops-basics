@@ -1,6 +1,8 @@
 <h1 align="center">DevOps Basic</h1>
 
 <p align="center">A place to practice basic DevOps toolchain. 💝</p>
+<p align="center">This repository contains comprehensive documentation, basic hands-on scripts, advanced examples, and additional resources for a variety of DevOps tools</p>
+
 <p align="center">
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
   <a href="#contributors-" target="_blank"><img alt="👪 All Contributors: 28" src="https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square" /></a>
