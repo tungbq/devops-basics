@@ -46,12 +46,12 @@
 
 - Link to official advanced examples (if any)
 
-# More
+## More
 
-## Cheatsheet (Nice to have)
+### Cheatsheet (Nice to have)
 
 - Offer an official cheatsheet link or create one for quick reference to features and functionalities.
 
-## Recommended Books
+### Recommended Books
 
 - Suggest quality reads related to YOUR_TOPIC for further learning and understanding.
