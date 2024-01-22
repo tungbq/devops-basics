@@ -1,22 +1,47 @@
-# What is Ansible
+## What is Ansible
+
+### Overview
+
 - See: https://opensource.com/resources/what-ansible
 
-# Install Ansible
-- Follow this guide: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible
+### Ansible Diagram
 
-# Getting started with Ansible
-- https://docs.ansible.com/ansible/latest/getting_started/index.html#getting-started-with-ansible
-
-# Ansible Diagram
 ![ansible-diagram](https://www.interviewbit.com/blog/wp-content/uploads/2022/06/Why-use-Ansible-768x449.png)
 
 (Image source provided by https://www.interviewbit.com/blog/ansible-architecture/)
 
-# Basic concepts
+### Official website documentation of Ansible
+
+- Visit https://www.ansible.com/
+
+## Installation
+
+### How to install Ansible?
+
+- Follow this guide: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible
+
+## Basics of Ansible
+
+### Getting started with Ansible
+
 - https://docs.ansible.com/ansible/latest/network/getting_started/basic_concepts.html#basic-concepts
 
-# Ansible playbook cheatsheet
+### Ansible Helloworld ⭐
+
+- Run [ansible-helloworld.sh](./basic/helloworld/ansible-helloworld.sh)
+
+## Beyond the Basics
+
+### Exploring Advanced Examples
+
+- Checkout [advanced](./advanced/)
+
+## More
+
+### Ansible playbook cheatsheet
+
 - https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html#ansible-playbook
 
-# Ansible Helloworld ⭐⭐⭐
-- Run [ansible-helloworld.sh](./hello-world/ansible-helloworld.sh)
+### Recommended Books
+
+- None
