@@ -7,3 +7,6 @@ Collection of DevOps related docs.
 
 # AWS DevOps Blog
 - https://aws.amazon.com/blogs/devops/
+
+# More...
+- https://github.com/tungbq/devops-basic/blob/main/docs/GOODREAD.md
