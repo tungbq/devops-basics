@@ -6,8 +6,8 @@ An important skill for DevOps
 
 ### Design Pattern
 
-https://refactoring.guru/design-patterns/catalog
+- https://refactoring.guru/design-patterns/catalog
 
 ### The Twelve-Factor App
 
-https://12factor.net/
+- https://12factor.net/
