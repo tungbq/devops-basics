@@ -11,3 +11,7 @@ An important skill for DevOps
 ### The Twelve-Factor App
 
 - https://12factor.net/
+
+### OOP Concepts
+
+- https://docs.oracle.com/javase/tutorial/java/concepts/
