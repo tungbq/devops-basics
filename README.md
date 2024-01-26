@@ -5,7 +5,7 @@
 
 <p align="center">
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-  <a href="#contributors-" target="_blank"><img alt="👪 All Contributors: 29" src="https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square" /></a>
+  <a href="#contributors-" target="_blank"><img alt="👪 All Contributors: 30" src="https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square" /></a>
   <!-- ALL-CONTRIBUTORS-BADGE:END -->
   <a href="https://img.shields.io/github/last-commit/tungbq/devops-basic/main"><img alt="last commit" src="https://img.shields.io/github/last-commit/tungbq/devops-basic/main" /></a>
   <a href="https://github.com/tungbq/devops-basic/releases"><img alt="devops-basic release" src="https://img.shields.io/github/release/tungbq/devops-basic.svg" /></a>
@@ -109,6 +109,7 @@ Thank you all! 💖
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MohitKambli"><img src="https://avatars.githubusercontent.com/u/31406633?v=4?s=100" width="100px;" alt="Mohit Kambli"/><br /><sub><b>Mohit Kambli</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=MohitKambli" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nhk2005"><img src="https://avatars.githubusercontent.com/u/140891599?v=4?s=100" width="100px;" alt="Khang Huu Nguyen"/><br /><sub><b>Khang Huu Nguyen</b></sub></a><br /><a href="https://github.com/tungbq/devops-basic/commits?author=nhk2005" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
