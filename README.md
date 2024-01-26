@@ -41,7 +41,7 @@
 | Python |  [python](./topics/python/)| 📖 [www.python.org/doc](https://www.python.org/doc/)|✔️ [python/helloworld](./topics/python/helloworld/)|
 | Openstack |  [openstack](./topics/openstack/)| 📖 [docs.openstack.org](https://docs.openstack.org/2023.2/)|✔️ [openstack/helloworld](./topics/openstack/basic/)|
 | Packer |  coming-soon| 📖 [www.packer.io](https://www.packer.io/)|coming-soon|
-| Coding |  [coding](./topics/coding/)| 📖 [coding](./topics/coding/)|in-progress|
+| Coding |  [coding](./topics/coding/)| 📖 [coding](./topics/coding/)|in-progress 🏃|
 | Microservices| [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/) | coming-soon|
 | HashiCorp Vault |  coming-soon| 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)|coming-soon|
 
