@@ -1,19 +1,55 @@
-# What is Prometheus?
+## What is Prometheus?
+
 - https://prometheus.io/docs/introduction/overview/#what-is-prometheus
 
+### Overview
 
-# Prometheus Architecture
+- Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud.
+
+### Prometheus architecture
+
 <img src="../../assets/images/prometheus/prometheus-architecture.png" width="700">
 
 - (Image source provided by https://prometheus.io/docs/introduction/overview/#architecture)
 
-# How to install Prometheus
+### Official website documentation of Prometheus
+
+- https://prometheus.io/docs/introduction/overview/
+
+## Prerequisites
+
+- Linux, Helm, k8s
+
+## Installation
+
+### How to install Prometheus?
+
 - https://prometheus.io/docs/prometheus/latest/installation/
 
-# Prometheus Helloworld Hands-on
-- Required knowledge in [helm](../../topics/helm/) | [k8s](../../topics/k8s/) first for better understanding. Because we will deploy our own Prometheus to K8s using Helm
-- Run the demo scipt: `cd hello-world; ./prometheus-helloworld.sh`
-- (Optional) Run the demo scipt and cleanup right after the demo: `cd hello-world; ./prometheus-helloworld.sh true`
+## Basics of Prometheus
 
-# Getting started with Prometheus
+### Prometheus getting started
+
 - https://prometheus.io/docs/prometheus/latest/getting_started/
+
+### Prometheus Hello World
+
+- Required knowledge in [helm](../../topics/helm/) | [k8s](../../topics/k8s/) first for better understanding. Because we will deploy our own Prometheus to K8s using Helm
+- Run the demo scipt: `cd basic; ./prometheus-helloworld.sh`
+- (Optional) Run the demo scipt and cleanup right after the demo: `cd basic; ./prometheus-helloworld.sh true`
+
+## Beyond the Basics
+
+### Hands-On Example
+
+- Check the [advanced/](./advanced/) directory for more Prometheus examples.
+
+## More...
+
+### Prometheus cheatsheet
+
+- None
+
+### Recommended Books
+
+- None
