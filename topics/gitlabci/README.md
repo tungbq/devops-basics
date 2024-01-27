@@ -1,23 +1,55 @@
-# Gitlab CI getting started
+## What is Gitlab CI?
 
-- https://docs.gitlab.com/ee/ci/
+### Overview
 
-# Create and run your first GitLab CI/CD pipeline
+GitLab CI/CD is a software development tool that allows organizations to implement “continuous” methodologies, including continuous integration (CI), continuous delivery (CD), and continuous deployment (also abbreviated to CD).
 
-- https://docs.gitlab.com/ee/ci/quick_start/
+### Gitlab CI workflow
 
-# Gitlab public
+- None
 
-- https://gitlab.com/
+### Official website documentation of Gitlab CI
 
-# Gitlab self deployment
+- https://docs.gitlab.com/ (CI/CD page)
 
-- https://docs.gitlab.com/ee/install/install_methods.html  
+## Prerequisites
 
-# GitLab CI/CD examples  
+- Basic linux command line skill, CICD, YAML
 
-- https://docs.gitlab.com/ee/ci/examples/ 
+## Installation
 
-# Advanced
-## Using GitLab CI/CD with a GitHub repository 
-- https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/github_integration.html
+### How to install Gitlab CI?
+
+#### Gitlab public
+
+- Use https://gitlab.com/ (No need to install)
+
+#### Gitlab self deployment
+
+- https://docs.gitlab.com/ee/install/install_methods.html
+
+##### Basics of Gitlab CI
+
+### Getting started with Gitlab CI
+
+- Visit https://docs.gitlab.com/ee/ci/quick_start/ for a comprehensive introduction.
+
+### Gitlab CI Hello World
+
+- Check the [basic/](./basic/) directory to create a simple Gitlab CI demo.
+
+## Beyond the Basics
+
+### Hands-On Example
+
+- Explore a practical hands-on example in the [Gitlab CI examples](https://docs.gitlab.com/ee/ci/examples/) for more Gitlab CI concepts
+
+## More...
+
+### Gitlab CI YAML syntax reference
+
+- https://docs.gitlab.com/ee/ci/yaml/
+
+### Recommended Books
+
+- None
