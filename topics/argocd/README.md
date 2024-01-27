@@ -1,31 +1,51 @@
-# What is Argo CD?
+## What is ArgoCD?
 
 - https://argo-cd.readthedocs.io/en/stable/#what-is-argo-cd
 
-# Argo CD Official GitHub repo
+### Overview
 
-- https://github.com/argoproj/argo-cd
+Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
 
-# Why Argo CD?
-
-- https://argo-cd.readthedocs.io/en/stable/#why-argo-cd
-
-# Argo CD Architecture
+### ArgoCD Architecture
 
 ![argocd_architecture](https://argo-cd.readthedocs.io/en/stable/assets/argocd_architecture.png)
 
-# Argo CD Getting Started
+### Official website documentation of docker
 
-- https://argo-cd.readthedocs.io/en/stable/getting_started/
+- Access the complete [official ArgoCD repo](https://github.com/argoproj/argo-cd) for detailed information and references.
 
-# Argo CD Example Apps
+## Prerequisites
 
-- https://github.com/argoproj/argocd-example-apps
+- Familiarity with containerization concepts and basic Linux command-line usage would be beneficial for understanding ArgoCD.
 
-# Hands on
+## Installation
 
-- Check out [helloworld](./helloworld/)
+### How to install ArgoCD?
 
-# Advanced Hands on
+- Follow the steps outlined in the [ArgoCD installation documentation](https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/) for both local development and production environments.
 
-- Coming Soon
+# Basics of ArgoCD
+
+### 1. Getting started with ArgoCD
+
+- Refer to the [official ArgoCD getting started documentation](https://argo-cd.readthedocs.io/en/stable/getting_started/) for a comprehensive introduction.
+
+### 2. ArgoCD Hello World
+
+- Run the [basic/](./basic/install_argocd.sh) script to execute a simple ArgoCD "Hello World" demonstration.
+
+## Beyond the Basics
+
+### Hands-On Example
+
+- Explore a practical hands-on example in the [argocd-example-apps repo](https://github.com/argoproj/argocd-example-apps) to quickly start using ArgoCD.
+
+## More
+
+### ArgoCD Cheatsheet
+
+- None
+
+### Recommended Books
+
+- None
