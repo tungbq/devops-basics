@@ -43,6 +43,7 @@ GitLab CI/CD is a software development tool that allows organizations to impleme
 ### Hands-On Example
 
 - Explore a practical hands-on example in the [Gitlab CI examples](https://docs.gitlab.com/ee/ci/examples/) for more Gitlab CI concepts
+- Check the [advanced/](./advanced//) for more Gitlab CI concepts
 
 ## More...
 
