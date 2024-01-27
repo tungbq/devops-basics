@@ -27,21 +27,21 @@
 | Docker |  [docker](./topics/docker/)| 📖 [docs.docker.com](https://docs.docker.com/)|✔️ [docker-helloworld.sh](./topics/docker/basic/docker-helloworld.sh)|
 | Kubernetes (k8s) |  [k8s](./topics/k8s/)| 📖 [kubernetes.io/docs](https://kubernetes.io/docs/home/) |✔️ [k8s-helloworld.sh](./topics/k8s/basic/helloworld/k8s-helloworld.sh)|
 | Aws | [aws](./topics/aws/)| 📖 [docs.aws.amazon.com](https://docs.aws.amazon.com/)| ✔️ [EC2_GetStarted](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) 📖|
-| Helm |  [helm](./topics/helm/)| 📖 [helm.sh/docs](https://helm.sh/docs/)|✔️ [helm-helloworld.sh](./topics/helm/hello-world/helm-helloworld.sh)|
-| Jenkins |  [jenkins](./topics/jenkins/) | 📖 [www.jenkins.io/doc](https://www.jenkins.io/doc/)|✔️ [Jenkins-Hello-World.md](./topics/jenkins/helloworld/Jenkins-Hello-World.md)|
-| Terraform |  [terraform](./topics/terraform/)| 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)|✔️ [terraform-helloworld.sh](./topics/terraform/hello-world/terraform-helloworld.sh)|
-| Shell |  [shell](./topics/shell/)| 📖 [devdocs.io/bash](https://devdocs.io/bash/)| ✔️ [basic.sh](./topics/shell/basic.sh) 🏃|
-| Git |  [git](./topics/git/)| 📖 [git-scm.com/doc](https://git-scm.com/doc)|✔️ [git-helloworld.sh](./topics/git/hello-world/git-helloworld.sh)|
-| Elk |  [elk](./topics/elk/)| 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)|✔️ [elk/helloworld](./topics/elk/helloworld/)|
-| ArgoCD |  [argocd](./topics/argocd/)| 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|✔️ [argocd/helloworld](./topics/argocd/helloworld/)|
+| Helm |  [helm](./topics/helm/)| 📖 [helm.sh/docs](https://helm.sh/docs/)|✔️ [helm-helloworld.sh](./topics/helm/basic/helm-helloworld.sh)|
+| Jenkins |  [jenkins](./topics/jenkins/) | 📖 [www.jenkins.io/doc](https://www.jenkins.io/doc/)|✔️ [Jenkins-Hello-World.md](./topics/jenkins/basic/Jenkins-Hello-World.md)|
+| Terraform |  [terraform](./topics/terraform/)| 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)|✔️ [terraform-helloworld.sh](./topics/terraform/basic/terraform-helloworld.sh)|
+| Shell |  [shell](./topics/shell/)| 📖 [devdocs.io/bash](https://devdocs.io/bash/)| ✔️ [basic.sh](./topics/shell/basic/basic.sh)|
+| Git |  [git](./topics/git/)| 📖 [git-scm.com/doc](https://git-scm.com/doc)|✔️ [git-helloworld.sh](./topics/git/basic/hello-world/git-helloworld.sh)|
+| Elk |  [elk](./topics/elk/)| 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)|✔️ [elk/basic/helloworld](./topics/elk/basic/helloworld/)|
+| ArgoCD |  [argocd](./topics/argocd/)| 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|✔️ [argocd/basic](./topics/argocd/basic/)|
 | Github-Action |  [github-action](./topics/github-action/)| 📖 [docs.github.com/actions](https://docs.github.com/actions)|✔️ [Create First Workflow](https://docs.github.com/en/actions/quickstart#creating-your-first-workflow)|
 | Gitlab CI |  [gitlab-ci](./topics/gitlabci/)| 📖 [docs.gitlab.com/ee/ci](https://docs.gitlab.com/ee/ci/)|✔️ [Create First Pipeline](https://docs.gitlab.com/ee/ci/quick_start/)|
-| Groovy |  [groovy](./topics/groovy/)| 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)|✔️ [groovy/helloworld](./topics/groovy/helloworld/)|
-| Prometheus |  [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/hello-world/prometheus-helloworld.sh)|
-| Python |  [python](./topics/python/)| 📖 [www.python.org/doc](https://www.python.org/doc/)|✔️ [python/helloworld](./topics/python/helloworld/)|
+| Groovy |  [groovy](./topics/groovy/)| 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)|✔️ [groovy/basic](./topics/groovy/basic/)|
+| Prometheus |  [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/basic/prometheus-helloworld.sh)|
+| Python |  [python](./topics/python/)| 📖 [www.python.org/doc](https://www.python.org/doc/)|✔️ [python/basic](./topics/python/basic/)|
 | Openstack |  [openstack](./topics/openstack/)| 📖 [docs.openstack.org](https://docs.openstack.org/2023.2/)|✔️ [openstack/helloworld](./topics/openstack/basic/)|
 | Packer |  coming-soon| 📖 [www.packer.io](https://www.packer.io/)|coming-soon|
-| Coding |  [coding](./topics/coding/)| 📖 [coding](./topics/coding/)|in-progress 🏃|
+| Coding |  [coding](./topics/coding/)| 📖 [coding](./topics/coding/)|🏃 in-progress |
 | Microservices| [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/) | coming-soon|
 | HashiCorp Vault |  coming-soon| 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)|coming-soon|
 
