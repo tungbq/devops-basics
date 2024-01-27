@@ -14,7 +14,7 @@
 
 ## Prerequisites
 
-- None
+- K8s, docker, linux
 
 ## Installation
 
