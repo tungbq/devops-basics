@@ -21,8 +21,6 @@
 
 ### How to install Shell?
 
-### Install Shell with Docker
-
 - Just install Linux then you would have shell enviroment as well
 
 ## Basics of Shell
