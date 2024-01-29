@@ -12,12 +12,13 @@ Once you find an existing issue that you want to work on or if you have a new is
 To contribute a change proposal, use the following workflow:
 
 1. [Fork the repository](https://github.com/tungbq/devops-basic).
-2. [Add an upstream](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) so that you can update your fork.
-3. Clone your fork to your computer.
-4. Create a branch and name it appropriately.
-5. Work on only one major change in one pull request.
-6. Make sure all tests are passing locally.
-7. Next, rinse and repeat the following:
+2. If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐ Thanks! 💖
+3. [Add an upstream](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) so that you can update your fork.
+4. Clone your fork to your computer.
+5. Create a branch and name it appropriately.
+6. Work on only one major change in one pull request.
+7. Make sure all tests are passing locally.
+8. Next, rinse and repeat the following:
 
     1. Commit your changes. Write a simple, straightforward commit message. To learn more, see [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/).
     2. Push your changes to your remote fork. To add your remote, you can copy/paste the following:
