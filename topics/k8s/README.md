@@ -20,6 +20,7 @@
 - Dev/Local environment: https://kubernetes.io/docs/tasks/tools/#kubectl
 - Production environment: https://kubernetes.io/docs/setup/production-environment
 - Create your own cluster on AWS: https://github.com/tungbq/devops-project/tree/main/projects/create-k8s-cluster-aws-ec2
+- Deploy a Production Ready Kubernetes Cluster: https://github.com/kubernetes-sigs/kubespray
 
 ## Basics of Kubernetes
 
