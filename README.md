@@ -46,6 +46,7 @@
 | Microservices| [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/) |⏩ coming-soon|
 | HashiCorp Vault |  coming-soon| 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)|⏩ coming-soon|
 
+And **more upcoming topics...⏩** you can follow this repository to get more up-to-dated content ⭐
 
 ## Extra content (from other repos)
 | Item | Link |
