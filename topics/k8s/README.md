@@ -40,6 +40,9 @@
 
 - Checkout [advanced](./advanced/)
 
+### kube101 labs
+- Visit: https://ibm.github.io/kube101/
+
 ## More
 
 ### Kubernetes cheatsheet
