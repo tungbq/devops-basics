@@ -47,4 +47,4 @@ For a deeper understanding, refer to the [Openstack Architecture documentation](
 
 ### Recommended Books
 
-- [OpenStack Cloud Computing Cookbook - Fourth Edition](https://github.com/tungbq/devops-basic/tree/main/topics/openstack#recommended-books)
+- [OpenStack Cloud Computing Cookbook - Fourth Edition](https://a.co/d/34FukGa)
