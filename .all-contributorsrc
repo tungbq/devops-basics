@@ -286,6 +286,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "payneInTheBrian",
+      "name": "Brian Payne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94146218?v=4",
+      "profile": "https://github.com/payneInTheBrian",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
