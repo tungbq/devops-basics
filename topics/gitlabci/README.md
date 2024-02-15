@@ -28,7 +28,7 @@ GitLab CI/CD is a software development tool that allows organizations to impleme
 
 - https://docs.gitlab.com/ee/install/install_methods.html
 
-##### Basics of Gitlab CI
+## Basics of Gitlab CI
 
 ### Getting started with Gitlab CI
 
