@@ -53,6 +53,10 @@
 
 - https://github.com/techiescamp/kubernetes-learning-path
 
+### Azure Kubernetes Service (AKS)
+
+- https://learn.microsoft.com/en-us/azure/aks/
+
 ### Recommended Books
 
 - None
