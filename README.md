@@ -5,8 +5,8 @@
 
 <p align="center">
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+  <a href="#contributors-" target="_blank"><img alt="👪 All Contributors: 32" src="https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square" /></a>
+  <!-- ALL-CONTRIBUTORS-BADGE:END -->
   <a href="https://img.shields.io/github/last-commit/tungbq/devops-basic/main"><img alt="last commit" src="https://img.shields.io/github/last-commit/tungbq/devops-basic/main" /></a>
   <a href="https://github.com/tungbq/devops-basic/releases"><img alt="devops-basic release" src="https://img.shields.io/github/release/tungbq/devops-basic.svg" /></a>
   <a href="https://github.com/tungbq/devops-basic/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-basic"/></a>
