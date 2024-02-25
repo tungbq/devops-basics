@@ -48,7 +48,7 @@
 
 ### Prometheus cheatsheet
 
-- None
+- https://promlabs.com/promql-cheat-sheet/
 
 ### Recommended Books
 
