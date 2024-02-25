@@ -3,7 +3,7 @@ name: Links Checker
 on:
   workflow_dispatch:
   schedule:
-      - cron: "0 0 * * 0" # weekly run
+      - cron: "0 0 1,15 * *" # twice a month
 
 jobs:
   linkChecker:
