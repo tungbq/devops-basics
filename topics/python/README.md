@@ -46,7 +46,7 @@
 
 ### Python cheatsheet
 
-- None
+- https://www.pythoncheatsheet.org/
 
 ### Recommended Books
 
