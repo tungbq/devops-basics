@@ -61,6 +61,7 @@ And **more upcoming topics...⏩** you can follow this repository to get more up
 | devops-exercises | 📚 [devops-exercises](https://github.com/bregman-arie/devops-exercises)|
 | devops-resources | 🔗 [devops-resources](https://github.com/bregman-arie/devops-resources)|
 | howtheydevops | ❔ [howtheydevops](https://github.com/bregman-arie/howtheydevops)|
+| devops-dockerfiles | 🏗️ [devops-dockerfiles](https://github.com/tungbq/devops-dockerfiles)|
 
 ## Contributing
 - See: [CONTRIBUTING.md](./CONTRIBUTING.md)
