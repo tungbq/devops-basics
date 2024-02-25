@@ -9,7 +9,7 @@
 
 ### ELK Architecture
 
-- ![k8s-architecture](../../)
+![elk_architecture](../../assets/images/elk/elk_architecture.png)
 
 ### Official website documentation of ELK
 
