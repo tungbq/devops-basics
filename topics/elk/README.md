@@ -9,7 +9,7 @@
 
 ### ELK Architecture
 
-- TO-DO
+- ![k8s-architecture](../../)
 
 ### Official website documentation of ELK
 
