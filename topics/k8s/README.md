@@ -60,7 +60,8 @@
 
 ### Azure Kubernetes Service (AKS)
 
-- https://learn.microsoft.com/en-us/azure/aks/
+- [azure/aks](https://learn.microsoft.com/en-us/azure/aks/)
+- [aks-cicd-azure-pipelines](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-cicd-azure-pipelines)
 
 ### Recommended Books
 
