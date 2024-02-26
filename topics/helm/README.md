@@ -5,8 +5,7 @@
 - Helm is the package manager for Kubernetes
 
 ### Helm workflow
-
-- None
+![helm_workflow](https://v2.helm.sh/img/chart-illustration.png)
 
 ### Official website documentation of Helm
 
