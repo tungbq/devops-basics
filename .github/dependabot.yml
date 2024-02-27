@@ -9,3 +9,7 @@ updates:
     package-ecosystem: "terraform"
     schedule:
       interval: "weekly"
+  - directory: "/topics/terraform/advanced/aws-three-tier"
+    package-ecosystem: "terraform"
+    schedule:
+      interval: "weekly"
