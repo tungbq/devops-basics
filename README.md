@@ -42,6 +42,7 @@
 | Prometheus |  [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/basic/prometheus-helloworld.sh)|
 | Python |  [python](./topics/python/)| 📖 [www.python.org/doc](https://www.python.org/doc/)|✔️ [python/basic](./topics/python/basic/)|
 | Openstack |  [openstack](./topics/openstack/)| 📖 [docs.openstack.org](https://docs.openstack.org/2023.2/)|✔️ [openstack/helloworld](./topics/openstack/basic/)|
+| Azure-DevOps |  [azuredevops](./topics/azuredevops/)| 📖 [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/devops)|✔️ [azuredevops/basic](./topics/azuredevops/basic/)|
 | Coding |  [coding](./topics/coding/)| 📖 [coding](./topics/coding/)|🏃 in-progress |
 | Packer |  coming-soon| 📖 [www.packer.io](https://www.packer.io/)|⏩coming-soon|
 | Microservices| [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/) |⏩ coming-soon|
