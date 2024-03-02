@@ -15,23 +15,23 @@ N/A
 
 ## Prerequisites
 
-- Basic CICD concept
+- Understanding the basic CICD concept would be helpful
 
 ## Installation
 
 ### How to install Azure DevOps?
 
-- No need to insatall, just use: https://dev.azure.com/
+- No need to install, just use: https://dev.azure.com/
 
 ## Basics of Azure DevOps
 
 ### Azure DevOps quick start
 
-- https://learn.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline
+- See [Create first pipeline](https://learn.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline)
 
 ### Azure DevOps Hello World
 
-- Check the [basic/](./basic/) directory to create a simple Azure DevOps demo.
+- Check the [basic/](./basic/) directory to create a simple Azure DevOps pipeline.
 
 ## Beyond the Basics
 
