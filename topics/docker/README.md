@@ -46,4 +46,4 @@ For a deeper understanding, refer to the [Docker Architecture documentation](htt
 
 ### Recommended Books
 
-- None
+- _Docker in Action, Second Edition_ by Jeff Nickoloff (Author), Stephen Kuenzli (Author). Link [Docker in Action](https://www.amazon.com/Docker-Action-Jeff-Nickoloff/dp/1617294764)
