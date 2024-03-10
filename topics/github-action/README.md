@@ -42,9 +42,9 @@ GitHub Actions is a continuous integration and continuous delivery (CI/CD) platf
 
 ## More...
 
-### GitHub Action cheatsheet
+### Awesome GitHub workflow
 
-- None
+- Visit [awesome-workflow](https://github.com/tungbq/awesome-workflow)
 
 ### Recommended Books
 
