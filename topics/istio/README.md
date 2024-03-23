@@ -43,6 +43,10 @@
 
 - https://istio.io/latest/docs/reference/commands/
 
+### Istio with Azure
+- https://github.com/Azure-Samples/aks-istio-addon-bicep
+- https://learn.microsoft.com/en-us/azure/aks/istio-about
+
 ### Recommended Books
 
 - None
