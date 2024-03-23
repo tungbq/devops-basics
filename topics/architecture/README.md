@@ -1,4 +1,7 @@
 # Architecture Center
+## AWS Architecture Center
+- Architecture Center: https://aws.amazon.com/architecture
+- AWS official youtube channel: [This is my architecture series](https://youtube.com/playlist?list=PLhr1KZpdzukdeX8mQ2qO73bg6UKQHYsHb&si=ztggdByRdqW9tKvl)
 ## Azure Architecture Center
 - Architecture Center: https://learn.microsoft.com/en-us/azure/architecture/
 - Browse Architecture Center: https://learn.microsoft.com/en-us/azure/architecture/browse/
