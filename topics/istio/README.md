@@ -31,10 +31,6 @@
 
 - https://istio.io/latest/docs/setup/getting-started/
 
-### Istio Helloword ⭐
-
-- TODO
-
 ## Beyond the Basics
 
 ### Exploring Advanced Examples
