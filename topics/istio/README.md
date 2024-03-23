@@ -1,7 +1,12 @@
-## What is Istio
+## What is Istio?
+
+### What is a Service Mesh?
+
+- https://istio.io/latest/about/service-mesh/#what-is-a-service-mesh
 
 ### Overview
 
+- Istio is a service mesh
 - Istio extends Kubernetes to establish a programmable, application-aware network using the powerful Envoy service proxy.
 - Working with both Kubernetes and traditional workloads, Istio brings standard, universal traffic management, telemetry, and security to complex deployments.
 
