@@ -24,7 +24,7 @@
 ## We cover many DevOps topics content under - [topic](./topics/) 🔥
 | Item | Content | Official Docs | Hands-on |
 |:---|:---|:---|:---|
-| Architecture| [architecture](./topics/architecture/) | ⏩coming-soon | ⏩coming-soon|
+| Architecture| [architecture](./topics/architecture/) | 📖 [architecture/README.md](https://github.com/tungbq/devops-basic/blob/main/topics/architecture/README.md) | ⏩coming-soon|
 | Ansible |  [ansible](./topics/ansible/)| 📖 [docs.ansible.com](https://docs.ansible.com/)|✔️ [ansible-helloworld.sh](./topics/ansible/basic/helloworld/ansible-helloworld.sh)|
 | Docker |  [docker](./topics/docker/)| 📖 [docs.docker.com](https://docs.docker.com/)|✔️ [docker-helloworld.sh](./topics/docker/basic/docker-helloworld.sh)|
 | Kubernetes (k8s) |  [k8s](./topics/k8s/)| 📖 [kubernetes.io/docs](https://kubernetes.io/docs/home/) |✔️ [k8s-helloworld.sh](./topics/k8s/basic/helloworld/k8s-helloworld.sh)|
