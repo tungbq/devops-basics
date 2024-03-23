@@ -1,8 +1,8 @@
 ## What is Istio?
 
 ### What is a Service Mesh?
-
-- https://istio.io/latest/about/service-mesh/#what-is-a-service-mesh
+- A service mesh is a dedicated infrastructure layer that you can add to your applications. It allows you to transparently add capabilities like observability, traffic management, and security, without adding them to your own code
+- Source: [what-is-a-service-mesh](https://istio.io/latest/about/service-mesh/#what-is-a-service-mesh)
 
 ### Overview
 
