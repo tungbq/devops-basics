@@ -47,6 +47,9 @@
 - https://github.com/Azure-Samples/aks-istio-addon-bicep
 - https://learn.microsoft.com/en-us/azure/aks/istio-about
 
+### Google Cloud Platform Istio Demo
+- [service-mesh-istio](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/kustomize/components/service-mesh-istio/README.md)
+
 ### Recommended Books
 
 - None
