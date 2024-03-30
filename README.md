@@ -12,10 +12,12 @@
   <a href="https://github.com/tungbq/devops-basic/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-basic"/></a>
 </p>
 
-## Getting started - [getting-started](./getting-started/) ⬆️
-- **DevOps Diagram** ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
+## Getting started 🐤
+- **What is DevOps?** ➡️ [getting-started](./getting-started/)
+- **DevOps Diagram**
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" width="500">
 
+- **DevOps Diagram** ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
 - **DevOps Roadmap** ➡️ [roadmap.sh/devops](https://roadmap.sh/devops)
 
 ## We cover many DevOps topics content under - [topic](./topics/) 🔥
