@@ -45,7 +45,7 @@ DevOps combines development (Dev) and operations (Ops) to increase the efficienc
 
 ## DevOps topics 🔥
 
-We cover many DevOps topics content under - [topic](./topics/)
+We cover a wide range of DevOps topics in our content library, explore them under [**topics**](./topics/). You can also refer to [**roadmap.sh/devops**](https://roadmap.sh/devops) to see where each topic fits in the toolchain
 
 | Item             | Content                                  | Official Docs                                                                                               | Hands-on                                                                                               |
 | :--------------- | :--------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
