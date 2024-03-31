@@ -16,7 +16,7 @@
 
 You are new to DevOps or want to learn some DevOps tools, or you are already a DevOps engineer, and you are looking for DevOps documents and a place to practice DevOps tools? This repository will assist you in enhancing your DevOps skills and serve as a bookmark for documents related to DevOps. Key features include:
 
-- **Wide range of topics**: Explore 20+ important DevOps subjects like Docker, Kubernetes, Terraform, Ansible, Cloud services, System Architecture, Monitoring, and more.
+- **Wide range of topics**: Explore **20+** important DevOps subjects like Docker, Kubernetes, Terraform, Ansible, Cloud services, System Architecture, Monitoring, and more.
 - **Useful resources**: Each topic comes with an overview, official documentation links, cheatsheets, and extra resources to help you learn more.
 - **Hands-On practice**: Get basic examples for each topic so you can try out what you learn.
 - **Advanced examples**: Once you've grasped the basic concepts, exploring advanced examples will further elevate your skills.
