@@ -1,6 +1,6 @@
 <h1 align="center">DevOps Basic</h1>
 
-<p align="center">Practical and document place for basic DevOps toolchain 💝</p>
+<p align="center">Practical and document place for DevOps toolchain 💝</p>
 <p align="center">With comprehensive documentation, basic hands-on scripts, advanced examples, and additional resources for a variety of DevOps tools</p>
 
 <p align="center">
@@ -11,6 +11,15 @@
   <a href="https://github.com/tungbq/devops-basic/releases"><img alt="devops-basic release" src="https://img.shields.io/github/release/tungbq/devops-basic.svg" /></a>
   <a href="https://github.com/tungbq/devops-basic/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-basic"/></a>
 </p>
+
+## Introduction
+
+You are new to DevOps or want to learn some DevOps tools, or you are already a DevOps engineer, and you are looking for DevOps documents and a place to practice DevOps tools? This repository will assist you in enhancing your DevOps skills and serve as a bookmark for documents related to DevOps. Key features include:
+
+- **Wide range of topics**: Explore 20+ important DevOps subjects like Docker, Kubernetes, Terraform, Ansible, Cloud services, System Architecture, Monitoring, and more.
+- **Useful resources**: Each topic comes with an overview, official documentation links, cheatsheets, and extra resources to help you learn more.
+- **Hands-On practice**: Get basic examples for each topic so you can try out what you learn.
+- **Advanced examples**: Once you've grasped the basic concepts, exploring advanced examples will further elevate your skills.
 
 ## Getting started 🐤
 
@@ -34,7 +43,9 @@ DevOps combines development (Dev) and operations (Ops) to increase the efficienc
 
 - ➡️ [roadmap.sh/devops](https://roadmap.sh/devops)
 
-## We cover many DevOps topics content under - [topic](./topics/) 🔥
+## DevOps topics 🔥
+
+We cover many DevOps topics content under - [topic](./topics/)
 
 | Item             | Content                                  | Official Docs                                                                                               | Hands-on                                                                                               |
 | :--------------- | :--------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
@@ -63,7 +74,7 @@ DevOps combines development (Dev) and operations (Ops) to increase the efficienc
 | Microservices    | [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/)                                    | ⏩ coming-soon                                                                                         |
 | HashiCorp Vault  | coming-soon                              | 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)                         | ⏩ coming-soon                                                                                         |
 
-And **more upcoming topics...⏩** you can follow this repository to get more up-to-dated content ⭐
+And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
 
 ## Extra content (from other repos)
 
