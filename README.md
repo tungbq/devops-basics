@@ -12,7 +12,7 @@
   <a href="https://github.com/tungbq/devops-basic/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-basic"/></a>
 </p>
 
-## Introduction
+## Introduction :wave:
 
 You are new to DevOps or want to learn some DevOps tools, or you are already a DevOps engineer, and you are looking for DevOps documents and a place to practice DevOps tools? This repository will assist you in enhancing your DevOps skills and serve as a bookmark for documents related to DevOps. Key features include:
 
@@ -21,7 +21,7 @@ You are new to DevOps or want to learn some DevOps tools, or you are already a D
 - **Hands-On practice**: Get basic examples for each topic so you can try out what you learn.
 - **Advanced examples**: Once you've grasped the basic concepts, exploring advanced examples will further elevate your skills.
 
-## Getting started 🐤
+## Getting started :rocket:
 
 ### What is DevOps?
 
