@@ -75,7 +75,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
 | HashiCorp Vault  | coming-soon                              | 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)                         | ⏩ coming-soon                                                                                         |
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
-- For additional resources to practice these tools, visit: [devops-project](https://github.com/tungbq/devops-project)
+- For additional resources to practice these tools, visit: [**devops-project**](https://github.com/tungbq/devops-project)
 
 ## Extra content (from other repos) :arrow_upper_right:
 
