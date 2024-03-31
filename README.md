@@ -1,6 +1,6 @@
 <h1 align="center">DevOps Basic</h1>
 
-<p align="center">A place to practice basic DevOps toolchain. 💝</p>
+<p align="center">Practical and document place for basic DevOps toolchain 💝</p>
 <p align="center">With comprehensive documentation, basic hands-on scripts, advanced examples, and additional resources for a variety of DevOps tools</p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ### What is DevOps?
 
-DevOps combines development (Dev) and operations (Ops) to increase the efficiency, speed, and security of software development and delivery compared to traditional processes. A more nimble software development lifecycle results in a competitive advantage for businesses and their customers. (source: GitLab)
+DevOps combines development (Dev) and operations (Ops) to increase the efficiency, speed, and security of software development and delivery compared to traditional processes. A more nimble software development lifecycle results in a competitive advantage for businesses and their customers (source: GitLab)
 
 ### Getting started
 
