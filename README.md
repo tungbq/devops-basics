@@ -1,6 +1,6 @@
 <h1 align="center">DevOps Basic</h1>
 
-<p align="center">A place to practice basic DevOps toolchain. 💝</p>
+<p align="center">Practical and document place for DevOps toolchain 💝</p>
 <p align="center">With comprehensive documentation, basic hands-on scripts, advanced examples, and additional resources for a variety of DevOps tools</p>
 
 <p align="center">
@@ -12,66 +12,97 @@
   <a href="https://github.com/tungbq/devops-basic/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-basic"/></a>
 </p>
 
-## Getting started 🐤
-- **What is DevOps?** ➡️ [getting-started](./getting-started/)
-- **DevOps Diagram**
+## Introduction :wave:
+
+You are new to DevOps or want to learn some DevOps tools, or you are already a DevOps engineer, and you are looking for DevOps documents and a place to practice DevOps tools? This repository will assist you in enhancing your DevOps skills and serve as a bookmark for documents related to DevOps. Key features include:
+
+- **Wide range of topics**: Explore 20+ important DevOps subjects like Docker, Kubernetes, Terraform, Ansible, Cloud services, System Architecture, Monitoring, and more.
+- **Useful resources**: Each topic comes with an overview, official documentation links, cheatsheets, and extra resources to help you learn more.
+- **Hands-On practice**: Get basic examples for each topic so you can try out what you learn.
+- **Advanced examples**: Once you've grasped the basic concepts, exploring advanced examples will further elevate your skills.
+
+## Getting started :rocket:
+
+### What is DevOps?
+
+DevOps combines development (Dev) and operations (Ops) to increase the efficiency, speed, and security of software development and delivery compared to traditional processes. A more nimble software development lifecycle results in a competitive advantage for businesses and their customers (source: GitLab)
+
+### Getting started
+
+- ➡️ [getting-started](./getting-started/)
+
+### DevOps Diagram
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" width="500">
 
-- **DevOps Diagram** ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
-- **DevOps Roadmap** ➡️ [roadmap.sh/devops](https://roadmap.sh/devops)
+### DevOps toolchain
 
-## We cover many DevOps topics content under - [topic](./topics/) 🔥
-| Item | Content | Official Docs | Hands-on |
-|:---|:---|:---|:---|
-| Architecture| [architecture](./topics/architecture/) | 📖 [architecture/README.md](https://github.com/tungbq/devops-basic/blob/main/topics/architecture/README.md) | ⏩coming-soon|
-| Ansible |  [ansible](./topics/ansible/)| 📖 [docs.ansible.com](https://docs.ansible.com/)|✔️ [ansible-helloworld.sh](./topics/ansible/basic/helloworld/ansible-helloworld.sh)|
-| Docker |  [docker](./topics/docker/)| 📖 [docs.docker.com](https://docs.docker.com/)|✔️ [docker-helloworld.sh](./topics/docker/basic/docker-helloworld.sh)|
-| Kubernetes (k8s) |  [k8s](./topics/k8s/)| 📖 [kubernetes.io/docs](https://kubernetes.io/docs/home/) |✔️ [k8s-helloworld.sh](./topics/k8s/basic/helloworld/k8s-helloworld.sh)|
-| Istio |  [istio](./topics/istio/)| 📖 [istio.io/latest/docs](https://istio.io/latest/docs/) |✔️ [getting-started](https://istio.io/latest/docs/setup/getting-started/)|
-| Aws | [aws](./topics/aws/)| 📖 [docs.aws.amazon.com](https://docs.aws.amazon.com/)| ✔️ [EC2_GetStarted](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)|
-| Helm |  [helm](./topics/helm/)| 📖 [helm.sh/docs](https://helm.sh/docs/)|✔️ [helm-helloworld.sh](./topics/helm/basic/helm-helloworld.sh)|
-| Jenkins |  [jenkins](./topics/jenkins/) | 📖 [www.jenkins.io/doc](https://www.jenkins.io/doc/)|✔️ [Jenkins-Hello-World.md](./topics/jenkins/basic/Jenkins-Hello-World.md)|
-| Terraform |  [terraform](./topics/terraform/)| 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)|✔️ [terraform-helloworld.sh](./topics/terraform/basic/terraform-helloworld.sh)|
-| Shell |  [shell](./topics/shell/)| 📖 [devdocs.io/bash](https://devdocs.io/bash/)| ✔️ [basic.sh](./topics/shell/basic/basic.sh)|
-| Git |  [git](./topics/git/)| 📖 [git-scm.com/doc](https://git-scm.com/doc)|✔️ [git-helloworld.sh](./topics/git/basic/hello-world/git-helloworld.sh)|
-| Elk |  [elk](./topics/elk/)| 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)|✔️ [elk/basic/helloworld](./topics/elk/basic/helloworld/)|
-| ArgoCD |  [argocd](./topics/argocd/)| 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)|✔️ [argocd/basic](./topics/argocd/basic/)|
-| Github-Action |  [github-action](./topics/github-action/)| 📖 [docs.github.com/actions](https://docs.github.com/actions)|✔️ [Create First Workflow](https://docs.github.com/en/actions/quickstart#creating-your-first-workflow)|
-| Gitlab CI |  [gitlab-ci](./topics/gitlabci/)| 📖 [docs.gitlab.com/ee/ci](https://docs.gitlab.com/ee/ci/)|✔️ [Create First Pipeline](https://docs.gitlab.com/ee/ci/quick_start/)|
-| Groovy |  [groovy](./topics/groovy/)| 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)|✔️ [groovy/basic](./topics/groovy/basic/)|
-| Prometheus |  [prometheus](./topics/prometheus/)| 📖 [prometheus.io/docs](https://prometheus.io/docs/)|✔️ [prometheus-helloworld.sh](./topics/prometheus/basic/prometheus-helloworld.sh)|
-| Python |  [python](./topics/python/)| 📖 [www.python.org/doc](https://www.python.org/doc/)|✔️ [python/basic](./topics/python/basic/)|
-| Openstack |  [openstack](./topics/openstack/)| 📖 [docs.openstack.org](https://docs.openstack.org/2023.2/)|✔️ [openstack/helloworld](./topics/openstack/basic/)|
-| Azure-DevOps |  [azuredevops](./topics/azuredevops/)| 📖 [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/devops)|✔️ [azuredevops/basic](./topics/azuredevops/basic/)|
-| Coding |  [coding](./topics/coding/)| 📖 [coding](./topics/coding/)|🏃 in-progress |
-| Packer |  coming-soon| 📖 [www.packer.io](https://www.packer.io/)|⏩coming-soon|
-| Microservices| [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/) |⏩ coming-soon|
-| HashiCorp Vault |  coming-soon| 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)|⏩ coming-soon|
+- ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
 
-And **more upcoming topics...⏩** you can follow this repository to get more up-to-dated content ⭐
+### DevOps Roadmap
 
-## Extra content (from other repos)
-| Item | Link |
-|:---|:---|
-| devops-project | 🏗️ [devops-project](https://github.com/tungbq/devops-project)|
-| 90DaysOfDevOps | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)|
-| python | 🐍 [python-examples](https://github.com/tungbq/python-examples)|
-| aws-lab-with-terraform | ☁️ [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform)|
-| AWS-LearningResource |  🧰 [AWS-LearningResource](https://github.com/tungbq/AWS-LearningResource)|
-| bookmarks | 🔖 [bookmarks](https://github.com/tungbq/bookmarks)|
-| devops-exercises | 📚 [devops-exercises](https://github.com/bregman-arie/devops-exercises)|
-| devops-resources | 🔗 [devops-resources](https://github.com/bregman-arie/devops-resources)|
-| howtheydevops | ❔ [howtheydevops](https://github.com/bregman-arie/howtheydevops)|
-| devops-dockerfiles | 🏗️ [devops-dockerfiles](https://github.com/tungbq/devops-dockerfiles)|
+- ➡️ [roadmap.sh/devops](https://roadmap.sh/devops)
+
+## DevOps topics 🔥
+
+We cover a wide range of DevOps topics in our content library, explore them under [**topics**](./topics/). You can also refer to [**roadmap.sh/devops**](https://roadmap.sh/devops) to see where each topic fits in the toolchain
+
+| Item             | Content                                  | Official Docs                                                                                               | Hands-on                                                                                               |
+| :--------------- | :--------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
+| Ansible          | [ansible](./topics/ansible/)             | 📖 [docs.ansible.com](https://docs.ansible.com/)                                                            | ✔️ [ansible-helloworld.sh](./topics/ansible/basic/helloworld/ansible-helloworld.sh)                    |
+| Docker           | [docker](./topics/docker/)               | 📖 [docs.docker.com](https://docs.docker.com/)                                                              | ✔️ [docker-helloworld.sh](./topics/docker/basic/docker-helloworld.sh)                                  |
+| Kubernetes (k8s) | [k8s](./topics/k8s/)                     | 📖 [kubernetes.io/docs](https://kubernetes.io/docs/home/)                                                   | ✔️ [k8s-helloworld.sh](./topics/k8s/basic/helloworld/k8s-helloworld.sh)                                |
+| Istio            | [istio](./topics/istio/)                 | 📖 [istio.io/latest/docs](https://istio.io/latest/docs/)                                                    | ✔️ [getting-started](https://istio.io/latest/docs/setup/getting-started/)                              |
+| Aws              | [aws](./topics/aws/)                     | 📖 [docs.aws.amazon.com](https://docs.aws.amazon.com/)                                                      | ✔️ [EC2_GetStarted](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)           |
+| Helm             | [helm](./topics/helm/)                   | 📖 [helm.sh/docs](https://helm.sh/docs/)                                                                    | ✔️ [helm-helloworld.sh](./topics/helm/basic/helm-helloworld.sh)                                        |
+| Jenkins          | [jenkins](./topics/jenkins/)             | 📖 [www.jenkins.io/doc](https://www.jenkins.io/doc/)                                                        | ✔️ [Jenkins-Hello-World.md](./topics/jenkins/basic/Jenkins-Hello-World.md)                             |
+| Terraform        | [terraform](./topics/terraform/)         | 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)                                         | ✔️ [terraform-helloworld.sh](./topics/terraform/basic/terraform-helloworld.sh)                         |
+| Shell            | [shell](./topics/shell/)                 | 📖 [devdocs.io/bash](https://devdocs.io/bash/)                                                              | ✔️ [basic.sh](./topics/shell/basic/basic.sh)                                                           |
+| Git              | [git](./topics/git/)                     | 📖 [git-scm.com/doc](https://git-scm.com/doc)                                                               | ✔️ [git-helloworld.sh](./topics/git/basic/hello-world/git-helloworld.sh)                               |
+| Elk              | [elk](./topics/elk/)                     | 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)                                          | ✔️ [elk/basic/helloworld](./topics/elk/basic/helloworld/)                                              |
+| ArgoCD           | [argocd](./topics/argocd/)               | 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)                                      | ✔️ [argocd/basic](./topics/argocd/basic/)                                                              |
+| Github-Action    | [github-action](./topics/github-action/) | 📖 [docs.github.com/actions](https://docs.github.com/actions)                                               | ✔️ [Create First Workflow](https://docs.github.com/en/actions/quickstart#creating-your-first-workflow) |
+| Gitlab CI        | [gitlab-ci](./topics/gitlabci/)          | 📖 [docs.gitlab.com/ee/ci](https://docs.gitlab.com/ee/ci/)                                                  | ✔️ [Create First Pipeline](https://docs.gitlab.com/ee/ci/quick_start/)                                 |
+| Groovy           | [groovy](./topics/groovy/)               | 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)                                            | ✔️ [groovy/basic](./topics/groovy/basic/)                                                              |
+| Prometheus       | [prometheus](./topics/prometheus/)       | 📖 [prometheus.io/docs](https://prometheus.io/docs/)                                                        | ✔️ [prometheus-helloworld.sh](./topics/prometheus/basic/prometheus-helloworld.sh)                      |
+| Python           | [python](./topics/python/)               | 📖 [www.python.org/doc](https://www.python.org/doc/)                                                        | ✔️ [python/basic](./topics/python/basic/)                                                              |
+| Openstack        | [openstack](./topics/openstack/)         | 📖 [docs.openstack.org](https://docs.openstack.org/2023.2/)                                                 | ✔️ [openstack/helloworld](./topics/openstack/basic/)                                                   |
+| Azure-DevOps     | [azuredevops](./topics/azuredevops/)     | 📖 [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/devops)                                    | ✔️ [azuredevops/basic](./topics/azuredevops/basic/)                                                    |
+| Coding           | [coding](./topics/coding/)               | 📖 [coding](./topics/coding/)                                                                               | 🏃 in-progress                                                                                         |
+| Architecture     | [architecture](./topics/architecture/)   | 📖 [architecture/README.md](https://github.com/tungbq/devops-basic/blob/main/topics/architecture/README.md) | ⏩coming-soon                                                                                          |
+| Packer           | coming-soon                              | 📖 [www.packer.io](https://www.packer.io/)                                                                  | ⏩coming-soon                                                                                          |
+| Microservices    | [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/)                                    | ⏩ coming-soon                                                                                         |
+| HashiCorp Vault  | coming-soon                              | 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)                         | ⏩ coming-soon                                                                                         |
+
+- And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
+- For additional resources to practice these tools, visit: [**devops-project**](https://github.com/tungbq/devops-project)
+
+## Extra content (from other repos) :arrow_upper_right:
+
+| Item                   | Link                                                                          |
+| :--------------------- | :---------------------------------------------------------------------------- |
+| devops-project         | 🏗️ [devops-project](https://github.com/tungbq/devops-project)                 |
+| 90DaysOfDevOps         | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)            |
+| python                 | 🐍 [python-examples](https://github.com/tungbq/python-examples)               |
+| aws-lab-with-terraform | ☁️ [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform) |
+| AWS-LearningResource   | 🧰 [AWS-LearningResource](https://github.com/tungbq/AWS-LearningResource)     |
+| bookmarks              | 🔖 [bookmarks](https://github.com/tungbq/bookmarks)                           |
+| devops-exercises       | 📚 [devops-exercises](https://github.com/bregman-arie/devops-exercises)       |
+| devops-resources       | 🔗 [devops-resources](https://github.com/bregman-arie/devops-resources)       |
+| howtheydevops          | ❔ [howtheydevops](https://github.com/bregman-arie/howtheydevops)             |
+| devops-dockerfiles     | 🏗️ [devops-dockerfiles](https://github.com/tungbq/devops-dockerfiles)         |
 
 ## Contributing
-- If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐ Thanks! 💖
+
 - See: [CONTRIBUTING.md](./CONTRIBUTING.md)
+- If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐ Thanks! 💖
 - Looking for the issue to work on? Check the list of our open issues [**good first issue**](https://github.com/tungbq/devops-basic/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 - Feel free to open a new issue if you want to request more content about DevOps
 
 ## Contributors
+
 Thank you all! 💖
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
