@@ -74,9 +74,10 @@ We cover many DevOps topics content under - [topic](./topics/)
 | Microservices    | [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/)                                    | ⏩ coming-soon                                                                                         |
 | HashiCorp Vault  | coming-soon                              | 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)                         | ⏩ coming-soon                                                                                         |
 
-And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
+- And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
+- For additional resources to practice these tools, visit: [devops-project](https://github.com/tungbq/devops-project)
 
-## Extra content (from other repos)
+## Extra content (from other repos) :arrow_upper_right:
 
 | Item                   | Link                                                                          |
 | :--------------------- | :---------------------------------------------------------------------------- |
