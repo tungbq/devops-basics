@@ -19,6 +19,6 @@ jobs:
         if: env.lychee_exit_code != 0
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: Link Checker Report
+          title: Broken Link Detected (Help Wanted)
           content-filepath: ./lychee/out.md
           labels: report, automated issue, good first issue
