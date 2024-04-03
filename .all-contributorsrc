@@ -295,12 +295,21 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Jonathanlemon",
+      "name": "Jonathanlemon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43302879?v=4",
+      "profile": "https://github.com/Jonathanlemon",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "skipCi": true,
   "repoType": "github",
   "repoHost": "https://github.com",
-  "projectName": "devops-basic",
+  "projectName": "devops-basics",
   "projectOwner": "tungbq"
 }
