@@ -7,3 +7,4 @@
 
 ## Microservices architecture design (by Azure)
 - Microservices architecture design: https://learn.microsoft.com/en-us/azure/architecture/microservices/
+- aks-microservices: https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices
