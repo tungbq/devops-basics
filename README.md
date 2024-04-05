@@ -221,7 +221,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><img height="24" width="30" src="https://www.vaultproject.io/_next/static/media/attributed_color.f6aa0b0a.svg"></td>
         <td>HashiCorp Vault</td>
         <td>coming-soon</td>
-        <td>📖 <a href="https://developer.hashicorp.com/vault/docs">developer.hashicorp.com/vault/docs</a></td>
+        <td>📖 <a href="https://developer.hashicorp.com/vault/docs">hashicorp.com/vault</a></td>
         <td>⏩ coming-soon</td>
     </tr>
 </table>
