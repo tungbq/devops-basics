@@ -155,7 +155,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="https://docs.gitlab.com/ee/ci/quick_start/">Create First Pipeline</a></td>
     </tr>
     <tr>
-        <td><img height="24" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1920px-Groovy-logo.svg.png"></td>
+        <td><img height="24" width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1920px-Groovy-logo.svg.png"></td>
         <td>Groovy</td>
         <td><a href="./topics/groovy/">groovy</a></td>
         <td>📖 <a href="https://groovy-lang.org/documentation.html">groovy-lang.org</a></td>
@@ -204,7 +204,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>⏩ coming-soon</td>
     </tr>
     <tr>
-        <td><img height="24" src="https://www.packer.io/_next/static/media/color.687b2b90.svg"></td>
+        <td><img height="24" width="30" src="https://www.packer.io/_next/static/media/color.687b2b90.svg"></td>
         <td>Packer</td>
         <td>coming-soon</td>
         <td>📖 <a href="https://www.packer.io/">www.packer.io</a></td>
@@ -218,7 +218,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>⏩ coming-soon</td>
     </tr>
     <tr>
-        <td><img height="24" src="https://www.vaultproject.io/_next/static/media/attributed_color.f6aa0b0a.svg"></td>
+        <td><img height="24" width="30" src="https://www.vaultproject.io/_next/static/media/attributed_color.f6aa0b0a.svg"></td>
         <td>HashiCorp Vault</td>
         <td>coming-soon</td>
         <td>📖 <a href="https://developer.hashicorp.com/vault/docs">developer.hashicorp.com/vault/docs</a></td>
