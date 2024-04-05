@@ -56,7 +56,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <th>Hands-on</th>
     </tr>
     <tr>
-        <td><img width="32" src="https://simpleicons.org/icons/ansible.svg"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=ansible" /></td>
         <td>Ansible</td>
         <td><a href="./topics/ansible/">ansible</a></td>
         <td>📖 <a href="https://docs.ansible.com/">docs.ansible.com</a></td>
@@ -190,7 +190,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/azuredevops/basic/">azuredevops/basic</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=vscode" /></td>
         <td>Coding</td>
         <td><a href="./topics/coding/">coding</a></td>
         <td>📖 <a href="./topics/coding/">coding</a></td>
