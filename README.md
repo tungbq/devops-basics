@@ -47,32 +47,184 @@ DevOps combines development (Dev) and operations (Ops) to increase the efficienc
 
 We cover a wide range of DevOps topics in our content library, explore them under [**topics**](./topics/). You can also refer to [**roadmap.sh/devops**](https://roadmap.sh/devops) to see where each topic fits in the toolchain
 
-| Item             | Content                                  | Official Docs                                                                                               | Hands-on                                                                                               |
-| :--------------- | :--------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
-| Ansible          | [ansible](./topics/ansible/)             | 📖 [docs.ansible.com](https://docs.ansible.com/)                                                            | ✔️ [ansible-helloworld.sh](./topics/ansible/basic/helloworld/ansible-helloworld.sh)                    |
-| Docker           | [docker](./topics/docker/)               | 📖 [docs.docker.com](https://docs.docker.com/)                                                              | ✔️ [docker-helloworld.sh](./topics/docker/basic/docker-helloworld.sh)                                  |
-| Kubernetes (k8s) | [k8s](./topics/k8s/)                     | 📖 [kubernetes.io/docs](https://kubernetes.io/docs/home/)                                                   | ✔️ [k8s-helloworld.sh](./topics/k8s/basic/helloworld/k8s-helloworld.sh)                                |
-| Istio            | [istio](./topics/istio/)                 | 📖 [istio.io/latest/docs](https://istio.io/latest/docs/)                                                    | ✔️ [getting-started](https://istio.io/latest/docs/setup/getting-started/)                              |
-| Aws              | [aws](./topics/aws/)                     | 📖 [docs.aws.amazon.com](https://docs.aws.amazon.com/)                                                      | ✔️ [EC2_GetStarted](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)           |
-| Helm             | [helm](./topics/helm/)                   | 📖 [helm.sh/docs](https://helm.sh/docs/)                                                                    | ✔️ [helm-helloworld.sh](./topics/helm/basic/helm-helloworld.sh)                                        |
-| Jenkins          | [jenkins](./topics/jenkins/)             | 📖 [www.jenkins.io/doc](https://www.jenkins.io/doc/)                                                        | ✔️ [Jenkins-Hello-World.md](./topics/jenkins/basic/Jenkins-Hello-World.md)                             |
-| Terraform        | [terraform](./topics/terraform/)         | 📖 [terraform/docs](https://developer.hashicorp.com/terraform/docs)                                         | ✔️ [terraform-helloworld.sh](./topics/terraform/basic/terraform-helloworld.sh)                         |
-| Shell            | [shell](./topics/shell/)                 | 📖 [devdocs.io/bash](https://devdocs.io/bash/)                                                              | ✔️ [basic.sh](./topics/shell/basic/basic.sh)                                                           |
-| Git              | [git](./topics/git/)                     | 📖 [git-scm.com/doc](https://git-scm.com/doc)                                                               | ✔️ [git-helloworld.sh](./topics/git/basic/hello-world/git-helloworld.sh)                               |
-| Elk              | [elk](./topics/elk/)                     | 📖 [www.elastic.co/guide](https://www.elastic.co/guide/index.html)                                          | ✔️ [elk/basic/helloworld](./topics/elk/basic/helloworld/)                                              |
-| ArgoCD           | [argocd](./topics/argocd/)               | 📖 [argo-cd.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/)                                      | ✔️ [argocd/basic](./topics/argocd/basic/)                                                              |
-| Github-Action    | [github-action](./topics/github-action/) | 📖 [docs.github.com/actions](https://docs.github.com/actions)                                               | ✔️ [Create First Workflow](https://docs.github.com/en/actions/quickstart#creating-your-first-workflow) |
-| Gitlab CI        | [gitlab-ci](./topics/gitlabci/)          | 📖 [docs.gitlab.com/ee/ci](https://docs.gitlab.com/ee/ci/)                                                  | ✔️ [Create First Pipeline](https://docs.gitlab.com/ee/ci/quick_start/)                                 |
-| Groovy           | [groovy](./topics/groovy/)               | 📖 [groovy-lang.org](https://groovy-lang.org/documentation.html)                                            | ✔️ [groovy/basic](./topics/groovy/basic/)                                                              |
-| Prometheus       | [prometheus](./topics/prometheus/)       | 📖 [prometheus.io/docs](https://prometheus.io/docs/)                                                        | ✔️ [prometheus-helloworld.sh](./topics/prometheus/basic/prometheus-helloworld.sh)                      |
-| Python           | [python](./topics/python/)               | 📖 [www.python.org/doc](https://www.python.org/doc/)                                                        | ✔️ [python/basic](./topics/python/basic/)                                                              |
-| Openstack        | [openstack](./topics/openstack/)         | 📖 [docs.openstack.org](https://docs.openstack.org/2023.2/)                                                 | ✔️ [openstack/helloworld](./topics/openstack/basic/)                                                   |
-| Azure-DevOps     | [azuredevops](./topics/azuredevops/)     | 📖 [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/devops)                                    | ✔️ [azuredevops/basic](./topics/azuredevops/basic/)                                                    |
-| Coding           | [coding](./topics/coding/)               | 📖 [coding](./topics/coding/)                                                                               | 🏃 in-progress                                                                                         |
-| Architecture     | [architecture](./topics/architecture/)   | 📖 [architecture/README.md](https://github.com/tungbq/devops-basic/blob/main/topics/architecture/README.md) | ⏩coming-soon                                                                                          |
-| Packer           | coming-soon                              | 📖 [www.packer.io](https://www.packer.io/)                                                                  | ⏩coming-soon                                                                                          |
-| Microservices    | [microservices](./topics/microservices/) | 📖 [aws.amazon.com/microservices](https://aws.amazon.com/microservices/)                                    | ⏩ coming-soon                                                                                         |
-| HashiCorp Vault  | coming-soon                              | 📖 [developer.hashicorp.com/vault/docs](https://developer.hashicorp.com/vault/docs)                         | ⏩ coming-soon                                                                                         |
+<table>
+    <tr>
+        <th></th>
+        <th>Item</th>
+        <th>Content</th>
+        <th>Official Docs</th>
+        <th>Hands-on</th>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=ansible" /></td>
+        <td>Ansible</td>
+        <td><a href="./topics/ansible/">ansible</a></td>
+        <td>📖 <a href="https://docs.ansible.com/">docs.ansible.com</a></td>
+        <td>✔️ <a href="./topics/ansible/basic/helloworld/ansible-helloworld.sh"> ansible-helloworld.sh</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=docker" /></td>
+        <td>Docker</td>
+        <td><a href="./topics/docker/">docker</a></td>
+        <td>📖 <a href="https://docs.docker.com/">docs.docker.com</a></td>
+        <td>✔️ <a href="./topics/docker/basic/docker-helloworld.sh">docker-helloworld.sh</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://avatars.githubusercontent.com/u/13629408"></td>
+        <td>Kubernetes (k8s)</td>
+        <td><a href="./topics/k8s/">k8s</a></td>
+        <td>📖 <a href="https://kubernetes.io/docs/home/">kubernetes.io/docs</a></td>
+        <td>✔️ <a href="./topics/k8s/basic/helloworld/k8s-helloworld.sh"> k8s-helloworld.sh</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Istio-bluelogo-nobackground-unframed.svg"></td>
+        <td>Istio</td>
+        <td><a href="./topics/istio/">istio</a></td>
+        <td>📖 <a href="https://istio.io/latest/docs/">istio.io/latest/docs</a></td>
+        <td>✔️ <a href="https://istio.io/latest/docs/setup/getting-started/">getting-started</a></td>
+    </tr>
+    <tr>
+        <!-- <td><img  src="placeholder_logo_url"></td> -->
+        <td><img height="28" src="https://skillicons.dev/icons?i=aws" /></td>
+        <td>Aws</td>
+        <td><a href="./topics/aws/">aws</a></td>
+        <td>📖 <a href="https://docs.aws.amazon.com/">docs.aws.amazon.com</a></td>
+        <td>✔️ <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">EC2_GetStarted</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://helm.sh/img/helm.svg"></td>
+        <td>Helm</td>
+        <td><a href="./topics/helm/">helm</a></td>
+        <td>📖 <a href="https://helm.sh/docs/">helm.sh/docs</a></td>
+        <td>✔️ <a href="./topics/helm/basic/helm-helloworld.sh">helm-helloworld.sh</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=jenkins" /></td>
+        <td>Jenkins</td>
+        <td><a href="./topics/jenkins/">jenkins</a></td>
+        <td>📖 <a href="https://www.jenkins.io/doc/">www.jenkins.io/doc</a></td>
+        <td>✔️ <a href="./topics/jenkins/basic/Jenkins-Hello-World.md">Jenkins-Hello-World.md</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=terraform" /></td>
+        <td>Terraform</td>
+        <td><a href="./topics/terraform/">terraform</a></td>
+        <td>📖 <a href="https://developer.hashicorp.com/terraform/docs">terraform/docs</a></td>
+        <td>✔️ <a href="./topics/terraform/basic/terraform-helloworld.sh">terraform-helloworld.sh</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=bash" /></td>
+        <td>Shell</td>
+        <td><a href="./topics/shell/">shell</a></td>
+        <td>📖 <a href="https://devdocs.io/bash/">devdocs.io/bash</a></td>
+        <td>✔️ <a href="./topics/shell/basic/basic.sh">basic.sh</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=git" /></td>
+        <td>Git</td>
+        <td><a href="./topics/git/">git</a></td>
+        <td>📖 <a href="https://git-scm.com/doc">git-scm.com/doc</a></td>
+        <td>✔️ <a href="./topics/git/basic/hello-world/git-helloworld.sh">git-helloworld.sh</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=elasticsearch" /></td>
+        <td>Elk</td>
+        <td><a href="./topics/elk/">elk</a></td>
+        <td>📖 <a href="https://www.elastic.co/guide/index.html">www.elastic.co/guide</a></td>
+        <td>✔️ <a href="./topics/elk/basic/helloworld/">elk/basic/helloworld</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://avatars.githubusercontent.com/u/30269780"></td>
+        <td>ArgoCD</td>
+        <td><a href="./topics/argocd/">argocd</a></td>
+        <td>📖 <a href="https://argo-cd.readthedocs.io/en/stable/">argo-cd.readthedocs.io</a></td>
+        <td>✔️ <a href="./topics/argocd/basic/">argocd/basic</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=githubactions" /></td>
+        <td>Github-Action</td>
+        <td><a href="./topics/github-action/">github-action</a></td>
+        <td>📖 <a href="https://docs.github.com/actions">docs.github.com/actions</a></td>
+        <td>✔️ <a href="https://docs.github.com/en/actions/quickstart#creating-your-first-workflow">Create First Workflow</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=gitlab" /></td>
+        <td>Gitlab CI</td>
+        <td><a href="./topics/gitlabci/">gitlab-ci</a></td>
+        <td>📖 <a href="https://docs.gitlab.com/ee/ci/">docs.gitlab.com/ee/ci</a></td>
+        <td>✔️ <a href="https://docs.gitlab.com/ee/ci/quick_start/">Create First Pipeline</a></td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1920px-Groovy-logo.svg.png"></td>
+        <td>Groovy</td>
+        <td><a href="./topics/groovy/">groovy</a></td>
+        <td>📖 <a href="https://groovy-lang.org/documentation.html">groovy-lang.org</a></td>
+        <td>✔️ <a href="./topics/groovy/basic/">groovy/basic</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=prometheus" /></td>
+        <td>Prometheus</td>
+        <td><a href="./topics/prometheus/">prometheus</a></td>
+        <td>📖 <a href="https://prometheus.io/docs/">prometheus.io/docs</a></td>
+        <td>✔️ <a href="./topics/prometheus/basic/prometheus-helloworld.sh">helloworld.sh</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=py" /></td>
+        <td>Python</td>
+        <td><a href="./topics/python/">python</a></td>
+        <td>📖 <a href="https://www.python.org/doc/">www.python.org/doc</a></td>
+        <td>✔️ <a href="./topics/python/basic/">python/basic</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=openstack" /></td>
+        <td>Openstack</td>
+        <td><a href="./topics/openstack/">openstack</a></td>
+        <td>📖 <a href="https://docs.openstack.org/2023.2/">docs.openstack.org</a></td>
+        <td>✔️ <a href="./topics/openstack/basic/">openstack/basic</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=azure" /></td>
+        <td>Azure-DevOps</td>
+        <td><a href="./topics/azuredevops/">azuredevops</a></td>
+        <td>📖 <a href="https://learn.microsoft.com/en-us/azure/devops">learn.microsoft.com</a></td>
+        <td>✔️ <a href="./topics/azuredevops/basic/">azuredevops/basic</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=vscode" /></td>
+        <td>Coding</td>
+        <td><a href="./topics/coding/">coding</a></td>
+        <td>📖 <a href="./topics/coding/">coding</a></td>
+        <td>🏃 in-progress</td>
+    </tr>
+    <tr>
+        <td>📖</td>
+        <td>Architecture</td>
+        <td><a href="./topics/architecture/">architecture</a></td>
+        <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/architecture/README.md">architecture/README.md</a></td>
+        <td>⏩ coming-soon</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://www.packer.io/_next/static/media/color.687b2b90.svg"></td>
+        <td>Packer</td>
+        <td>coming-soon</td>
+        <td>📖 <a href="https://www.packer.io/">www.packer.io</a></td>
+        <td>⏩ coming-soon</td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=graphql" /></td>
+        <td>Microservices</td>
+        <td><a href="./topics/microservices/">microservices</a></td>
+        <td>📖 <a href="https://aws.amazon.com/microservices/">aws/microservices</a></td>
+        <td>⏩ coming-soon</td>
+    </tr>
+    <tr>
+        <td><img width="32" src="https://www.vaultproject.io/_next/static/media/attributed_color.f6aa0b0a.svg"></td>
+        <td>HashiCorp Vault</td>
+        <td>coming-soon</td>
+        <td>📖 <a href="https://developer.hashicorp.com/vault/docs">hashicorp.com/vault</a></td>
+        <td>⏩ coming-soon</td>
+    </tr>
+</table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
 - For additional resources to practice these tools, visit: [**devops-project**](https://github.com/tungbq/devops-project)
