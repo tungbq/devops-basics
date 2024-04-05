@@ -166,7 +166,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Prometheus</td>
         <td><a href="./topics/prometheus/">prometheus</a></td>
         <td>📖 <a href="https://prometheus.io/docs/">prometheus.io/docs</a></td>
-        <td>✔️ <a href="./topics/prometheus/basic/prometheus-helloworld.sh">prometheus-helloworld.sh</a></td>
+        <td>✔️ <a href="./topics/prometheus/basic/prometheus-helloworld.sh">helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img height="24" src="https://skillicons.dev/icons?i=py" /></td>
@@ -214,7 +214,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><img height="24" src="https://skillicons.dev/icons?i=graphql" /></td>
         <td>Microservices</td>
         <td><a href="./topics/microservices/">microservices</a></td>
-        <td>📖 <a href="https://aws.amazon.com/microservices/">aws.amazon.com/microservices</a></td>
+        <td>📖 <a href="https://aws.amazon.com/microservices/">aws/microservices</a></td>
         <td>⏩ coming-soon</td>
     </tr>
     <tr>
