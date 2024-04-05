@@ -183,7 +183,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/openstack/basic/">openstack/basic</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=azure" /></td>
         <td>Azure-DevOps</td>
         <td><a href="./topics/azuredevops/">azuredevops</a></td>
         <td>📖 <a href="https://learn.microsoft.com/en-us/azure/devops">learn.microsoft.com</a></td>
