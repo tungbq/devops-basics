@@ -113,7 +113,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/terraform/basic/terraform-helloworld.sh">terraform-helloworld.sh</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=bash" /></td>
         <td>Shell</td>
         <td><a href="./topics/shell/">shell</a></td>
         <td>📖 <a href="https://devdocs.io/bash/">devdocs.io/bash</a></td>
