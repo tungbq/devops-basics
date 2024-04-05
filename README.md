@@ -77,7 +77,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/k8s/basic/helloworld/k8s-helloworld.sh"> k8s-helloworld.sh</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Istio-bluelogo-nobackground-unframed.svg"></td>
         <td>Istio</td>
         <td><a href="./topics/istio/">istio</a></td>
         <td>📖 <a href="https://istio.io/latest/docs/">istio.io/latest/docs</a></td>
