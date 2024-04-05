@@ -56,21 +56,21 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <th>Hands-on</th>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://simpleicons.org/icons/ansible.svg"></td>
         <td>Ansible</td>
         <td><a href="./topics/ansible/">ansible</a></td>
         <td>📖 <a href="https://docs.ansible.com/">docs.ansible.com</a></td>
         <td>✔️ <a href="./topics/ansible/basic/helloworld/ansible-helloworld.sh"> ansible-helloworld.sh</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"></td>
         <td>Docker</td>
         <td><a href="./topics/docker/">docker</a></td>
         <td>📖 <a href="https://docs.docker.com/">docs.docker.com</a></td>
         <td>✔️ <a href="./topics/docker/basic/docker-helloworld.sh">docker-helloworld.sh</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/13629408"></td>
         <td>Kubernetes (k8s)</td>
         <td><a href="./topics/k8s/">k8s</a></td>
         <td>📖 <a href="https://kubernetes.io/docs/home/">kubernetes.io/docs</a></td>
@@ -91,7 +91,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">EC2_GetStarted</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://helm.sh/img/helm.svg"></td>
         <td>Helm</td>
         <td><a href="./topics/helm/">helm</a></td>
         <td>📖 <a href="https://helm.sh/docs/">helm.sh/docs</a></td>
@@ -133,7 +133,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/elk/basic/helloworld/">elk/basic/helloworld</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/30269780"></td>
         <td>ArgoCD</td>
         <td><a href="./topics/argocd/">argocd</a></td>
         <td>📖 <a href="https://argo-cd.readthedocs.io/en/stable/">argo-cd.readthedocs.io</a></td>
@@ -161,7 +161,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/groovy/basic/">groovy/basic</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://avatars.githubusercontent.com/u/3380462"></td>
         <td>Prometheus</td>
         <td><a href="./topics/prometheus/">prometheus</a></td>
         <td>📖 <a href="https://prometheus.io/docs/">prometheus.io/docs</a></td>
