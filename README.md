@@ -197,7 +197,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>🏃 in-progress</td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td>📖</td>
         <td>Architecture</td>
         <td><a href="./topics/architecture/">architecture</a></td>
         <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/architecture/README.md">architecture/README.md</a></td>
@@ -211,14 +211,14 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>⏩ coming-soon</td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=graphql" /></td>
         <td>Microservices</td>
         <td><a href="./topics/microservices/">microservices</a></td>
         <td>📖 <a href="https://aws.amazon.com/microservices/">aws.amazon.com/microservices</a></td>
         <td>⏩ coming-soon</td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://www.vaultproject.io/_next/static/media/attributed_color.f6aa0b0a.svg"></td>
         <td>HashiCorp Vault</td>
         <td>coming-soon</td>
         <td>📖 <a href="https://developer.hashicorp.com/vault/docs">developer.hashicorp.com/vault/docs</a></td>
