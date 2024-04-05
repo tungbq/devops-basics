@@ -99,7 +99,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/helm/basic/helm-helloworld.sh">helm-helloworld.sh</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="https://www.jenkins.io/images/logos/jenkins/jenkins.svg"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=jenkins" /></td>
         <td>Jenkins</td>
         <td><a href="./topics/jenkins/">jenkins</a></td>
         <td>📖 <a href="https://www.jenkins.io/doc/">www.jenkins.io/doc</a></td>
@@ -127,7 +127,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/git/basic/hello-world/git-helloworld.sh">git-helloworld.sh</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="https://cdn.iconscout.com/icon/free/png-512/free-elastic-283142.png"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=elasticsearch" /></td>
         <td>Elk</td>
         <td><a href="./topics/elk/">elk</a></td>
         <td>📖 <a href="https://www.elastic.co/guide/index.html">www.elastic.co/guide</a></td>
@@ -141,7 +141,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/argocd/basic/">argocd/basic</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="https://skillicons.dev/icons?i=github" /></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=githubactions" /></td>
         <td>Github-Action</td>
         <td><a href="./topics/github-action/">github-action</a></td>
         <td>📖 <a href="https://docs.github.com/actions">docs.github.com/actions</a></td>
@@ -162,21 +162,21 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/groovy/basic/">groovy/basic</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/3380462"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=prometheus" /></td>
         <td>Prometheus</td>
         <td><a href="./topics/prometheus/">prometheus</a></td>
         <td>📖 <a href="https://prometheus.io/docs/">prometheus.io/docs</a></td>
         <td>✔️ <a href="./topics/prometheus/basic/prometheus-helloworld.sh">prometheus-helloworld.sh</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=py" /></td>
         <td>Python</td>
         <td><a href="./topics/python/">python</a></td>
         <td>📖 <a href="https://www.python.org/doc/">www.python.org/doc</a></td>
         <td>✔️ <a href="./topics/python/basic/">python/basic</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://skillicons.dev/icons?i=openstack" /></td>
         <td>Openstack</td>
         <td><a href="./topics/openstack/">openstack</a></td>
         <td>📖 <a href="https://docs.openstack.org/2023.2/">docs.openstack.org</a></td>
