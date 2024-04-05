@@ -98,7 +98,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/helm/basic/helm-helloworld.sh">helm-helloworld.sh</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://www.jenkins.io/images/logos/jenkins/jenkins.svg"></td>
         <td>Jenkins</td>
         <td><a href="./topics/jenkins/">jenkins</a></td>
         <td>📖 <a href="https://www.jenkins.io/doc/">www.jenkins.io/doc</a></td>
@@ -126,7 +126,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/git/basic/hello-world/git-helloworld.sh">git-helloworld.sh</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="placeholder_logo_url"></td>
+        <td><img width="32" src="https://cdn.iconscout.com/icon/free/png-512/free-elastic-283142.png"></td>
         <td>Elk</td>
         <td><a href="./topics/elk/">elk</a></td>
         <td>📖 <a href="https://www.elastic.co/guide/index.html">www.elastic.co/guide</a></td>
