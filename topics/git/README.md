@@ -33,7 +33,7 @@ Git is a free and open source distributed version control system designed to han
 
 ### Git Hello World
 
-- Check the [helloworld/](./basic/helloworld/) directory to create a simple Git demo.
+- Check the [helloworld/](./basic/hello-world/) directory to create a simple Git demo.
 
 ## Beyond the Basics
 
