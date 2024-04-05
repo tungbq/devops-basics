@@ -81,112 +81,112 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Istio</td>
         <td><a href="./topics/istio/">istio</a></td>
         <td>📖 <a href="https://istio.io/latest/docs/">istio.io/latest/docs</a></td>
-        <td><a href="https://istio.io/latest/docs/setup/getting-started/">✔️ getting-started</a></td>
+        <td>✔️ <a href="https://istio.io/latest/docs/setup/getting-started/">getting-started</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Aws</td>
         <td><a href="./topics/aws/">aws</a></td>
         <td>📖 <a href="https://docs.aws.amazon.com/">docs.aws.amazon.com</a></td>
-        <td><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">✔️ EC2_GetStarted</a></td>
+        <td>✔️ <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">EC2_GetStarted</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Helm</td>
         <td><a href="./topics/helm/">helm</a></td>
         <td>📖 <a href="https://helm.sh/docs/">helm.sh/docs</a></td>
-        <td><a href="./topics/helm/basic/helm-helloworld.sh">✔️ helm-helloworld.sh</a></td>
+        <td>✔️ <a href="./topics/helm/basic/helm-helloworld.sh">helm-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Jenkins</td>
         <td><a href="./topics/jenkins/">jenkins</a></td>
         <td>📖 <a href="https://www.jenkins.io/doc/">www.jenkins.io/doc</a></td>
-        <td><a href="./topics/jenkins/basic/Jenkins-Hello-World.md">✔️ Jenkins-Hello-World.md</a></td>
+        <td>✔️ <a href="./topics/jenkins/basic/Jenkins-Hello-World.md">Jenkins-Hello-World.md</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Terraform</td>
         <td><a href="./topics/terraform/">terraform</a></td>
         <td>📖 <a href="https://developer.hashicorp.com/terraform/docs">terraform/docs</a></td>
-        <td><a href="./topics/terraform/basic/terraform-helloworld.sh">✔️ terraform-helloworld.sh</a></td>
+        <td>✔️ <a href="./topics/terraform/basic/terraform-helloworld.sh">terraform-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Shell</td>
         <td><a href="./topics/shell/">shell</a></td>
         <td>📖 <a href="https://devdocs.io/bash/">devdocs.io/bash</a></td>
-        <td><a href="./topics/shell/basic/basic.sh">✔️ basic.sh</a></td>
+        <td>✔️ <a href="./topics/shell/basic/basic.sh">basic.sh</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Git</td>
         <td><a href="./topics/git/">git</a></td>
         <td>📖 <a href="https://git-scm.com/doc">git-scm.com/doc</a></td>
-        <td><a href="./topics/git/basic/hello-world/git-helloworld.sh">✔️ git-helloworld.sh</a></td>
+        <td>✔️ <a href="./topics/git/basic/hello-world/git-helloworld.sh">git-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Elk</td>
         <td><a href="./topics/elk/">elk</a></td>
         <td>📖 <a href="https://www.elastic.co/guide/index.html">www.elastic.co/guide</a></td>
-        <td><a href="./topics/elk/basic/helloworld/">✔️ elk/basic/helloworld</a></td>
+        <td>✔️ <a href="./topics/elk/basic/helloworld/">elk/basic/helloworld</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>ArgoCD</td>
         <td><a href="./topics/argocd/">argocd</a></td>
         <td>📖 <a href="https://argo-cd.readthedocs.io/en/stable/">argo-cd.readthedocs.io</a></td>
-        <td><a href="./topics/argocd/basic/">✔️ argocd/basic</a></td>
+        <td>✔️ <a href="./topics/argocd/basic/">argocd/basic</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Github-Action</td>
         <td><a href="./topics/github-action/">github-action</a></td>
         <td>📖 <a href="https://docs.github.com/actions">docs.github.com/actions</a></td>
-        <td><a href="https://docs.github.com/en/actions/quickstart#creating-your-first-workflow">✔️ Create First Workflow</a></td>
+        <td>✔️ <a href="https://docs.github.com/en/actions/quickstart#creating-your-first-workflow">Create First Workflow</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Gitlab CI</td>
         <td><a href="./topics/gitlabci/">gitlab-ci</a></td>
         <td>📖 <a href="https://docs.gitlab.com/ee/ci/">docs.gitlab.com/ee/ci</a></td>
-        <td><a href="https://docs.gitlab.com/ee/ci/quick_start/">✔️ Create First Pipeline</a></td>
+        <td>✔️ <a href="https://docs.gitlab.com/ee/ci/quick_start/">Create First Pipeline</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Groovy</td>
         <td><a href="./topics/groovy/">groovy</a></td>
         <td>📖 <a href="https://groovy-lang.org/documentation.html">groovy-lang.org</a></td>
-        <td><a href="./topics/groovy/basic/">✔️ groovy/basic</a></td>
+        <td>✔️ <a href="./topics/groovy/basic/">groovy/basic</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Prometheus</td>
         <td><a href="./topics/prometheus/">prometheus</a></td>
         <td>📖 <a href="https://prometheus.io/docs/">prometheus.io/docs</a></td>
-        <td><a href="./topics/prometheus/basic/prometheus-helloworld.sh">✔️ prometheus-helloworld.sh</a></td>
+        <td>✔️ <a href="./topics/prometheus/basic/prometheus-helloworld.sh">prometheus-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Python</td>
         <td><a href="./topics/python/">python</a></td>
         <td>📖 <a href="https://www.python.org/doc/">www.python.org/doc</a></td>
-        <td><a href="./topics/python/basic/">✔️ python/basic</a></td>
+        <td>✔️ <a href="./topics/python/basic/">python/basic</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Openstack</td>
         <td><a href="./topics/openstack/">openstack</a></td>
         <td>📖 <a href="https://docs.openstack.org/2023.2/">docs.openstack.org</a></td>
-        <td><a href="./topics/openstack/basic/">✔️ openstack/basic</a></td>
+        <td>✔️ <a href="./topics/openstack/basic/">openstack/basic</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
         <td>Azure-DevOps</td>
         <td><a href="./topics/azuredevops/">azuredevops</a></td>
         <td>📖 <a href="https://learn.microsoft.com/en-us/azure/devops">learn.microsoft.com</a></td>
-        <td><a href="./topics/azuredevops/basic/">✔️ azuredevops/basic</a></td>
+        <td>✔️ <a href="./topics/azuredevops/basic/">azuredevops/basic</a></td>
     </tr>
     <tr>
         <td><img width="32" src="placeholder_logo_url"></td>
