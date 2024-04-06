@@ -5,8 +5,8 @@
 
 <p align="center">
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-  <a href="#contributors-" target="_blank"><img alt="👪 All Contributors: 33" src="https://img.shields.io/badge/all_contributors-33-blue.svg?style=flat-square" /></a>
-  <!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
   <a href="https://img.shields.io/github/last-commit/tungbq/devops-basics/main"><img alt="last commit" src="https://img.shields.io/github/last-commit/tungbq/devops-basics/main" /></a>
   <a href="https://github.com/tungbq/devops-basics/releases"><img alt="devops-basic release" src="https://img.shields.io/github/release/tungbq/devops-basics.svg" /></a>
   <a href="https://github.com/tungbq/devops-basics/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tungbq/devops-basics"/></a>
@@ -302,6 +302,7 @@ Thank you all! 💖
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kristendechert"><img src="https://avatars.githubusercontent.com/u/114027679?v=4?s=100" width="100px;" alt="Kristen Dechert"/><br /><sub><b>Kristen Dechert</b></sub></a><br /><a href="https://github.com/tungbq/devops-basics/commits?author=kristendechert" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/payneInTheBrian"><img src="https://avatars.githubusercontent.com/u/94146218?v=4?s=100" width="100px;" alt="Brian Payne"/><br /><sub><b>Brian Payne</b></sub></a><br /><a href="https://github.com/tungbq/devops-basics/commits?author=payneInTheBrian" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jonathanlemon"><img src="https://avatars.githubusercontent.com/u/43302879?v=4?s=100" width="100px;" alt="Jonathanlemon"/><br /><sub><b>Jonathanlemon</b></sub></a><br /><a href="https://github.com/tungbq/devops-basics/commits?author=Jonathanlemon" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ADTmux"><img src="https://avatars.githubusercontent.com/u/165437009?v=4?s=100" width="100px;" alt="Amit Dave"/><br /><sub><b>Amit Dave</b></sub></a><br /><a href="https://github.com/tungbq/devops-basics/commits?author=ADTmux" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
