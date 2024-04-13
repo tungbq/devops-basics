@@ -22,7 +22,7 @@ For a deeper understanding, refer to the [Docker Architecture documentation](htt
 
 - Follow the steps outlined in the [Docker installation documentation](https://docs.docker.com/engine/install/) for both local development and production environments.
 
-# Basics of Docker
+## Basics of Docker
 
 ### 1. Getting started with Docker
 
@@ -31,6 +31,10 @@ For a deeper understanding, refer to the [Docker Architecture documentation](htt
 ### 2. Docker Hello World
 
 - Run the [basic/docker-helloworld.sh](./basic/docker-helloworld.sh) script to execute a simple Docker "Hello World" demonstration.
+
+### 3. Top Docker commands
+
+- Checkout [basic/top-docker-cmd.md](./basic/top-docker-cmd.md)
 
 ## Beyond the Basics
 

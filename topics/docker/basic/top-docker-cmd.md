@@ -1,0 +1,127 @@
+# Essential Docker Commands Every Beginner Should Know
+
+Docker has rapidly become the de facto standard for containerizing applications. As a developer or system administrator, getting familiar with Docker is crucial for deploying modern, portable applications efficiently. While Docker has many advanced features and commands, there are some essential ones you'll find yourself using constantly. Let's go through the top Docker commands every beginner should know.
+
+## Installation
+
+- Supported various platforms, follow this document: https://docs.docker.com/engine/install/
+
+## Docker Authentication
+
+1. **docker login**  
+   `docker login` is used to log in to a Docker registry.
+
+   | ID        | Command                               | Description                                               |
+   | --------- | ------------------------------------- | --------------------------------------------------------- |
+   | Template  | `docker login <options>`              | Log in to a Docker registry with specified authentication |
+   | Usecase 1 | `docker login`                        | Log in to the default Docker registry                     |
+   | Usecase 2 | `docker login myregistry -u username` | Log in to a private registry with the specified username  |
+
+## Docker Images
+
+Build/Pull/Login/Push/Images
+
+2. **docker build**  
+    `docker build` is used to build custom Docker images from a Dockerfile.
+
+   | ID        | Command                                      | Description                                                |
+   | --------- | -------------------------------------------- | ---------------------------------------------------------- |
+   | Template  | `docker build -t <your_image_name> <option>` | Build a Docker image from a Dockerfile with specified tag  |
+   | Usecase 1 | `docker build -t MyImage .`                  | Build an image using a Dockerfile in the current directory |
+   | Usecase 2 | `docker build -t MyImage -f demo/Dockerfile` | Build an image using a Dockerfile in the demo directory    |
+
+3. **docker pull**  
+   To download an image from a registry like Docker Hub, use `docker pull`. For example, `docker pull nginx` fetches the latest nginx image.
+
+   | ID        | Command                              | Description                                   |
+   | --------- | ------------------------------------ | --------------------------------------------- |
+   | Template  | `docker pull <image_name>`           | Pull a Docker image from a registry           |
+   | Usecase 1 | `docker pull nginx`                  | Pull the latest nginx image from Docker Hub   |
+   | Usecase 2 | `docker pull myregistry/myimage:tag` | Pull a specific image from a private registry |
+
+4. **docker push**  
+   `docker push` is used to upload Docker images to a registry.
+
+   | ID        | Command                              | Description                                                                 |
+   | --------- | ------------------------------------ | --------------------------------------------------------------------------- |
+   | Template  | `docker push <image_name>`           | Push a Docker image to a registry                                           |
+   | Usecase 1 | `docker push myimage`                | Push the "myimage" image to the default registry                            |
+   | Usecase 2 | `docker push myregistry/myimage:tag` | Push a specific tagged version of the "myimage" image to a private registry |
+
+5. **docker images**  
+   The `docker images` command lists all Docker images pulled and built on your system. You'll use this frequently to view images before running containers or cleaning up.
+
+   | ID        | Command                   | Description                                         |
+   | --------- | ------------------------- | --------------------------------------------------- |
+   | Template  | `docker images <options>` | List Docker images on the system                    |
+   | Usecase 1 | `docker images`           | List all Docker images on the system                |
+   | Usecase 2 | `docker images -a`        | List all Docker images, including intermediate ones |
+
+6. **docker rmi**  
+   `docker rmi` removes one or more Docker images. Make sure there are no stopped containers based on an image before removing it.
+
+   | ID        | Command                   | Description                                             |
+   | --------- | ------------------------- | ------------------------------------------------------- |
+   | Template  | `docker rmi <image_name>` | Remove a Docker image                                   |
+   | Usecase 1 | `docker rmi myimage`      | Remove the Docker image named "myimage"                 |
+   | Usecase 2 | `docker rmi myimage:tag`  | Remove a specific tagged version of the "myimage" image |
+
+## Docker Container
+
+7. **docker run**  
+    `docker run` creates and starts a new container from an image. You can pass various options to configure the container's networking, set environment variables, map volumes, and more.
+
+   | ID        | Command                                                                      | Description                                                        |
+   | --------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+   | Template  | `docker run <options> <image>`                                               | Create and start a container from an image with specified options  |
+   | Usecase 1 | `docker run -d --name mycontainer nginx`                                     | Run nginx image in detached mode with container name "mycontainer" |
+   | Usecase 2 | `docker run -p 8080:80 --name mycontainer nginx`                             | Run nginx image with port mapping from host 8080 to container 80   |
+   | Usecase 3 | `docker run -e MYSQL_ROOT_PASSWORD=password -v /mydata:/var/lib/mysql mysql` | Run MySQL image with setting root password                         |
+   | Usecase 4 | `docker run -v /mydata:/var/lib/mysql mysql`                                 | Run MySQL image and mounting a host directory to container         |
+   | Usecase 5 | `docker run --network=host myimage`                                          | Run a container using the host network                             |
+
+8. **docker ps**  
+   Once you have containers running, you'll need `docker ps` to list them. The basic `docker ps` shows just running containers. Use `docker ps -a` to include stopped containers as well.
+
+   | ID        | Command               | Description                                 |
+   | --------- | --------------------- | ------------------------------------------- |
+   | Template  | `docker ps <options>` | List Docker containers on the system        |
+   | Usecase 1 | `docker ps`           | List running containers                     |
+   | Usecase 2 | `docker ps -a`        | List all containers, including stopped ones |
+
+9. **docker stop/start/restart**  
+   These commands allow you to stop, start, or restart one or more running containers. You reference containers by name or ID.
+
+   | ID        | Command                                      | Description                                   |
+   | --------- | -------------------------------------------- | --------------------------------------------- |
+   | Template  | `docker stop/start/restart <container_name>` | Stop/start/restart a Docker container         |
+   | Usecase 1 | `docker stop mycontainer`                    | Stop a running container named "mycontainer"  |
+   | Usecase 2 | `docker restart mycontainer`                 | Restart a container named "mycontainer"       |
+   | Usecase 3 | `docker start mycontainer`                   | Start a stopped container named "mycontainer" |
+
+10. **docker rm**  
+    Once you've stopped a container, `docker rm` removes it entirely from your system. Use `docker rm -f` to force-remove running containers.
+
+    | ID        | Command                           | Description                                          |
+    | --------- | --------------------------------- | ---------------------------------------------------- |
+    | Template  | `docker rm <options> <container>` | Remove a Docker container                            |
+    | Usecase 1 | `docker rm mycontainer`           | Remove a stopped container named "mycontainer"       |
+    | Usecase 2 | `docker rm -f mycontainer`        | Force-remove a running container named "mycontainer" |
+
+11. **docker logs**  
+    When a containerized application is not behaving correctly, `docker logs` retrieves the logs from a specified container to help troubleshoot.
+
+    | ID        | Command                              | Description                                        |
+    | --------- | ------------------------------------ | -------------------------------------------------- |
+    | Template  | `docker logs <container>`            | Retrieve logs from a Docker container              |
+    | Usecase 1 | `docker logs mycontainer`            | Retrieve logs from a container named "mycontainer" |
+    | Usecase 2 | `docker logs --tail 100 mycontainer` | Retrieve last 100 lines of logs from "mycontainer" |
+
+12. **docker exec**  
+    `docker exec` allows you to run a new command inside an already-running container. For example, starting a Bash shell with `docker exec -it <container> /bin/bash`.
+
+    | ID        | Command                                       | Description                                      |
+    | --------- | --------------------------------------------- | ------------------------------------------------ |
+    | Template  | `docker exec <options> <container> <command>` | Run a command inside a running Docker container  |
+    | Usecase 1 | `docker exec -it mycontainer /bin/bash`       | Start an interactive Bash shell in "mycontainer" |
+    | Usecase 2 | `docker exec mycontainer ls -l /app`          | List files in directory "/app" in "mycontainer"  |
