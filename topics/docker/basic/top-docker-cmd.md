@@ -8,12 +8,39 @@ Docker has rapidly become the de facto standard for containerizing applications.
 
 ## Table of Contents
 
-1. [Docker General Commands](#docker-general-commands)
-2. [Docker Registry](#docker-registry)
-3. [Docker Images](#docker-images)
-4. [Docker Containers](#docker-containers)
-5. [Docker Cleanup](#docker-cleanup)
-6. [What's next?](##whats-next)
+[Docker General Commands](#docker-general-commands)
+
+- [1. docker info](#1-docker-info)
+- [2. docker --help](#2-docker---help)
+
+[Docker Registry](#docker-registry)
+
+- [3. docker login](#3-docker-login)
+
+[Docker Images](#docker-images)
+
+- [4. docker build](#4-docker-build)
+- [5. docker tag](#5-docker-tag)
+- [6. docker images](#6-docker-images)
+- [7. docker pull](#7-docker-pull)
+- [8. docker push](#8-docker-push)
+- [9. docker rmi](#9-docker-rmi)
+
+[Docker Containers](#docker-images)
+
+- [10. docker run](#10-docker-run)
+- [11. docker ps](#11-docker-ps)
+- [12. docker stop/start/restart](#12-docker-stopstartrestart)
+- [13. docker rm](#13-docker-rm)
+- [14. docker logs](#14-docker-logs)
+- [15. docker exec](#15-docker-exec)
+- [16. docker cp](#16-docker-cp)
+
+[Docker Cleanup](#docker-cleanup)
+
+- [17. docker system prune](#17-docker-system-prune)
+
+[What's next?](#whats-next)
 
 ## Docker general commands
 
