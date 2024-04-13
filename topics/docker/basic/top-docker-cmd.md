@@ -2,6 +2,16 @@
 
 Docker has rapidly become the de facto standard for containerizing applications. As a developer or system administrator, getting familiar with Docker is crucial for deploying modern, portable applications efficiently. While Docker has many advanced features and commands, there are some essential ones you'll find yourself using constantly. Let's go through the top Docker commands everyone should know.
 
+# Table of Contents
+
+1. [Installation](#installation)
+2. [Docker General Commands](#docker-general-commands)
+3. [Docker Registry](#docker-registry)
+4. [Docker Images](#docker-images)
+5. [Docker Containers](#docker-containers)
+6. [Docker Cleanup](#docker-cleanup)
+7. [What's next?](##whats-next)
+
 ## Installation
 
 - To install Docker on your machine, follow this [**document**](https://docs.docker.com/engine/install/) (Supported various platforms)
@@ -26,8 +36,6 @@ Docker has rapidly become the de facto standard for containerizing applications.
    | Usecase 2 | `docker login myregistry -u username` | Log in to a private registry with the specified username  |
 
 ## Docker Images
-
-Build/Pull/Login/Push/Images
 
 4. **docker build**  
     `docker build` is used to build custom Docker images from a Dockerfile.
