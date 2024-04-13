@@ -1,6 +1,6 @@
-# Essential Docker Commands Every Beginner Should Know
+# Essential Docker Commands
 
-Docker has rapidly become the de facto standard for containerizing applications. As a developer or system administrator, getting familiar with Docker is crucial for deploying modern, portable applications efficiently. While Docker has many advanced features and commands, there are some essential ones you'll find yourself using constantly. Let's go through the top Docker commands every beginner should know.
+Docker has rapidly become the de facto standard for containerizing applications. As a developer or system administrator, getting familiar with Docker is crucial for deploying modern, portable applications efficiently. While Docker has many advanced features and commands, there are some essential ones you'll find yourself using constantly. Let's go through the top Docker commands everyone should know.
 
 ## Installation
 
@@ -19,7 +19,7 @@ Docker has rapidly become the de facto standard for containerizing applications.
 3. **docker login**  
    `docker login` is used to log in to a Docker registry.
 
-   |           | Command                               | Description                                               |
+   | Title     | Command                               | Description                                               |
    | --------- | ------------------------------------- | --------------------------------------------------------- |
    | Template  | `docker login <options>`              | Log in to a Docker registry with specified authentication |
    | Usecase 1 | `docker login`                        | Log in to the default Docker registry                     |
@@ -32,7 +32,7 @@ Build/Pull/Login/Push/Images
 4. **docker build**  
     `docker build` is used to build custom Docker images from a Dockerfile.
 
-   |           | Command                                      | Description                                                |
+   | Title     | Command                                      | Description                                                |
    | --------- | -------------------------------------------- | ---------------------------------------------------------- |
    | Template  | `docker build -t <your_image_name> <option>` | Build a Docker image from a Dockerfile with specified tag  |
    | Usecase 1 | `docker build -t MyImage .`                  | Build an image using a Dockerfile in the current directory |
@@ -41,7 +41,7 @@ Build/Pull/Login/Push/Images
 5. **docker tag**  
    `docker tag` allows you to create a new tag for an existing Docker image.
 
-   |           | Command                                        | Description                                                                |
+   | Title     | Command                                        | Description                                                                |
    | --------- | ---------------------------------------------- | -------------------------------------------------------------------------- |
    | Template  | `docker tag <source_image> <target_image>`     | Create a new tag for an existing Docker image                              |
    | Usecase 1 | `docker tag myimage:latest myimage:v2`         | Create a new tag "v2" for the Docker image "myimage" with tag "latest"     |
@@ -50,7 +50,7 @@ Build/Pull/Login/Push/Images
 6. **docker images**  
    The `docker images` command lists all Docker images pulled and built on your system. You'll use this frequently to view images before running containers or cleaning up.
 
-   |           | Command                   | Description                                         |
+   | Title     | Command                   | Description                                         |
    | --------- | ------------------------- | --------------------------------------------------- |
    | Template  | `docker images <options>` | List Docker images on the system                    |
    | Usecase 1 | `docker images`           | List all Docker images on the system                |
@@ -59,7 +59,7 @@ Build/Pull/Login/Push/Images
 7. **docker pull**  
    To download an image from a registry like Docker Hub, use `docker pull`. For example, `docker pull nginx` fetches the latest nginx image.
 
-   |           | Command                              | Description                                   |
+   | Title     | Command                              | Description                                   |
    | --------- | ------------------------------------ | --------------------------------------------- |
    | Template  | `docker pull <image_name>`           | Pull a Docker image from a registry           |
    | Usecase 1 | `docker pull nginx`                  | Pull the latest nginx image from Docker Hub   |
@@ -68,7 +68,7 @@ Build/Pull/Login/Push/Images
 8. **docker push**  
    `docker push` is used to upload Docker images to a registry.
 
-   |           | Command                              | Description                                                                 |
+   | Title     | Command                              | Description                                                                 |
    | --------- | ------------------------------------ | --------------------------------------------------------------------------- |
    | Template  | `docker push <image_name>`           | Push a Docker image to a registry                                           |
    | Usecase 1 | `docker push myimage`                | Push the "myimage" image to the default registry                            |
@@ -77,7 +77,7 @@ Build/Pull/Login/Push/Images
 9. **docker rmi**  
    `docker rmi` removes one or more Docker images. Make sure there are no stopped containers based on an image before removing it.
 
-   |           | Command                   | Description                                             |
+   | Title     | Command                   | Description                                             |
    | --------- | ------------------------- | ------------------------------------------------------- |
    | Template  | `docker rmi <image_name>` | Remove a Docker image                                   |
    | Usecase 1 | `docker rmi myimage`      | Remove the Docker image named "myimage"                 |
@@ -88,7 +88,7 @@ Build/Pull/Login/Push/Images
 10. **docker run**  
      `docker run` creates and starts a new container from an image. You can pass various options to configure the container's networking, set environment variables, map volumes, and more.
 
-    |           | Command                                                                      | Description                                                               |
+    | Title     | Command                                                                      | Description                                                               |
     | --------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
     | Template  | `docker run <options> <image>`                                               | Create and start a container from an image with specified options         |
     | Usecase 1 | `docker run -d --name mycontainer nginx`                                     | Run nginx image in detached mode with container name "mycontainer"        |
@@ -101,7 +101,7 @@ Build/Pull/Login/Push/Images
 11. **docker ps**  
     Once you have containers running, you'll need `docker ps` to list them. The basic `docker ps` shows just running containers. Use `docker ps -a` to include stopped containers as well.
 
-    |           | Command               | Description                                 |
+    | Title     | Command               | Description                                 |
     | --------- | --------------------- | ------------------------------------------- |
     | Template  | `docker ps <options>` | List Docker containers on the system        |
     | Usecase 1 | `docker ps`           | List running containers                     |
@@ -110,7 +110,7 @@ Build/Pull/Login/Push/Images
 12. **docker stop/start/restart**  
     These commands allow you to stop, start, or restart one or more running containers. You reference containers by name or ID.
 
-    |           | Command                                      | Description                                   |
+    | Title     | Command                                      | Description                                   |
     | --------- | -------------------------------------------- | --------------------------------------------- |
     | Template  | `docker stop/start/restart <container_name>` | Stop/start/restart a Docker container         |
     | Usecase 1 | `docker stop mycontainer`                    | Stop a running container named "mycontainer"  |
@@ -120,7 +120,7 @@ Build/Pull/Login/Push/Images
 13. **docker rm**  
     Once you've stopped a container, `docker rm` removes it entirely from your system. Use `docker rm -f` to force-remove running containers.
 
-    |           | Command                           | Description                                          |
+    | Title     | Command                           | Description                                          |
     | --------- | --------------------------------- | ---------------------------------------------------- |
     | Template  | `docker rm <options> <container>` | Remove a Docker container                            |
     | Usecase 1 | `docker rm mycontainer`           | Remove a stopped container named "mycontainer"       |
@@ -129,7 +129,7 @@ Build/Pull/Login/Push/Images
 14. **docker logs**  
     When a containerized application is not behaving correctly, `docker logs` retrieves the logs from a specified container to help troubleshoot.
 
-    |           | Command                              | Description                                        |
+    | Title     | Command                              | Description                                        |
     | --------- | ------------------------------------ | -------------------------------------------------- |
     | Template  | `docker logs <container>`            | Retrieve logs from a Docker container              |
     | Usecase 1 | `docker logs mycontainer`            | Retrieve logs from a container named "mycontainer" |
@@ -138,7 +138,7 @@ Build/Pull/Login/Push/Images
 15. **docker exec**  
     `docker exec` allows you to run a new command inside an already-running container. For example, starting a Bash shell with `docker exec -it <container> /bin/bash`.
 
-    |           | Command                                       | Description                                      |
+    | Title     | Command                                       | Description                                      |
     | --------- | --------------------------------------------- | ------------------------------------------------ |
     | Template  | `docker exec <options> <container> <command>` | Run a command inside a running Docker container  |
     | Usecase 1 | `docker exec -it mycontainer /bin/bash`       | Start an interactive Bash shell in "mycontainer" |
@@ -147,7 +147,7 @@ Build/Pull/Login/Push/Images
 16. **docker cp**  
     `docker cp` allows you to copy files and directories between a container and the local filesystem.
 
-    |           | Command                                                             | Description                                                                             |
+    | Title     | Command                                                             | Description                                                                             |
     | --------- | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
     | Template  | `docker cp <container_id_or_name>:<source_path> <destination_path>` | Copy files or directories from a container to the local filesystem                      |
     | Usecase 1 | `docker cp mycontainer:/app/logs/log.txt ./local_dir/`              | Copy the file "log.txt" from the container "mycontainer" to a local directory           |
@@ -158,8 +158,12 @@ Build/Pull/Login/Push/Images
 17. **docker system prune**  
     `docker system prune` allows you to clean up unused data in your Docker environment.
 
-    |           | Command                         | Description                                                               |
+    | Title     | Command                         | Description                                                               |
     | --------- | ------------------------------- | ------------------------------------------------------------------------- |
     | Template  | `docker system prune <options>` | Clean up unused data in your Docker environment with specified options    |
     | Usecase 1 | `docker system prune`           | Remove all stopped containers, dangling images, and unused networks       |
     | Usecase 2 | `docker system prune -a`        | Remove all stopped containers, all unused images, and all unused networks |
+
+## What's next?
+
+- For the full list of docker commands, visit: https://docs.docker.com/reference/cli/docker/
