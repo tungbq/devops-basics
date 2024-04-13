@@ -1,56 +1,33 @@
-## Docker overview
+# The Essential Docker Commands 🐳
 
-Docker has rapidly become the de facto standard for containerizing applications. As a developer or system administrator, getting familiar with Docker is crucial for deploying modern, portable applications efficiently. While Docker has many advanced features and commands, there are some essential ones you'll find yourself using constantly. Let's go through the top Docker commands everyone should know.
+## Introduction 👋
 
-## Installation
+- Docker has rapidly become the de facto standard for containerizing applications. As a developer or DevOps Engineer/SysAdmin, getting familiar with Docker is crucial for deploying modern, portable applications efficiently.
+- While Docker boasts numerous advanced features and commands, there are certain essential ones you'll find yourself using consistently on a daily basis.
+- In this section, we will go through the top Docker commands and their use cases everyone should know.
+
+## Installation 🔨
 
 - To install Docker on your machine, follow this [**document**](https://docs.docker.com/engine/install/) (Supported various platforms)
 
-## Table of Contents
+## Table of Contents 🔖
 
-[Docker General Commands](#docker-general-commands)
-
-- [1. docker info](#1-docker-info)
-- [2. docker --help](#2-docker---help)
-
-[Docker Registry](#docker-registry)
-
-- [3. docker login](#3-docker-login)
-
-[Docker Images](#docker-images)
-
-- [4. docker build](#4-docker-build)
-- [5. docker tag](#5-docker-tag)
-- [6. docker images](#6-docker-images)
-- [7. docker pull](#7-docker-pull)
-- [8. docker push](#8-docker-push)
-- [9. docker rmi](#9-docker-rmi)
-
-[Docker Containers](#docker-images)
-
-- [10. docker run](#10-docker-run)
-- [11. docker ps](#11-docker-ps)
-- [12. docker stop/start/restart](#12-docker-stopstartrestart)
-- [13. docker rm](#13-docker-rm)
-- [14. docker logs](#14-docker-logs)
-- [15. docker exec](#15-docker-exec)
-- [16. docker cp](#16-docker-cp)
-
-[Docker Cleanup](#docker-cleanup)
-
-- [17. docker system prune](#17-docker-system-prune)
-
-[What's next?](#whats-next)
+- [Docker General](#docker-general-commands)
+- [Docker Registry](#docker-registry)
+- [Docker Images](#docker-images)
+- [Docker Containers](#docker-images)
+- [Docker Cleanup](#docker-cleanup)
+- [What's next?](#whats-next)
 
 ## Docker general commands
 
 ### 1. docker info
 
-`docker info` Display system-wide information
+`docker info` display system-wide information
 
 ### 2. docker --help
 
-`docker --help` Get help with Docker. Can also use –help on all subcommands
+`docker --help` get help with Docker. Can also use --help on all subcommands
 
 ## Docker Registry
 
