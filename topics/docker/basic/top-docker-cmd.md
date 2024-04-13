@@ -153,6 +153,8 @@ Build/Pull/Login/Push/Images
     | Usecase 1 | `docker cp mycontainer:/app/logs/log.txt ./local_dir/`              | Copy the file "log.txt" from the container "mycontainer" to a local directory           |
     | Usecase 2 | `docker cp ./local_file.txt mycontainer:/app/data/`                 | Copy the file "local_file.txt" from the local filesystem to the container "mycontainer" |
 
+## Docker cleanup
+
 17. **docker system prune**  
     `docker system prune` allows you to clean up unused data in your Docker environment.
 
