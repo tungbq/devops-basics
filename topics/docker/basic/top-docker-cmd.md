@@ -34,7 +34,7 @@
 
 - `docker login` is used to log in to a Docker registry.
 - Syntax: `docker login <options>`
-- Use case:
+- Use cases:
 
 | ID  | Command                               | Description                                              |
 | --- | ------------------------------------- | -------------------------------------------------------- |
@@ -47,7 +47,7 @@
 
 - `docker build` is used to build custom Docker images from a Dockerfile.
 - Syntax:`docker build -t <your_image_name> <option>`
-- Use case:
+- Use cases:
 
 | ID  | Command                                      | Description                                                |
 | --- | -------------------------------------------- | ---------------------------------------------------------- |
@@ -59,7 +59,7 @@
 
 - `docker tag` allows you to create a new tag for an existing Docker image.
 - Syntax: `docker tag <source_image> <target_image>`
-- Use case:
+- Use cases:
 
 | ID  | Command                                        | Description                                                                |
 | --- | ---------------------------------------------- | -------------------------------------------------------------------------- |
@@ -70,7 +70,7 @@
 
 - The `docker images` command lists all Docker images pulled and built on your system. You'll use this frequently to view images before running containers or cleaning up.
 - Syntax: `docker images <options>`
-- Use case:
+- Use cases:
 
 | ID  | Command            | Description                                         |
 | --- | ------------------ | --------------------------------------------------- |
@@ -81,7 +81,7 @@
 
 - To download an image from a registry like Docker Hub, use `docker pull`. For example, `docker pull nginx` fetches the latest nginx image.
 - Syntax: `docker pull <image_name>`
-- Use case:
+- Use cases:
 
 | ID  | Command                              | Description                                   |
 | --- | ------------------------------------ | --------------------------------------------- |
@@ -92,7 +92,7 @@
 
 - `docker push` is used to upload Docker images to a registry.
 - Syntax: `docker push <image_name>`
-- Use case:
+- Use cases:
 
 | ID  | Command                              | Description                                                                 |
 | --- | ------------------------------------ | --------------------------------------------------------------------------- |
@@ -103,7 +103,7 @@
 
 - `docker rmi` removes one or more Docker images. Make sure there are no stopped containers based on an image before removing it.
 - Syntax: `docker rmi <image_name>`
-- Use case:
+- Use cases:
 
 | ID  | Command                  | Description                                             |
 | --- | ------------------------ | ------------------------------------------------------- |
@@ -116,7 +116,7 @@
 
 - `docker run` creates and starts a new container from an image. You can pass various options to configure the container's networking, set environment variables, map volumes, and more.
 - Syntax: `docker run <options> <image>`
-- Use case:
+- Use cases:
 
 | ID  | Command                                                                      | Description                                                               |
 | --- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -131,7 +131,7 @@
 
 - Once you have containers running, you'll need `docker ps` to list them. The basic `docker ps` shows just running containers. Use `docker ps -a` to include stopped containers as well.
 - Syntax: `docker ps <options>`
-- Use case:
+- Use cases:
 
 | ID  | Command        | Description                                 |
 | --- | -------------- | ------------------------------------------- |
@@ -142,7 +142,7 @@
 
 - These commands allow you to stop, start, or restart one or more running containers. You reference containers by name or ID.
 - Syntax: `docker stop/start/restart <container_name>`
-- Use case:
+- Use cases:
 
 | ID  | Command                      | Description                                   |
 | --- | ---------------------------- | --------------------------------------------- |
@@ -154,7 +154,7 @@
 
 - Once you've stopped a container, `docker rm` removes it entirely from your system. Use `docker rm -f` to force-remove running containers.
 - Syntax: `docker rm <options> <container>`
-- Use case:
+- Use cases:
 
 | ID  | Command                    | Description                                          |
 | --- | -------------------------- | ---------------------------------------------------- |
@@ -165,7 +165,7 @@
 
 - When a containerized application is not behaving correctly, `docker logs` retrieves the logs from a specified container to help troubleshoot.
 - Syntax: `docker logs <options> <container>`
-- Use case:
+- Use cases:
 
 | ID  | Command                              | Description                                        |
 | --- | ------------------------------------ | -------------------------------------------------- |
@@ -176,7 +176,7 @@
 
 - `docker exec` allows you to run a new command inside an already-running container. For example, starting a Bash shell with `docker exec -it <container> /bin/bash`.
 - Syntax: `docker exec <options> <container> <command>`
-- Use case:
+- Use cases:
 
 | ID  | Command                                 | Description                                      |
 | --- | --------------------------------------- | ------------------------------------------------ |
@@ -187,7 +187,7 @@
 
 - `docker cp` allows you to copy files and directories between a container and the local filesystem.
 - Syntax: `docker cp <container_id_or_name>:<source_path> <destination_path>`
-- Use case:
+- Use cases:
 
 | ID  | Command                                                | Description                                                                             |
 | --- | ------------------------------------------------------ | --------------------------------------------------------------------------------------- |
@@ -200,7 +200,7 @@
 
 - `docker system prune` allows you to clean up unused data in your Docker environment.
 - Syntax: `docker system prune <options>`
-- Use case:
+- Use cases:
 
 | ID  | Command                  | Description                                                               |
 | --- | ------------------------ | ------------------------------------------------------------------------- |
