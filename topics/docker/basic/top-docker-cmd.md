@@ -22,38 +22,38 @@
 
 ### 1. docker info
 
-`docker info` display system-wide information
+`docker info` displays system-wide information
 
 ### 2. docker --help
 
-`docker --help` get help with Docker. Can also use --help on all subcommands
+`docker --help` gets help with Docker. Can also use --help on all subcommands
 
 ## Docker Registry
 
 ### 3. docker login
 
 - `docker login` is used to log in to a Docker registry.
-- Syntax: `docker login <options>`
+- Syntax: `docker login <options> <registry>`
 - Use cases:
 
 | ID  | Command                               | Description                                              |
 | --- | ------------------------------------- | -------------------------------------------------------- |
 | 1   | `docker login`                        | Log in to the default Docker registry                    |
-| 2   | `docker login myregistry -u username` | Log in to a private registry with the specified username |
+| 2   | `docker login myRegistry -u username` | Log in to a private registry with the specified username |
 
 ## Docker Images
 
 ### 4. docker build
 
 - `docker build` is used to build custom Docker images from a Dockerfile.
-- Syntax:`docker build -t <your_image_name> <option>`
+- Syntax:`docker build -t <your_image_name> <options> <dockerfile_path>`
 - Use cases:
 
 | ID  | Command                                      | Description                                                |
 | --- | -------------------------------------------- | ---------------------------------------------------------- |
-| 1   | `docker build -t MyImage .`                  | Build an image using a Dockerfile in the current directory |
-| 2   | `docker build -t MyImage:v0.1.0 .`           | Build a Docker image from a Dockerfile with specified tag  |
-| 3   | `docker build -t MyImage -f demo/Dockerfile` | Build an image using a Dockerfile in the demo directory    |
+| 1   | `docker build -t myImage .`                  | Build an image using a Dockerfile in the current directory |
+| 2   | `docker build -t myImage:v0.1.0 .`           | Build a Docker image from a Dockerfile with specified tag  |
+| 3   | `docker build -t myImage -f demo/Dockerfile` | Build an image using a Dockerfile in the demo directory    |
 
 ### 5. docker tag
 
@@ -61,10 +61,11 @@
 - Syntax: `docker tag <source_image> <target_image>`
 - Use cases:
 
-| ID  | Command                                        | Description                                                                |
-| --- | ---------------------------------------------- | -------------------------------------------------------------------------- |
-| 1   | `docker tag myimage:latest myimage:v2`         | Create a new tag "v2" for the Docker image "myimage" with tag "latest"     |
-| 2   | `docker tag myimage:latest myregistry/myimage` | Tag the Docker image "myimage" with tag "latest" and push it to a registry |
+| ID  | Command                                              | Description                                                                     |
+| --- | ---------------------------------------------------- | ------------------------------------------------------------------------------- |
+| 1   | `docker tag myImage:latest myImage:v2`               | Create a new tag "v2" for the Docker image "myImage" with tag "latest"          |
+| 2   | `docker tag myImage:latest myRegistry/myImage`       | Tag the Docker image "myImage" with tag "latest" to a registry image tag latest |
+| 3   | `docker tag myImage:latest myRegistry/myImage:1.0.0` | Tag the Docker image "myImage" with tag "latest" to a registry image tag 1.0.0  |
 
 ### 6. docker images
 
@@ -83,10 +84,11 @@
 - Syntax: `docker pull <image_name>`
 - Use cases:
 
-| ID  | Command                              | Description                                   |
-| --- | ------------------------------------ | --------------------------------------------- |
-| 1   | `docker pull nginx`                  | Pull the latest nginx image from Docker Hub   |
-| 2   | `docker pull myregistry/myimage:tag` | Pull a specific image from a private registry |
+| ID  | Command                              | Description                                            |
+| --- | ------------------------------------ | ------------------------------------------------------ |
+| 1   | `docker pull nginx`                  | Pull the latest nginx image from Docker Hub            |
+| 2   | `docker pull nginx:latest`           | Pull the latest nginx image from Docker Hub explicitly |
+| 3   | `docker pull myRegistry/myImage:tag` | Pull a specific image from a private registry          |
 
 ### 8. docker push
 
@@ -96,8 +98,8 @@
 
 | ID  | Command                              | Description                                                                 |
 | --- | ------------------------------------ | --------------------------------------------------------------------------- |
-| 1   | `docker push myimage`                | Push the "myimage" image to the default registry                            |
-| 2   | `docker push myregistry/myimage:tag` | Push a specific tagged version of the "myimage" image to a private registry |
+| 1   | `docker push myImage`                | Push the "myImage" image to the default registry                            |
+| 2   | `docker push myRegistry/myImage:tag` | Push a specific tagged version of the "myImage" image to a private registry |
 
 ### 9. docker rmi
 
@@ -107,8 +109,8 @@
 
 | ID  | Command                  | Description                                             |
 | --- | ------------------------ | ------------------------------------------------------- |
-| 1   | `docker rmi myimage`     | Remove the Docker image named "myimage"                 |
-| 2   | `docker rmi myimage:tag` | Remove a specific tagged version of the "myimage" image |
+| 1   | `docker rmi myImage`     | Remove the Docker image named "myImage"                 |
+| 2   | `docker rmi myImage:tag` | Remove a specific tagged version of the "myImage" image |
 
 ## Docker Container
 
@@ -124,8 +126,8 @@
 | 2   | `docker run -p 8080:80 --name mycontainer nginx`                             | Run nginx image with port mapping from host 8080 to container 80          |
 | 3   | `docker run -e MYSQL_ROOT_PASSWORD=password -v /mydata:/var/lib/mysql mysql` | Run MySQL image with setting root password                                |
 | 4   | `docker run -v /mydata:/var/lib/mysql mysql`                                 | Run MySQL image and mounting a host directory to container                |
-| 5   | `docker run --network=host myimage`                                          | Run a container using the host network                                    |
-| 6   | `docker run --privileged myimage`                                            | Run a container with extended privileges using the Docker image "myimage" |
+| 5   | `docker run --network=host myImage`                                          | Run a container using the host network                                    |
+| 6   | `docker run --privileged myImage`                                            | Run a container with extended privileges using the Docker image "myImage" |
 
 ### 11. docker ps
 
