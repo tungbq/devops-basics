@@ -1,24 +1,24 @@
 ## Introduction 👋
 
 - Docker has rapidly become the de facto standard for containerizing applications. As a developer or DevOps Engineer/SysAdmin, getting familiar with Docker is crucial for deploying modern, portable applications efficiently.
-- While Docker boasts numerous advanced features and commands, there are certain essential ones you'll find yourself using consistently on a daily basis.
+- While Docker boasts numerous advanced features and commands, there are certain essential ones you'll find yourself using **consistently on a daily basis.**
 - In this post, we will go through the top **20+** essential Docker commands and their use cases everyone should know.
 
 ## Installation 🔨
 
 - To install Docker on your machine, follow this [**document**](https://docs.docker.com/engine/install/) (Supported various platforms)
-- To get hands-on experience and understand Docker better, you could visit this [**repository**](https://github.com/tungbq/devops-basics) (**topics/docker**)
+- To get hands-on experience and understand Docker better, you could visit this [**repository**](https://github.com/tungbq/devops-basics) (➡️ **topics/docker**)
 
 ## Table of Contents 🔖
 
-- [Docker General](#docker-general-commands) (info • --help)
-- [Docker Registry](#docker-registry) (login)
-- [Docker Images](#docker-images) (build • tag • images • pull • push • rmi)
-- [Docker Containers](#docker-container) (run • ps • stop/start/restart • logs • exec • cp • rm)
-- [Docker Cleanup](#docker-cleanup) (system prune)
+- [Docker General](#docker-general-commands) ➡️ info • --help
+- [Docker Registry](#docker-registry) ➡️ login • logout
+- [Docker Images](#docker-images) ➡️ build • tag • images • pull • push • save • load • rmi
+- [Docker Containers](#docker-container) ➡️ run • ps • stop/start/restart • logs • exec • cp • rm
+- [Docker Cleanup](#docker-cleanup) ➡️ system prune
 - [What's next?](#whats-next)
 
-## Docker general commands
+## Docker General Commands
 
 ### 1. docker info
 
