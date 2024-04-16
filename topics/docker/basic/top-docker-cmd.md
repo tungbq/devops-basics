@@ -2,12 +2,12 @@
 
 - Docker has rapidly become the de facto standard for containerizing applications. As a developer or DevOps Engineer/SysAdmin, getting familiar with Docker is crucial for deploying modern, portable applications efficiently.
 - While Docker boasts numerous advanced features and commands, there are certain essential ones you'll find yourself using **consistently on a daily basis.**
-- In this post, we will go through the top **20+** essential Docker commands and their use cases everyone should know.
+- In this post, we will go through the top **20+ essential Docker commands** and their use cases everyone should know.
 
 ## Installation 🔨
 
 - To install Docker on your machine, follow this [**document**](https://docs.docker.com/engine/install/) (Supported various platforms)
-- To get hands-on experience and understand Docker better, you could visit this [**repository**](https://github.com/tungbq/devops-basics) (➡️ **topics/docker**)
+- To get hands-on experience and understand Docker better, you could visit this [**repository**](https://github.com/tungbq/devops-basics/tree/main/topics/docker)
 
 ## Table of Contents 🔖
 
@@ -51,8 +51,8 @@
 
 | ID  | Command                    | Description                              |
 | --- | -------------------------- | ---------------------------------------- |
-| 1   | `docker out`               | Log out from the default Docker registry |
-| 3   | `docker logout myRegistry` | Logout from a specified registry         |
+| 1   | `docker logout`               | Log out from the default Docker registry |
+| 2   | `docker logout myRegistry` | Logout from a specified registry         |
 
 ## Docker Images
 
@@ -163,6 +163,7 @@
 | 4   | `docker run -v /mydata:/var/lib/mysql mysql`                                 | Run MySQL image and mounting a host directory to container                |
 | 5   | `docker run --network=host myImage`                                          | Run a container using the host network                                    |
 | 6   | `docker run --privileged myImage`                                            | Run a container with extended privileges using the Docker image "myImage" |
+| 7   | `docker run -it myImage /bin/bash`                                           | Run an image and open a bash shell inside a container                     |
 
 ### 14. docker ps
 
