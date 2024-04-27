@@ -28,7 +28,7 @@
 
 ### Ansible Helloworld ⭐
 
-- Run [ansible-helloworld.sh](./basic/helloworld/ansible-helloworld.sh)
+- Visit [ansible/basic/helloworld](./basic/helloworld/)
 
 ## Beyond the Basics
 
