@@ -25,6 +25,6 @@ ansible all --list-hosts -i inventory.init
 console_log "Send ping command to the host"
 ansible all -m ping -i inventory.init
 
-console_log "Run the first playbook - get uptime on localhost"
+console_log "Run the first playbook - get uptime and OS release on localhost"
 # Note: `-v` flag here is to verbose the ansible execution result
 ansible-playbook -v -i inventory.init first-playbook.yml

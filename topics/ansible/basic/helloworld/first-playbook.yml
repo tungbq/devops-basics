@@ -1,6 +1,8 @@
 ---
-- name: Check up time
+- name: Basic tasks
   hosts: my-localhost
   tasks:
     - name: Execute uptime command
       command: uptime
+    - name: Check OS release
+      command: cat /etc/os-release
