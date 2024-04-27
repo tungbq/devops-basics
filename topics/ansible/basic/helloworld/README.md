@@ -1,13 +1,14 @@
 # Ansible helloworld example
 
-- Inventory file: [inventory.init](./inventory.init)
+- Inventory file: [inventory.ini](./inventory.ini)
 - First playbook file: [first-playbook.yml](./first-playbook.yml)
 
 - Run the first playbook
 
 ```bash
-# Navigate to code location
-cd topics/ansible/basic/helloworld
+# Navigate to code location under `devops-basics` repo
+cd devops-basics/topics/ansible/basic/helloworld
+
 # Run playbook
 ansible-playbook -i inventory.ini first-playbook.yml
 ```
