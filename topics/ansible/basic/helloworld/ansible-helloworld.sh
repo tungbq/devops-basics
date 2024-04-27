@@ -20,11 +20,11 @@ console_log "Checking Ansible version"
 ansible --version
 
 console_log "Checking inventory host"
-ansible all --list-hosts -i inventory.init
+ansible all --list-hosts -i inventory.ini
 
 console_log "Send ping command to the host"
-ansible all -m ping -i inventory.init
+ansible all -m ping -i inventory.ini
 
-console_log "Run the first playbook - get uptime on localhost"
-# Note: `-v` flag here is to verbose the ansible execution result
-ansible-playbook -v -i inventory.init first-playbook.yml
+console_log "Run the first playbook - get uptime and OS release on localhost"
+# Note: `-v` flag if you want to verbose the ansible execution result
+ansible-playbook -i inventory.ini first-playbook.yml
