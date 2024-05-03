@@ -1,6 +1,6 @@
 <h1 align="center">DevOps Basics</h1>
 
-<p align="center">Practical and document place for DevOps toolchain 💝</p>
+<p align="center">🚀 Practical and document place for DevOps toolchain 💝</p>
 <p align="center">With comprehensive documentation, basic hands-on scripts, advanced examples, and additional resources for a variety of DevOps tools</p>
 
 <p align="center">
