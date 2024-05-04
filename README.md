@@ -194,7 +194,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Coding</td>
         <td><a href="./topics/coding/">coding</a></td>
         <td>📖 <a href="./topics/coding/">coding</a></td>
-        <td>🏃 in-progress</td>
+        <td>✔️ <a href="./topics/coding/practice.md/">practice.md</a></td>
     </tr>
     <tr>
         <td>📖</td>
