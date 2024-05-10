@@ -204,7 +204,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>⏩ coming-soon</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://www.packer.io/_next/static/media/color.687b2b90.svg"></td>
+        <td><img width="32" src="https://www.packer.io/_next/static/media/packer-community_on-light.2925234e.svg"></td>
         <td>Packer</td>
         <td>coming-soon</td>
         <td>📖 <a href="https://www.packer.io/">www.packer.io</a></td>
@@ -218,7 +218,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>⏩ coming-soon</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://www.vaultproject.io/_next/static/media/attributed_color.f6aa0b0a.svg"></td>
+        <td><img width="32" src="https://www.hashicorp.com/_next/static/media/vault_on-dark.97792f64.svg"></td>
         <td>HashiCorp Vault</td>
         <td>coming-soon</td>
         <td>📖 <a href="https://developer.hashicorp.com/vault/docs">hashicorp.com/vault</a></td>
