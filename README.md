@@ -204,7 +204,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>⏩ coming-soon</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://www.packer.io/_next/static/media/packer-community_on-light.2925234e.svg"></td>
+        <td><img width="32" src="https://www.datocms-assets.com/58478/1638283616-packer.svg"></td>
         <td>Packer</td>
         <td>coming-soon</td>
         <td>📖 <a href="https://www.packer.io/">www.packer.io</a></td>
