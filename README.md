@@ -198,7 +198,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Architecture</td>
         <td><a href="./topics/architecture/">architecture</a></td>
         <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/architecture/README.md">architecture/README.md</a></td>
-        <td>⏩ coming-soon</td>
+        <td>✔️ <a href="./topics/architecture/">Architecture</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://www.datocms-assets.com/58478/1638283616-packer.svg"></td>
