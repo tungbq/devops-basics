@@ -18,3 +18,7 @@ Run:
 ```bash
 ./hello-microservices.sh
 ```
+
+## 3. Check the result
+Visit localhost:8080, you should get the similar result like this
+![first-demo-microservices-result](../assets/first-demo-microservices-result.png)
