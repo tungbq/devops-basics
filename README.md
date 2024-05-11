@@ -1,3 +1,4 @@
+<h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" width="500"></h1>
 <h1 align="center">DevOps Basics</h1>
 
 <p align="center">🚀 Practical and document place for DevOps toolchain 💝</p>
@@ -30,10 +31,6 @@ DevOps combines development (Dev) and operations (Ops) to increase the efficienc
 ### Getting started
 
 - ➡️ [getting-started](./getting-started/)
-
-### DevOps Diagram
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" width="500">
 
 ### DevOps toolchain
 
