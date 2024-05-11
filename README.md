@@ -205,7 +205,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Microservices</td>
         <td><a href="./topics/microservices/">microservices</a></td>
         <td>📖 <a href="https://aws.amazon.com/microservices/">aws/microservices</a></td>
-        <td>⏩ coming-soon</td>
+        <td>✔️ <a href="./topics/microservices/basic/">basic demo</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://www.datocms-assets.com/58478/1638283616-packer.svg"></td>
