@@ -9,3 +9,7 @@
 - Microservices architecture design: https://learn.microsoft.com/en-us/azure/architecture/microservices/
 - aks-microservices: [aks-microservices](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices)
 - https://dotnet.microsoft.com/en-us/learn/aspnet/microservices-architecture
+
+## Hands-on
+### Basics
+- Checkout [basic](./basic/) content
