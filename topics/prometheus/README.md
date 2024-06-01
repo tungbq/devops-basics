@@ -1,4 +1,4 @@
-## What is Prometheus?
+## 1. What is Prometheus?
 
 - https://prometheus.io/docs/introduction/overview/#what-is-prometheus
 
@@ -16,17 +16,17 @@
 
 - https://prometheus.io/docs/introduction/overview/
 
-## Prerequisites
+## 2. Prerequisites
 
 - Linux, Helm, k8s
 
-## Installation
+## 3. Installation
 
 ### How to install Prometheus?
 
 - https://prometheus.io/docs/prometheus/latest/installation/
 
-## Basics of Prometheus
+## 4. Basics of Prometheus
 
 ### Prometheus getting started
 
@@ -38,13 +38,13 @@
 - Run the demo scipt: `cd basic; ./prometheus-helloworld.sh`
 - (Optional) Run the demo scipt and cleanup right after the demo: `cd basic; ./prometheus-helloworld.sh true`
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Check the [advanced/](./advanced/) directory for more Prometheus examples.
 
-## More...
+## 6. More...
 
 ### Prometheus cheatsheet
 

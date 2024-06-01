@@ -1,4 +1,4 @@
-## What is Kubernetes
+## 1. What is Kubernetes
 
 ### Overview
 
@@ -13,7 +13,7 @@
 
 - Visit https://kubernetes.io/
 
-## Installation
+## 2. Installation
 
 ### How to install Kubernetes?
 
@@ -23,11 +23,11 @@
 - Deploy a Production Ready Kubernetes Cluster: https://github.com/kubernetes-sigs/kubespray
 
 ### K8s cluster setup tool
+
 - [kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/)
 - [kOps](https://kops.sigs.k8s.io/)
 
-
-## Basics of Kubernetes
+## 3. Basics of Kubernetes
 
 ### Getting started with Kubernetes
 
@@ -39,19 +39,21 @@
 - Run [k8s-helloworld.sh](./basic/helloworld/k8s-helloworld.sh)
 - Cleanup [k8s-helloworld-cleanup.sh](./basic/helloworld/k8s-helloworld-cleanup.sh) after demo comple
 
-## Beyond the Basics
+## 4. Beyond the Basics
 
 ### Exploring Advanced Examples
 
 - Checkout [advanced](./advanced/)
 
 ### kube101 labs
+
 - Visit: https://ibm.github.io/kube101/
 
 ### K8sHub
+
 - Visit: https://github.com/tungbq/K8sHub
 
-## More
+## 5. More
 
 ### Kubernetes cheatsheet
 

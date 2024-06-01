@@ -1,4 +1,4 @@
-## What is Openstack?
+## 1. What is Openstack?
 
 ### Overview
 
@@ -12,34 +12,34 @@ For a deeper understanding, refer to the [Openstack Architecture documentation](
 
 - Access the complete [Official Openstack documentation](https://docs.openstack.org/2023.2/) for detailed information and references.
 
-## Prerequisites
+## 2. Prerequisites
 
-- TODO
+- OS/Linux and Cloud concepts
 
-## Installation
+## 3. Installation
 
 ### How to install Openstack?
 
 - Follow the steps outlined in the [Openstack installation documentation](https://docs.openstack.org/2023.2/install/) for both local development and production environments.
 - Or use the installation script in [basic](./basic/)
 
-## Basics of Openstack
+## 4. Basics of Openstack
 
-### 1. Getting started with Openstack
+### Getting started with Openstack
 
 - Refer to the [official Openstack getting started documentation](https://docs.openstack.org/install-guide/get-started-with-openstack.html) for a comprehensive introduction.
 
-### 2. Openstack Hello World
+### Openstack Hello World
 
 - Run the [basic/openstack-helm.sh](./basic/openstack-helm.sh) script to execute a simple Openstack "Hello World" demonstration.
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - TODO
 
-## More
+## 6. More
 
 ### Openstack Cheatsheet
 

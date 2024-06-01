@@ -1,4 +1,4 @@
-## What is Nginx?
+## 1. What is Nginx?
 
 ### Overview
 
@@ -12,11 +12,11 @@
 
 - https://nginx.org/
 
-## Prerequisites
+## 2. Prerequisites
 
 - Basic networking, HTTP, Linux
 
-## Installation
+## 3. Installation
 
 ### How to install Nginx?
 
@@ -26,7 +26,7 @@
 
 - TODO
 
-## Basics of Nginx
+## 4. Basics of Nginx
 
 ### Nginx getting started
 
@@ -36,13 +36,13 @@
 
 - See: [TODO](./basic/hello-nginx.sh)
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Check the [advanced/](./advanced/) directory for more Nginx examples.
 
-## More...
+## 6. More...
 
 ### Admin guide
 
