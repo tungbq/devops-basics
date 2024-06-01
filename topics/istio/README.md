@@ -1,6 +1,7 @@
-## What is Istio?
+## 1. What is Istio?
 
 ### What is a Service Mesh?
+
 - A service mesh is a dedicated infrastructure layer that you can add to your applications. It allows you to transparently add capabilities like observability, traffic management, and security, without adding them to your own code
 - Source: [what-is-a-service-mesh](https://istio.io/latest/about/service-mesh/#what-is-a-service-mesh)
 
@@ -19,35 +20,37 @@
 
 - Visit https://istio.io/latest/
 
-## Installation
+## 2. Installation
 
 ### How to install Istio?
 
 - https://istio.io/latest/docs/setup/install/
 
-## Basics of Istio
+## 3. Basics of Istio
 
 ### Getting started with Istio
 
 - https://istio.io/latest/docs/setup/getting-started/
 
-## Beyond the Basics
+## 4. Beyond the Basics
 
 ### Exploring Advanced Examples
 
 - TODO
 
-## More...
+## 5. More...
 
 ### Istio cheatsheet
 
 - https://istio.io/latest/docs/reference/commands/
 
 ### Istio with Azure
+
 - https://github.com/Azure-Samples/aks-istio-addon-bicep
 - https://learn.microsoft.com/en-us/azure/aks/istio-about
 
 ### Google Cloud Platform Istio Demo
+
 - [service-mesh-istio](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/kustomize/components/service-mesh-istio/README.md)
 
 ### Recommended Books

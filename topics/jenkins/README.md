@@ -1,4 +1,4 @@
-## What is Jenkins?
+## 1. What is Jenkins?
 
 ### Overview
 
@@ -12,11 +12,11 @@
 
 - https://www.jenkins.io/doc/
 
-## Prerequisites
+## 2. Prerequisites
 
 - K8s, docker, linux
 
-## Installation
+## 3. Installation
 
 ### How to install Jenkins?
 
@@ -26,7 +26,7 @@
 
 - See [deploy-jenkins/README.md](../Jenkins/basic/deploy-jenkins/README.md)
 
-## Basics of Jenkins
+## 4. Basics of Jenkins
 
 ### Jenkins getting started
 
@@ -36,13 +36,13 @@
 
 - See: [Jenkins Hello world](./basic/Jenkins-Hello-World.md)
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Check the [advanced/](./advanced/) directory for more Jenkins examples.
 
-## More...
+## 6. More...
 
 ### Jenkins cheatsheet
 

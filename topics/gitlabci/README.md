@@ -1,4 +1,4 @@
-## What is Gitlab CI?
+## 1. What is Gitlab CI?
 
 ### Overview
 
@@ -12,11 +12,11 @@ GitLab CI/CD is a software development tool that allows organizations to impleme
 
 - https://docs.gitlab.com/ (CI/CD page)
 
-## Prerequisites
+## 2. Prerequisites
 
 - Basic linux command line skill, CICD, YAML
 
-## Installation
+## 3. Installation
 
 ### How to install Gitlab CI?
 
@@ -28,7 +28,7 @@ GitLab CI/CD is a software development tool that allows organizations to impleme
 
 - https://docs.gitlab.com/ee/install/install_methods.html
 
-## Basics of Gitlab CI
+## 4. Basics of Gitlab CI
 
 ### Getting started with Gitlab CI
 
@@ -38,14 +38,14 @@ GitLab CI/CD is a software development tool that allows organizations to impleme
 
 - Check the [basic/](./basic/) directory to create a simple Gitlab CI demo.
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Explore a practical hands-on example in the [Gitlab CI examples](https://docs.gitlab.com/ee/ci/examples/) for more Gitlab CI concepts
 - Check the [advanced/](./advanced//) for more Gitlab CI concepts
 
-## More...
+## 6. More...
 
 ### Gitlab CI YAML syntax reference
 
