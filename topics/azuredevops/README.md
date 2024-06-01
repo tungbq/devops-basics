@@ -1,4 +1,4 @@
-## What is Azure DevOps?
+## 1. What is Azure DevOps?
 
 ### Overview
 
@@ -13,17 +13,17 @@ N/A
 
 - https://learn.microsoft.com/en-us/azure/devops
 
-## Prerequisites
+## 2. Prerequisites
 
 - Understanding the basic CICD concept would be helpful
 
-## Installation
+## 3. Installation
 
 ### How to install Azure DevOps?
 
 - No need to install, just use: https://dev.azure.com/
 
-## Basics of Azure DevOps
+## 4. Basics of Azure DevOps
 
 ### Azure DevOps quick start
 
@@ -33,13 +33,13 @@ N/A
 
 - Check the [basic/](./basic/) directory to create a simple Azure DevOps pipeline.
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Check the [advanced/](./advanced/) directory for more Azure DevOps examples.
 
-## More...
+## 6. More...
 
 ### Recommended Books
 

@@ -1,8 +1,8 @@
 # Coding
 
-An important skill for DevOps
+Coding resources for DevOps
 
-## Some resource to level-up your coding skill and mindset
+## 1. Some resource to level-up your coding skill and mindset
 
 ### Design Pattern
 

@@ -1,4 +1,4 @@
-## What is Docker?
+## 1. What is Docker?
 
 ### Overview
 
@@ -12,37 +12,37 @@ For a deeper understanding, refer to the [Docker Architecture documentation](htt
 
 - Access the complete [official Docker documentation](https://docs.docker.com) for detailed information and references.
 
-## Prerequisites
+## 2. Prerequisites
 
 - Familiarity with containerization concepts and basic Linux command-line usage would be beneficial for understanding Docker.
 
-## Installation
+## 3. Installation
 
 ### How to install Docker?
 
 - Follow the steps outlined in the [Docker installation documentation](https://docs.docker.com/engine/install/) for both local development and production environments.
 
-## Basics of Docker
+## 4. Basics of Docker
 
-### 1. Getting started with Docker
+### Getting started with Docker
 
 - Refer to the [official Docker getting started documentation](https://docs.docker.com/get-started/) for a comprehensive introduction.
 
-### 2. Docker Hello World
+### Docker Hello World
 
 - Run the [basic/docker-helloworld.sh](./basic/docker-helloworld.sh) script to execute a simple Docker "Hello World" demonstration.
 
-### 3. Top Docker commands
+###Top Docker commands
 
 - Checkout [basic/top-docker-cmd.md](./basic/top-docker-cmd.md)
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Explore a practical hands-on example in the [advanced directory](./advanced/) to quickly start using Docker.
 
-## More
+## 6. More
 
 ### Docker Cheatsheet
 

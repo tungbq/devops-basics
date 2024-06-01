@@ -1,4 +1,4 @@
-## What is ELK?
+## 1. What is ELK?
 
 - https://www.elastic.co/what-is/elk-stack
 
@@ -15,33 +15,33 @@
 
 - https://www.elastic.co/guide/index.html
 
-## Prerequisites
+## 2. Prerequisites
 
 - None
 
-## Installation
+## 3. Installation
 
 ### How to install ELK?
 
 - Installing the Elastic Stack: https://www.elastic.co/guide/en/elastic-stack/current/installing-elastic-stack.html
 
-## Basics of ELK
+## 4. Basics of ELK
 
-### 1. Getting started with ELK
+### Getting started with ELK
 
 - Refer to the [Official ELK getting started documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html) for a comprehensive introduction.
 
-### 2. ELK Hello World
+### ELK Hello World
 
 - Check the [helloworld/](./basic/helloworld/) directory to create a simple ELK demo.
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Explore a practical hands-on example in the [ELK hands-on](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html) for more ELK concepts
 
-## More
+## 6. More
 
 ### ELK learning resource
 
