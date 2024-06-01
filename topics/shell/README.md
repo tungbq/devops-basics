@@ -1,4 +1,4 @@
-## What is Shell?
+## 1. What is Shell?
 
 ### Overview
 
@@ -13,17 +13,17 @@
 
 - https://en.wikipedia.org/wiki/Shell_script
 
-## Prerequisites
+## 2. Prerequisites
 
 - K8s, docker, linux
 
-## Installation
+## 3. Installation
 
 ### How to install Shell?
 
 - Just install Linux then you would have shell enviroment as well
 
-## Basics of Shell
+## 4. Basics of Shell
 
 ### Shell getting started
 
@@ -33,13 +33,13 @@
 
 - See: [basic](./basic/)
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Do more practice execises at [advanced](./advanced/)
 
-## More...
+## 6. More...
 
 ### Shell cheatsheet
 

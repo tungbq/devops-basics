@@ -1,4 +1,4 @@
-## What is Terraform?
+## 1. What is Terraform?
 
 - https://developer.hashicorp.com/terraform/intro
 
@@ -15,18 +15,18 @@
 
 - https://developer.hashicorp.com/terraform/docs
 
-## Prerequisites
+## 2. Prerequisites
 
 - Basic linux command line skill and IaC concepts
 - Cloud (if working with cloud provider)
 
-## Installation
+## 3. Installation
 
 ### How to install Terraform?
 
 - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
-## Basics of Terraform
+## 4. Basics of Terraform
 
 ### Terraform getting started
 
@@ -36,13 +36,13 @@
 
 - See: [basic](./basic/)
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - For more hands-on examples, visit [aws-lab-with-terraform projects](https://github.com/tungbq/aws-lab-with-terraform)
 
-## More...
+## 6. More...
 
 ### Looking for a Terraform sample project with best practice?
 
