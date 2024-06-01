@@ -1,4 +1,4 @@
-## What is Ansible
+## 1. What is Ansible
 
 ### Overview
 
@@ -14,13 +14,13 @@
 
 - Visit https://www.ansible.com/
 
-## Installation
+## 2. Installation
 
 ### How to install Ansible?
 
 - Follow this guide: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible
 
-## Basics of Ansible
+## 3. Basics of Ansible
 
 ### Getting started with Ansible
 
@@ -30,13 +30,13 @@
 
 - Visit [ansible/basic/helloworld](./basic/helloworld/)
 
-## Beyond the Basics
+## 4. Beyond the Basics
 
 ### Exploring Advanced Examples
 
 - Checkout [advanced](./advanced/)
 
-## More
+## 5. More
 
 ### Ansible playbook cheatsheet
 

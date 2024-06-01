@@ -1,4 +1,4 @@
-## What is Python?
+## 1. What is Python?
 
 ### Overview
 
@@ -13,18 +13,18 @@
 
 - https://www.python.org/doc/
 
-## Prerequisites
+## 2. Prerequisites
 
 - None
 
-## Installation
+## 3. Installation
 
 ### How to install Python?
 
 - Visit the Python Downloads Page to access the latest version of Python suitable for your operating system.
 - https://www.python.org/downloads/
 
-## Basics of Python
+## 4. Basics of Python
 
 ### Python getting started
 
@@ -36,13 +36,13 @@
 - Explore the [helloworld.py](./basic/helloworld.py) file in the helloworld directory to get a basic introduction to running a Python script.
 - Run `cd helloworld; python3 helloworld.py`
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Find more examples at [advanced](./advanced/)
 
-## More...
+## 6. More...
 
 ### Python cheatsheet
 

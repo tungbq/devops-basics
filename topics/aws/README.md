@@ -1,4 +1,4 @@
-## What is AWS?
+## 1. What is AWS?
 
 - https://aws.amazon.com/what-is-aws/
 
@@ -14,17 +14,17 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 
 - https://docs.aws.amazon.com/
 
-## Prerequisites
+## 2. Prerequisites
 
 - Familiarity with cloud concepts and basic Linux command-line usage would be beneficial for understanding AWS.
 
-## Installation
+## 3. Installation
 
 ### How to install AWS?
 
 - No need to install AWS, it's cloud environment
 
-## Basics of AWS
+## 4. Basics of AWS
 
 ### 1. Getting started with AWS
 
@@ -34,13 +34,13 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 
 - Check the [basic/](./basic/) directory to create a simple AWS EC2.
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Explore a practical hands-on example in the [AWS hands-on](https://aws.amazon.com/getting-started/hands-on) to quickly start using AWS.
 
-## More
+## 6. More
 
 ### AWS learning resource
 

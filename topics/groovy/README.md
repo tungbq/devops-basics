@@ -1,4 +1,4 @@
-## What is Groovy?
+## 1. What is Groovy?
 
 ### Overview
 
@@ -13,30 +13,30 @@
 
 - https://groovy-lang.org/documentation.html
 
-## Prerequisites
+## 2. Prerequisites
 
 - None
 
-## Installation
+## 3. Installation
 
 ### How to install Groovy?
 
 - See https://groovy-lang.org/install.html (I prefer using SDK man)
 - Facing missing java issue while installing: Visit: [groovy-with-sdk-missing-java.md](.././../troubleshooting/installation/groovy-with-sdk-missing-java.md)
 
-## Basics of Groovy
+## 4. Basics of Groovy
 
 ### Groovy Hello World
 
 - Check the [basic/](./basic/) directory to create a simple Groovy demo.
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - TODO
 
-## More...
+## 6. More...
 
 ### Groovy extra resources
 

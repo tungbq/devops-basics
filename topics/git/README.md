@@ -1,4 +1,4 @@
-## What is Git?
+## 1. What is Git?
 
 - https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 
@@ -15,17 +15,17 @@ Git is a free and open source distributed version control system designed to han
 - https://git-scm.com/
 - https://github.com/git-guides
 
-## Prerequisites
+## 2. Prerequisites
 
 - Basic linux command line skill
 
-## Installation
+## 3. Installation
 
 ### How to install Git?
 
 - https://github.com/git-guides/install-git
 
-## Basics of Git
+## 4. Basics of Git
 
 ### Getting started with Git
 
@@ -35,13 +35,13 @@ Git is a free and open source distributed version control system designed to han
 
 - Check the [helloworld/](./basic/hello-world/) directory to create a simple Git demo.
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Explore a practical hands-on example in the [Git hands-on](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html) for more Git concepts
 
-## More
+## 6. More
 
 ### Git guides page
 

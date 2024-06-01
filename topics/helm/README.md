@@ -1,27 +1,28 @@
-## What is Helm?
+## 1. What is Helm?
 
 ### Overview
 
 - Helm is the package manager for Kubernetes
 
 ### Helm workflow
+
 ![helm_workflow](https://v2.helm.sh/img/chart-illustration.png)
 
 ### Official website documentation of Helm
 
 - https://helm.sh/docs/
 
-## Prerequisites
+## 2. Prerequisites
 
 - K8s, docker, linux
 
-## Installation
+## 3. Installation
 
 ### How to install Helm?
 
 - https://helm.sh/docs/intro/install/
 
-## Basics of Helm
+## 4. Basics of Helm
 
 ### Helm quick start
 
@@ -31,13 +32,13 @@
 
 - Check the [basic/](./basic/) directory to create a simple Helm demo.
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Check the [advanced/](./advanced/) directory for more Helm examples.
 
-## More...
+## 6. More...
 
 ### Helm cheatsheet
 

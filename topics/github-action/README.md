@@ -1,4 +1,4 @@
-## What is GitHub Action?
+## 1. What is GitHub Action?
 
 - https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
 
@@ -14,17 +14,17 @@ GitHub Actions is a continuous integration and continuous delivery (CI/CD) platf
 
 - https://docs.github.com/en/enterprise-cloud@latest/actions
 
-## Prerequisites
+## 2. Prerequisites
 
 - Basic linux command line skill, CICD, YAML
 
-## Installation
+## 3. Installation
 
 ### How to install GitHub Action?
 
 - No need to install, it's built along with GitHub server
 
-## Basics of GitHub Action
+## 4. Basics of GitHub Action
 
 ### Getting started with GitHub Action
 
@@ -34,13 +34,13 @@ GitHub Actions is a continuous integration and continuous delivery (CI/CD) platf
 
 - Check the [basic/](./basic/) directory to create a simple GitHub Action demo.
 
-## Beyond the Basics
+## 5. Beyond the Basics
 
 ### Hands-On Example
 
 - Explore a practical hands-on example in the [learn-github-actions](https://docs.github.com/en/enterprise-cloud@latest/actions/learn-github-actions) for more GitHub Action concepts
 
-## More...
+## 6. More...
 
 ### Awesome GitHub workflow
 
