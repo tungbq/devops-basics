@@ -24,7 +24,7 @@
 
 ### Install Jenkins with Docker
 
-- See [deploy-jenkins/README.md](../Jenkins/basic/deploy-jenkins/README.md)
+- See [deploy-jenkins/README.md](../helm/advanced/hands-on/deploy-jenkins/README.md)
 
 ## 4. Basics of Jenkins
 

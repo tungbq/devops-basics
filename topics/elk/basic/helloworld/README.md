@@ -11,5 +11,5 @@
 # Practice with ELK
 
 - Install ELK, via [docker-compose](./installation/docker-compose/)
-- Ingest metrics, via [metric-beat](../metric-beat/)
+- Ingest metrics, via [metric-beat](./metric-beat/)
 - Explore the data via Kibana, via http://localhost:5601
