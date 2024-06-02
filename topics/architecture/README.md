@@ -19,3 +19,8 @@ A source-control branching model, where developers collaborate on code in a sing
 ## 4. Deployment
 
 - Deployment Choice: Code Promotion vs Artifact Promotion: https://hackernoon.com/deployment-choice-code-promotion-vs-artifact-promotion
+
+## 5. Versioning
+
+- Kubernetes Release Versioning: https://github.com/kubernetes/sig-release/blob/master/release-engineering/versioning.md#kubernetes-release-versioning
+- Semantic Versioning 2.0.0: https://semver.org/
