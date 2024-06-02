@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-- The Elastic stack must be installed first, see [elk](../../elk/)
+- The Elastic stack must be installed first, see [elk](../../../../elk/)
 
 ## Elastalert install
 

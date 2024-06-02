@@ -3,7 +3,7 @@
 ## Install Jenkins
 
 - https://www.jenkins.io/doc/book/installing/
-- Or install Jenkins via Helm hands on example of this DevOps repo, see [helm/hands-on/deploy-jenkins](../../helm/hands-on/deploy-jenkins/)
+- Or install Jenkins via Helm hands on example of this DevOps repo, see [helm/hands-on/deploy-jenkins](../../helm/advanced/hands-on/deploy-jenkins/)
 
 ## Create and run your first pipeline
 
