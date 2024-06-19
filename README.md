@@ -228,6 +228,13 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>📖 <a href="https://developer.hashicorp.com/vault/docs">hashicorp.com/vault</a></td>
         <td>⏩ coming-soon</td>
     </tr>
+  <tr>
+        <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"></td>
+        <td>SQL</td>
+        <td><a href="./topics/sql/">sql</a></td>
+        <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/sql/README.md">sql/README.md</a></td>
+        <td>✔️ <a href="./topics/sql/">sql</a></td>
+    </tr>
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
