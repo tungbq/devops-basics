@@ -247,6 +247,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
 | The DevOps Hub         | ☁️ [TheDevOpsHub](https://github.com/TheDevOpsHub)                            |
 | devops-project         | 🏗️ [devops-project](https://github.com/tungbq/devops-project)                 |
 | 90DaysOfDevOps         | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)            |
+| Container Labs         | ☁️ [container-labs](https://github.com/TheDevOpsHub/container-labs)                            |
 | python                 | 🐍 [python-examples](https://github.com/tungbq/python-examples)               |
 | aws-lab-with-terraform | ☁️ [aws-lab-with-terraform](https://github.com/tungbq/aws-lab-with-terraform) |
 | AWS-LearningResource   | 🧰 [AWS-LearningResource](https://github.com/tungbq/AWS-LearningResource)     |
