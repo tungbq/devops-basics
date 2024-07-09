@@ -20,7 +20,8 @@
 - Visit: http://localhost:7080/ you could see:
 
   ![demo_nginx_basic_ok](./assets/demo_nginx_basic_ok.png)
-  NOTE: You can change the localhost port from `7080` to any port works on your machine, and update the port definition in `docker-compose.yaml` as well.
+
+  _NOTE_: You can change the localhost port from `7080` to any port works on your machine, and update the port definition in `docker-compose.yaml` as well.
 
 - To cleanup resouce, run:
 
