@@ -28,7 +28,7 @@
 
 ### Exploring Advanced Examples
 
-- Checkout [advanced](./advanced/)
+- Checkout [mysql-advanced](./mysql-advanced.md)
 
 ## 5. More
 
