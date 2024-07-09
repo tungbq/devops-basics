@@ -34,7 +34,7 @@
 
 ### Nginx Hello World
 
-- See: [TODO](./basic/hello-nginx.sh)
+- See: [basic](./basic/)
 
 ## 5. Beyond the Basics
 

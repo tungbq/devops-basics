@@ -212,7 +212,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Nginx</td>
         <td><a href="./topics/nginx/">nginx</a></td>
         <td>📖 <a href="https://nginx.org/en/docs/">nginx.org/en/docs</a></td>
-        <td>⏩ <a href="./topics/nginx/basic/">nginx (in-progress)</a></td>
+        <td>✔️ <a href="./topics/nginx/basic/">nginx basic</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://www.datocms-assets.com/58478/1638283616-packer.svg"></td>
