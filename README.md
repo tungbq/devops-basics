@@ -235,6 +235,15 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/sql/README.md">sql/README.md</a></td>
         <td>✔️ <a href="./topics/sql/mysql-basics.md">mysql-basics</a></td>
     </tr>
+
+  <tr>
+        <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Haproxy-logo.png" /></td>
+        <td>HAProxy</td>
+        <td><a href="./topics/haproxy/">haproxy</a></td>
+        <td>📖 <a href="https://www.haproxy.org/">www.haproxy.org</a></td>
+        <td>✔️ <a href="./topics/haproxy/basic/">HAProxy basics</a></td>
+    </tr>
+
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
