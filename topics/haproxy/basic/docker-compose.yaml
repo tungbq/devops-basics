@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  # Simple web server in python
+  web:
+    image: python:3.9-slim
+    container_name: web-server
+    command: python -m http.server 8000
+    volumes:
+      - ./html:/app
+    working_dir: /app
+    expose:
+      - '8000'
+
+  # Nginx reverse proxy
+  nginx:
+    image: nginx:latest
+    container_name: nginx-proxy
+    ports:
+      # Repace 7080 by your desired port
+      - '7080:80'
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - web
