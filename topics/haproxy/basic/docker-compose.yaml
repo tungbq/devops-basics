@@ -1,25 +1,33 @@
 version: '3.8'
 
 services:
-  # Simple web server in python
-  web:
-    image: python:3.9-slim
-    container_name: web-server
-    command: python -m http.server 8000
-    volumes:
-      - ./html:/app
-    working_dir: /app
-    expose:
-      - '8000'
-
-  # Nginx reverse proxy
-  nginx:
-    image: nginx:latest
-    container_name: nginx-proxy
+  haproxy:
+    build:
+      context: ./haproxy
+    container_name: haproxy
     ports:
-      # Repace 7080 by your desired port
-      - '7080:80'
-    volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
+      # You can replace 6081 by the port work on your machine!
+      - '6081:80'
     depends_on:
-      - web
+      - nginx-webserver1
+      - nginx-webserver2
+    networks:
+      - haproxy-network
+
+  nginx-webserver1:
+    build:
+      context: ./nginx-webserver/nginx-webserver1
+    container_name: nginx-webserver1
+    networks:
+      - haproxy-network
+
+  nginx-webserver2:
+    build:
+      context: ./nginx-webserver/nginx-webserver2
+    container_name: nginx-webserver2
+    networks:
+      - haproxy-network
+
+networks:
+  haproxy-network:
+    driver: bridge

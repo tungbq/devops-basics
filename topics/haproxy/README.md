@@ -24,7 +24,7 @@ HAProxy is a free and open source software that provides a high availability loa
 
 ## 4. Basics of HAProxy
 
-### HAProxy Hello World
+### HAProxy lab
 
 - See: [basic](./basic/)
 

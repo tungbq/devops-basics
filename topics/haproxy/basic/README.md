@@ -1,31 +1,51 @@
-# Nginx demo with docker compose
+# HA proxy basics demo
 
-- Prerequisites:
-  - Docker + Docker compose installed
-- This setup will include two services: one for NGINX and another for a simple web server (e.g., an HTTP server running in a Python container).
-- Main files:
+## 1. Labs stack
 
-  - [nginx.conf](./nginx.conf): Contains basic NGINX configuration
-  - [html](./html/): Contains HTML file for web server running with python
-  - [docker-compose.yaml](./docker-compose.yaml): To deploy 2 separated containers for this demo (Nginx + HTTP web server)
+- [nginx-webserver1](https://nginx.org/): An Ubuntu VM running in nginx webserver.
+- [nginx-webserver2](https://nginx.org/): An Ubuntu VM running in nginx webserver.
+- [haproxy](https://www.haproxy.org/): HA proxy points to 2 these web servers.
 
-- Run the hands on:
+## 2. Setup
+
+### Prerequisites
+
+- Docker + Docker Compose
+
+### Build and run the containers
+
+- Option-1: Build and run in background (Recommend)
+
+```bash
+cd devops-basics/topics/haproxy/basic/
+docker-compose up --build -d
+
+# To stop and remove contaienr, run:
+docker compose down
+```
+
+- Option-2: Run and verbose the logs
+
+```bash
+cd devops-basics/topics/haproxy/basic/
+docker-compose up --build
+
+# To stop, press 'Ctrl + C'
+```
+
+## 3. Explore the HA proxy
+
+- Access the HA Proxy at http://localhost:6081 (You can replace 6081 by the port work on your machine!)
+- Refresh the page multiple time and you would see that the HA Proxy route to `nginx-webserver1` and `nginx-webserver2` in Round Robin mode.
+
+  ![nginx-webserver1](./assets/server1.png)
+  ![nginx-webserver2](./assets/server2.png)
+
+- Now try to stop the `nginx-webserver1` and refresh the page http://localhost:6081, it will check and only route to `nginx-webserver2`
 
   ```bash
-  cd devops-basics/topics/nginx/basic
-  docker-compose up -d
+  docker stop nginx-webserver1
   ```
 
-- Now you'll have an NGINX server acting as a reverse proxy to another web server running in a separate Docker container.
-- Visit: http://localhost:7080/ you could see:
-
-  ![demo_nginx_basic_ok](./assets/demo_nginx_basic_ok.png)
-
-  _NOTE_: You can change the localhost port from `7080` to any port works on your machine, and update the port definition in `docker-compose.yaml` as well.
-
-- To cleanup resouce, run:
-
-  ```bash
-  cd devops-basics/topics/nginx/basic
-  docker-compose down
-  ```
+  ![nginx-webserver1](./assets/server2.png)
+  ![nginx-webserver2](./assets/server2.png)
