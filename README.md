@@ -60,6 +60,13 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/ansible/basic/helloworld/ansible-helloworld.sh"> ansible-helloworld.sh</a></td>
     </tr>
     <tr>
+        <td><img height="28" src="https://wac-cdn.atlassian.com/dam/jcr:9567a40e-6541-4905-bf08-dfe201aa80e7/illustrations-spot-Agile.svg?cdnVersion=1946" /></td>
+        <td>Agile</td>
+        <td><a href="./topics/agile/">agile</a></td>
+        <td>📖 <a href="https://www.atlassian.com/agile">www.atlassian.com/agile</a></td>
+        <td>✔️ <a href="./topics/agile/README.md">Agile resources</a></td>
+    </tr>
+    <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=docker" /></td>
         <td>Docker</td>
         <td><a href="./topics/docker/">docker</a></td>
