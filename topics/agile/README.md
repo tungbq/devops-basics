@@ -2,6 +2,7 @@
 
 - The Agile methodology is a project management approach that involves breaking the project into phases and emphasizes continuous collaboration and improvement. Teams follow a cycle of planning, executing, and evaluating.
 - See: https://www.atlassian.com/agile
+- Wiki: https://en.wikipedia.org/wiki/Agile_software_development
 
 ## 2. Agile learning resource
 
