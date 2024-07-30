@@ -1,9 +1,15 @@
 # Build an Ubuntu machine image on AWS with Packer
 
-## Pre
+## Prerequisites
 
 - AWS account
 - Packer installed
+- Authenticate to AWS
+  ```bash
+  export AWS_ACCESS_KEY_ID="<YOUR_AWS_ACCESS_KEY_ID>"
+  export AWS_SECRET_ACCESS_KEY="<YOUR_AWS_SECRET_ACCESS_KEY>"
+  ```
+- Doc: https://developer.hashicorp.com/packer/integrations/hashicorp/amazon#iam-task-or-instance-role
 
 ## Init
 
