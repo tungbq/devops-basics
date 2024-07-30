@@ -28,16 +28,9 @@ You are new to DevOps or want to learn some DevOps tools, or you are already a D
 
 DevOps combines development (Dev) and operations (Ops) to increase the efficiency, speed, and security of software development and delivery compared to traditional processes. A more nimble software development lifecycle results in a competitive advantage for businesses and their customers (source: GitLab)
 
-### Getting started
-
+### Overview
 - ➡️ [getting-started](./getting-started/)
-
-### DevOps toolchain
-
 - ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
-
-### DevOps Roadmap
-
 - ➡️ [roadmap.sh/devops](https://roadmap.sh/devops)
 
 ## DevOps topics 🔥
