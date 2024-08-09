@@ -280,3 +280,7 @@ Thank you all for your contributions! 💖
 <a href="https://github.com/tungbq/devops-basics/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=tungbq/devops-basics" />
 </a>
+
+## Star History ⭐
+
+[![Star History Chart](https://api.star-history.com/svg?repos=tungbq/devops-basics&type=Timeline)](https://star-history.com/#tungbq/devops-basics&Timeline)
