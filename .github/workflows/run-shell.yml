@@ -3,7 +3,8 @@ name: shell-script
 on:
   pull_request:
     branches: ['main']
-
+    paths:
+      - 'topics/shell/'
 jobs:
   build:
     runs-on: ubuntu-latest
