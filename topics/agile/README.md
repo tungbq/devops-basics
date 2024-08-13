@@ -14,7 +14,7 @@
 
 - Concept: https://www.atlassian.com/agile/scrum
 - Sprints: https://www.atlassian.com/agile/scrum/sprints
-- Sprint plannning: https://www.atlassian.com/agile/scrum/sprint-planning
+- Sprint planning: https://www.atlassian.com/agile/scrum/sprint-planning
 - Sprint reviews: https://www.atlassian.com/agile/scrum/sprint-reviews
 - Backlog: https://www.atlassian.com/agile/scrum/backlogs
 - Standup: https://www.atlassian.com/agile/scrum/standups
