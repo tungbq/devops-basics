@@ -22,6 +22,8 @@ You are new to DevOps or want to learn some DevOps tools, or you are already a D
 - **Hands-On practice**: Get basic examples for each topic so you can try out what you learn.
 - **Advanced examples**: Once you've grasped the basic concepts, exploring advanced examples will further elevate your skills.
 
+This is the **first** member of my trio of DevOps repositories that help everyone learn, practice, and apply DevOps: [devops-basics](https://github.com/tungbq/devops-basics) <-> [devops-practice](https://github.com/tungbq/devops-practice) <-> [devops-project](https://github.com/tungbq/devops-project)
+
 ## Getting started :rocket:
 
 ### What is DevOps?
