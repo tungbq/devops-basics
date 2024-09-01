@@ -262,6 +262,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
 | Item                   | Link                                                                          |
 | :--------------------- | :---------------------------------------------------------------------------- |
 | The DevOps Hub         | ☁️ [TheDevOpsHub](https://github.com/TheDevOpsHub)                            |
+| devops-practice        | 👷 [devops-practice](https://github.com/tungbq/devops-practice)               |
 | devops-project         | 🏗️ [devops-project](https://github.com/tungbq/devops-project)                 |
 | 90DaysOfDevOps         | 📆 [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)            |
 | Container Labs         | 🐳 [container-labs](https://github.com/TheDevOpsHub/container-labs)           |
