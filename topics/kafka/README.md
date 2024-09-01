@@ -34,9 +34,9 @@
 
 - [Kafka 101: Getting Started with Kafka](https://kafka.apache.org/quickstart)
 
-### Kafka Hello World
+### Kafka Basics 👋
 
-- See: [basic](./basic/)
+- See: [**basic**](./basic/)
 
 ## 5. Beyond the Basics
 
