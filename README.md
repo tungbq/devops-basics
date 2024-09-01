@@ -249,7 +249,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Apache_kafka.svg/800px-Apache_kafka.svg.png" /></td>
         <td>Kafka</td>
         <td><a href="./topics/kafka/">kafka</a></td>
-        <td>📖 <a href="https://kafka.apache.org/">kafka.apache.org/</a></td>
+        <td>📖 <a href="https://kafka.apache.org/">kafka.apache.org</a></td>
         <td>✔️ <a href="./topics/kafka/basic/">Kafka basics</a></td>
     </tr>
 </table>
