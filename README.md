@@ -31,6 +31,7 @@ This is the **first** of my DevOps trio repositories: [devops-basics](https://gi
 DevOps combines development (Dev) and operations (Ops) to increase the efficiency, speed, and security of software development and delivery compared to traditional processes. A more nimble software development lifecycle results in a competitive advantage for businesses and their customers (source: GitLab)
 
 ### Overview
+
 - ➡️ [getting-started](./getting-started/)
 - ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
 - ➡️ [roadmap.sh/devops](https://roadmap.sh/devops)
@@ -230,22 +231,27 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>📖 <a href="https://developer.hashicorp.com/vault/docs">hashicorp.com/vault</a></td>
         <td>⏩ coming-soon</td>
     </tr>
-  <tr>
+    <tr>
         <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"></td>
         <td>SQL</td>
         <td><a href="./topics/sql/">sql</a></td>
         <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/sql/README.md">sql/README.md</a></td>
         <td>✔️ <a href="./topics/sql/mysql-basics.md">mysql-basics</a></td>
     </tr>
-
-  <tr>
+    <tr>
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Haproxy-logo.png" /></td>
         <td>HAProxy</td>
         <td><a href="./topics/haproxy/">haproxy</a></td>
         <td>📖 <a href="https://www.haproxy.org/">www.haproxy.org</a></td>
         <td>✔️ <a href="./topics/haproxy/basic/">HAProxy basics</a></td>
     </tr>
-
+    <tr>
+        <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Apache_kafka.svg/800px-Apache_kafka.svg.png" /></td>
+        <td>Kafka</td>
+        <td><a href="./topics/kafka/">kafka</a></td>
+        <td>📖 <a href="https://kafka.apache.org/">kafka.apache.org/</a></td>
+        <td>✔️ <a href="./topics/kafka/basic/">Kafka basics</a></td>
+    </tr>
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
