@@ -50,6 +50,7 @@ You should see the message you produced earlier.
 To stop and remove the Kafka and Zookeeper containers, run:
 
 ```bash
+cd devops-basics/topics/kafka/basic
 docker-compose down
 ```
 

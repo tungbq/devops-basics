@@ -5,6 +5,7 @@ services:
     container_name: zookeeper
     environment:
       - ZOO_ENABLE_AUTH=no
+      - ALLOW_ANONYMOUS_LOGIN=yes
     ports:
       - '2181:2181'
 
