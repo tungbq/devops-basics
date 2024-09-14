@@ -29,7 +29,7 @@ The Azure cloud platform is more than 200 products and cloud services designed t
 
 ### 2. Azure Hello World
 
-- Check the [basic/](./basic/) directory to create a simple Azure EC2.
+- Check the [**basic/**](./basic/) directory to create some Azure resources
 
 ## 5. Beyond the Basics
 
