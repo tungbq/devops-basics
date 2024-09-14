@@ -92,6 +92,13 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">EC2_GetStarted</a></td>
     </tr>
     <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=azure" /></td>
+        <td>Azure</td>
+        <td><a href="./topics/azure/">aws</a></td>
+        <td>📖 <a href="https://learn.microsoft.com/en-us/azure/?product=popular">learn.microsoft.com/azure</a></td>
+        <td>✔️ <a href="./topics/azure/basic/">azure/basic</a></td>
+    </tr>
+    <tr>
         <td><img height="28" src="https://helm.sh/img/helm.svg"></td>
         <td>Helm</td>
         <td><a href="./topics/helm/">helm</a></td>
