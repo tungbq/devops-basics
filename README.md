@@ -259,6 +259,13 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>📖 <a href="https://kafka.apache.org/">kafka.apache.org</a></td>
         <td>✔️ <a href="./topics/kafka/basic/">Kafka basics</a></td>
     </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=cloudflare" /></td>
+        <td>Cloudflare</td>
+        <td><a href="./topics/cloudflare/">cloudflare</a></td>
+        <td>📖 <a href="https://developers.cloudflare.com/">developers.cloudflare.com</a></td>
+        <td>✔️ <a href="./topics/cloudflare/basic/">Cloudflare basics</a></td>
+    </tr>
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
