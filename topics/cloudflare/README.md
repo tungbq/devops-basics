@@ -40,7 +40,7 @@
 
 ### Reference Architecture
 
-- https://developers.cloudflare.com/reference-architecture/s
+- https://developers.cloudflare.com/reference-architecture/
 
 ### Recommended Books
 
