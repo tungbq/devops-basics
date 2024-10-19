@@ -8,7 +8,7 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 
 ### AWS Architecture
 
-- None
+- N/A
 
 ### Official website documentation of AWS
 
@@ -48,4 +48,4 @@ Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopte
 
 ### Recommended Books
 
-- None
+- N/A

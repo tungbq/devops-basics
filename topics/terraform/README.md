@@ -50,8 +50,8 @@
 
 ### Terraform cheatsheet
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A

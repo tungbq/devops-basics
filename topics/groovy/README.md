@@ -7,7 +7,7 @@
 
 ### Groovy workflow
 
-- None
+- N/A
 
 ### Official website documentation of Groovy
 
@@ -15,7 +15,7 @@
 
 ## 2. Prerequisites
 
-- None
+- N/A
 
 ## 3. Installation
 

@@ -6,7 +6,7 @@
 
 ### Nginx workflow
 
-- None
+- N/A
 
 ### Official website documentation of Nginx
 
@@ -50,8 +50,8 @@
 
 ### Nginx cheatsheet
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A

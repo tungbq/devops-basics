@@ -8,7 +8,7 @@ GitHub Actions is a continuous integration and continuous delivery (CI/CD) platf
 
 ### GitHub Action workflow
 
-- None
+- N/A
 
 ### Official website documentation of GitHub Action
 
@@ -48,4 +48,4 @@ GitHub Actions is a continuous integration and continuous delivery (CI/CD) platf
 
 ### Recommended Books
 
-- None
+- N/A

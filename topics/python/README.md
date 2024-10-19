@@ -7,7 +7,7 @@
 
 ### Python workflow
 
-- None
+- N/A
 
 ### Official website documentation of Python
 
@@ -15,7 +15,7 @@
 
 ## 2. Prerequisites
 
-- None
+- N/A
 
 ## 3. Installation
 
@@ -50,4 +50,4 @@
 
 ### Recommended Books
 
-- None
+- N/A
