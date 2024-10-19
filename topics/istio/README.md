@@ -55,4 +55,4 @@
 
 ### Recommended Books
 
-- None
+- N/A

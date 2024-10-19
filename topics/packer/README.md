@@ -11,7 +11,7 @@
 
 ## 2. Prerequisites
 
-- None
+- N/A
 
 ## 3. Installation
 
@@ -33,8 +33,8 @@
 
 ### Packer cheatsheet
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A

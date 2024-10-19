@@ -17,7 +17,7 @@
 
 ## 2. Prerequisites
 
-- None
+- N/A
 
 ## 3. Installation
 
@@ -45,8 +45,8 @@
 
 ### ELK learning resource
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A

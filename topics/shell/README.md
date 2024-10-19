@@ -7,7 +7,7 @@
 
 ### Shell workflow
 
-- None
+- N/A
 
 ### Official website documentation of Shell
 
@@ -43,8 +43,8 @@
 
 ### Shell cheatsheet
 
-- None
+- N/A
 
 ### Recommended Books
 
-- None
+- N/A

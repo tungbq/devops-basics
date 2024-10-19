@@ -6,7 +6,7 @@ GitLab CI/CD is a software development tool that allows organizations to impleme
 
 ### Gitlab CI workflow
 
-- None
+- N/A
 
 ### Official website documentation of Gitlab CI
 
@@ -53,4 +53,4 @@ GitLab CI/CD is a software development tool that allows organizations to impleme
 
 ### Recommended Books
 
-- None
+- N/A

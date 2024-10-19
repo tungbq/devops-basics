@@ -45,4 +45,4 @@ The Azure cloud platform is more than 200 products and cloud services designed t
 
 ### Recommended Books
 
-- None
+- N/A
