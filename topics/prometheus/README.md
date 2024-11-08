@@ -1,6 +1,6 @@
 ## 1. What is Prometheus?
 
-- https://prometheus.io/docs/introduction/overview/#what-is-prometheus
+- [https://prometheus.io/docs/introduction/overview/#what-is-prometheus](https://prometheus.io/docs/introduction/overview/#what-is-prometheus)
 
 ### Overview
 
@@ -10,11 +10,11 @@
 
 <img src="../../assets/images/prometheus/prometheus-architecture.png" width="700">
 
-- (Image source provided by https://prometheus.io/docs/introduction/overview/#architecture)
+- (Image source provided by [https://prometheus.io/docs/introduction/overview/#architecture](https://prometheus.io/docs/introduction/overview/#architecture))
 
 ### Official website documentation of Prometheus
 
-- https://prometheus.io/docs/introduction/overview/
+- [https://prometheus.io/docs/introduction/overview/](https://prometheus.io/docs/introduction/overview/)
 
 ## 2. Prerequisites
 
@@ -24,13 +24,13 @@
 
 ### How to install Prometheus?
 
-- https://prometheus.io/docs/prometheus/latest/installation/
+- [https://prometheus.io/docs/prometheus/latest/installation/](https://prometheus.io/docs/prometheus/latest/installation/)
 
 ## 4. Basics of Prometheus
 
 ### Prometheus getting started
 
-- https://prometheus.io/docs/prometheus/latest/getting_started/
+- [https://prometheus.io/docs/prometheus/latest/getting_started/(https://prometheus.io/docs/prometheus/latest/getting_started/)]
 
 ### Prometheus Hello World
 
@@ -48,7 +48,7 @@
 
 ### Prometheus cheatsheet
 
-- https://promlabs.com/promql-cheat-sheet/
+- [https://promlabs.com/promql-cheat-sheet/](https://promlabs.com/promql-cheat-sheet/)
 
 ### Recommended Books
 
