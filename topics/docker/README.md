@@ -32,7 +32,7 @@ For a deeper understanding, refer to the [Docker Architecture documentation](htt
 
 - Run the [basic/docker-helloworld.sh](./basic/docker-helloworld.sh) script to execute a simple Docker "Hello World" demonstration.
 
-###Top Docker commands
+### Top Docker commands
 
 - Checkout [basic/top-docker-cmd.md](./basic/top-docker-cmd.md)
 
