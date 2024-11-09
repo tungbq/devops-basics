@@ -273,6 +273,13 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>📖 <a href="https://www.virtualbox.org/wiki/Documentation">virtualbox.org/wiki/doc</a></td>
         <td>⏩ <a href="./topics/virtualbox/basic/">Coming-soon</a></td>
     </tr>
+    <tr>
+        <td><img height="28" src="https://avatars.githubusercontent.com/u/6412311?s=200&v=4" /></td>
+        <td>Dynatrace</td>
+        <td><a href="./topics/dynatrace/">dynatrace</a></td>
+        <td>📖 <a href="https://docs.dynatrace.com/docs">docs.dynatrace.com</a></td>
+        <td>⏩ <a href="./topics/dynatrace/basic/">Coming-soon</a></td>
+    </tr>
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
