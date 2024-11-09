@@ -14,6 +14,12 @@
 
 - https://docs.dynatrace.com/docs
 
+### What you can do with Dynatrace
+
+<img src="https://dt-cdn.net/images/export-03-1700-728db4aec9.png" alt="drawing" height="400"/>
+
+- See details at: https://docs.dynatrace.com/docs/shortlink/intro#get-started-with-the-platform
+
 ## 2. Prerequisites
 
 - Basic knowledge of application and infrastructure monitoring.
