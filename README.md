@@ -232,13 +232,6 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/packer/basic/">Packer basic</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="https://www.hashicorp.com/_next/static/media/vault_on-dark.97792f64.svg"></td>
-        <td>HashiCorp Vault</td>
-        <td>coming-soon</td>
-        <td>📖 <a href="https://developer.hashicorp.com/vault/docs">hashicorp.com/vault</a></td>
-        <td>⏩ coming-soon</td>
-    </tr>
-    <tr>
         <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"></td>
         <td>SQL</td>
         <td><a href="./topics/sql/">sql</a></td>
