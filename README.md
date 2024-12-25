@@ -246,7 +246,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/haproxy/basic/">HAProxy basics</a></td>
     </tr>
     <tr>
-        <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Apache_kafka.svg/800px-Apache_kafka.svg.png" /></td>
+        <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Apache_Kafka_logo.svg/154px-Apache_Kafka_logo.svg.png" /></td>
         <td>Kafka</td>
         <td><a href="./topics/kafka/">kafka</a></td>
         <td>📖 <a href="https://kafka.apache.org/">kafka.apache.org</a></td>
