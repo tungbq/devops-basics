@@ -264,7 +264,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Virtualbox</td>
         <td><a href="./topics/virtualbox/">virtualbox</a></td>
         <td>📖 <a href="https://www.virtualbox.org/wiki/Documentation">virtualbox.org/wiki/doc</a></td>
-        <td>✔️ <a href="./topics/virtualbox/basic/">Virtualbox Basics</a></td>
+        <td>✔️ <a href="./topics/virtualbox/basic/">Virtualbox basics</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://avatars.githubusercontent.com/u/6412311?s=200&v=4" /></td>
@@ -278,14 +278,14 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>IIS</td>
         <td><a href="./topics/iis/">iis</a></td>
         <td>📖 <a href="https://learn.microsoft.com/en-us/iis/">learn.microsoft.com/iis</a></td>
-        <td>✔️ <a href="./topics/iis/basic/">IIS Basics</a></td>
+        <td>✔️ <a href="./topics/iis/basic/">IIS basics</a></td>
     </tr>
     <tr>
         <td><img height="28" width="32" src="https://tomcat.apache.org/res/images/tomcat.png" /></td>
         <td>Apache Tomcat</td>
         <td><a href="./topics/apachetomcat/">tomcat</a></td>
         <td>📖 <a href="https://tomcat.apache.org/">tomcat.apache.org</a></td>
-        <td>✔️ <a href="./topics/apachetomcat/basic/">Tomcat Basics</a></td>
+        <td>✔️ <a href="./topics/apachetomcat/basic/">Tomcat basics</a></td>
     </tr>
 </table>
 
