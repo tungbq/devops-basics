@@ -5,11 +5,3 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-  - directory: "/topics/terraform/basic/aws-ec2"
-    package-ecosystem: "terraform"
-    schedule:
-      interval: "weekly"
-  - directory: "/topics/terraform/advanced/aws-three-tier"
-    package-ecosystem: "terraform"
-    schedule:
-      interval: "weekly"
