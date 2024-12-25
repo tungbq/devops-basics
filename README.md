@@ -271,7 +271,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Virtualbox</td>
         <td><a href="./topics/virtualbox/">virtualbox</a></td>
         <td>📖 <a href="https://www.virtualbox.org/wiki/Documentation">virtualbox.org/wiki/doc</a></td>
-        <td>⏩ <a href="./topics/virtualbox/basic/">Coming-soon</a></td>
+        <td>✔️ <a href="./topics/virtualbox/basic/">Virtualbox Basics</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://avatars.githubusercontent.com/u/6412311?s=200&v=4" /></td>
