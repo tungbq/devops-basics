@@ -278,7 +278,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Dynatrace</td>
         <td><a href="./topics/dynatrace/">dynatrace</a></td>
         <td>📖 <a href="https://docs.dynatrace.com/docs">docs.dynatrace.com</a></td>
-        <td>⏩ <a href="./topics/dynatrace/basic/">Coming-soon</a></td>
+        <td>✔️ <a href="./topics/dynatrace/basic/">Dynatrace basics</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=windows" /></td>
