@@ -288,6 +288,13 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/apachetomcat/basic/">Tomcat basics</a></td>
     </tr>
     <tr>
+        <td><img height="28" width="32" src="https://httpd.apache.org/images/httpd_logo_wide_new.png" /></td>
+        <td>Apache Tomcat</td>
+        <td><a href="./topics/apache-httpd/">httpd</a></td>
+        <td>📖 <a href="https://httpd.apache.org/">httpd.apache.org</a></td>
+        <td>✔️ <a href="./topics/apache-httpd/basic/">HTTPD basics</a></td>
+    </tr>
+    <tr>
         <td><img height="28" width="32" src="https://cdn.worldvectorlogo.com/logos/snyk.svg" /></td>
         <td>Snyk</td>
         <td><a href="./topics/snyk/">snyk</a></td>
