@@ -1,7 +1,3 @@
-Here’s a **matching content format** for **Apache HTTP Server (httpd)**, modeled after your Apache Tomcat documentation:
-
----
-
 # Apache HTTP Server (httpd)
 
 ## 1. What is Apache HTTP Server?
