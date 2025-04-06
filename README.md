@@ -287,6 +287,13 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>📖 <a href="https://tomcat.apache.org/">tomcat.apache.org</a></td>
         <td>✔️ <a href="./topics/apachetomcat/basic/">Tomcat basics</a></td>
     </tr>
+    <tr>
+        <td><img height="28" width="32" src="https://cdn.worldvectorlogo.com/logos/snyk.svg" /></td>
+        <td>Snyk</td>
+        <td><a href="./topics/snyk/">snyk</a></td>
+        <td>📖 <a href="https://snyk.io/">snyk.io</a></td>
+        <td>🏃 <a href="./topics/snyk/basic/">Snyk basics</a></td>
+    </tr>
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
