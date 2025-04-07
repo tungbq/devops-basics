@@ -289,7 +289,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
     </tr>
     <tr>
         <td><img width="32" src="https://www.apache.org/logos/res/httpd/default.png" /></td>
-        <td>Apache Tomcat</td>
+        <td>Apache HTTPD</td>
         <td><a href="./topics/apache-httpd/">httpd</a></td>
         <td>📖 <a href="https://httpd.apache.org/">httpd.apache.org</a></td>
         <td>✔️ <a href="./topics/apache-httpd/basic/">HTTPD basics</a></td>
