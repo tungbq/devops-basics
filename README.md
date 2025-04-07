@@ -30,11 +30,15 @@ This is the **first** repo of my DevOps trio repositories: [**devops-basics**](h
 
 DevOps combines development (Dev) and operations (Ops) to increase the efficiency, speed, and security of software development and delivery compared to traditional processes. A more nimble software development lifecycle results in a competitive advantage for businesses and their customers (source: GitLab)
 
-### Overview
+For a deeper understanding, please refer to the definition from the big company:
+- From AWS: [What is DevOps?](https://aws.amazon.com/devops/what-is-devops/)
+- From GitLab: [What is DevOps?](https://about.gitlab.com/topics/devops/)
+- From Microsoft: [What is DevOps?](https://learn.microsoft.com/en-us/devops/what-is-devops)
+- From Atlassian: [What is DevOps?](https://www.atlassian.com/devops)
 
-- ➡️ [getting-started](./getting-started/)
-- ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
+### Roadmap
 - ➡️ [roadmap.sh/devops](https://roadmap.sh/devops)
+- ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
 
 ## DevOps topics 🔥
 
