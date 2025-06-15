@@ -31,12 +31,14 @@ This is the **first** repo of my DevOps trio repositories: [**devops-basics**](h
 DevOps combines development (Dev) and operations (Ops) to increase the efficiency, speed, and security of software development and delivery compared to traditional processes. A more nimble software development lifecycle results in a competitive advantage for businesses and their customers (source: GitLab)
 
 For a deeper understanding, please refer to the definition from the big company:
+
 - From AWS: [What is DevOps?](https://aws.amazon.com/devops/what-is-devops/)
 - From GitLab: [What is DevOps?](https://about.gitlab.com/topics/devops/)
 - From Microsoft: [What is DevOps?](https://learn.microsoft.com/en-us/devops/what-is-devops)
 - From Atlassian: [What is DevOps?](https://www.atlassian.com/devops)
 
 ### Roadmap
+
 - ➡️ [roadmap.sh/devops](https://roadmap.sh/devops)
 - ➡️ [DevOps toolchain](https://en.wikipedia.org/wiki/DevOps_toolchain)
 
@@ -304,6 +306,13 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/snyk/">snyk</a></td>
         <td>📖 <a href="https://snyk.io/">snyk.io</a></td>
         <td>🏃 <a href="./topics/snyk/basic/">Snyk basics</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" width="32" src="https://www.akamai.com/site/en/images/logo/akamai-logo1.svg" /></td>
+        <td>Akamai</td>
+        <td><a href="./topics/akamai/">akamai</a></td>
+        <td>📖 <a href="https://techdocs.akamai.com">techdocs.akamai.com</a></td>
+        <td>🏃 <a href="./topics/akamai/basic">TBD</a></td>
     </tr>
 </table>
 
