@@ -231,7 +231,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/nginx/basic/">Nginx basic</a></td>
     </tr>
     <tr>
-        <td><img width="32" src="https://www.datocms-assets.com/58478/1638283616-packer.svg"></td>
+        <td><img width="32" src="https://www.hashicorp.com/_next/static/media/packer_on-dark.e64eb06d.svg"></td>
         <td>Packer</td>
         <td><a href="./topics/packer/">packer</a></td>
         <td>📖 <a href="https://www.packer.io/">www.packer.io</a></td>
