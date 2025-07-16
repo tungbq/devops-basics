@@ -314,6 +314,13 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>📖 <a href="https://techdocs.akamai.com">techdocs.akamai.com</a></td>
         <td>🏃 <a href="./topics/akamai/basic">TBD</a></td>
     </tr>
+    <tr>
+        <td><img height="28" width="32" src="https://cdn.worldvectorlogo.com/logos/snyk.svg" /></td>
+        <td>Snyk DAST</td>
+        <td><a href="./topics/snyk/">snykdast</a></td>
+        <td>📖 <a href="https://snyk.io/product/dast-api-web/">snyk.io/dast-api-web</a></td>
+        <td>🏃 <a href="./topics/snyk/basic/">Snyk DAST basics</a></td>
+    </tr>
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
