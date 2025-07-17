@@ -319,7 +319,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>Snyk DAST</td>
         <td><a href="./topics/snyk/">snykdast</a></td>
         <td>📖 <a href="https://snyk.io/product/dast-api-web/">snyk.io/dast-api-web</a></td>
-        <td>🏃 <a href="https://help.probely.com/en/articles/9385585-getting-started-with-snyk-api-web">Getting started</a></td>
+        <td>✔️ <a href="https://help.probely.com/en/articles/9385585-getting-started-with-snyk-api-web">Getting started</a></td>
     </tr>
 </table>
 
