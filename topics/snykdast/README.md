@@ -25,52 +25,10 @@
 - [https://help.probely.com/en/](https://help.probely.com/en/)
 - [https://snyk.io/product/web-app-scanning/](https://snyk.io/product/web-app-scanning/)
 
-## 2. Prerequisites
-
-- Target application or API deployed to a reachable environment
-- OpenAPI / Swagger definition file (for API scanning)
-- Snyk account with DAST capability enabled
-
-## 3. Setup & Configuration
-
-### How to configure Snyk DAST for Web Apps
-
-TBD
-
-### How to configure for APIs
-
-TBD
-
-## 4. Running a Scan
-
-### Manual Scan
-
-### Scheduled Scan
-
-- Set scan frequency: daily, weekly, or monthly
-
-## 5. Getting Started
+## 2. Getting Started
 
 - https://help.probely.com/en/articles/9385585-getting-started-with-snyk-api-web
 
-## 6. Beyond the Basics
+## 3. How to configure and scan an API
 
-### Advanced Features
-
-- **Scan Rules**: Define custom allow/deny paths
-- **Scan Profiles**: Reusable settings for different environments
-- **Authentication Options**: Login forms, headers, cookies, etc.
-
-### API Usage
-
-TBD
-
-## 7. More...
-
-### Cheat Sheet
-
-TBD
-
-### Recommended Resources
-
-TBD
+- https://help.probely.com/en/articles/4647855-how-to-configure-and-scan-an-api
