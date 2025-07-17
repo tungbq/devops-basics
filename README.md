@@ -308,7 +308,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>🏃 <a href="./topics/snyk/basic/">Snyk basics</a></td>
     </tr>
     <tr>
-        <td><img height="28" width="32" src="https://www.akamai.com/site/en/images/logo/akamai-logo-new.svg" /></td>
+        <td><img height="28" width="32" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Akamai_Technologies%2C_Inc._Logo.png" /></td>
         <td>Akamai</td>
         <td><a href="./topics/akamai/">akamai</a></td>
         <td>📖 <a href="https://techdocs.akamai.com">techdocs.akamai.com</a></td>
