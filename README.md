@@ -86,7 +86,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Istio-bluelogo-nobackground-unframed.svg"></td>
         <td>Istio</td>
         <td><a href="./topics/istio/">istio</a></td>
-        <td>📖 <a href="https://istio.io/latest/docs/">istio.io/latest/docs</a></td>
+        <td>📖 <a href="https://istio.io/latest/docs/">Explore</a></td>
         <td>✔️ <a href="https://istio.io/latest/docs/setup/getting-started/">getting-started</a></td>
     </tr>
     <tr>
