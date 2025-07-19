@@ -242,7 +242,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>SQL</td>
         <td><a href="./topics/sql/">sql</a></td>
         <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/sql/README.md">View</a></td>
-        <td>✔️ <a href="./topics/sql/mysql-basics.md">Explore</a></td>
+        <td>✔️ <a href="./topics/sql/basics/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Haproxy-logo.png" /></td>

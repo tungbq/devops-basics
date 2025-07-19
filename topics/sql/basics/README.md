@@ -1,4 +1,4 @@
-# MySQL basic hands-on
+Coming soon...# MySQL basic hands-on
 
 This hands-on will:
 
