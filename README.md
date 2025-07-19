@@ -51,42 +51,42 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <th></th>
         <th>Item</th>
         <th>Content</th>
-        <th>Official Docs</th>
-        <th>Hands-on</th>
+        <th>Docs</th>
+        <th>Basics</th>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=ansible" /></td>
         <td>Ansible</td>
         <td><a href="./topics/ansible/">ansible</a></td>
-        <td>📖 <a href="https://docs.ansible.com/">docs.ansible.com</a></td>
+        <td>📖 <a href="https://docs.ansible.com/">Explore</a></td>
         <td>✔️ <a href="./topics/ansible/basic/helloworld/ansible-helloworld.sh"> ansible-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://wac-cdn.atlassian.com/dam/jcr:9567a40e-6541-4905-bf08-dfe201aa80e7/illustrations-spot-Agile.svg?cdnVersion=1946" /></td>
         <td>Agile</td>
         <td><a href="./topics/agile/">agile</a></td>
-        <td>📖 <a href="https://www.atlassian.com/agile">www.atlassian.com/agile</a></td>
+        <td>📖 <a href="https://www.atlassian.com/agile">Explore</a></td>
         <td>✔️ <a href="./topics/agile/README.md">Agile resources</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=docker" /></td>
         <td>Docker</td>
         <td><a href="./topics/docker/">docker</a></td>
-        <td>📖 <a href="https://docs.docker.com/">docs.docker.com</a></td>
+        <td>📖 <a href="https://docs.docker.com/">Explore</a></td>
         <td>✔️ <a href="./topics/docker/basic/docker-helloworld.sh">docker-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://avatars.githubusercontent.com/u/13629408"></td>
         <td>Kubernetes (k8s)</td>
         <td><a href="./topics/k8s/">k8s</a></td>
-        <td>📖 <a href="https://kubernetes.io/docs/home/">kubernetes.io/docs</a></td>
+        <td>📖 <a href="https://kubernetes.io/docs/home/">Explore</a></td>
         <td>✔️ <a href="./topics/k8s/basic/helloworld/k8s-helloworld.sh"> k8s-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Istio-bluelogo-nobackground-unframed.svg"></td>
         <td>Istio</td>
         <td><a href="./topics/istio/">istio</a></td>
-        <td>📖 <a href="https://istio.io/latest/docs/">istio.io/latest/docs</a></td>
+        <td>📖 <a href="https://istio.io/latest/docs/">Explore</a></td>
         <td>✔️ <a href="https://istio.io/latest/docs/setup/getting-started/">getting-started</a></td>
     </tr>
     <tr>
@@ -94,231 +94,231 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><img height="28" src="https://skillicons.dev/icons?i=aws" /></td>
         <td>Aws</td>
         <td><a href="./topics/aws/">aws</a></td>
-        <td>📖 <a href="https://docs.aws.amazon.com/">docs.aws.amazon.com</a></td>
+        <td>📖 <a href="https://docs.aws.amazon.com/">Explore</a></td>
         <td>✔️ <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">EC2_GetStarted</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=azure" /></td>
         <td>Azure</td>
         <td><a href="./topics/azure/">azure</a></td>
-        <td>📖 <a href="https://learn.microsoft.com/en-us/azure/?product=popular">learn.microsoft.com/azure</a></td>
+        <td>📖 <a href="https://learn.microsoft.com/en-us/azure/?product=popular">Explore</a></td>
         <td>✔️ <a href="./topics/azure/basic/">azure/basic</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://helm.sh/img/helm.svg"></td>
         <td>Helm</td>
         <td><a href="./topics/helm/">helm</a></td>
-        <td>📖 <a href="https://helm.sh/docs/">helm.sh/docs</a></td>
+        <td>📖 <a href="https://helm.sh/docs/">Explore</a></td>
         <td>✔️ <a href="./topics/helm/basic/helm-helloworld.sh">helm-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=jenkins" /></td>
         <td>Jenkins</td>
         <td><a href="./topics/jenkins/">jenkins</a></td>
-        <td>📖 <a href="https://www.jenkins.io/doc/">www.jenkins.io/doc</a></td>
+        <td>📖 <a href="https://www.jenkins.io/doc/">Explore</a></td>
         <td>✔️ <a href="./topics/jenkins/basic/Jenkins-Hello-World.md">Jenkins-Hello-World.md</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=terraform" /></td>
         <td>Terraform</td>
         <td><a href="./topics/terraform/">terraform</a></td>
-        <td>📖 <a href="https://developer.hashicorp.com/terraform/docs">terraform/docs</a></td>
+        <td>📖 <a href="https://developer.hashicorp.com/terraform/docs">Explore</a></td>
         <td>✔️ <a href="./topics/terraform/basic/terraform-helloworld.sh">terraform-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=bash" /></td>
         <td>Shell</td>
         <td><a href="./topics/shell/">shell</a></td>
-        <td>📖 <a href="https://devdocs.io/bash/">devdocs.io/bash</a></td>
+        <td>📖 <a href="https://devdocs.io/bash/">Explore</a></td>
         <td>✔️ <a href="./topics/shell/basic/basic.sh">basic.sh</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=git" /></td>
         <td>Git</td>
         <td><a href="./topics/git/">git</a></td>
-        <td>📖 <a href="https://git-scm.com/doc">git-scm.com/doc</a></td>
+        <td>📖 <a href="https://git-scm.com/doc">Explore</a></td>
         <td>✔️ <a href="./topics/git/basic/hello-world/git-helloworld.sh">git-helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=elasticsearch" /></td>
         <td>Elk</td>
         <td><a href="./topics/elk/">elk</a></td>
-        <td>📖 <a href="https://www.elastic.co/guide/index.html">www.elastic.co/guide</a></td>
+        <td>📖 <a href="https://www.elastic.co/guide/index.html">Explore</a></td>
         <td>✔️ <a href="./topics/elk/basic/helloworld/">elk/basic/helloworld</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://avatars.githubusercontent.com/u/30269780"></td>
         <td>ArgoCD</td>
         <td><a href="./topics/argocd/">argocd</a></td>
-        <td>📖 <a href="https://argo-cd.readthedocs.io/en/stable/">argo-cd.readthedocs.io</a></td>
+        <td>📖 <a href="https://argo-cd.readthedocs.io/en/stable/">Explore</a></td>
         <td>✔️ <a href="./topics/argocd/basic/">argocd/basic</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=githubactions" /></td>
         <td>Github-Action</td>
         <td><a href="./topics/github-action/">github-action</a></td>
-        <td>📖 <a href="https://docs.github.com/actions">docs.github.com/actions</a></td>
+        <td>📖 <a href="https://docs.github.com/actions">Explore</a></td>
         <td>✔️ <a href="https://docs.github.com/en/actions/quickstart#creating-your-first-workflow">Create First Workflow</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=gitlab" /></td>
         <td>Gitlab CI</td>
         <td><a href="./topics/gitlabci/">gitlab-ci</a></td>
-        <td>📖 <a href="https://docs.gitlab.com/ee/ci/">docs.gitlab.com/ee/ci</a></td>
+        <td>📖 <a href="https://docs.gitlab.com/ee/ci/">Explore</a></td>
         <td>✔️ <a href="https://docs.gitlab.com/ee/ci/quick_start/">Create First Pipeline</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1920px-Groovy-logo.svg.png"></td>
         <td>Groovy</td>
         <td><a href="./topics/groovy/">groovy</a></td>
-        <td>📖 <a href="https://groovy-lang.org/documentation.html">groovy-lang.org</a></td>
+        <td>📖 <a href="https://groovy-lang.org/documentation.html">Explore</a></td>
         <td>✔️ <a href="./topics/groovy/basic/">groovy/basic</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=prometheus" /></td>
         <td>Prometheus</td>
         <td><a href="./topics/prometheus/">prometheus</a></td>
-        <td>📖 <a href="https://prometheus.io/docs/">prometheus.io/docs</a></td>
+        <td>📖 <a href="https://prometheus.io/docs/">Explore</a></td>
         <td>✔️ <a href="./topics/prometheus/basic/prometheus-helloworld.sh">helloworld.sh</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=py" /></td>
         <td>Python</td>
         <td><a href="./topics/python/">python</a></td>
-        <td>📖 <a href="https://www.python.org/doc/">www.python.org/doc</a></td>
+        <td>📖 <a href="https://www.python.org/doc/">Explore</a></td>
         <td>✔️ <a href="./topics/python/basic/">python/basic</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=openstack" /></td>
         <td>Openstack</td>
         <td><a href="./topics/openstack/">openstack</a></td>
-        <td>📖 <a href="https://docs.openstack.org/2023.2/">docs.openstack.org</a></td>
+        <td>📖 <a href="https://docs.openstack.org/2023.2/">Explore</a></td>
         <td>✔️ <a href="./topics/openstack/basic/">openstack/basic</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=azure" /></td>
         <td>Azure-DevOps</td>
         <td><a href="./topics/azuredevops/">azuredevops</a></td>
-        <td>📖 <a href="https://learn.microsoft.com/en-us/azure/devops">learn.microsoft.com</a></td>
+        <td>📖 <a href="https://learn.microsoft.com/en-us/azure/devops">Explore</a></td>
         <td>✔️ <a href="./topics/azuredevops/basic/">azuredevops/basic</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=vscode" /></td>
         <td>Coding</td>
         <td><a href="./topics/coding/">coding</a></td>
-        <td>📖 <a href="./topics/coding/">coding</a></td>
+        <td>📖 <a href="./topics/coding/">Explore</a></td>
         <td>✔️ <a href="./topics/coding/practice.md/">practice.md</a></td>
     </tr>
     <tr>
         <td>📖</td>
         <td>Architecture</td>
         <td><a href="./topics/architecture/">architecture</a></td>
-        <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/architecture/README.md">architecture/README.md</a></td>
+        <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/architecture/README.md">Explore</a></td>
         <td>✔️ <a href="./topics/architecture/">Architecture</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=graphql" /></td>
         <td>Microservices</td>
         <td><a href="./topics/microservices/">microservices</a></td>
-        <td>📖 <a href="https://aws.amazon.com/microservices/">aws/microservices</a></td>
+        <td>📖 <a href="https://aws.amazon.com/microservices/">Explore</a></td>
         <td>✔️ <a href="./topics/microservices/basic/">basic demo</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=nginx" /></td>
         <td>Nginx</td>
         <td><a href="./topics/nginx/">nginx</a></td>
-        <td>📖 <a href="https://nginx.org/en/docs/">nginx.org/en/docs</a></td>
+        <td>📖 <a href="https://nginx.org/en/docs/">Explore</a></td>
         <td>✔️ <a href="./topics/nginx/basic/">Nginx basic</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://www.hashicorp.com/_next/static/media/packer_on-dark.e64eb06d.svg"></td>
         <td>Packer</td>
         <td><a href="./topics/packer/">packer</a></td>
-        <td>📖 <a href="https://www.packer.io/">www.packer.io</a></td>
+        <td>📖 <a href="https://www.packer.io/">Explore</a></td>
         <td>✔️ <a href="./topics/packer/basic/">Packer basic</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"></td>
         <td>SQL</td>
         <td><a href="./topics/sql/">sql</a></td>
-        <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/sql/README.md">sql/README.md</a></td>
+        <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/sql/README.md">Explore</a></td>
         <td>✔️ <a href="./topics/sql/mysql-basics.md">mysql-basics</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Haproxy-logo.png" /></td>
         <td>HAProxy</td>
         <td><a href="./topics/haproxy/">haproxy</a></td>
-        <td>📖 <a href="https://www.haproxy.org/">www.haproxy.org</a></td>
+        <td>📖 <a href="https://www.haproxy.org/">Explore</a></td>
         <td>✔️ <a href="./topics/haproxy/basic/">HAProxy basics</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Apache_Kafka_logo.svg" /></td>
         <td>Kafka</td>
         <td><a href="./topics/kafka/">kafka</a></td>
-        <td>📖 <a href="https://kafka.apache.org/">kafka.apache.org</a></td>
+        <td>📖 <a href="https://kafka.apache.org/">Explore</a></td>
         <td>✔️ <a href="./topics/kafka/basic/">Kafka basics</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=cloudflare" /></td>
         <td>Cloudflare</td>
         <td><a href="./topics/cloudflare/">cloudflare</a></td>
-        <td>📖 <a href="https://developers.cloudflare.com/">developers.cloudflare.com</a></td>
+        <td>📖 <a href="https://developers.cloudflare.com/">Explore</a></td>
         <td>✔️ <a href="./topics/cloudflare/basic/">Cloudflare basics</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" /></td>
         <td>Virtualbox</td>
         <td><a href="./topics/virtualbox/">virtualbox</a></td>
-        <td>📖 <a href="https://www.virtualbox.org/wiki/Documentation">virtualbox.org/wiki/doc</a></td>
+        <td>📖 <a href="https://www.virtualbox.org/wiki/Documentation">Explore</a></td>
         <td>✔️ <a href="./topics/virtualbox/basic/">Virtualbox basics</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://avatars.githubusercontent.com/u/6412311?s=200&v=4" /></td>
         <td>Dynatrace</td>
         <td><a href="./topics/dynatrace/">dynatrace</a></td>
-        <td>📖 <a href="https://docs.dynatrace.com/docs">docs.dynatrace.com</a></td>
+        <td>📖 <a href="https://docs.dynatrace.com/docs">Explore</a></td>
         <td>✔️ <a href="./topics/dynatrace/basic/">Dynatrace basics</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=windows" /></td>
         <td>IIS</td>
         <td><a href="./topics/iis/">iis</a></td>
-        <td>📖 <a href="https://learn.microsoft.com/en-us/iis/">learn.microsoft.com/iis</a></td>
+        <td>📖 <a href="https://learn.microsoft.com/en-us/iis/">Explore</a></td>
         <td>✔️ <a href="./topics/iis/basic/">IIS basics</a></td>
     </tr>
     <tr>
         <td><img height="28" width="32" src="https://tomcat.apache.org/res/images/tomcat.png" /></td>
         <td>Apache Tomcat</td>
         <td><a href="./topics/apachetomcat/">tomcat</a></td>
-        <td>📖 <a href="https://tomcat.apache.org/">tomcat.apache.org</a></td>
+        <td>📖 <a href="https://tomcat.apache.org/">Explore</a></td>
         <td>✔️ <a href="./topics/apachetomcat/basic/">Tomcat basics</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://www.apache.org/logos/res/httpd/default.png" /></td>
         <td>Apache HTTPD</td>
         <td><a href="./topics/apache-httpd/">httpd</a></td>
-        <td>📖 <a href="https://httpd.apache.org/">httpd.apache.org</a></td>
+        <td>📖 <a href="https://httpd.apache.org/">Explore</a></td>
         <td>✔️ <a href="./topics/apache-httpd/basic/">HTTPD basics</a></td>
     </tr>
     <tr>
         <td><img height="28" width="32" src="https://cdn.worldvectorlogo.com/logos/snyk.svg" /></td>
         <td>Snyk</td>
         <td><a href="./topics/snyk/">snyk</a></td>
-        <td>📖 <a href="https://snyk.io/">snyk.io</a></td>
+        <td>📖 <a href="https://snyk.io/">Explore</a></td>
         <td>🏃 <a href="./topics/snyk/basic/">Snyk basics</a></td>
     </tr>
     <tr>
         <td><img height="28" width="32" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Akamai_Technologies%2C_Inc._Logo.png" /></td>
         <td>Akamai</td>
         <td><a href="./topics/akamai/">akamai</a></td>
-        <td>📖 <a href="https://techdocs.akamai.com">techdocs.akamai.com</a></td>
+        <td>📖 <a href="https://techdocs.akamai.com">Explore</a></td>
         <td>🏃 <a href="./topics/akamai/basic">TBD</a></td>
     </tr>
     <tr>
         <td><img height="28" width="32" src="https://cdn.worldvectorlogo.com/logos/snyk.svg" /></td>
         <td>Snyk DAST</td>
         <td><a href="./topics/snykdast/">snykdast</a></td>
-        <td>📖 <a href="https://snyk.io/product/dast-api-web/">snyk.io/dast-api-web</a></td>
+        <td>📖 <a href="https://snyk.io/product/dast-api-web/">Explore</a></td>
         <td>✔️ <a href="https://help.probely.com/en/articles/9385585-getting-started-with-snyk-api-web">Getting started</a></td>
     </tr>
 </table>
