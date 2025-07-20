@@ -49,7 +49,7 @@ Git is a free and open source distributed version control system designed to han
 
 ### Git cheatsheet
 
-- https://ndpsoftware.com/git-cheatsheet.html
+- https://about.gitlab.com/images/press/git-cheat-sheet.pdf
 - https://education.github.com/git-cheat-sheet-education.pdf
 
 ### Recommended Books

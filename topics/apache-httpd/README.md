@@ -101,7 +101,7 @@ sudo systemctl enable httpd      # RHEL/CentOS
 
 ### Apache httpd Cheatsheet
 
-- https://devhints.io/apache
+- https://runcloud.io/docs/cheat-sheet-apache
 
 ### Recommended Books
 
