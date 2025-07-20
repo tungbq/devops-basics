@@ -36,8 +36,8 @@
 
 ### K8s Helloword ⭐
 
-- Run [k8s-helloworld.sh](./basic/helloworld/k8s-helloworld.sh)
-- Cleanup [k8s-helloworld-cleanup.sh](./basic/helloworld/k8s-helloworld-cleanup.sh) after demo comple
+- Run [k8s-helloworld.sh](./basics/helloworld/k8s-helloworld.sh)
+- Cleanup [k8s-helloworld-cleanup.sh](./basics/helloworld/k8s-helloworld-cleanup.sh) after demo comple
 
 ## 4. Beyond the Basics
 

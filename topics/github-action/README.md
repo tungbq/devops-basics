@@ -32,7 +32,7 @@ GitHub Actions is a continuous integration and continuous delivery (CI/CD) platf
 
 ### GitHub Action Hello World
 
-- Check the [basic/](./basic/) directory to create a simple GitHub Action demo.
+- Check the [basic/](./basics/) directory to create a simple GitHub Action demo.
 
 ## 5. Beyond the Basics
 

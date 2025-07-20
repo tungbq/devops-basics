@@ -28,7 +28,7 @@
 
 ### Ansible Helloworld ⭐
 
-- Visit [ansible/basic/helloworld](./basic/helloworld/)
+- Visit [ansible/basics/helloworld](./basics/helloworld/)
 
 ## 4. Beyond the Basics
 

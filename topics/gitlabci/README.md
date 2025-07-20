@@ -36,7 +36,7 @@ GitLab CI/CD is a software development tool that allows organizations to impleme
 
 ### Gitlab CI Hello World
 
-- Check the [basic/](./basic/) directory to create a simple Gitlab CI demo.
+- Check the [basic/](./basics/) directory to create a simple Gitlab CI demo.
 
 ## 5. Beyond the Basics
 

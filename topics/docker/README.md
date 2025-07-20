@@ -30,11 +30,11 @@ For a deeper understanding, refer to the [Docker Architecture documentation](htt
 
 ### Docker Hello World
 
-- Run the [basic/docker-helloworld.sh](./basic/docker-helloworld.sh) script to execute a simple Docker "Hello World" demonstration.
+- Run the [basic/docker-helloworld.sh](./basics/docker-helloworld.sh) script to execute a simple Docker "Hello World" demonstration.
 
 ### Top Docker commands
 
-- Checkout [basic/top-docker-cmd.md](./basic/top-docker-cmd.md)
+- Checkout [basic/top-docker-cmd.md](./basics/top-docker-cmd.md)
 
 ## 5. Beyond the Basics
 

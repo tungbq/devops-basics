@@ -31,7 +31,7 @@ N/A
 
 ### Azure DevOps Hello World
 
-- Check the [basic/](./basic/) directory to create a simple Azure DevOps pipeline.
+- Check the [basic/](./basics/) directory to create a simple Azure DevOps pipeline.
 
 ## 5. Beyond the Basics
 

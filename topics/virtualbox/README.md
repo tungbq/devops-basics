@@ -46,7 +46,7 @@
 
 ### VirtualBox Hands-On
 
-- See: [basic setup and usage](./basic/)
+- See: [basic setup and usage](./basics/)
 
 ---
 

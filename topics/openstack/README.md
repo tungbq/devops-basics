@@ -31,7 +31,7 @@ For a deeper understanding, refer to the [Openstack Architecture documentation](
 
 ### Openstack Hello World
 
-- Run the [basic/openstack-helm.sh](./basic/openstack-helm.sh) script to execute a simple Openstack "Hello World" demonstration.
+- Run the [basic/openstack-helm.sh](./basics/openstack-helm.sh) script to execute a simple Openstack "Hello World" demonstration.
 
 ## 5. Beyond the Basics
 
