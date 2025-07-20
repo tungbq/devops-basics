@@ -98,11 +98,11 @@ We cover a wide range of DevOps topics in our content library, explore them unde
     <tr>
         <!-- <td><img  src="placeholder_logo_url"></td> -->
         <td><img height="28" src="https://skillicons.dev/icons?i=aws" /></td>
-        <td>Aws</td>
+        <td>AWS</td>
         <td><a href="./topics/aws/">aws</a></td>
         <td>📖 <a href="https://docs.aws.amazon.com/">View</a></td>
         <td>✔️ <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">Explore</a></td>
-        <td>🏃 <a href="./topics/aws/practice/">Explore</a></td>
+        <td>📚 <a href="./topics/aws/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=azure" /></td>
@@ -310,7 +310,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/dynatrace/">dynatrace</a></td>
         <td>📖 <a href="https://docs.dynatrace.com/docs">View</a></td>
         <td>✔️ <a href="./topics/dynatrace/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/dynatrace/practice/">Explore</a></td>
+        <td>📚 <a href="./topics/dynatrace/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=windows" /></td>
