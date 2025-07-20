@@ -52,7 +52,7 @@
 
 ### IIS Hands-On
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ## 5. More...
 

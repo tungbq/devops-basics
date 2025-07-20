@@ -28,7 +28,7 @@
 
 ### Groovy Hello World
 
-- Check the [basic/](./basic/) directory to create a simple Groovy demo.
+- Check the [basic/](./basics/) directory to create a simple Groovy demo.
 
 ## 5. Beyond the Basics
 

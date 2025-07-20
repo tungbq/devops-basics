@@ -75,7 +75,7 @@ Source: https://en.wikipedia.org/wiki/Apache_Tomcat
 
 ### Apache Tomcat Hands-On
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ---
 

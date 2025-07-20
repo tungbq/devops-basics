@@ -22,7 +22,7 @@
 
 ### MySQL Helloword ⭐
 
-- Visit [mysql-basics](./mysql-basics.md)
+- Visit [mysql-basics](./basics/README.md)
 
 ## 4. Beyond the Basics
 

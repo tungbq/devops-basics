@@ -36,7 +36,7 @@
 
 ### Kafka Basics 👋
 
-- See: [**basic**](./basic/)
+- See: [**basic**](./basics/)
 
 ## 5. Beyond the Basics
 

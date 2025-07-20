@@ -23,7 +23,7 @@
 ### Official documentation
 
 - [https://help.probely.com/en/](https://help.probely.com/en/)
-- [https://snyk.io/product/web-app-scanning/](https://snyk.io/product/web-app-scanning/)
+- [https://snyk.io/product/dast-api-web/](https://snyk.io/product/dast-api-web/)
 
 ## 2. Getting Started
 

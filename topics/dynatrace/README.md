@@ -49,7 +49,7 @@ To start using Dynatrace, just create a free trial account, install OneAgent on 
 
 ### Dynatrace Hands-On
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ## 5. More...
 

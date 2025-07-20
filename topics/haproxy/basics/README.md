@@ -17,7 +17,7 @@
 - Option-1: Build and run in background (Recommend)
 
 ```bash
-cd devops-basics/topics/haproxy/basic/
+cd devops-basics/topics/haproxy/basics/
 docker-compose up --build -d
 
 # To stop and remove contaienr, run:
@@ -27,7 +27,7 @@ docker compose down
 - Option-2: Run and verbose the logs
 
 ```bash
-cd devops-basics/topics/haproxy/basic/
+cd devops-basics/topics/haproxy/basics/
 docker-compose up --build
 
 # To stop, press 'Ctrl + C'

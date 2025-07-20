@@ -7,7 +7,7 @@
 
 ```bash
 # Navigate to code location under `devops-basics` repo
-cd devops-basics/topics/ansible/basic/helloworld
+cd devops-basics/topics/ansible/basics/helloworld
 
 # Run playbook
 ansible-playbook -i first-inventory.ini first-playbook.yml

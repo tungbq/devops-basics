@@ -30,7 +30,7 @@
 
 ### Helm Hello World
 
-- Check the [basic/](./basic/) directory to create a simple Helm demo.
+- Check the [basic/](./basics/) directory to create a simple Helm demo.
 
 ## 5. Beyond the Basics
 

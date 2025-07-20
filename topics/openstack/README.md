@@ -21,7 +21,7 @@ For a deeper understanding, refer to the [Openstack Architecture documentation](
 ### How to install Openstack?
 
 - Follow the steps outlined in the [Openstack installation documentation](https://docs.openstack.org/2023.2/install/) for both local development and production environments.
-- Or use the installation script in [basic](./basic/)
+- Or use the installation script in [basics](./basics/)
 
 ## 4. Basics of Openstack
 
@@ -31,7 +31,7 @@ For a deeper understanding, refer to the [Openstack Architecture documentation](
 
 ### Openstack Hello World
 
-- Run the [basic/openstack-helm.sh](./basic/openstack-helm.sh) script to execute a simple Openstack "Hello World" demonstration.
+- Run the [basic/openstack-helm.sh](./basics/openstack-helm.sh) script to execute a simple Openstack "Hello World" demonstration.
 
 ## 5. Beyond the Basics
 

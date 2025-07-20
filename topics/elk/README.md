@@ -33,7 +33,7 @@
 
 ### ELK Hello World
 
-- Check the [helloworld/](./basic/helloworld/) directory to create a simple ELK demo.
+- Check the [helloworld/](./basics/helloworld/) directory to create a simple ELK demo.
 
 ## 5. Beyond the Basics
 

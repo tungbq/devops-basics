@@ -93,7 +93,7 @@ sudo systemctl enable httpd      # RHEL/CentOS
 
 ### Apache HTTP Server Hands-On
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ---
 
@@ -101,7 +101,7 @@ sudo systemctl enable httpd      # RHEL/CentOS
 
 ### Apache httpd Cheatsheet
 
-- https://devhints.io/apache
+- https://runcloud.io/docs/cheat-sheet-apache
 
 ### Recommended Books
 

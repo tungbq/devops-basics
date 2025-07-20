@@ -248,6 +248,6 @@
 ## What's next?
 
 - For the full list of docker commands, visit: https://docs.docker.com/reference/cli/docker/
-- You could the most comprehensive and up-to-date content on this topic, please visit this [**repo**] (https://github.com/tungbq/devops-basics/blob/main/topics/docker/basic/top-docker-cmd.md) ⭐️.
+- You could the most comprehensive and up-to-date content on this topic, please visit this [**repo**] (https://github.com/tungbq/devops-basics/blob/main/topics/docker/basics/top-docker-cmd.md) ⭐️.
 
 Which Docker command do you find yourself using the most? Let us know in the comments below. Your feedback and suggestions are highly appreciated. Thank you, and happy coding! 💖
