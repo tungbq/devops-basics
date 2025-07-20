@@ -1,5 +1,10 @@
 # Azure Practice
 
+## Common resources
+
+- Microsoft Learn AZ-104 Labs: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/
+- AzureHub: https://github.com/TheDevOpsHub/AzureHub
+
 ## By Services
 
 ### Azure Front Door
