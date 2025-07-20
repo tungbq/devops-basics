@@ -24,3 +24,7 @@
 ### Azure SQL Database
 
 - Create a single database - Azure SQL Database: https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal
+
+### Azure Kubernetes Service (AKS)
+
+- Quickstart - Deploy an Azure Kubernetes Service (AKS) cluster using Azure portal: https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli
