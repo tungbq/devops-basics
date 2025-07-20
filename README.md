@@ -222,7 +222,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/azuredevops/">azuredevops</a></td>
         <td>📖 <a href="https://learn.microsoft.com/en-us/azure/devops">View</a></td>
         <td>✔️ <a href="./topics/azuredevops/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/azuredevops/practice/">Explore</a></td>
+        <td>📚 <a href="./topics/azuredevops/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=vscode" /></td>
