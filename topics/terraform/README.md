@@ -34,7 +34,7 @@
 
 ### Terraform Hello World
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ## 5. Beyond the Basics
 

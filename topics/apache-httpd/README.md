@@ -93,7 +93,7 @@ sudo systemctl enable httpd      # RHEL/CentOS
 
 ### Apache HTTP Server Hands-On
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ---
 

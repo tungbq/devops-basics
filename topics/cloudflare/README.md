@@ -30,7 +30,7 @@
 
 ### Cloudflare Hands on
 
-- See: [basic](./basic/)
+- See: [basics](./basics/)
 
 ## 5. More...
 

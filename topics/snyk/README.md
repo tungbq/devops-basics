@@ -108,7 +108,7 @@ snyk iac test
 
 ## 5. Snyk Hands-On
 
-- See: [basic](./basic/) for hands-on examples and test cases.
+- See: [basics](./basics/) for hands-on examples and test cases.
 
 ---
 

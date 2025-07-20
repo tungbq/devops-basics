@@ -17,4 +17,4 @@
 
 ### Basics
 
-- Checkout [basic](./basic/) content
+- Checkout [basics](./basics/) content
