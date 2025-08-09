@@ -310,7 +310,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/dynatrace/">dynatrace</a></td>
         <td>📖 <a href="https://docs.dynatrace.com/docs">View</a></td>
         <td>✔️ <a href="./topics/dynatrace/basics/">Explore</a></td>
-        <td>📚 <a href="./topics/dynatrace/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/dynatrace/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=windows" /></td>
@@ -350,7 +350,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/akamai/">akamai</a></td>
         <td>📖 <a href="https://techdocs.akamai.com">View</a></td>
         <td>🏃 <a href="./topics/akamai/basics">Explore</a></td>
-        <td>📚 <a href="./topics/akamai/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/akamai/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" width="32" src="https://cdn.worldvectorlogo.com/logos/snyk.svg" /></td>
@@ -358,7 +358,15 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/snykdast/">snykdast</a></td>
         <td>📖 <a href="https://snyk.io/product/dast-api-web/">View</a></td>
         <td>✔️ <a href="https://help.probely.com/en/articles/9385585-getting-started-with-snyk-api-web">Explore</a></td>
-        <td>📚 <a href="./topics/snykdast/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/snykdast/practice/">Explore</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" width="32" src="https://assets-eu-01.kc-usercontent.com/55017e37-262d-017b-afd6-daa9468cbc30/8e59bcad-6e39-41dc-abd9-a0e251e8d63f/Sonar%20%282%29.svg?w=128&h=32&dpr=1&fit=crop&q=80" /></td>
+        <td>SonarQube</td>
+        <td><a href="./topics/sonarqube/">sonarqube</a></td>
+        <td>📖 <a href="https://docs.sonarsource.com/sonarqube-server/latest/">View</a></td>
+        <td>✔️ <a href="./topics/sonarqube/basics/">Explore</a></td>
+        <td>🏃 <a href="./topics/sonarqube/practice/">Explore</a></td>
     </tr>
 </table>
 
