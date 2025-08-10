@@ -366,7 +366,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/sonarqube/">sonarqube</a></td>
         <td>📖 <a href="https://docs.sonarsource.com/sonarqube-server/latest/">View</a></td>
         <td>✔️ <a href="./topics/sonarqube/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/sonarqube/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/sonarqube/practice/">Explore</a></td>
     </tr>
 </table>
 
@@ -409,3 +409,4 @@ Thank you all for your contributions! 💖
 ## Star History ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=tungbq/devops-basics&type=Timeline)](https://star-history.com/#tungbq/devops-basics&Timeline)
+
