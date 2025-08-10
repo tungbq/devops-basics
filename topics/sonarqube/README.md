@@ -70,5 +70,8 @@ Cloud-hosted alternative with built-in GitHub/Bitbucket/GitLab integration.
 
 - [https://community.sonarsource.com/](https://community.sonarsource.com/)
 
+**SonarQube practice**
+- [https://github.com/SonarSource/sonar-scanning-examples](https://github.com/SonarSource/sonar-scanning-examples)
+
 **Recommended Books**
 N/A
