@@ -26,3 +26,7 @@
 ### RDS
 
 - Getting started with Amazon Relational Database Service: https://docs.aws.amazon.com/AmazonRDS/latest/gettingstartedguide/what-is-rds.html
+
+### DB
+
+- Creating and connecting to an Aurora MySQL DB cluster: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.CreatingConnecting.Aurora.html
