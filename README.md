@@ -102,7 +102,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/aws/">aws</a></td>
         <td>📖 <a href="https://docs.aws.amazon.com/">View</a></td>
         <td>✔️ <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">Explore</a></td>
-        <td>📚 <a href="./topics/aws/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/aws/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=azure" /></td>
@@ -409,4 +409,5 @@ Thank you all for your contributions! 💖
 ## Star History ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=tungbq/devops-basics&type=Timeline)](https://star-history.com/#tungbq/devops-basics&Timeline)
+
 
