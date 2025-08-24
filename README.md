@@ -110,7 +110,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/azure/">azure</a></td>
         <td>📖 <a href="https://learn.microsoft.com/en-us/azure/?product=popular">View</a></td>
         <td>✔️ <a href="./topics/azure/basics/">Explore</a></td>
-        <td>📚 <a href="./topics/azure/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/azure/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://helm.sh/img/helm.svg"></td>
@@ -409,5 +409,6 @@ Thank you all for your contributions! 💖
 ## Star History ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=tungbq/devops-basics&type=Timeline)](https://star-history.com/#tungbq/devops-basics&Timeline)
+
 
 
