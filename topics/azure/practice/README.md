@@ -20,6 +20,7 @@
 ### Azure App Service
 
 - Getting started with Azure App Service: https://learn.microsoft.com/en-us/azure/app-service/getting-started?pivots=stack-net
+- Java to Azure migration: https://learn.microsoft.com/en-us/azure/developer/java/migration/
 
 ### Azure SQL Database
 
