@@ -20,6 +20,7 @@
 ### Azure App Service
 
 - Getting started with Azure App Service: https://learn.microsoft.com/en-us/azure/app-service/getting-started?pivots=stack-net
+- Build a Tomcat web app with Azure App Service on Linux and MySQL: https://learn.microsoft.com/en-us/azure/app-service/tutorial-java-tomcat-mysql-app?tabs=copilot&pivots=azure-portal
 - Java to Azure migration: https://learn.microsoft.com/en-us/azure/developer/java/migration/
 
 ### Azure SQL Database
