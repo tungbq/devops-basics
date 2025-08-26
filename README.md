@@ -150,7 +150,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/git/">git</a></td>
         <td>📖 <a href="https://git-scm.com/doc">View</a></td>
         <td>✔️ <a href="./topics/git/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/git/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/git/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=elasticsearch" /></td>
