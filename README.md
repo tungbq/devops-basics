@@ -254,7 +254,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/nginx/">nginx</a></td>
         <td>📖 <a href="https://nginx.org/en/docs/">View</a></td>
         <td>✔️ <a href="./topics/nginx/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/nginx/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/nginx/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://www.hashicorp.com/_next/static/media/packer_on-dark.e64eb06d.svg"></td>
@@ -270,7 +270,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/sql/">sql</a></td>
         <td>📖 <a href="https://github.com/tungbq/devops-basic/blob/main/topics/sql/README.md">View</a></td>
         <td>✔️ <a href="./topics/sql/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/sql/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/sql/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Haproxy-logo.png" /></td>
@@ -326,7 +326,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/apachetomcat/">tomcat</a></td>
         <td>📖 <a href="https://tomcat.apache.org/">View</a></td>
         <td>✔️ <a href="./topics/apachetomcat/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/apachetomcat/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/apachetomcat/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://www.apache.org/logos/res/httpd/default.png" /></td>
@@ -334,7 +334,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/apache-httpd/">httpd</a></td>
         <td>📖 <a href="https://httpd.apache.org/">View</a></td>
         <td>✔️ <a href="./topics/apache-httpd/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/apache-httpd/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/apache-httpd/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" width="32" src="https://cdn.worldvectorlogo.com/logos/snyk.svg" /></td>
