@@ -254,7 +254,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/nginx/">nginx</a></td>
         <td>📖 <a href="https://nginx.org/en/docs/">View</a></td>
         <td>✔️ <a href="./topics/nginx/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/nginx/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/nginx/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img width="32" src="https://www.hashicorp.com/_next/static/media/packer_on-dark.e64eb06d.svg"></td>
