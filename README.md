@@ -77,7 +77,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/docker/">docker</a></td>
         <td>📖 <a href="https://docs.docker.com/">View</a></td>
         <td>✔️ <a href="./topics/docker/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/docker/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/docker/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://avatars.githubusercontent.com/u/13629408"></td>
@@ -85,7 +85,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/k8s/">k8s</a></td>
         <td>📖 <a href="https://kubernetes.io/docs/home/">View</a></td>
         <td>✔️ <a href="./topics/k8s/basics/helloworld">Explore</a></td>
-        <td>🏃 <a href="./topics/k8s/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/k8s/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Istio-bluelogo-nobackground-unframed.svg"></td>
@@ -222,7 +222,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/azuredevops/">azuredevops</a></td>
         <td>📖 <a href="https://learn.microsoft.com/en-us/azure/devops">View</a></td>
         <td>✔️ <a href="./topics/azuredevops/basics/">Explore</a></td>
-        <td>📚 <a href="./topics/azuredevops/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/azuredevops/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=vscode" /></td>
@@ -409,6 +409,3 @@ Thank you all for your contributions! 💖
 ## Star History ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=tungbq/devops-basics&type=Timeline)](https://star-history.com/#tungbq/devops-basics&Timeline)
-
-
-
