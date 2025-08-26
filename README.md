@@ -85,7 +85,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/k8s/">k8s</a></td>
         <td>📖 <a href="https://kubernetes.io/docs/home/">View</a></td>
         <td>✔️ <a href="./topics/k8s/basics/helloworld">Explore</a></td>
-        <td>🏃 <a href="./topics/k8s/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/k8s/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Istio-bluelogo-nobackground-unframed.svg"></td>
