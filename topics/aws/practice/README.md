@@ -30,3 +30,8 @@
 ### DB
 
 - Creating and connecting to an Aurora MySQL DB cluster: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.CreatingConnecting.Aurora.html
+
+## By design
+
+- Host a Static Website: https://aws.amazon.com/getting-started/hands-on/host-static-website/?ref=gsrchandson
+- Build a Basic Web Application: https://aws.amazon.com/getting-started/hands-on/host-static-website/?ref=gsrchandson
