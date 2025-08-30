@@ -93,7 +93,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/istio/">istio</a></td>
         <td>📖 <a href="https://istio.io/latest/docs/">View</a></td>
         <td>✔️ <a href="https://istio.io/latest/docs/setup/getting-started/">Explore</a></td>
-        <td>🏃 <a href="./topics/istio/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/istio/practice/">Explore</a></td>
     </tr>
     <tr>
         <!-- <td><img  src="placeholder_logo_url"></td> -->
