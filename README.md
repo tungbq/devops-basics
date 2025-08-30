@@ -118,7 +118,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/helm/">helm</a></td>
         <td>📖 <a href="https://helm.sh/docs/">View</a></td>
         <td>✔️ <a href="./topics/helm/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/helm/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/helm/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=jenkins" /></td>
