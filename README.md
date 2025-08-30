@@ -166,7 +166,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/argocd/">argocd</a></td>
         <td>📖 <a href="https://argo-cd.readthedocs.io/en/stable/">View</a></td>
         <td>✔️ <a href="./topics/argocd/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/argocd/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/argocd/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=githubactions" /></td>
