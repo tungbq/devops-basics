@@ -4,7 +4,7 @@
 
 - Microsoft Learn AZ-104 Labs: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/
 - AzureHub: https://github.com/TheDevOpsHub/AzureHub
-
+- Stand up an Azure sandbox environment for accelerating your projects in an hour: https://github.com/Azure-Samples/azuresandbox
 ## By Services
 
 ### Azure Front Door
