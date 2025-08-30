@@ -158,7 +158,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/elk/">elk</a></td>
         <td>📖 <a href="https://www.elastic.co/guide/index.html">View</a></td>
         <td>✔️ <a href="./topics/elk/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/elk/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/elk/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://avatars.githubusercontent.com/u/30269780"></td>
