@@ -142,7 +142,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td><a href="./topics/shell/">shell</a></td>
         <td>📖 <a href="https://devdocs.io/bash/">View</a></td>
         <td>✔️ <a href="./topics/shell/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/shell/practice/">Explore</a></td>
+        <td>✔️ <a href="./topics/shell/practice/">Explore</a></td>
     </tr>
     <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=git" /></td>
