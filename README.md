@@ -361,7 +361,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/snykdast/practice/">Explore</a></td>
     </tr>
     <tr>
-        <td><img height="28" width="32" src="https://assets-eu-01.kc-usercontent.com/55017e37-262d-017b-afd6-daa9468cbc30/8e59bcad-6e39-41dc-abd9-a0e251e8d63f/Sonar%20%282%29.svg?w=128&h=32&dpr=1&fit=crop&q=80" /></td>
+        <td><img height="28" width="32" src="https://assets-eu-01.kc-usercontent.com/ef593040-b591-0198-9506-ed88b30bc023/8e59bcad-6e39-41dc-abd9-a0e251e8d63f/Sonar%20%282%29.svg?w=128&h=32&dpr=1&fit=crop&q=80" /></td>
         <td>SonarQube</td>
         <td><a href="./topics/sonarqube/">sonarqube</a></td>
         <td>📖 <a href="https://docs.sonarsource.com/sonarqube-server/latest/">View</a></td>
@@ -417,3 +417,4 @@ Thank you all for your contributions! 💖
 ## Star History ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=tungbq/devops-basics&type=Timeline)](https://star-history.com/#tungbq/devops-basics&Timeline)
+
