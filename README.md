@@ -368,6 +368,14 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/sonarqube/basics/">Explore</a></td>
         <td>✔️ <a href="./topics/sonarqube/practice/">Explore</a></td>
     </tr>
+    <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=grafana" /></td>
+        <td>Grafana</td>
+        <td><a href="./topics/grafana/">grafana</a></td>
+        <td>📖 <a href="https://grafana.com/docs/">View</a></td>
+        <td>✔️ <a href="./topics/grafana/basics/helloworld/">Explore</a></td>
+        <td>🏃 <a href="./topics/grafana/practice/">Explore</a></td>
+    </tr>
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
