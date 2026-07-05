@@ -1,0 +1,15 @@
+metricbeat.modules:
+  - module: system
+    metricsets:
+      - cpu
+      - memory
+      - network
+      - diskio
+      - filesystem
+    enabled: true
+    period: 10s
+    processes: ['.*']
+
+output.elasticsearch:
+  hosts: ["localhost:9200"]
+  # index: "metricbeat-%{[agent.version]}-%{+yyyy.MM.dd}"

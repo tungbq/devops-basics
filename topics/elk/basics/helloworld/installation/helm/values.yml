@@ -1,0 +1,16 @@
+clusterName: "elasticsearch"
+nodeGroup: "master"
+
+esConfig:
+  elasticsearch.yml: |
+    network.host: 127.0.0.1
+
+master:
+  replicas: 3
+  heapSize: "512m"
+
+data:
+  replicas: 2
+  heapSize: "512m"
+  persistence:
+    enabled: true

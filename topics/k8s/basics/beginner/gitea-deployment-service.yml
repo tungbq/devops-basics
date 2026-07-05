@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gitea-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gitea
+  template:
+    metadata:
+      labels:
+        app: gitea
+    spec:
+      containers:
+      - name: gitea-container
+        image: gitea/gitea:1.4
+        ports:
+        - containerPort: 3000
+          name: http
+        - containerPort: 22
+          name: ssh
+---
+kind: Service             #+
+apiVersion: v1            #+
+metadata:                 #+
+  name: gitea-service     #+
+spec:                     #+
+  selector:               #+
+    app: gitea            #+
+  ports:                  #+
+  - protocol: TCP         #+
+    targetPort: 3000      #+
+    port: 80              #+
+    name: http            #+
+  - protocol: TCP         #+
+    targetPort: 22        #+
+    port: 22              #+
+    name: ssh             #+
+  type: NodePort      #+ -> Nodeport for local custer, for cloud provider use LoadBalancer option

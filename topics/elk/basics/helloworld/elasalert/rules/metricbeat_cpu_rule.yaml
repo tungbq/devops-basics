@@ -1,0 +1,40 @@
+es_host: localhost
+es_port: 9200
+
+name: Metricbeat CPU Usage Alert # Updated rule name
+type: metric_aggregation
+
+index: metricbeat-*
+
+buffer_time:
+  minutes: 2
+
+filter:
+  - query_string:
+      query: "event.dataset:system.cpu" # Update query to monitor CPU usage
+
+metric_agg_key: "system.cpu.total.norm.pct" # Update metric_agg_key for CPU usage
+metric_agg_type: max
+metric_agg_bucket_path: "system.cpu.total.norm.pct" # Update bucket path for CPU usage
+metric_agg_query_key: "system.cpu.total.norm.pct" # Update query key for CPU usage
+
+bucket_interval:
+  seconds: 10
+
+max_threshold: 0.1 # You can adjust this threshold as needed
+
+# (Required)
+# The alert is used when a match is found
+alert:
+  - "debug"  # You can replace "debug" with the desired action for the alert
+# alert:
+#   - name: "log_alert"
+#     webhook:
+#       method: POST
+#       host: localhost
+#       port: 9200
+#       path: /_ingest/pipeline/default
+#       scheme: http
+#       body: '{"message": "High CPU Usage Alert: {{ctx.metadata.name}} - {{ctx.metadata.description}}"}'
+#     headers:
+#       Content-Type: application/json

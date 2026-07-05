@@ -1,0 +1,11 @@
+version: '3'
+services:
+  elastalert:
+    image: ghcr.io/jertel/elastalert2/elastalert2
+    container_name: elastalert
+    restart: always
+    network_mode: host
+    volumes:
+      - ./config.yaml:/opt/elastalert/config.yaml
+      - ./rules:/opt/elastalert/rules
+    command: ['--verbose']

@@ -1,0 +1,30 @@
+es_host: localhost
+es_port: 9200
+
+name: Metricbeat Disk Space Alert
+type: metric_aggregation
+
+index: metricbeat-*
+
+buffer_time:
+  minutes: 5
+
+filter:
+  - query_string:
+      query: "event.dataset:system.diskio"
+
+metric_agg_key: "system.filesystem.used.pct"
+metric_agg_type: max
+metric_agg_bucket_path: "system.filesystem.used.pct"
+metric_agg_query_key: "system.filesystem.device_name.keyword"
+
+
+bucket_interval:
+  minutes: 1
+
+max_threshold: 0.8
+
+# (Required)
+# The alert is used when a match is found
+alert:
+  - "debug"
