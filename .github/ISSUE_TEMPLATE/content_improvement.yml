@@ -1,0 +1,60 @@
+name: "Content Improvement"
+description: "Suggest an improvement to existing documentation, examples, or practice exercises"
+title: "[Improvement]: <Topic> - <Short Description>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve! Whether it's adding examples, fixing outdated docs, or enhancing explanations — all contributions are welcome.
+
+  - type: input
+    id: topic
+    attributes:
+      label: "Which topic needs improvement?"
+      description: "Name the topic directory (e.g., docker, kubernetes, terraform)"
+      placeholder: "e.g., docker, k8s, terraform"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: improvement_type
+    attributes:
+      label: "Type of improvement"
+      options:
+        - "Add missing example / script"
+        - "Update outdated documentation"
+        - "Add practice exercise"
+        - "Improve explanation / README"
+        - "Add advanced example"
+        - "Fix broken script or command"
+        - "Add cheatsheet"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_state
+    attributes:
+      label: "What is the current state?"
+      description: "Describe what's currently there and what's lacking"
+      placeholder: "The Docker topic has no example for multi-stage builds, which is a very common pattern..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_improvement
+    attributes:
+      label: "What improvement do you propose?"
+      description: "Describe what you'd like to see added or changed"
+      placeholder: "Add a multi-stage build example in topics/docker/basics/ showing how to build a Go binary and copy it into a minimal final image..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: "Would you like to contribute this improvement?"
+      options:
+        - label: "Yes, I'd like to open a PR"
+        - label: "No, I'm just suggesting it"

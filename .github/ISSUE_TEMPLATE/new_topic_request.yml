@@ -1,0 +1,71 @@
+name: "New Topic Request"
+description: "Request a new DevOps tool or topic to be added to the repository"
+title: "[Topic Request]: <Topic Name>"
+labels: ["enhancement", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new topic! Please fill out the details below so we can evaluate and add it to our roadmap.
+
+  - type: input
+    id: topic_name
+    attributes:
+      label: "Topic / Tool Name"
+      description: "What DevOps tool or technology should we add?"
+      placeholder: "e.g., FluxCD, Dagger, Podman, Crossplane"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Brief Description"
+      description: "What is this tool and what problem does it solve?"
+      placeholder: "FluxCD is a GitOps operator for Kubernetes that keeps clusters in sync with Git repositories..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      description: "Which DevOps category does this tool belong to?"
+      options:
+        - "CI/CD"
+        - "Container & Orchestration"
+        - "Infrastructure as Code (IaC)"
+        - "Monitoring & Observability"
+        - "Cloud Platform"
+        - "Security (DevSecOps)"
+        - "Networking & Service Mesh"
+        - "GitOps"
+        - "Scripting & Automation"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_important
+    attributes:
+      label: "Why should this be added?"
+      description: "Explain the value this topic adds to DevOps learners. Is it widely used? Growing in adoption?"
+      placeholder: "FluxCD is the CNCF-graduated GitOps engine used by thousands of companies. It complements ArgoCD as another popular GitOps option..."
+    validations:
+      required: true
+
+  - type: input
+    id: official_docs
+    attributes:
+      label: "Official Documentation URL"
+      placeholder: "https://fluxcd.io/docs/"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: "Would you like to contribute this topic?"
+      options:
+        - label: "Yes, I'd like to open a PR for this topic"
+        - label: "No, I'm just requesting it"
