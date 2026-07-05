@@ -5,6 +5,7 @@ site_author: Tung Leo
 repo_url: https://github.com/tungbq/devops-basics
 repo_name: tungbq/devops-basics
 edit_uri: edit/main/
+copyright: Copyright &copy; 2024 Tung Leo &amp; Contributors
 
 docs_dir: .
 site_dir: site
@@ -22,18 +23,21 @@ theme:
   custom_dir: overrides
   logo: https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg
   favicon: https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -41,9 +45,10 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
+    - navigation.path
     - navigation.top
     - navigation.footer
+    - navigation.indexes
     - search.highlight
     - search.share
     - search.suggest
@@ -51,12 +56,30 @@ theme:
     - content.code.annotate
     - content.action.edit
     - content.action.view
+    - announce.dismiss
   icon:
     repo: fontawesome/brands/github
+    tag:
+      cicd: octicons/workflow-16
+      containers: fontawesome/brands/docker
+      iac: simple/terraform
+      cloud: fontawesome/brands/aws
+      monitoring: simple/prometheus
+      security: octicons/lock-16
+      scripting: fontawesome/brands/linux
+      networking: octicons/globe-16
 
 plugins:
   - search:
       lang: en
+  - tags:
+      tags_file: tags.md
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
 
 markdown_extensions:
   - admonition
@@ -67,6 +90,7 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+      linenums: false
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -75,19 +99,39 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      title: On this page
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/tungbq/devops-basics
+      name: devops-basics on GitHub
     - icon: fontawesome/brands/github
       link: https://github.com/TheDevOpsHub
+      name: TheDevOpsHub on GitHub
+  tags:
+    CI/CD: cicd
+    Containers: containers
+    IaC: iac
+    Cloud: cloud
+    Monitoring: monitoring
+    Security: security
+    Scripting: scripting
+    Networking: networking
+
+extra_css:
+  - docs/stylesheets/extra.css
+
+extra_javascript:
+  - docs/javascripts/extra.js
 
 nav:
-  - Home: README.md
+  - Home: docs/index.md
   - Getting Started: getting-started/README.md
   - Topics:
-    - Overview: topics/README.md
+    - All Topics: topics/index.md
     - CI/CD:
       - Jenkins: topics/jenkins/README.md
       - GitHub Actions: topics/github-action/README.md
@@ -146,6 +190,7 @@ nav:
   - Projects:
     - Overview: projects/README.md
     - CI/CD Observability: projects/ci-cd-observability/README.md
+  - Tags: tags.md
   - Resources:
     - Good Reads: docs/GOODREAD.md
     - Troubleshooting: troubleshooting/common-issues.md

@@ -17,12 +17,14 @@
 
 You are new to DevOps or want to learn some DevOps tools, or you are already a DevOps engineer, and you are looking for DevOps documents and a place to practice DevOps tools? This repository will assist you in enhancing your DevOps skills and serve as a bookmark for documents related to DevOps. Key features include:
 
-- **Wide range of topics**: Explore **30+** important DevOps subjects like Docker, Kubernetes, Terraform, Ansible, Cloud services, System Architecture, Monitoring, and more.
+- **Wide range of topics**: Explore **40+** important DevOps subjects like Docker, Kubernetes, Terraform, Ansible, Cloud services, System Architecture, Monitoring, Security, and more.
 - **Useful resources**: Each topic comes with an overview, official documentation links, cheatsheets, and extra resources to help you learn more.
 - **Hands-On practice**: Get basic examples for each topic so you can try out what you learn.
 - **Advanced examples**: Once you've grasped the basic concepts, exploring advanced examples will further elevate your skills.
+- **Security-first**: DevSecOps topics including Vault, Trivy, Snyk, and SonarQube for secure-by-default pipelines.
 
 This is the **first** repo of my DevOps trio repositories: [**devops-basics**](https://github.com/tungbq/devops-basics) ↔️ [devops-practice](https://github.com/tungbq/devops-practice) ↔️ [devops-project](https://github.com/tungbq/devops-project), designed to help you learn, practice, and apply DevOps.
+
 
 ## Getting started :rocket:
 
@@ -377,15 +379,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>🏃 <a href="./topics/grafana/practice/">Explore</a></td>
     </tr>
     <tr>
-        <td><img height="28" src="https://avatars.githubusercontent.com/u/133243300" /></td>
-        <td>OpenTofu</td>
-        <td><a href="./topics/opentofu/">opentofu</a></td>
-        <td>📖 <a href="https://opentofu.org/docs/">View</a></td>
-        <td>✔️ <a href="./topics/opentofu/basics/">Explore</a></td>
-        <td>🏃 <a href="./topics/opentofu/practice/">Explore</a></td>
-    </tr>
-    <tr>
-        <td><img height="28" src="https://avatars.githubusercontent.com/u/761456" /></td>
+        <td><img height="28" src="https://www.hashicorp.com/_next/static/media/vault_on-dark.c43c7e43.svg" /></td>
         <td>Vault</td>
         <td><a href="./topics/vault/">vault</a></td>
         <td>📖 <a href="https://developer.hashicorp.com/vault/docs">View</a></td>
@@ -393,7 +387,15 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>🏃 <a href="./topics/vault/practice/">Explore</a></td>
     </tr>
     <tr>
-        <td><img height="28" src="https://avatars.githubusercontent.com/u/12783832" /></td>
+        <td><img height="28" src="https://raw.githubusercontent.com/opentofu/brand-artifacts/main/full/transparent/SVG/on-dark.svg" /></td>
+        <td>OpenTofu</td>
+        <td><a href="./topics/opentofu/">opentofu</a></td>
+        <td>📖 <a href="https://opentofu.org/docs/">View</a></td>
+        <td>✔️ <a href="./topics/opentofu/basics/">Explore</a></td>
+        <td>🏃 <a href="./topics/opentofu/practice/">Explore</a></td>
+    </tr>
+    <tr>
+        <td><img height="28" src="https://aquasecurity.github.io/trivy/latest/imgs/logo.png" /></td>
         <td>Trivy</td>
         <td><a href="./topics/trivy/">trivy</a></td>
         <td>📖 <a href="https://trivy.dev/latest/docs/">View</a></td>
@@ -411,6 +413,7 @@ We cover a wide range of DevOps topics in our content library, explore them unde
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
+- See the [**Roadmap**](./ROADMAP.md) for planned topics and upcoming improvements
 - For additional resources to practice these tools, visit: [**devops-project**](https://github.com/tungbq/devops-project)
 
 ## Extra content (from other repos) :arrow_upper_right:
