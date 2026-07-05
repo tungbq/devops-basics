@@ -32,6 +32,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-docs.txt
 
+      - name: Symlink repo content into docs/
+        # MkDocs requires docs_dir to be a child of the config file directory.
+        # We use docs/ as docs_dir, so we symlink the repo-root content trees
+        # into docs/ so MkDocs can find them without moving any files.
+        run: |
+          cd docs
+          for d in topics getting-started projects troubleshooting; do
+            ln -sfn ../$d $d
+            echo "Linked: $d"
+          done
+          ln -sf ../CONTRIBUTING.md CONTRIBUTING.md
+          [ -f ../ROADMAP.md ] && ln -sf ../ROADMAP.md ROADMAP.md \
+            || echo "ROADMAP.md not found, skipping"
+
       - name: Build and deploy docs to GitHub Pages
         run: mkdocs gh-deploy --force --clean
         env:
