@@ -1,0 +1,43 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  packagePath: '$(Build.ArtifactStagingDirectory)/webapp.zip'
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '18.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm install
+    displayName: 'Install dependencies'
+
+  - script: |
+      npm run test &
+    displayName: 'Run unit tests'
+
+  - script: |
+      mkdir -p $(Build.ArtifactStagingDirectory)
+      zip -r $(packagePath) . -x '**/node_modules/**' '**/.git/**'
+    displayName: 'Package application'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+      ArtifactName: 'drop'
+    displayName: 'Publish build artifacts'
+
+  - task: AzureWebApp@1
+    inputs:
+      azureSubscription: '$(azureSubscription)'
+      appType: 'webApp'
+      appName: '$(appName)'
+      package: '$(packagePath)'
+    displayName: 'Deploy to Azure App Service'
