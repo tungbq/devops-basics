@@ -1,0 +1,12 @@
+{
+  "name": "azure-webapp-deploy",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for Azure DevOps pipeline deployment practice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "author": "devops-basics",
+  "license": "MIT"
+}

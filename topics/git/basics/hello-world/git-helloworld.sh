@@ -4,7 +4,7 @@ console_log() {
   echo "\e[32m>>> [Git] $1\e[0m"
 }
 
-WORKSPACE="/tmp/devops-basic/git/demo"
+WORKSPACE="/tmp/devops-basics/git/demo"
 
 console_log "Cleanup previous run data"
 rm -rf $WORKSPACE
@@ -14,10 +14,10 @@ mkdir -p $WORKSPACE
 
 console_log "Clone repository"
 cd $WORKSPACE
-git clone git@github.com:tungbq/devops-basic.git
+git clone git@github.com:tungbq/devops-basics.git
 
 console_log "Navigate to the cloned repo"
-cd devops-basic
+cd devops-basics
 ls -la
 
 console_log "Switch to main branch"
