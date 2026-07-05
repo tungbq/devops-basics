@@ -32,5 +32,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-docs.txt
 
-      - name: Deploy docs to GitHub Pages
-        run: mkdocs gh-deploy --force
+      - name: Build and deploy docs to GitHub Pages
+        run: mkdocs gh-deploy --force --clean
+        env:
+          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}

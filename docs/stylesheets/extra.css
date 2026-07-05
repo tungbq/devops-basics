@@ -611,3 +611,119 @@
     justify-content: center;
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   Phase 3 — Visual Polish & Brand Identity
+   Teal/cyan primary, Inter font, grid card enhancements, footer
+═══════════════════════════════════════════════════════════════════ */
+
+/* ─── Teal brand override (supplements Material teal palette) ────── */
+:root {
+  --md-primary-fg-color:        #00897b;
+  --md-primary-fg-color--light: #4db6ac;
+  --md-primary-fg-color--dark:  #00695c;
+  --md-accent-fg-color:         #00bcd4;
+}
+
+/* ─── Material grid cards — enhanced hover ───────────────────────── */
+.md-typeset .grid.cards > :is(ul, ol) > li,
+.md-typeset .grid > .card {
+  border-radius: 10px;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.2s ease;
+}
+
+.md-typeset .grid.cards > :is(ul, ol) > li:hover,
+.md-typeset .grid > .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  border-color: var(--md-accent-fg-color);
+}
+
+/* ─── Category-specific card accent borders ──────────────────────── */
+/* Color-coded top border on grid cards by section heading context */
+.md-typeset h2 + div.grid.cards > ul > li {
+  border-top: 3px solid var(--md-accent-fg-color);
+}
+
+/* ─── Headings — tighter and bolder ─────────────────────────────── */
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* ─── Code blocks — subtle enhancements ─────────────────────────── */
+.md-typeset .highlight {
+  border-radius: 8px;
+}
+
+.md-typeset .highlight pre {
+  border-radius: 8px;
+}
+
+/* ─── Admonitions — rounded corners ─────────────────────────────── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+}
+
+/* ─── Tables — zebra striping ────────────────────────────────────── */
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background: var(--md-code-bg-color);
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--md-primary-fg-color);
+  color: white;
+}
+
+/* ─── Footer — enhanced ──────────────────────────────────────────── */
+.md-footer {
+  background: var(--md-default-bg-color);
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-footer-meta {
+  background: transparent;
+}
+
+/* ─── Tags ───────────────────────────────────────────────────────── */
+.md-tag {
+  border-radius: 99px;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+}
+
+/* ─── Navigation path (breadcrumbs) ─────────────────────────────── */
+.md-nav__title {
+  font-weight: 700;
+}
+
+/* ─── Search result highlighting ────────────────────────────────── */
+.md-search-result mark {
+  background: rgba(0, 188, 212, 0.25);
+  color: inherit;
+  border-radius: 2px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   Phase 5 — Performance: print optimization
+═══════════════════════════════════════════════════════════════════ */
+
+@media print {
+  .home-hero,
+  .home-cta,
+  .md-footer {
+    display: none;
+  }
+}
