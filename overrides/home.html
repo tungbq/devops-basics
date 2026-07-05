@@ -1,306 +1,309 @@
-{% extends "main.html" %}
+﻿{% extends "main.html" %}
 
-{% block tabs %}{{ super() }}{% endblock %}
+{% block tabs %}
+  {{ super() }}
 
-{% block content %}
-<div class="home">
+  <div class="home">
 
-  <!-- ═══════════════════════════════════════════════════════════
-       HERO
-  ════════════════════════════════════════════════════════════ -->
-  <section class="home-hero">
-    <div class="home-hero__grid" aria-hidden="true"></div>
-    <div class="home-hero__inner">
+    <!-- ═══════════════════════════════════════════════════════════
+         HERO
+    ════════════════════════════════════════════════════════════ -->
+    <section class="home-hero">
+      <div class="home-hero__grid" aria-hidden="true"></div>
+      <div class="home-hero__inner">
 
-      <div class="home-hero__badge">
-        <span class="home-hero__badge-dot"></span>
-        Open Source &bull; MIT License &bull; Community Driven
-      </div>
-
-      <h1 class="home-hero__title">
-        DevOps <span class="home-hero__title-accent">Basics</span>
-      </h1>
-
-      <p class="home-hero__subtitle">
-        The practical handbook for DevOps engineers.<br>
-        <strong>40+ tools</strong> &nbsp;&middot;&nbsp;
-        <strong>Hands-on scripts</strong> &nbsp;&middot;&nbsp;
-        <strong>Curated docs</strong>
-      </p>
-
-      <div class="home-hero__actions">
-        <a href="topics/" class="home-btn home-btn--primary">
-          Explore Topics
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-               fill="none" stroke="currentColor" stroke-width="2.5"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
-          </svg>
-        </a>
-        <a href="https://github.com/tungbq/devops-basics"
-           class="home-btn home-btn--secondary" target="_blank" rel="noopener">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-               viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207
-              11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416
-              -.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
-              1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997
-              .107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931
-              0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0
-              1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404
-              1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23
-              .653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221
-              0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293
-              c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386
-              0-6.627-5.373-12-12-12z"/>
-          </svg>
-          Star on GitHub
-          <span class="home-hero__star-pill" id="gh-stars">&#11088;</span>
-        </a>
-      </div>
-
-      <div class="home-hero__stats">
-        <div class="home-hero__stat">
-          <span class="home-hero__stat-num">40+</span>
-          <span class="home-hero__stat-label">Topics</span>
+        <div class="home-hero__badge">
+          <span class="home-hero__badge-dot"></span>
+          Open Source &bull; MIT License &bull; Community Driven
         </div>
-        <div class="home-hero__stat-sep" aria-hidden="true"></div>
-        <div class="home-hero__stat">
-          <span class="home-hero__stat-num">34</span>
-          <span class="home-hero__stat-label">Contributors</span>
-        </div>
-        <div class="home-hero__stat-sep" aria-hidden="true"></div>
-        <div class="home-hero__stat">
-          <span class="home-hero__stat-num" id="hero-stars">&#8213;</span>
-          <span class="home-hero__stat-label">GitHub Stars</span>
-        </div>
-      </div>
 
-    </div>
-  </section>
+        <h1 class="home-hero__title">
+          DevOps <span class="home-hero__title-accent">Basics</span>
+        </h1>
 
-  <!-- ═══════════════════════════════════════════════════════════
-       FEATURES
-  ════════════════════════════════════════════════════════════ -->
-  <section class="home-section home-features">
-    <div class="home-section__inner">
-      <h2 class="home-section__title">Everything you need to level up</h2>
-      <p class="home-section__subtitle">From your first hello-world script to production-grade examples</p>
-      <div class="home-features__grid">
+        <p class="home-hero__subtitle">
+          The practical handbook for DevOps engineers.<br>
+          <strong>40+ tools</strong> &nbsp;&middot;&nbsp;
+          <strong>Hands-on scripts</strong> &nbsp;&middot;&nbsp;
+          <strong>Curated docs</strong>
+        </p>
 
-        <div class="home-feature-card">
-          <div class="home-feature-card__icon home-feature-card__icon--blue">
-            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
-                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987
-                   8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1
-                   6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967
-                   8.967 0 0 0-6 2.292m0-14.25v14.25"/>
+        <div class="home-hero__actions">
+          <a href="topics/" class="home-btn home-btn--primary">
+            Explore Topics
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2.5"
+                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
             </svg>
-          </div>
-          <h3>40+ Topics Covered</h3>
-          <p>Docker, Kubernetes, Terraform, Ansible, cloud platforms, security tools, monitoring — all in one structured place.</p>
-        </div>
-
-        <div class="home-feature-card">
-          <div class="home-feature-card__icon home-feature-card__icon--teal">
-            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
-                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M6.75 7.5 3 12l3.75 4.5m6.75-9L17.25 12l-3.75 4.5M9.75 3l-1.5 18"/>
-            </svg>
-          </div>
-          <h3>Hands-On Scripts</h3>
-          <p>Every topic includes runnable basics and advanced examples so you learn by doing, not just reading theory.</p>
-        </div>
-
-        <div class="home-feature-card">
-          <div class="home-feature-card__icon home-feature-card__icon--orange">
-            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
-                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0
-                   1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0
-                   0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/>
-            </svg>
-          </div>
-          <h3>Official Docs Linked</h3>
-          <p>Each topic links directly to official documentation, cheatsheets, and the best external learning resources.</p>
-        </div>
-
-        <div class="home-feature-card">
-          <div class="home-feature-card__icon home-feature-card__icon--purple">
-            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
-                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94
-                   3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12
-                   21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12
-                   0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995
-                   5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0
-                   3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1
-                   1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1
-                   4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"/>
-            </svg>
-          </div>
-          <h3>Community Driven</h3>
-          <p>34 contributors and growing. Open source under MIT. Star, fork, or submit your own topic anytime.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════════════════════
-       CATEGORIES
-  ════════════════════════════════════════════════════════════ -->
-  <section class="home-section home-categories">
-    <div class="home-section__inner">
-      <h2 class="home-section__title">Browse by Category</h2>
-      <p class="home-section__subtitle">40+ topics organized into 8 categories — find exactly what you need</p>
-      <div class="home-categories__grid">
-
-        <a href="topics/jenkins/" class="home-cat-card home-cat-card--orange">
-          <div class="home-cat-card__icon" aria-hidden="true">&#x1F504;</div>
-          <h3 class="home-cat-card__title">CI/CD</h3>
-          <p class="home-cat-card__topics">Jenkins &middot; GitHub Actions &middot; GitLab CI &middot; ArgoCD</p>
-          <span class="home-cat-card__count">4 topics</span>
-        </a>
-
-        <a href="topics/docker/" class="home-cat-card home-cat-card--blue">
-          <div class="home-cat-card__icon" aria-hidden="true">&#x1F433;</div>
-          <h3 class="home-cat-card__title">Containers &amp; Orchestration</h3>
-          <p class="home-cat-card__topics">Docker &middot; Kubernetes &middot; Helm &middot; Istio</p>
-          <span class="home-cat-card__count">4 topics</span>
-        </a>
-
-        <a href="topics/terraform/" class="home-cat-card home-cat-card--purple">
-          <div class="home-cat-card__icon" aria-hidden="true">&#x1F3D7;&#xFE0F;</div>
-          <h3 class="home-cat-card__title">Infrastructure as Code</h3>
-          <p class="home-cat-card__topics">Terraform &middot; OpenTofu &middot; Ansible &middot; Packer</p>
-          <span class="home-cat-card__count">4 topics</span>
-        </a>
-
-        <a href="topics/aws/" class="home-cat-card home-cat-card--sky">
-          <div class="home-cat-card__icon" aria-hidden="true">&#x2601;&#xFE0F;</div>
-          <h3 class="home-cat-card__title">Cloud Platforms</h3>
-          <p class="home-cat-card__topics">AWS &middot; Azure &middot; GCP &middot; Azure DevOps &middot; OpenStack</p>
-          <span class="home-cat-card__count">5 topics</span>
-        </a>
-
-        <a href="topics/prometheus/" class="home-cat-card home-cat-card--green">
-          <div class="home-cat-card__icon" aria-hidden="true">&#x1F4CA;</div>
-          <h3 class="home-cat-card__title">Monitoring &amp; Observability</h3>
-          <p class="home-cat-card__topics">Prometheus &middot; Grafana &middot; ELK Stack &middot; Dynatrace</p>
-          <span class="home-cat-card__count">4 topics</span>
-        </a>
-
-        <a href="topics/vault/" class="home-cat-card home-cat-card--red">
-          <div class="home-cat-card__icon" aria-hidden="true">&#x1F512;</div>
-          <h3 class="home-cat-card__title">Security</h3>
-          <p class="home-cat-card__topics">Vault &middot; Trivy &middot; Snyk &middot; SonarQube &middot; Snyk DAST</p>
-          <span class="home-cat-card__count">5 topics</span>
-        </a>
-
-        <a href="topics/nginx/" class="home-cat-card home-cat-card--teal">
-          <div class="home-cat-card__icon" aria-hidden="true">&#x1F310;</div>
-          <h3 class="home-cat-card__title">Networking &amp; Web Servers</h3>
-          <p class="home-cat-card__topics">Nginx &middot; HAProxy &middot; Cloudflare &middot; HTTPD &middot; Tomcat</p>
-          <span class="home-cat-card__count">7 topics</span>
-        </a>
-
-        <a href="topics/shell/" class="home-cat-card home-cat-card--yellow">
-          <div class="home-cat-card__icon" aria-hidden="true">&#x2328;&#xFE0F;</div>
-          <h3 class="home-cat-card__title">Scripting &amp; Coding</h3>
-          <p class="home-cat-card__topics">Shell &middot; Python &middot; Groovy &middot; SQL &middot; Git</p>
-          <span class="home-cat-card__count">5 topics</span>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════════════════════
-       LEARNING TRIO
-  ════════════════════════════════════════════════════════════ -->
-  <section class="home-section home-trio">
-    <div class="home-section__inner">
-      <h2 class="home-section__title">The DevOps Learning Trio</h2>
-      <p class="home-section__subtitle">Three repositories designed to take you from zero to production-ready</p>
-      <div class="home-trio__grid">
-
-        <div class="home-trio__card home-trio__card--active">
-          <div class="home-trio__you-badge">You are here</div>
-          <div class="home-trio__num">01</div>
-          <h3>devops-basics</h3>
-          <p>Learn the tools and concepts. Docs, cheatsheets, and hands-on scripts for 40+ topics.</p>
+          </a>
           <a href="https://github.com/tungbq/devops-basics"
-             target="_blank" rel="noopener" class="home-trio__link">
-            View repo
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
-                 fill="none" stroke="currentColor" stroke-width="2.5"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M7 17 17 7"/><path d="M7 7h10v10"/>
+             class="home-btn home-btn--secondary" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                 viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207
+                11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416
+                -.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
+                1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997
+                .107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931
+                0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0
+                1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404
+                1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23
+                .653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221
+                0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293
+                c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386
+                0-6.627-5.373-12-12-12z"/>
             </svg>
+            Star on GitHub
+            <span class="home-hero__star-pill" id="gh-stars">&#11088;</span>
           </a>
         </div>
 
-        <div class="home-trio__card">
-          <div class="home-trio__num">02</div>
-          <h3>devops-practice</h3>
-          <p>Apply your knowledge. Structured labs and exercises to build real, repeatable skills.</p>
-          <a href="https://github.com/tungbq/devops-practice"
-             target="_blank" rel="noopener" class="home-trio__link">
-            View repo
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
-                 fill="none" stroke="currentColor" stroke-width="2.5"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M7 17 17 7"/><path d="M7 7h10v10"/>
-            </svg>
-          </a>
-        </div>
-
-        <div class="home-trio__card">
-          <div class="home-trio__num">03</div>
-          <h3>devops-project</h3>
-          <p>Build real projects. End-to-end DevOps pipelines to showcase in your portfolio.</p>
-          <a href="https://github.com/tungbq/devops-project"
-             target="_blank" rel="noopener" class="home-trio__link">
-            View repo
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
-                 fill="none" stroke="currentColor" stroke-width="2.5"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M7 17 17 7"/><path d="M7 7h10v10"/>
-            </svg>
-          </a>
+        <div class="home-hero__stats">
+          <div class="home-hero__stat">
+            <span class="home-hero__stat-num">40+</span>
+            <span class="home-hero__stat-label">Topics</span>
+          </div>
+          <div class="home-hero__stat-sep" aria-hidden="true"></div>
+          <div class="home-hero__stat">
+            <span class="home-hero__stat-num">34</span>
+            <span class="home-hero__stat-label">Contributors</span>
+          </div>
+          <div class="home-hero__stat-sep" aria-hidden="true"></div>
+          <div class="home-hero__stat">
+            <span class="home-hero__stat-num" id="hero-stars">&#8213;</span>
+            <span class="home-hero__stat-label">GitHub Stars</span>
+          </div>
         </div>
 
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══════════════════════════════════════════════════════════
-       FINAL CTA
-  ════════════════════════════════════════════════════════════ -->
-  <section class="home-cta">
-    <div class="home-section__inner home-section__inner--narrow">
-      <h2 class="home-cta__title">Ready to level up your DevOps skills?</h2>
-      <p class="home-cta__subtitle">
-        Browse 40+ topics, run hands-on scripts, and bookmark the resources you need.
-      </p>
-      <div class="home-cta__actions">
-        <a href="topics/" class="home-btn home-btn--primary home-btn--lg">
-          Browse All Topics
-        </a>
-        <a href="getting-started/" class="home-btn home-btn--ghost home-btn--lg">
-          Getting Started &#x2192;
-        </a>
+    <!-- ═══════════════════════════════════════════════════════════
+         FEATURES
+    ════════════════════════════════════════════════════════════ -->
+    <section class="home-section home-features">
+      <div class="home-section__inner">
+        <h2 class="home-section__title">Everything you need to level up</h2>
+        <p class="home-section__subtitle">From your first hello-world script to production-grade examples</p>
+        <div class="home-features__grid">
+
+          <div class="home-feature-card">
+            <div class="home-feature-card__icon home-feature-card__icon--blue">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
+                   viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987
+                     8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1
+                     6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967
+                     8.967 0 0 0-6 2.292m0-14.25v14.25"/>
+              </svg>
+            </div>
+            <h3>40+ Topics Covered</h3>
+            <p>Docker, Kubernetes, Terraform, Ansible, cloud platforms, security tools, monitoring — all in one structured place.</p>
+          </div>
+
+          <div class="home-feature-card">
+            <div class="home-feature-card__icon home-feature-card__icon--teal">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
+                   viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M6.75 7.5 3 12l3.75 4.5m6.75-9L17.25 12l-3.75 4.5M9.75 3l-1.5 18"/>
+              </svg>
+            </div>
+            <h3>Hands-On Scripts</h3>
+            <p>Every topic includes runnable basics and advanced examples so you learn by doing, not just reading theory.</p>
+          </div>
+
+          <div class="home-feature-card">
+            <div class="home-feature-card__icon home-feature-card__icon--orange">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
+                   viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0
+                     1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0
+                     0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/>
+              </svg>
+            </div>
+            <h3>Official Docs Linked</h3>
+            <p>Each topic links directly to official documentation, cheatsheets, and the best external learning resources.</p>
+          </div>
+
+          <div class="home-feature-card">
+            <div class="home-feature-card__icon home-feature-card__icon--purple">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
+                   viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94
+                     3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12
+                     21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12
+                     0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995
+                     5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0
+                     3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1
+                     1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1
+                     4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"/>
+              </svg>
+            </div>
+            <h3>Community Driven</h3>
+            <p>34 contributors and growing. Open source under MIT. Star, fork, or submit your own topic anytime.</p>
+          </div>
+
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-</div>
+    <!-- ═══════════════════════════════════════════════════════════
+         CATEGORIES
+    ════════════════════════════════════════════════════════════ -->
+    <section class="home-section home-categories">
+      <div class="home-section__inner">
+        <h2 class="home-section__title">Browse by Category</h2>
+        <p class="home-section__subtitle">40+ topics organized into 8 categories — find exactly what you need</p>
+        <div class="home-categories__grid">
+
+          <a href="topics/jenkins/" class="home-cat-card home-cat-card--orange">
+            <div class="home-cat-card__icon" aria-hidden="true">&#x1F504;</div>
+            <h3 class="home-cat-card__title">CI/CD</h3>
+            <p class="home-cat-card__topics">Jenkins &middot; GitHub Actions &middot; GitLab CI &middot; ArgoCD</p>
+            <span class="home-cat-card__count">4 topics</span>
+          </a>
+
+          <a href="topics/docker/" class="home-cat-card home-cat-card--blue">
+            <div class="home-cat-card__icon" aria-hidden="true">&#x1F433;</div>
+            <h3 class="home-cat-card__title">Containers &amp; Orchestration</h3>
+            <p class="home-cat-card__topics">Docker &middot; Kubernetes &middot; Helm &middot; Istio</p>
+            <span class="home-cat-card__count">4 topics</span>
+          </a>
+
+          <a href="topics/terraform/" class="home-cat-card home-cat-card--purple">
+            <div class="home-cat-card__icon" aria-hidden="true">&#x1F3D7;&#xFE0F;</div>
+            <h3 class="home-cat-card__title">Infrastructure as Code</h3>
+            <p class="home-cat-card__topics">Terraform &middot; OpenTofu &middot; Ansible &middot; Packer</p>
+            <span class="home-cat-card__count">4 topics</span>
+          </a>
+
+          <a href="topics/aws/" class="home-cat-card home-cat-card--sky">
+            <div class="home-cat-card__icon" aria-hidden="true">&#x2601;&#xFE0F;</div>
+            <h3 class="home-cat-card__title">Cloud Platforms</h3>
+            <p class="home-cat-card__topics">AWS &middot; Azure &middot; GCP &middot; Azure DevOps &middot; OpenStack</p>
+            <span class="home-cat-card__count">5 topics</span>
+          </a>
+
+          <a href="topics/prometheus/" class="home-cat-card home-cat-card--green">
+            <div class="home-cat-card__icon" aria-hidden="true">&#x1F4CA;</div>
+            <h3 class="home-cat-card__title">Monitoring &amp; Observability</h3>
+            <p class="home-cat-card__topics">Prometheus &middot; Grafana &middot; ELK Stack &middot; Dynatrace</p>
+            <span class="home-cat-card__count">4 topics</span>
+          </a>
+
+          <a href="topics/vault/" class="home-cat-card home-cat-card--red">
+            <div class="home-cat-card__icon" aria-hidden="true">&#x1F512;</div>
+            <h3 class="home-cat-card__title">Security</h3>
+            <p class="home-cat-card__topics">Vault &middot; Trivy &middot; Snyk &middot; SonarQube &middot; Snyk DAST</p>
+            <span class="home-cat-card__count">5 topics</span>
+          </a>
+
+          <a href="topics/nginx/" class="home-cat-card home-cat-card--teal">
+            <div class="home-cat-card__icon" aria-hidden="true">&#x1F310;</div>
+            <h3 class="home-cat-card__title">Networking &amp; Web Servers</h3>
+            <p class="home-cat-card__topics">Nginx &middot; HAProxy &middot; Cloudflare &middot; HTTPD &middot; Tomcat</p>
+            <span class="home-cat-card__count">7 topics</span>
+          </a>
+
+          <a href="topics/shell/" class="home-cat-card home-cat-card--yellow">
+            <div class="home-cat-card__icon" aria-hidden="true">&#x2328;&#xFE0F;</div>
+            <h3 class="home-cat-card__title">Scripting &amp; Coding</h3>
+            <p class="home-cat-card__topics">Shell &middot; Python &middot; Groovy &middot; SQL &middot; Git</p>
+            <span class="home-cat-card__count">5 topics</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         LEARNING TRIO
+    ════════════════════════════════════════════════════════════ -->
+    <section class="home-section home-trio">
+      <div class="home-section__inner">
+        <h2 class="home-section__title">The DevOps Learning Trio</h2>
+        <p class="home-section__subtitle">Three repositories designed to take you from zero to production-ready</p>
+        <div class="home-trio__grid">
+
+          <div class="home-trio__card home-trio__card--active">
+            <div class="home-trio__you-badge">You are here</div>
+            <div class="home-trio__num">01</div>
+            <h3>devops-basics</h3>
+            <p>Learn the tools and concepts. Docs, cheatsheets, and hands-on scripts for 40+ topics.</p>
+            <a href="https://github.com/tungbq/devops-basics"
+               target="_blank" rel="noopener" class="home-trio__link">
+              View repo
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor" stroke-width="2.5"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7"/><path d="M7 7h10v10"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="home-trio__card">
+            <div class="home-trio__num">02</div>
+            <h3>devops-practice</h3>
+            <p>Apply your knowledge. Structured labs and exercises to build real, repeatable skills.</p>
+            <a href="https://github.com/tungbq/devops-practice"
+               target="_blank" rel="noopener" class="home-trio__link">
+              View repo
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor" stroke-width="2.5"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7"/><path d="M7 7h10v10"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="home-trio__card">
+            <div class="home-trio__num">03</div>
+            <h3>devops-project</h3>
+            <p>Build real projects. End-to-end DevOps pipelines to showcase in your portfolio.</p>
+            <a href="https://github.com/tungbq/devops-project"
+               target="_blank" rel="noopener" class="home-trio__link">
+              View repo
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor" stroke-width="2.5"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7"/><path d="M7 7h10v10"/>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         FINAL CTA
+    ════════════════════════════════════════════════════════════ -->
+    <section class="home-cta">
+      <div class="home-section__inner home-section__inner--narrow">
+        <h2 class="home-cta__title">Ready to level up your DevOps skills?</h2>
+        <p class="home-cta__subtitle">
+          Browse 40+ topics, run hands-on scripts, and bookmark the resources you need.
+        </p>
+        <div class="home-cta__actions">
+          <a href="topics/" class="home-btn home-btn--primary home-btn--lg">
+            Browse All Topics
+          </a>
+          <a href="getting-started/" class="home-btn home-btn--ghost home-btn--lg">
+            Getting Started &#x2192;
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
 {% endblock %}
+
+{% block content %}{% endblock %}
 
 {% block footer %}{{ super() }}{% endblock %}
