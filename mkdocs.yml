@@ -1,0 +1,153 @@
+site_name: DevOps Basics
+site_url: https://devops-basics.thedevopshub.org
+site_description: Practical and document place for DevOps toolchain — 40+ topics with docs, hands-on scripts, and advanced examples
+site_author: Tung Leo
+repo_url: https://github.com/tungbq/devops-basics
+repo_name: tungbq/devops-basics
+edit_uri: edit/main/
+
+docs_dir: .
+site_dir: site
+exclude_docs: |
+  site/
+  .git/
+  node_modules/
+  *.sh
+  *.tf
+  *.hcl
+  *.yml.bak
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg
+  favicon: https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: en
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tungbq/devops-basics
+    - icon: fontawesome/brands/github
+      link: https://github.com/TheDevOpsHub
+
+nav:
+  - Home: README.md
+  - Getting Started: getting-started/README.md
+  - Topics:
+    - Overview: topics/README.md
+    - CI/CD:
+      - Jenkins: topics/jenkins/README.md
+      - GitHub Actions: topics/github-action/README.md
+      - GitLab CI: topics/gitlabci/README.md
+      - ArgoCD: topics/argocd/README.md
+    - Containers & Orchestration:
+      - Docker: topics/docker/README.md
+      - Kubernetes: topics/k8s/README.md
+      - Helm: topics/helm/README.md
+      - Istio: topics/istio/README.md
+    - Infrastructure as Code:
+      - Terraform: topics/terraform/README.md
+      - OpenTofu: topics/opentofu/README.md
+      - Ansible: topics/ansible/README.md
+      - Packer: topics/packer/README.md
+    - Cloud Platforms:
+      - AWS: topics/aws/README.md
+      - Azure: topics/azure/README.md
+      - GCP: topics/gcp/README.md
+      - Azure DevOps: topics/azuredevops/README.md
+      - OpenStack: topics/openstack/README.md
+    - Monitoring & Observability:
+      - Prometheus: topics/prometheus/README.md
+      - Grafana: topics/grafana/README.md
+      - ELK Stack: topics/elk/README.md
+      - Dynatrace: topics/dynatrace/README.md
+    - Security:
+      - Vault: topics/vault/README.md
+      - Trivy: topics/trivy/README.md
+      - Snyk: topics/snyk/README.md
+      - Snyk DAST: topics/snykdast/README.md
+      - SonarQube: topics/sonarqube/README.md
+    - Networking & Web Servers:
+      - Nginx: topics/nginx/README.md
+      - HAProxy: topics/haproxy/README.md
+      - Cloudflare: topics/cloudflare/README.md
+      - Apache HTTPD: topics/apache-httpd/README.md
+      - Apache Tomcat: topics/apachetomcat/README.md
+      - Akamai: topics/akamai/README.md
+      - IIS: topics/iis/README.md
+    - Scripting & Coding:
+      - Shell: topics/shell/README.md
+      - Python: topics/python/README.md
+      - Groovy: topics/groovy/README.md
+      - SQL: topics/sql/README.md
+      - Git: topics/git/README.md
+    - Streaming & Messaging:
+      - Kafka: topics/kafka/README.md
+    - Architecture & Practices:
+      - Architecture: topics/architecture/README.md
+      - Microservices: topics/microservices/README.md
+      - Agile: topics/agile/README.md
+      - Coding: topics/coding/README.md
+    - Other Tools:
+      - VirtualBox: topics/virtualbox/README.md
+  - Projects:
+    - Overview: projects/README.md
+    - CI/CD Observability: projects/ci-cd-observability/README.md
+  - Resources:
+    - Good Reads: docs/GOODREAD.md
+    - Troubleshooting: troubleshooting/common-issues.md
+  - Contributing: CONTRIBUTING.md
+  - Roadmap: ROADMAP.md
