@@ -25,17 +25,6 @@ You are new to DevOps or want to learn some DevOps tools, or you are already a D
 
 This is the **first** repo of my DevOps trio repositories: [**devops-basics**](https://github.com/tungbq/devops-basics) ↔️ [devops-practice](https://github.com/tungbq/devops-practice) ↔️ [devops-project](https://github.com/tungbq/devops-project), designed to help you learn, practice, and apply DevOps.
 
-## Learning Paths 🗺️
-
-Not sure where to start? Follow one of these curated paths:
-
-| Path | Topics (in order) |
-|------|-------------------|
-| 🟢 **DevOps Beginner** | [Git](./topics/git/) → [Shell](./topics/shell/) → [Docker](./topics/docker/) → [Kubernetes](./topics/k8s/) → [Jenkins](./topics/jenkins/) |
-| 🔵 **Platform Engineer** | [Kubernetes](./topics/k8s/) → [Helm](./topics/helm/) → [Terraform](./topics/terraform/) → [ArgoCD](./topics/argocd/) → [Vault](./topics/vault/) |
-| 🔴 **SRE / Ops** | [Shell](./topics/shell/) → [Prometheus](./topics/prometheus/) → [Grafana](./topics/grafana/) → [ELK](./topics/elk/) → [Kubernetes](./topics/k8s/) |
-| ☁️ **Cloud Engineer** | [AWS](./topics/aws/) or [GCP](./topics/gcp/) or [Azure](./topics/azure/) → [Terraform](./topics/terraform/) → [Kubernetes](./topics/k8s/) → [CI/CD](./topics/github-action/) |
-| 🔐 **DevSecOps** | [Docker](./topics/docker/) → [Trivy](./topics/trivy/) → [Snyk](./topics/snyk/) → [Vault](./topics/vault/) → [SonarQube](./topics/sonarqube/) |
 
 ## Getting started :rocket:
 
