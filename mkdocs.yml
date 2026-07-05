@@ -83,8 +83,13 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/TheDevOpsHub
 
+extra_css:
+  - docs/stylesheets/extra.css
+
+extra_javascript:
+  - docs/javascripts/extra.js
 nav:
-  - Home: README.md
+  - Home: docs/index.md
   - Getting Started: getting-started/README.md
   - Topics:
     - Overview: topics/README.md
