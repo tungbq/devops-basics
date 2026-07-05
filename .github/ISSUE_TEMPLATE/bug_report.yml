@@ -1,0 +1,67 @@
+name: "Bug Report"
+description: "Report a broken script, dead link, or incorrect information"
+title: "[Bug]: <Topic> - <Short Description>"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue! Please fill in as much detail as possible.
+
+  - type: input
+    id: topic
+    attributes:
+      label: "Affected topic / file"
+      description: "Which topic or file has the issue?"
+      placeholder: "e.g., topics/docker/basics/docker_helloworld.sh"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bug_type
+    attributes:
+      label: "Type of issue"
+      options:
+        - "Broken script / command fails"
+        - "Dead link (404)"
+        - "Incorrect information / outdated"
+        - "Typo / formatting issue"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the bug"
+      description: "What is broken or incorrect?"
+      placeholder: "The script topics/docker/basics/docker_helloworld.sh fails with error: 'docker: command not found' even when Docker is installed because..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      placeholder: |
+        1. Navigate to topics/docker/basics/
+        2. Run ./docker_helloworld.sh
+        3. See error: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior"
+      placeholder: "The script should run successfully and show a Hello World output"
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment (OS, tool version)"
+      placeholder: "Ubuntu 22.04, Docker 24.0.5"
+    validations:
+      required: false
