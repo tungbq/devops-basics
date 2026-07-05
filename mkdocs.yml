@@ -7,16 +7,11 @@ repo_name: tungbq/devops-basics
 edit_uri: edit/main/
 copyright: Copyright &copy; 2024 Tung Leo &amp; Contributors
 
-docs_dir: .
+# docs_dir must be a subdirectory of the directory containing mkdocs.yml.
+# Repo content (topics/, getting-started/, etc.) is symlinked into docs/
+# by the deploy workflow before the build runs.
+docs_dir: docs
 site_dir: site
-exclude_docs: |
-  site/
-  .git/
-  node_modules/
-  *.sh
-  *.tf
-  *.hcl
-  *.yml.bak
 
 theme:
   name: material
@@ -72,8 +67,7 @@ theme:
 plugins:
   - search:
       lang: en
-  - tags:
-      tags_file: tags.md
+  - tags  # tags_file removed — deprecated in recent Material versions
   - minify:
       minify_html: true
       minify_js: true
@@ -121,17 +115,18 @@ extra:
     Scripting: scripting
     Networking: networking
 
+# Paths are relative to docs_dir (docs/)
 extra_css:
-  - docs/stylesheets/extra.css
+  - stylesheets/extra.css
 
 extra_javascript:
-  - docs/javascripts/extra.js
+  - javascripts/extra.js
 
 nav:
-  - Home: docs/index.md
+  - Home: index.md
   - Getting Started: getting-started/README.md
   - Topics:
-    - All Topics: topics/index.md
+    - All Topics: topics/README.md
     - CI/CD:
       - Jenkins: topics/jenkins/README.md
       - GitHub Actions: topics/github-action/README.md
@@ -190,9 +185,8 @@ nav:
   - Projects:
     - Overview: projects/README.md
     - CI/CD Observability: projects/ci-cd-observability/README.md
-  - Tags: tags.md
   - Resources:
-    - Good Reads: docs/GOODREAD.md
+    - Good Reads: GOODREAD.md
     - Troubleshooting: troubleshooting/common-issues.md
   - Contributing: CONTRIBUTING.md
   - Roadmap: ROADMAP.md
