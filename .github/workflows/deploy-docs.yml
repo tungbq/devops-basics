@@ -22,7 +22,7 @@ jobs:
           python-version: '3.x'
 
       - name: Cache pip packages
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           key: mkdocs-material-${{ hashFiles('requirements-docs.txt') }}
           path: ~/.cache/pip
