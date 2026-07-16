@@ -16,3 +16,9 @@ variable "ami_template" {
   type        = string
   default     = "ami-018d291ca9ffc002f"
 }
+
+variable "instance_type" {
+  description = "Value of the EC2 instance type to provision"
+  type        = string
+  default     = "t2.micro"
+}
