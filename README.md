@@ -451,5 +451,5 @@ Thank you all for your contributions! 💖
 
 ## Star History ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=tungbq/devops-basics&type=Timeline)](https://star-history.com/#tungbq/devops-basics&Timeline)
+[![Star History Chart](https://star-history.dera.page/svg?repos=tungbq/devops-basics&type=Timeline)](https://star-history.dera.page/#tungbq/devops-basics&Timeline)
 
