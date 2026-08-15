@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devops-basics-sample-service
+  description: Sample service used to demonstrate the Backstage Software Catalog
+  tags:
+    - backstage
+    - devops
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
