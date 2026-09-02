@@ -171,6 +171,14 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/argocd/practice/">Explore</a></td>
     </tr>
     <tr>
+        <td><img height="28" src="https://avatars.githubusercontent.com/u/52158677?v=4"></td>
+        <td>FluxCD</td>
+        <td><a href="./topics/fluxcd/">fluxcd</a></td>
+        <td>📖 <a href="https://fluxcd.io/docs/">View</a></td>
+        <td>✔️ <a href="./topics/fluxcd/basics/">Explore</a></td>
+        <td>✔️ <a href="./topics/fluxcd/practice/">Explore</a></td>
+    </tr>
+    <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=githubactions" /></td>
         <td>Github-Action</td>
         <td><a href="./topics/github-action/">github-action</a></td>
