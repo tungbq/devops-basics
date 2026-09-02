@@ -8,6 +8,7 @@ This document outlines the planned improvements and upcoming content for DevOps 
 
 | Topic | Description |
 |-------|-------------|
+| FluxCD | CNCF-graduated GitOps engine, complement to ArgoCD |
 | Grafana | Metrics visualization and dashboards |
 | Vault | HashiCorp Vault secrets management |
 | OpenTofu | Open-source Terraform fork (Linux Foundation) |
@@ -20,7 +21,6 @@ These are planned or in-progress based on community demand and industry relevanc
 
 | Topic | Category | Priority | Notes |
 |-------|----------|----------|-------|
-| **FluxCD** | GitOps / CI-CD | High | CNCF-graduated GitOps engine, complement to ArgoCD |
 | **Crossplane** | IaC / Platform Eng | High | Kubernetes-native infrastructure management |
 | **Backstage** | Platform Engineering | High | Developer portal framework by Spotify |
 | **Dagger** | CI/CD | Medium | Portable CI/CD pipelines as code |

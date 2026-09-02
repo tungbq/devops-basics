@@ -49,6 +49,14 @@ Browse **40+ topics** organized by category. Each topic includes official docs, 
 
     [:octicons-book-16: Docs](https://argo-cd.readthedocs.io/en/stable/) &nbsp;·&nbsp; [:octicons-code-16: Basics](argocd/basics/) &nbsp;·&nbsp; [:octicons-beaker-16: Practice](argocd/practice/)
 
+-   :simple-flux: **FluxCD**
+
+    ---
+
+    CNCF-graduated GitOps engine — composable controllers sync a cluster to Git.
+
+    [:octicons-book-16: Docs](https://fluxcd.io/docs/) &nbsp;·&nbsp; [:octicons-code-16: Basics](fluxcd/basics/) &nbsp;·&nbsp; [:octicons-beaker-16: Practice](fluxcd/practice/)
+
 </div>
 
 ---
