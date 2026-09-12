@@ -62,7 +62,7 @@ These are planned or in-progress based on community demand and industry relevanc
 
 - [ ] Automated broken link checker (weekly)
 - [ ] Script linting for all `.sh` files in CI
-- [ ] Auto-generate topics table in README from directory structure
+- [x] Auto-generate topics table in README from directory structure — `tools/generate-main-readme.sh` (run it directly, or `--check` for CI)
 
 ## Learning Paths (Planned) 🗺️
 
