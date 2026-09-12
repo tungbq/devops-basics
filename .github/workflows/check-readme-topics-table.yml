@@ -1,0 +1,19 @@
+name: Check README topics table
+
+on:
+  pull_request:
+    branches: ['main']
+    paths:
+      - 'topics/**'
+      - 'README.md'
+      - 'tools/generate-main-readme.sh'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Fail if a topic under topics/ has no row in README.md
+        run: |
+          chmod +x tools/generate-main-readme.sh
+          ./tools/generate-main-readme.sh --check

@@ -183,6 +183,8 @@ nav:
       - Coding: topics/coding/README.md
     - Other Tools:
       - VirtualBox: topics/virtualbox/README.md
+      - Backstage: topics/backstage/README.md
+      - SSH: topics/ssh/README.md
   - Projects:
     - Overview: projects/README.md
     - CI/CD Observability: projects/ci-cd-observability/README.md

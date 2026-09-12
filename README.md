@@ -418,6 +418,22 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/gcp/basics/">Explore</a></td>
         <td>🏃 <a href="./topics/gcp/practice/">Explore</a></td>
     </tr>
+    <tr>
+        <td><img height="28" src="https://avatars.githubusercontent.com/u/72526453?v=4"></td>
+        <td>Backstage</td>
+        <td><a href="./topics/backstage/">backstage</a></td>
+        <td>📖 <a href="https://backstage.io/docs/">View</a></td>
+        <td>✔️ <a href="./topics/backstage/basics/">Explore</a></td>
+        <td>🏃 <a href="./topics/backstage/practice/">Explore</a></td>
+    </tr>
+    <tr>
+        <td>📖</td>
+        <td>SSH</td>
+        <td><a href="./topics/ssh/">ssh</a></td>
+        <td>📖 <a href="https://www.openssh.com/">View</a></td>
+        <td>✔️ <a href="./topics/ssh/basics/">Explore</a></td>
+        <td>🏃 <a href="./topics/ssh/practice/">Explore</a></td>
+    </tr>
 </table>
 
 - And **more upcoming topics...⏩** you can star/follow this repository to get more up-to-dated content ⭐
