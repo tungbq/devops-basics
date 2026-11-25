@@ -179,6 +179,14 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>✔️ <a href="./topics/fluxcd/practice/">Explore</a></td>
     </tr>
     <tr>
+        <td><img height="28" src="https://github.com/dagger.png"></td>
+        <td>Dagger</td>
+        <td><a href="./topics/dagger/">dagger</a></td>
+        <td>📖 <a href="https://docs.dagger.io/">View</a></td>
+        <td>✔️ <a href="./topics/dagger/basics/">Explore</a></td>
+        <td>✔️ <a href="./topics/dagger/practice/">Explore</a></td>
+    </tr>
+    <tr>
         <td><img height="28" src="https://skillicons.dev/icons?i=githubactions" /></td>
         <td>Github-Action</td>
         <td><a href="./topics/github-action/">github-action</a></td>

@@ -57,6 +57,14 @@ Browse **40+ topics** organized by category. Each topic includes official docs, 
 
     [:octicons-book-16: Docs](https://fluxcd.io/docs/) &nbsp;·&nbsp; [:octicons-code-16: Basics](fluxcd/basics/) &nbsp;·&nbsp; [:octicons-beaker-16: Practice](fluxcd/practice/)
 
+-   :simple-dagger: **Dagger**
+
+    ---
+
+    Portable CI/CD pipelines written as code, run identically locally and in CI.
+
+    [:octicons-book-16: Docs](https://docs.dagger.io/) &nbsp;·&nbsp; [:octicons-code-16: Basics](dagger/basics/) &nbsp;·&nbsp; [:octicons-beaker-16: Practice](dagger/practice/)
+
 </div>
 
 ---
