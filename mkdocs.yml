@@ -143,6 +143,7 @@ nav:
       - OpenTofu: topics/opentofu/README.md
       - Ansible: topics/ansible/README.md
       - Packer: topics/packer/README.md
+      - Crossplane: topics/crossplane/README.md
     - Cloud Platforms:
       - AWS: topics/aws/README.md
       - Azure: topics/azure/README.md

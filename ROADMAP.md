@@ -8,6 +8,7 @@ This document outlines the planned improvements and upcoming content for DevOps 
 
 | Topic | Description |
 |-------|-------------|
+| Crossplane | Kubernetes-native infrastructure management |
 | FluxCD | CNCF-graduated GitOps engine, complement to ArgoCD |
 | Grafana | Metrics visualization and dashboards |
 | Vault | HashiCorp Vault secrets management |
@@ -21,7 +22,6 @@ These are planned or in-progress based on community demand and industry relevanc
 
 | Topic | Category | Priority | Notes |
 |-------|----------|----------|-------|
-| **Crossplane** | IaC / Platform Eng | High | Kubernetes-native infrastructure management |
 | **Backstage** | Platform Engineering | High | Developer portal framework by Spotify |
 | **Dagger** | CI/CD | Medium | Portable CI/CD pipelines as code |
 | **Pulumi** | IaC | Medium | IaC with real programming languages |

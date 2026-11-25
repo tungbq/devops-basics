@@ -137,6 +137,14 @@ Browse **40+ topics** organized by category. Each topic includes official docs, 
 
     [:octicons-book-16: Docs](https://www.packer.io/) &nbsp;·&nbsp; [:octicons-code-16: Basics](packer/basics/)
 
+-   :octicons-cross-reference-16: **Crossplane**
+
+    ---
+
+    Manage cloud infrastructure as Kubernetes resources with providers and compositions.
+
+    [:octicons-book-16: Docs](https://docs.crossplane.io/) &nbsp;·&nbsp; [:octicons-code-16: Basics](crossplane/basics/) &nbsp;·&nbsp; [:octicons-beaker-16: Practice](crossplane/practice/)
+
 </div>
 
 ---

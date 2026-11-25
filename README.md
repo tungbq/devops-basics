@@ -275,6 +275,14 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>🏃 <a href="./topics/packer/practice/">Explore</a></td>
     </tr>
     <tr>
+        <td><img height="28" src="https://avatars.githubusercontent.com/u/20777023?v=4"></td>
+        <td>Crossplane</td>
+        <td><a href="./topics/crossplane/">crossplane</a></td>
+        <td>📖 <a href="https://docs.crossplane.io/">View</a></td>
+        <td>✔️ <a href="./topics/crossplane/basics/">Explore</a></td>
+        <td>✔️ <a href="./topics/crossplane/practice/">Explore</a></td>
+    </tr>
+    <tr>
         <td><img width="32" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"></td>
         <td>SQL</td>
         <td><a href="./topics/sql/">sql</a></td>
