@@ -133,6 +133,7 @@ nav:
       - GitLab CI: topics/gitlabci/README.md
       - ArgoCD: topics/argocd/README.md
       - FluxCD: topics/fluxcd/README.md
+      - Dagger: topics/dagger/README.md
     - Containers & Orchestration:
       - Docker: topics/docker/README.md
       - Kubernetes: topics/k8s/README.md
