@@ -8,6 +8,7 @@ This document outlines the planned improvements and upcoming content for DevOps 
 
 | Topic | Description |
 |-------|-------------|
+| Pulumi | IaC with real programming languages |
 | FluxCD | CNCF-graduated GitOps engine, complement to ArgoCD |
 | Grafana | Metrics visualization and dashboards |
 | Vault | HashiCorp Vault secrets management |
@@ -24,7 +25,6 @@ These are planned or in-progress based on community demand and industry relevanc
 | **Crossplane** | IaC / Platform Eng | High | Kubernetes-native infrastructure management |
 | **Backstage** | Platform Engineering | High | Developer portal framework by Spotify |
 | **Dagger** | CI/CD | Medium | Portable CI/CD pipelines as code |
-| **Pulumi** | IaC | Medium | IaC with real programming languages |
 | **Cilium / eBPF** | Networking | Medium | eBPF-based networking and security for K8s |
 | **Kustomize** | Kubernetes | Medium | Kubernetes-native config management |
 | **OPA / Gatekeeper** | Security / Policy | Medium | Policy as code for Kubernetes |

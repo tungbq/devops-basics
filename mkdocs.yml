@@ -141,6 +141,7 @@ nav:
     - Infrastructure as Code:
       - Terraform: topics/terraform/README.md
       - OpenTofu: topics/opentofu/README.md
+      - Pulumi: topics/pulumi/README.md
       - Ansible: topics/ansible/README.md
       - Packer: topics/packer/README.md
     - Cloud Platforms:

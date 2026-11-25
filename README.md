@@ -403,6 +403,14 @@ We cover a wide range of DevOps topics in our content library, explore them unde
         <td>🏃 <a href="./topics/opentofu/practice/">Explore</a></td>
     </tr>
     <tr>
+        <td><img height="28" src="https://skillicons.dev/icons?i=pulumi" /></td>
+        <td>Pulumi</td>
+        <td><a href="./topics/pulumi/">pulumi</a></td>
+        <td>📖 <a href="https://www.pulumi.com/docs/">View</a></td>
+        <td>✔️ <a href="./topics/pulumi/basics/">Explore</a></td>
+        <td>✔️ <a href="./topics/pulumi/practice/">Explore</a></td>
+    </tr>
+    <tr>
         <td><img height="28" src="https://aquasecurity.github.io/trivy/latest/imgs/logo.png" /></td>
         <td>Trivy</td>
         <td><a href="./topics/trivy/">trivy</a></td>

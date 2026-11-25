@@ -121,6 +121,14 @@ Browse **40+ topics** organized by category. Each topic includes official docs, 
 
     [:octicons-book-16: Docs](https://opentofu.org/docs/) &nbsp;·&nbsp; [:octicons-code-16: Basics](opentofu/basics/) &nbsp;·&nbsp; [:octicons-beaker-16: Practice](opentofu/practice/)
 
+-   :simple-pulumi: **Pulumi**
+
+    ---
+
+    Define infrastructure in real programming languages (TypeScript, Python, Go...).
+
+    [:octicons-book-16: Docs](https://www.pulumi.com/docs/) &nbsp;·&nbsp; [:octicons-code-16: Basics](pulumi/basics/) &nbsp;·&nbsp; [:octicons-beaker-16: Practice](pulumi/practice/)
+
 -   :simple-ansible: **Ansible**
 
     ---
